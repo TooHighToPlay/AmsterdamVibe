@@ -1,0 +1,34 @@
+body {
+    background-color: #f1f2f6;
+}
+
+.event img {
+    max-height: 50rem;
+}
+
+/* cards */
+
+.event-card {
+    width: 30rem;
+}
+
+.event-card h1 {
+    font-size: 2rem;
+}
+
+.event-card .date {
+    font-size: 1.3rem;
+    margin-bottom: 0px;
+}
+
+.event-card ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.event-card .label {
+    font-size: 1.4rem;
+    display: inline-block;
+    margin-top: 1rem;
+    margin-right: 0.5rem;
+}
