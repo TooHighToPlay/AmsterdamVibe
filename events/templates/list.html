@@ -1,0 +1,39 @@
+{% extends 'site_base.html' %}
+
+{% block content %}
+
+    <div class="container-fluid text-center">
+
+    {% for event in events %}
+
+        <article class="event-card panel panel-primary">
+            <header class="panel-heading">
+                <h1 class="panel-title text-center">{{ event.name }}</h1>
+                <br/>
+                <p class="date text-center">{{ event.date }} at {{ event.time }}</p>
+            </header>
+
+
+            <div class="card-body">
+                <img class="img-rounded img-responsive" src="{{ event.img_url }}" alt=""/>
+
+                <ul class="text-center">
+                    {% for genre in event.genres %}
+                        <li class="label label-info">{{ genre }}</li>
+                    {% endfor %}
+                </ul>
+
+                <div class="venue-textbox text-center">
+                    <p>
+                        <a href={{ event.venue.url }}>{{ event.venue.name }}</a>
+                        {{ event.venue.address }}
+                    </p>
+                </div>
+            </div>
+        </article>
+
+    {% endfor %}
+
+    </div>
+
+{% endblock %}

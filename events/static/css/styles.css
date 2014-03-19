@@ -1,5 +1,9 @@
 body {
-    background-color: #f1f2f6;
+    background-color: #eee;
+}
+
+.navbar {
+    border-radius: 0;
 }
 
 .event img {
@@ -10,6 +14,10 @@ body {
 
 .event-card {
     width: 30rem;
+    display: inline-block;
+    margin-right: 5rem;
+    margin-top: 3rem;
+    box-shadow: 2px 2px 6px #aaa;
 }
 
 .event-card h1 {
