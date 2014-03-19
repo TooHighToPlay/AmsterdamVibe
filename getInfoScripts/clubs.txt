@@ -1,0 +1,22 @@
+# INFO about venues separated by semicolons and # denotes comment
+# 1. Name
+# 2. Id (http://findmyfacebookid.com/ for finding ID is useful)
+# 3. Facebook url
+#
+Melkweg;				301130305994;		https://www.facebook.com/melkwegamsterdam
+Trouw;					111197278919528;	https://www.facebook.com/trouwamsterdam
+Chicago Social Club; 	128412910560309;	https://www.facebook.com/chicagosocialclub
+Studio 80;				199623270044;		https://www.facebook.com/Studio80
+Club Up;				117962971613608;	https://www.facebook.com/DeClubUp
+OT301;					247184411984485;	https://www.facebook.com/OT301Adam
+Bitterzoet;				129786563758412;	https://www.facebook.com/BitterzoetAmsterdam
+Supperclub;				105797235847;		https://www.facebook.com/amsterdamsupperclub
+Sugar Factory;			130350927079784;	https://www.facebook.com/sugarfactoryamsterdam
+Pacific Parc;			624990837560284;	https://www.facebook.com/pacificparc
+Canvas;					190487453847;		https://www.facebook.com/Canvasopde7e
+Jimmy Woo;				180308025356675;	https://www.facebook.com/JimmyWooLounge
+Air;					109020085791036;	https://www.facebook.com/AIRAmsterdam
+Paradiso;				42503443337;		https://www.facebook.com/ParadisoAdam
+Escape;					139138742816664;	https://www.facebook.com/escapeamsterdam
+Odeon;					144839688861341;	https://www.facebook.com/odeonamsterdam
+Club NL;				145218438830929;	https://www.facebook.com/clubnl.nl

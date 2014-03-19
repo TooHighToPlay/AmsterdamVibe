@@ -1,0 +1,42 @@
+{
+ "category": "Arts/entertainment/nightlife", 
+ "username": "ParadisoAdam", 
+ "about": "Pop music venue and club, located on Weteringschans 6-8, Amsterdam. Check out www.paradiso.nl.", 
+ "talking_about_count": 2677, 
+ "likes": 78991, 
+ "name": "Paradiso Amsterdam", 
+ "category_list": [
+  {
+   "id": "191478144212980", 
+   "name": "Night Club"
+  }, 
+  {
+   "id": "179943432047564", 
+   "name": "Concert Venue"
+  }
+ ], 
+ "can_post": true, 
+ "cover": {
+  "source": "https://scontent-b.xx.fbcdn.net/hphotos-prn2/t1.0-9/s720x720/1897008_10152335679373338_313864785_n.jpg", 
+  "cover_id": "10152335679373338", 
+  "offset_x": 0, 
+  "offset_y": 50
+ }, 
+ "website": "http://www.paradiso.nl", 
+ "founded": "30 maart 1968", 
+ "phone": "020-6264521", 
+ "link": "https://www.facebook.com/ParadisoAdam", 
+ "location": {
+  "city": "Amsterdam", 
+  "zip": "1017SG", 
+  "country": "Netherlands", 
+  "longitude": 4.8839232021851, 
+  "state": "", 
+  "street": "Weteringschans 6-8", 
+  "latitude": 52.362408031035
+ }, 
+ "were_here_count": 45071, 
+ "checkins": 45071, 
+ "id": "42503443337", 
+ "is_published": true
+}

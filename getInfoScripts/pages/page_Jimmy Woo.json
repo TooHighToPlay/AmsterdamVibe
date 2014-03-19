@@ -1,0 +1,59 @@
+{
+ "category": "Club", 
+ "username": "JimmyWooLounge", 
+ "about": "Jimmy Woo", 
+ "talking_about_count": 479, 
+ "likes": 18422, 
+ "description": "Opened its doors in December 2003.  Soon, this luxurious night club  gained worldwide fame because of its strict door policy and many celebrated guests. The club is also famous for its interior and sound system: Jimmy Woo won the \u2018Dutch Design\u2019 price and was honored for \u2018best club sound in the Netherlands\u2019.", 
+ "category_list": [
+  {
+   "id": "176139629103647", 
+   "name": "Dance Club"
+  }, 
+  {
+   "id": "191478144212980", 
+   "name": "Night Club"
+  }
+ ], 
+ "can_post": true, 
+ "cover": {
+  "source": "https://scontent-a.xx.fbcdn.net/hphotos-prn2/t1.0-9/s720x720/960256_606853689368771_1691002311_n.jpg", 
+  "cover_id": 606853689368771, 
+  "offset_x": 0, 
+  "offset_y": 0
+ }, 
+ "website": "http://www.jimmywoo.com/", 
+ "name": "Jimmy Woo", 
+ "hours": {
+  "sun_1_close": "04:00", 
+  "sat_1_close": "04:00", 
+  "sun_1_open": "23:00", 
+  "thu_1_open": "23:00", 
+  "sat_1_open": "23:00", 
+  "thu_1_close": "04:00", 
+  "fri_1_open": "23:00", 
+  "fri_1_close": "04:00"
+ }, 
+ "phone": "+31 (0)20-6263150", 
+ "link": "https://www.facebook.com/JimmyWooLounge", 
+ "location": {
+  "city": "Amsterdam", 
+  "zip": "1017RC", 
+  "country": "Netherlands", 
+  "longitude": 4.8819508228551, 
+  "state": "", 
+  "street": " Korte Leidsedwarsstraat 18", 
+  "latitude": 52.36464412245
+ }, 
+ "were_here_count": 37903, 
+ "restaurant_specialties": {
+  "lunch": 0, 
+  "breakfast": 0, 
+  "coffee": 0, 
+  "dinner": 0, 
+  "drinks": 1
+ }, 
+ "checkins": 37903, 
+ "id": "180308025356675", 
+ "is_published": true
+}

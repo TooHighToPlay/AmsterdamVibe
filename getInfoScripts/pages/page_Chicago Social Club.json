@@ -1,0 +1,68 @@
+{
+ "category": "Club", 
+ "username": "chicagosocialclub", 
+ "website": "http://www.chicagosocialclub.nl", 
+ "talking_about_count": 604, 
+ "likes": 18650, 
+ "description": "Chicago Social Club is een latenight bar en club op het Leidseplein in Amsterdam. \n\nOpeningstijden Bar:\nzondag t/m woensdag: 20.00 - 04.00\nvrijdag & zaterdag: 20:00 -05:00\n\nOpeningstijden Club:\ndonderdag: 23.00 - 04.00\nvrijdag en zaterdag: 23.00 - 05.00\nVoor de club wordt er een minimum leeftijd van 21 gehanteerd.\n\nBen je iets verloren? Niet bellen maar mailen naar: lostandfound@chicagosocialclub.nl\n__________________________________________________________________\n\nChicago Social Club is a late night bar and club situated on the Leidse Square in Amsterdam.\n\nOpening hours Bar:\nMonday till Thursday: 8PM - 4AM\nFriday: 8PM - 5AM\nSaturday: 8PM - 5AM\nSunday: 12PM - 4AM\n\nOpening hours Club:\nThursday: 11Pm - 4AM\nFriday and Saturday: 11PM - 5AM\nYou have to be 21 to enter the club.\n\nLost something? Don't call, but send an e-mail instead:\nlostandfound@chicagosocialclub.nl\n\n", 
+ "category_list": [
+  {
+   "id": "191478144212980", 
+   "name": "Night Club"
+  }, 
+  {
+   "id": "133436743388217", 
+   "name": "Arts & Entertainment"
+  }
+ ], 
+ "restaurant_services": {
+  "delivery": 0, 
+  "kids": 0, 
+  "walkins": 1, 
+  "waiter": 0, 
+  "catering": 0, 
+  "takeout": 0, 
+  "outdoor": 1, 
+  "groups": 0, 
+  "reserve": 0
+ }, 
+ "cover": {
+  "source": "https://fbcdn-sphotos-d-a.akamaihd.net/hphotos-ak-prn1/t1.0-9/s720x720/48112_648121071922821_882452037_n.jpg", 
+  "cover_id": 648121071922821, 
+  "offset_x": 50, 
+  "offset_y": 0
+ }, 
+ "public_transit": "Tram 1, 2 & 5, halte Leidseplein.", 
+ "name": "Chicago Social Club", 
+ "hours": {
+  "sun_1_close": "04:00", 
+  "sat_1_close": "05:00", 
+  "sun_1_open": "20:00", 
+  "fri_1_close": "05:00", 
+  "thu_1_open": "20:00", 
+  "tue_1_close": "04:00", 
+  "sat_1_open": "20:00", 
+  "mon_1_open": "20:00", 
+  "mon_1_close": "04:00", 
+  "wed_1_open": "20:00", 
+  "wed_1_close": "04:00", 
+  "tue_1_open": "20:00", 
+  "fri_1_open": "20:00", 
+  "thu_1_close": "04:00"
+ }, 
+ "phone": "(+31) 20 7601171", 
+ "link": "https://www.facebook.com/chicagosocialclub", 
+ "location": {
+  "city": "Amsterdam", 
+  "zip": "1017 PT", 
+  "country": "Netherlands", 
+  "longitude": 4.8827949155537, 
+  "state": "", 
+  "street": "Leidseplein 12", 
+  "latitude": 52.364304861291
+ }, 
+ "were_here_count": 30570, 
+ "checkins": 30570, 
+ "id": "128412910560309", 
+ "is_published": true
+}

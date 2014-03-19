@@ -1,0 +1,62 @@
+{
+ "category": "Local business", 
+ "username": "sugarfactoryamsterdam", 
+ "about": "Sugarfactory in Amsterdam is a dynamic, open-minded and creative place where club, live music and theatre meet. ", 
+ "talking_about_count": 230, 
+ "likes": 6981, 
+ "description": "Sugarfactory in Amsterdam is a dynamic, open-minded and creative place where club, live music and theatre meet. The club regularly hosts local and international DJ heroes such as Andre Crom, Frankie Knuckles, Lunice and Black Coffee. Sugarfactory is also an upcoming stage for live music, offering the perfect venue for both small and intimate and larger-scaled gigs. The main venue \u2013 with its large stage and red velvet curtains - doubles as a great theatre location, boasting performances from The End Girls and comedian Greg Shapiro.\nSince the renewed foyer was opened in 2012 \u2013 a characteristic and intimate area alongside the main hall \u2013 Sugarfactory has been open 7 days a week, starting from early evening and stretching into the night.  Inclusion of the extra stage, Sugarfactory serves as a popular springboard for upcoming talent, such as live bands, singer/songwriters and young organizations with remarkable initiatives.  \n", 
+ "category_list": [
+  {
+   "id": "176139629103647", 
+   "name": "Dance Club"
+  }, 
+  {
+   "id": "179943432047564", 
+   "name": "Concert Venue"
+  }, 
+  {
+   "id": "173883042668223", 
+   "name": "Theatre"
+  }
+ ], 
+ "can_post": true, 
+ "cover": {
+  "source": "https://scontent-a.xx.fbcdn.net/hphotos-frc3/t1.0-9/s720x720/1613928_554339381347601_570647202_n.png", 
+  "cover_id": 554339381347601, 
+  "offset_x": 0, 
+  "offset_y": 0
+ }, 
+ "website": "http://www.sugarfactory.nl", 
+ "name": "Sugarfactory", 
+ "hours": {
+  "sun_1_close": "05:00", 
+  "sat_1_close": "05:00", 
+  "sun_1_open": "23:00", 
+  "fri_1_close": "05:00", 
+  "thu_1_open": "21:00", 
+  "tue_1_close": "05:00", 
+  "sat_1_open": "21:00", 
+  "mon_1_open": "21:00", 
+  "mon_1_close": "05:00", 
+  "wed_1_open": "21:00", 
+  "wed_1_close": "05:00", 
+  "tue_1_open": "21:00", 
+  "fri_1_open": "21:00", 
+  "thu_1_close": "05:00"
+ }, 
+ "phone": "+31(0)20 627 00 08", 
+ "link": "https://www.facebook.com/sugarfactoryamsterdam", 
+ "location": {
+  "city": "Amsterdam", 
+  "zip": "1017PH", 
+  "country": "Netherlands", 
+  "longitude": 4.8818250924953, 
+  "state": "", 
+  "street": "Lijnbaansgracht 238", 
+  "latitude": 52.364727942013
+ }, 
+ "were_here_count": 14690, 
+ "checkins": 14690, 
+ "id": "130350927079784", 
+ "is_published": true
+}
