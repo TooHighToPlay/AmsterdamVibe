@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="{% static 'css/bootstrap.css' %}"/>
     <link rel="stylesheet" href="{% static 'css/bootflat.css' %}"/>
     <link rel="stylesheet" href="{% static 'css/styles.css' %}"/>
+    {% block css %}
+    {% endblock %}
 
     <meta charset="UTF-8">
 </head>
@@ -26,6 +28,8 @@
     {% endblock %}
 </div>
 
+
+<script src="{% static 'js/jquery-2.1.0.js' %}"></script>
 {% block scripts %}
 {% endblock %}
 </body>

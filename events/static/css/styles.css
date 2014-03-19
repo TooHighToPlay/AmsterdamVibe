@@ -10,8 +10,6 @@ body {
     max-height: 50rem;
 }
 
-/* cards */
-
 .event-card {
     width: 30rem;
     display: inline-block;
@@ -44,5 +42,10 @@ body {
 
 .card-body {
     padding: 1rem;
+}
+
+#map {
+    height: 20rem;
+    margin-bottom: 5rem;
 }
 

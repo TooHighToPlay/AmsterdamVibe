@@ -1,5 +1,17 @@
 {% extends 'site_base.html' %}
 
+{% load staticfiles %}
+
+{% block scripts %}
+    <script src="{% static 'js/leaflet.js' %}"></script>
+    <script src="{% static 'js/leaflet-providers.js' %}"></script>
+    <script src="{% static 'js/details.js' %}"></script>
+{% endblock %}
+
+{% block css %}
+    <link rel="stylesheet" href="{% static 'css/leaflet.css' %}"/>
+{% endblock %}
+
 {% block content %}
     <article class="event">
         <header>
@@ -45,7 +57,7 @@
             <p><a href="{{ event.venue.url }}">{{ event.venue.name }}</a></p>
             <p>{{ event.venue.address }}</p>
 
-            <iframe class="venue-map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2436.3034409660067!2d4.881659349999989!3d52.36491764999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x75dbfe5550cd5fc7!2sSugarfactory!5e0!3m2!1sen!2s!4v1395168632595" width="450" height="450" frameborder="0" style="border:0"></iframe>
+            <div id="map" data-lat="{{ event.venue.lat }}" data-lng="{{ event.venue.lng }}"></div>
         </div>
 
     </article>
