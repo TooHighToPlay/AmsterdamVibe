@@ -9,6 +9,7 @@ https://docs.djangoproject.com/en/1.6/ref/settings/
 """
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
+from django.conf.global_settings import TEMPLATE_DIRS
 import os
 BASE_DIR = os.path.dirname(os.path.dirname(__file__))
 
@@ -23,6 +24,7 @@ SECRET_KEY = 'nvx0o()kmal!$fy$7_yx7wyg8(5gw^pr$kya@4f6u@v$)@l*9('
 DEBUG = True
 
 TEMPLATE_DEBUG = True
+TEMPLATE_DIRS = [os.path.join(BASE_DIR, 'events', 'templates')]
 
 ALLOWED_HOSTS = []
 
@@ -36,6 +38,7 @@ INSTALLED_APPS = (
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'events',
 )
 
 MIDDLEWARE_CLASSES = (
