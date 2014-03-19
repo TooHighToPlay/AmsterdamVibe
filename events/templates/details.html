@@ -1,0 +1,52 @@
+{% extends 'site_base.html' %}
+
+{% block content %}
+    <article class="event">
+        <header>
+            <h1>
+                {{ event.name }}
+            </h1>
+        </header>
+
+        <div class="col-lg-8">
+            <p class="description">
+                {{ event.description }}
+            </p>
+
+
+            <strong>Genres:</strong>
+            <ul>
+                {% for genre in event.genres %}
+                    <li class="label">{{ genre }}</li>
+                {% endfor %}
+            </ul>
+
+
+            <p>Artists:</p>
+            <ul>
+                {% for artist in event.artists %}
+                    <li>{{ artist }}</li>
+                {% endfor %}
+            </ul>
+
+            <p>{{ event.date }} at {{ event.time }}</p>
+
+            <p>Price: {{ event.price }}</p>
+
+            <p>{{ event.people_going }} people going</p>
+
+        </div>
+
+        <div class="col-lg-4">
+            <img src="{{ event.img_url }}" alt=""/>
+
+            <hr/>
+
+            <p><a href="{{ event.venue.url }}">{{ event.venue.name }}</a></p>
+            <p>{{ event.venue.address }}</p>
+
+            <iframe class="venue-map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2436.3034409660067!2d4.881659349999989!3d52.36491764999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x75dbfe5550cd5fc7!2sSugarfactory!5e0!3m2!1sen!2s!4v1395168632595" width="450" height="450" frameborder="0" style="border:0"></iframe>
+        </div>
+
+    </article>
+{% endblock %}

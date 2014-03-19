@@ -1,28 +1,46 @@
 from django.shortcuts import render_to_response
 
-# Create your views here.
 def home(request):
     return render_to_response('home.html')
 
 
+DUMMY_EVENT = {
+    'id': 1,
+    'name': 'Klonckenstein',
+    'description': "Op de dinsdagavonden in Sugarfactory organiseert KISS een soulvolle dansavond genaamd Klonckenstein"
+                   " voor de ware muziekliefhebbers. House, boogie en disco grooves uit New York, Chicago en Detroit "
+                   "vormen basis voor deze nieuwe doordeweekse clubavond. Amsterdamse deejays en producers als Dim "
+                   "Browski, Olivier Boogie, J.A.N., Marcel Vogel en Mr. Gibbs, Uncle Clyde, Th'Acquisition, Special "
+                   "Mike, Black Grapes (Bird) zullen deze dynamische dans- en muziekcultuur in een wekelijkse avond "
+                   "terug brengen naar de club, onder de noemer Klonckenstein aka House of Klonck!",
+    'date': 'Tuesday 18 March',
+    'time': '23:30',
+    'img_url': 'http://partyflock.nl/images/party/265544_original_325779.jpg',
+    'genres': [
+        'disco',
+        'funk',
+        'groove',
+        'house',
+    ],
+    'artists': [
+        'Guessbeats',
+        'Kidmalone',
+    ],
+    'price': '3 EUR',
+    'people_going': 74,
+    'venue': {
+        'name': 'Sugarfactory',
+        'url': 'http://www.sugarfactory.nl',
+        'address': 'Lijnbaansgracht 238 Amsterdam'
+    },
+}
+
+
 def list(request):
-    dummy_event = {
-        'name': 'Klonckenstein',
-        'date': 'Tuesday 18 March',
-        'time': '23:30',
-        'img_url': 'http://partyflock.nl/images/party/265544_original_325779.jpg',
-        'genres': [
-            'disco',
-            'funk',
-            'groove',
-            'house',
-        ],
-        'venue': {
-            'name': 'Sugarfactory',
-            'url': 'http://www.sugarfactory.nl',
-            'address': 'Lijnbaansgracht 238 Amsterdam'
-        },
-    }
-    events = [dummy_event for i in range(7)]
+    events = [DUMMY_EVENT for i in range(7)]
 
     return render_to_response('list.html', {'events': events})
+
+
+def details(request, id):
+    return render_to_response('details.html', {'event': DUMMY_EVENT})

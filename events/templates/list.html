@@ -1,12 +1,19 @@
 {% extends 'site_base.html' %}
 
+{% load staticfiles %}
+
+{% block scripts %}
+    <script src="{% static 'js/jquery-2.1.0.js' %}"></script>
+    <script src="{% static 'js/list.js' %}"></script>
+{% endblock %}
+
 {% block content %}
 
     <div class="container-fluid text-center">
 
     {% for event in events %}
 
-        <article class="event-card panel panel-primary">
+        <article class="event-card panel panel-primary" data-details-url="{% url 'event_details' event.id %}">
             <header class="panel-heading">
                 <h1 class="panel-title text-center">{{ event.name }}</h1>
                 <br/>
