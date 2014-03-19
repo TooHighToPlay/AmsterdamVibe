@@ -31,7 +31,9 @@ DUMMY_EVENT = {
     'venue': {
         'name': 'Sugarfactory',
         'url': 'http://www.sugarfactory.nl',
-        'address': 'Lijnbaansgracht 238 Amsterdam'
+        'address': 'Lijnbaansgracht 238 Amsterdam',
+        'lat': 52.36479810916446,
+        'lng': 4.881749153137207,
     },
 }
 
