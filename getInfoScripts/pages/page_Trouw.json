@@ -11,7 +11,7 @@
    "name": "Night Club"
   }
  ], 
- "likes": 60628, 
+ "likes": 60637, 
  "parking": {
   "street": 1, 
   "lot": 0, 
@@ -40,7 +40,7 @@
  }, 
  "phone": "+31-(0)20-4637788", 
  "link": "https://www.facebook.com/trouwamsterdam", 
- "checkins": 31880, 
+ "checkins": 31881, 
  "about": "www.trouwamsterdam.nl  Trouw is temporary: Amsterdam based club, restaurant, cultural space and label ", 
  "name": "TrouwAmsterdam", 
  "restaurant_services": {
@@ -61,6 +61,6 @@
   "offset_y": 50
  }, 
  "public_transit": "Trouw is located right above metrostation Wibautstraat. Metros 50, 53 and 54 all stop here. ", 
- "were_here_count": 31880, 
+ "were_here_count": 31881, 
  "is_published": true
 }

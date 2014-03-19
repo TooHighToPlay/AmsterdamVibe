@@ -4,12 +4,18 @@
    "after": "MzEwMDAwODcyNDU4NTkw", 
    "before": "MzcwNTg0NjU5NzQ3OTM2"
   }, 
-  "next": "https://graph.facebook.com/128412910560309/events?access_token=CAAHHjUXgVFoBAAdi2pyyqJbdfrkOHg8nZC6jwD4tPX4BKk4S5eIKHByIFpl4TvELzZBSZArlv0ZCMv8ZBZAtJztYxevXBWqmZCKE0HIXKwldAo3LorksQxOMRR4WG79FZAR4CDhplJYhEZBR8q90tYrrLV6MXZBTYU56FdPc76PskiIMPdIjZAG5PFVi64RBxA9oZC8Qc1ZA7v018zwZDZD&limit=25&after=MzEwMDAwODcyNDU4NTkw"
+  "next": "https://graph.facebook.com/128412910560309/events?access_token=CAAHHjUXgVFoBAEvsQghyANJSDy2VxKPkLwAxBRua1gNU673qryEBZA5rglzYQozfZCgcMHqTBa15JfJVgHI8KZAddUJTKw7Yir7kjwItZAyjBKNLBs2yEOcxFMdSdTPe5N3BPYD4FfQIHzh7r7PqwnnSePWZABBZCEm8lmuXbYjTZAQYzv78HmZAMgdAH6fZCH9LphM98iYombAZDZD&limit=25&after=MzEwMDAwODcyNDU4NTkw"
  }, 
  "data": [
   {
    "name": "VBX - SPECTRUM w/ The Mole (CAN), Tettero & more..", 
    "start_time": "2014-05-24T23:00:00+0200", 
+   "imageurl": {
+    "source": "https:\\/\\/fbcdn-sphotos-c-a.akamaihd.net\\/hphotos-ak-ash3\\/t1.0-9\\/s720x720\\/1897829_263544077141567_916345290_n.jpg", 
+    "cover_id": 263544077141567, 
+    "offset_x": 0, 
+    "offset_y": 29
+   }, 
    "location": "Chicago Social Club", 
    "eventdata": {
     "description": "\u2716 VBX \u2013 SPECTRUM\n\nSpectrum is a party concept by VBX and is held at the Chicago Social Club every 4th Saturday of the month. \nExpect artists that emphasize their sets on house, but are happy to try something different too. \n\n24th of May 2014\n23:00 \u2013 late\nChicago Social Club \nAmsterdam\n\n\u2716 Line up: \n\nThe Mole (CAN)\nTom Ruijg\nTettero\nMore names tba\n\n\u2716 Tickets\n\nEarly bird 10.00 euro (limited)\nGroup 7.50 euro x 4 (limited)\nPre sale 12.50 euro\nDoor 15.00 euro\n\nhttp://bit.ly/vbxthemoletickets", 
@@ -48,6 +54,12 @@
   {
    "name": "PLAK / 23.05 / PAUL WOOLFORD / CHICAGO SOCIAL CLUB", 
    "start_time": "2014-05-23T23:00:00+0200", 
+   "imageurl": {
+    "source": "https:\\/\\/fbcdn-sphotos-c-a.akamaihd.net\\/hphotos-ak-ash3\\/t1.0-9\\/s720x720\\/1897829_263544077141567_916345290_n.jpg", 
+    "cover_id": 263544077141567, 
+    "offset_x": 0, 
+    "offset_y": 29
+   }, 
    "location": "Chicago Social Club", 
    "eventdata": {
     "description": "De sensatie van  Festival de BetonCentrale: Paul Woolford. Voor \u00e9\u00e9n keer in een intieme setting met een lange set. \n\n\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\n\nPAUL WOOLFORD (UK)\nhttps://soundcloud.com/paulwoolford\nwww.facebook.com/paulwoolford\n\nMATTIKK\nhttps://soundcloud.com/mattikk\n\n\n\u25ac BAR Hosted by De Weerwolven\n\nHOLISTIC MATTER (Dots & Lines) \nhttps://soundcloud.com/holisticmatter/holistic-matter-3voor12-mix\nhttps://www.facebook.com/holisticmatter\n\nEL\u00c9DI (Dots & Lines)\nhttps://soundcloud.com/eledi/ele-di-i-am-techno-de\nhttps://www.facebook.com/djeledi\n\n\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\n\nPLAK Soundcloud:\nhttps://soundcloud.com/plakken\n\n\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\n\nstart kaartverkoop 1 april\nVVK GROEP \u20ac25,- (5 persoons) OP=OP\nVVK VROEG \u20ac8,- \nVVK NORMAAL \u20ac 12,- \n\nLEEFTIJD 21+\n\n\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\n\nAFTER HOUR @ De ClubUp\nOnly doorsale \u20ac5,-", 
@@ -86,6 +98,12 @@
   {
    "name": "\u265b Oranjebal 2014 \u265b", 
    "start_time": "2014-04-26T20:00:00+0200", 
+   "imageurl": {
+    "source": "https:\\/\\/fbcdn-sphotos-c-a.akamaihd.net\\/hphotos-ak-ash3\\/t1.0-9\\/s720x720\\/1897829_263544077141567_916345290_n.jpg", 
+    "cover_id": 263544077141567, 
+    "offset_x": 0, 
+    "offset_y": 29
+   }, 
    "location": "Chicago Social Club", 
    "eventdata": {
     "description": "Oranjebal is HET begrip onder alle feestvierende koninginnedag liefhebbers die na al het festival geweld nog even hun laatste dansmoves willen laten zien en de laatste energie stoten eruit willen halen door wodka glazen naar hun mond te tillen. \n\nDit jaar is het echter 'koningsdag' en dat moet zolang mogelijk gevierd worden vinden wij dus van 20.00 tot 05.00 kan je terecht in de 2 zalen van de Chicago Social Club om al je vaderlandsliefde eruit te gooien!\n\n\u265b Oranjebal 2014 \u265b\n\n\nWaar ? Chicago Social Club\nHoelaat ? 20:00 tot 05.00\n\n\u265bLine-up\u265b\n\n\u265bTerry Toner\u265b\n\u265bMulla & Mailman & Lucas Wouters\u265b\n\u265bJulien Simmons & Tim Hoeben\u265b\n\u265bCarte Blanche & Der Tucan\u265b\n\u265bSebastiaan Sleebos & JW's\u265b\n\u265bTim & Ties\u265b\n\u265bBerry Juice & Grythm\u265b\n\u265bTacklebox\u265b\n\u265bFloris & Camiel (Red Snare)\u265b\n\u265bPacific & Shak\u00e8d\u265b\n\u265bCult45\u265b\n\u265bBart Tetteroo & Jime.\u265b\n\u265bLumi\u00e8re & Michiel Tettero\u265b\n\u265bLopoll & Radiosus\u265b\n\u265bShoot & Shadow\u265b\n\n \npresale:    \u20ac12,50 (ex. fee)\nTicketlink: http://goo.gl/PzUIhz", 
@@ -130,6 +148,12 @@
   {
    "name": "KRIS KROSS KINGS NIGHT | CHICAGO SOCIAL CLUB | SOLD OUT!", 
    "start_time": "2014-04-25T23:00:00+0200", 
+   "imageurl": {
+    "source": "https:\\/\\/fbcdn-sphotos-c-a.akamaihd.net\\/hphotos-ak-ash3\\/t1.0-9\\/s720x720\\/1897829_263544077141567_916345290_n.jpg", 
+    "cover_id": 263544077141567, 
+    "offset_x": 0, 
+    "offset_y": 29
+   }, 
    "location": "Chicago Social Club", 
    "eventdata": {
     "description": "\u2020 KRIS KROSS WILL MAKE YOU JUMP \u2020\nWe gaan op unieke wijze kris kras door de beste classics, 90\u2019s & early 00\u2019s hits. Van Michael Jackson tot Salt-n-Pepa en van Vanilla Ice tot Dr. Dre. Doe je kleding verkeerd om aan and Kris Kross will make you JUMP!\n\n\u25ac CLUB  \u25ac\n\n\u2020 KRIS KROSS A'DAM\n\u2020 HITMEISTER PIM\n\u2020 PHALERIEAU\n\u2020 ALAMAISON\n\u2020 MIKEY NICE\n\u2020 EMANUELLE VOS\n\u2020 THIJS DERKS\n\n\u25ac DE BAR \u25ac\n\n\u2020 DIE ROOIE & FRIENDS\n\nKaartverkoop: http://bit.ly/1pewwuO\n\u20ac15,-\nLeeftijd: 21+", 
@@ -170,6 +194,12 @@
   {
    "name": "RAD KIDS CLUB #2", 
    "start_time": "2014-04-20T23:00:00+0200", 
+   "imageurl": {
+    "source": "https:\\/\\/fbcdn-sphotos-c-a.akamaihd.net\\/hphotos-ak-ash3\\/t1.0-9\\/s720x720\\/1897829_263544077141567_916345290_n.jpg", 
+    "cover_id": 263544077141567, 
+    "offset_x": 0, 
+    "offset_y": 29
+   }, 
    "location": "Chicago Social Club", 
    "eventdata": {
     "description": "\u271e SAVE THE DATE \u271e SUNDAY APRIL 20TH! \u271e\n\nEERSTE PAASDAG Chicago Social Club: \n\u271e Je fav 90's music mixed met future sounds \n\u271e Mystery Midnight Performance\n\u271e Extra radness waar je aan gewend moet raken", 
@@ -204,6 +234,12 @@
   {
    "name": "BASICS. | Pedestrian invites Dark Sky | 19/04 | Chicago Social Club", 
    "start_time": "2014-04-19T23:00:00+0200", 
+   "imageurl": {
+    "source": "https:\\/\\/fbcdn-sphotos-c-a.akamaihd.net\\/hphotos-ak-ash3\\/t1.0-9\\/s720x720\\/1897829_263544077141567_916345290_n.jpg", 
+    "cover_id": 263544077141567, 
+    "offset_x": 0, 
+    "offset_y": 29
+   }, 
    "location": "Chicago Social Club", 
    "eventdata": {
     "description": "BASICS. - 19/04/'14 - Chicago Social Club - 23:00-05:00\n\n\n\u25ac\u25ac\u25ac\u25ac LINE UP \u25ac\u25ac\u25ac\u25ac\n\n\u2022 DARK SKY (UK)\nhttps://soundcloud.com/dark-sky\n\n\u2022 PEDESTRIAN (UK)\nhttps://soundcloud.com/pedestriansound           \n\n\n\u25ac\u25ac\u25ac\u25ac TICKETS \u25ac\u25ac\u25ac\u25ac\n\nEerste ronde \u20ac10\nTweede ronde \u20ac12,50\nDeurverkoop \u20ac15\n\nEr zijn slechts 200 tickets in de voorverkoop beschikbaar.\n\nhttps://shop.ticketscript.com/channel/web2/get-dates/rid/UNBQFCFY/eid/203213/language/nl/format/html\n\n\n\u25ac\u25ac\u25ac\u25ac LOCATIE & INFO \u25ac\u25ac\u25ac\u25ac\n\nChicago Social Club\nLeidseplein 12\n1017 PT Amsterdam \nhttp://www.chicagosocialclub.nl/\n\n\nBASICS. is een concept van:\nJongens v/d Wereld  & OUR HOUSE", 
@@ -242,6 +278,12 @@
   {
    "name": "Boefjes \u10e6 Missing \u10e6 Katerholzig", 
    "start_time": "2014-04-18T23:00:00+0200", 
+   "imageurl": {
+    "source": "https:\\/\\/fbcdn-sphotos-c-a.akamaihd.net\\/hphotos-ak-ash3\\/t1.0-9\\/s720x720\\/1897829_263544077141567_916345290_n.jpg", 
+    "cover_id": 263544077141567, 
+    "offset_x": 0, 
+    "offset_y": 29
+   }, 
    "location": "Chicago Social Club", 
    "eventdata": {
     "description": "We miss, don't you?\n\n\n\u25ac\u25ac \u266b LINE-UP \u266b \u25ac\u25ac\n\nBoefjes \u10e6 missing \u10e6 Katerholzig\n\n\u2022 ...... (DE)\n\u2022 ...... (DE)\n\u2022 Samuel Deep  \n\u2022 La Vond\u00e8l\n\u2022 Verdi \n\n\nNo Religion\n\n\u2022 Ramon Rive\n\u2022 Hiddem Up\n\u2022 Ringbaan\n\u2022 Sgt Einstein\n\n\n\u25ac\u25ac\u25ac Tickets \u25ac\u25ac\u25ac\n\n\u2022 Snelle Boef: (7,50\u20ac)\n\u2022 Langzame Boef: (10,00\u20ac)\n\n\u2022 Deur boef: (15,00\u20ac)\n\nTICKETS: http://bit.ly/1fDhYN5\n\n\n\u266c Music \u266c\n\n\u2022\n\u2022\n\u2022 https://soundcloud.com/samuel-deep\n\u2022 https://soundcloud.com/la-vondel\n\u2022 https://soundcloud.com/verdie\n\u2022 https://soundcloud.com/ramonrive\n\u2022 https://soundcloud.com/75-1\n\u2022 https://soundcloud.com/ringbaan\n\u2022 https://soundcloud.com/sergeant-einstein\n\n\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\n\n18+", 
@@ -282,6 +324,12 @@
   {
    "name": "GROOVEBOX w/ SNUFF CREW, SPACEGIRLS, INTERSTELLAR FUNK, KERK! & THE AMAZING AGENCY", 
    "start_time": "2014-04-12T23:00:00+0200", 
+   "imageurl": {
+    "source": "https:\\/\\/fbcdn-sphotos-c-a.akamaihd.net\\/hphotos-ak-ash3\\/t1.0-9\\/s720x720\\/1897829_263544077141567_916345290_n.jpg", 
+    "cover_id": 263544077141567, 
+    "offset_x": 0, 
+    "offset_y": 29
+   }, 
    "location": "Chicago Social Club", 
    "eventdata": {
     "description": "\u25ac\u25ac\u25ac \u266b LINE UP\nSNUFF CREW (BPITCH CONTROL, DE)\nSPACEGIRLS (GROOVEBOX)\nINTERSTELLAR FUNK (TAPE)\nKERK! (BARRE TIJDEN)\n\nBAR: THE AMAZING AGENCY\n\n\u25ac\u25ac\u25ac INFO + TICKETS\n\nGROOVEBOX is de nieuwe JACK & CHICAGO HOUSE \navond van de CSC & SPACEGIRLS. \n\nWebsite: http://www.chicagosocialclub.nl/\nContact: info@chicagosocialclub.nl\n\nVvk: \u20ac10,-\nDeur: \u20ac 15,- \n\nTicketlink: http://bit.ly/1lBWchR\n\n\u25ac\u25ac\u25ac \u266b MUZIEK\n\nSnuff Crew: https://soundcloud.com/snuffcrew\nSPACEGIRLS: https://soundcloud.com/spacegirls\nInterstellar Funk: http://soundcloud.com/interstellarfunk\nKerk!: https://soundcloud.com/kerk\n\n\u25ac\u25ac\u25ac \u266b BAR: THE AMAZING AGENCY\n\nTHE AMAZING AGENCY IS AN ALLROUND NIGHT LABEL, READY TO SHOW A NEW PERSPECTIVE ON NIGHTLIFE AND EVERYTHING AROUND IT.\n\n--------------------\nGROOVEBOX\n\nSnuff Crew / SPACEGIRLS / Interstellar Funk / Kerk!\nZaterdag 12 april\nChicago Social Club\n23:00 - 05:00\nTickets: 10,- / 15,-\n---------------------", 
@@ -316,6 +364,12 @@
   {
    "name": "VERKNIPT invites Sidney Charles |DE|", 
    "start_time": "2014-04-11T23:00:00+0200", 
+   "imageurl": {
+    "source": "https:\\/\\/fbcdn-sphotos-c-a.akamaihd.net\\/hphotos-ak-ash3\\/t1.0-9\\/s720x720\\/1897829_263544077141567_916345290_n.jpg", 
+    "cover_id": 263544077141567, 
+    "offset_x": 0, 
+    "offset_y": 29
+   }, 
    "location": "Chicago Social Club", 
    "eventdata": {
     "description": "\u2716 \u2716 TICKETS \u2716 \u2716 \n\nTickets: www.verknipt.org/tickets\n\nPresale: \u20ac12.50 (300 stuks in presale = geen rij)\nDe vijf vrienden: \u20ac55 (5 tickets)\n\n\u2022 Sidney Charles \u2022\n\nDeze jonge telg uit Duitsland gaat momenteel de hele wereld over. Door Resident Advisor gekozen als most charted artist! En dat word je niet zomaar. Ijzersterke producties en - sets kenmerken dit supertalent uit Berlijn.\n\nOnlangs maakte hij speciaal voor Wonderland Festival een heerlijke podcast met veel nieuwe producties.\n\nhttps://soundcloud.com/deep-house-amsterdam/sidney-charles-deep-house\n\nMain \n\n\u2022 Sidney Charles |DE|\n\u2022 Ferro - VBX \n\u2022 Piotr & Zhan - Verknipt \n\nBar:\n\n\u2022 EAGLE\n\u2022 LA3M\n\u2022 Francklin\n\u2022 Alex Kotler\n\n\u2716\u2716 VERKNIPT \u2716\u2716\n\nNa een paar magische uitverkochte edities in de Chicago Social Club keert Verknipt terug op een van Amsterdams leukste locaties. De Chicago Social Club wordt op 11 april wederom het terrein waar ongetwijfeld euforie, passie en kwaliteitsmuziek met elkaar wordt gedeeld. \n\n\u2716\u2716 INFO \u2716\u2716\n\nLike: Verknipt Amsterdam\nWebsite: www.verknipt.org\nSoundcloud: https://soundcloud.com/verknipt-amsterdam\nContact: info@verknipt.org\n\nChicago Social Club | 11-04-2014 | 23.00 - 05.00 |", 
@@ -356,6 +410,12 @@
   {
    "name": "BACKSTAGE \u21d0 HOMEWORK & JOB JOBSE", 
    "start_time": "2014-04-05T23:00:00+0200", 
+   "imageurl": {
+    "source": "https:\\/\\/fbcdn-sphotos-c-a.akamaihd.net\\/hphotos-ak-ash3\\/t1.0-9\\/s720x720\\/1897829_263544077141567_916345290_n.jpg", 
+    "cover_id": 263544077141567, 
+    "offset_x": 0, 
+    "offset_y": 29
+   }, 
    "location": "Chicago Social Club", 
    "eventdata": {
     "description": "\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac LINEUP \u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\n\n\u21d0 HOMEWORK\n- http://www.residentadvisor.net/dj/homework\n\n\u21d0 Job Jobse\n- http://www.residentadvisor.net/dj/jobjobse\n\n\u21d0 The Close Up\n- http://www.residentadvisor.net/dj/thecloseup\n\n\u21d0 Chris Julien\n- http://www.residentadvisor.net/dj/chrisjulien\n\nBAR GEHOST DOOR P.O.N.Y.\n- http://on.fb.me/1eGl7Ng\n\n\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac TICKETS \u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\n\nEARLY \u20ac9.- Link: http://on.fb.me/1nRitd5\nNORMAL \u20ac11,- Link: http://on.fb.me/1nRitd5\n\nDeur < 00:00 \u20ac8,-\nDeur > 00:00 \u20ac15,- \n\n\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac INFO \u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\n\nBackstage: http://www.getbackstage.info/\nChicago Social Club: http://www.chicagosocialclub.nl/\nContact: info@getbackstage.info\n\nLET OP: GASTENLIJST SLUIT OM 01:30", 
@@ -388,6 +448,12 @@
   {
    "name": "De Nachtdivisie & SHMLSS present Night Fever met RAHAAN (US)", 
    "start_time": "2014-04-04T23:00:00+0200", 
+   "imageurl": {
+    "source": "https:\\/\\/fbcdn-sphotos-c-a.akamaihd.net\\/hphotos-ak-ash3\\/t1.0-9\\/s720x720\\/1897829_263544077141567_916345290_n.jpg", 
+    "cover_id": 263544077141567, 
+    "offset_x": 0, 
+    "offset_y": 29
+   }, 
    "location": "Chicago Social Club", 
    "eventdata": {
     "description": "\u2605D.I.S.C.O.\u2605D.I.S.C.O.\u2605D.I.S.C.O.\u2605D.I.S.C.O.\u2605D.I.S.C.O.\u2605D.I.S.C.O.\u2605\n\nHollands heetste disco duo en Nachtdivisie residents van het eerste uur SHMLSS zullen de volgende editie van onze maandelijkse get-to-gether in de Chicago Social Club hosten met disco connaiseur en onbenoemde held RAHAAN!\n\nVoor de muziekkenners onder ons behoeft de beste man geen introductie. Anders doe maar ff een search in google Rahaan+soundcloud. Het betere disco geweld die zelfs je moeder kan waarderen.\n\nHet Deens/Nederlandse collectief Sleazy Beats komt de zaal opwarmen en de bar zal het domein worden van Halve Soul en Vincenzo de Bull\n\n\u2605Line up\u2605\n\nRAHAAN (Street Edits, US)\nhttps://soundcloud.com/rahaan\n\nSHMLSS (Disco Deviance, NL)\nhttps://soundcloud.com/shmlss\n\nSLEAZY BEATS (Sleazy Beats, DK)\nhttps://soundcloud.com/sleazybeats\n\n\nbar:\nHalve Soul\nVincenzo de Bull\n\n\u2605Tickets\u2605\n\nvroege vogels \u20ac9,50\nregulier \u20ac12,50\nhttp://goo.gl/cMED14\n\nNext up:\nDe Nachtdivisie Koningsnacht met ADRIATIQUE (3hr set), wAFF & BURNSKI", 
@@ -422,6 +488,12 @@
   {
    "name": "Prunk Invites: SHUR-I-KAN", 
    "start_time": "2014-03-29T23:00:00+0100", 
+   "imageurl": {
+    "source": "https:\\/\\/fbcdn-sphotos-c-a.akamaihd.net\\/hphotos-ak-ash3\\/t1.0-9\\/s720x720\\/1897829_263544077141567_916345290_n.jpg", 
+    "cover_id": 263544077141567, 
+    "offset_x": 0, 
+    "offset_y": 29
+   }, 
    "location": "Chicago Social Club", 
    "eventdata": {
     "description": "EVENT PAGINA: www.facebook.com/events/534724936626050", 
@@ -466,6 +538,12 @@
   {
    "name": "PLAK / 28.03 / CHICAGO SOCIAL CLUB", 
    "start_time": "2014-03-28T23:00:00+0100", 
+   "imageurl": {
+    "source": "https:\\/\\/fbcdn-sphotos-c-a.akamaihd.net\\/hphotos-ak-ash3\\/t1.0-9\\/s720x720\\/1897829_263544077141567_916345290_n.jpg", 
+    "cover_id": 263544077141567, 
+    "offset_x": 0, 
+    "offset_y": 29
+   }, 
    "location": "Chicago Social Club", 
    "eventdata": {
     "description": "PLAK in de Chicago Social Club is als een ontmoeting tussen oude bekenden. Het voelt altijd goed. Het ritme is al drie jaar hetzelfde: iedere twee maanden een volle zaal, een uitbundig feest en een collectief hoogtepunt. \n\nDe formule is simpel, internationale artiesten gecombineerd met lokale toppers. Speciaal voor deze editie komt de Duitse Sven Weisemann zijn warme housesound door de Soos blazen. Hij wordt ondersteund door vaste plakker Joris en  het Amsterdamse house-wonderkind Elias Mazian. Wie dit jaar niet keihard op zijn shit geswingd heeft, heeft echt onder een steen geleefd. \n\nVoor de tweede zaal vrienden van Fedde, gekkigheid gezelligheid. \n\n\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\n\nSVEN WEISEMANN (DE)\nhttps://soundcloud.com/svenweisemann\nwww.facebook.com/svenweisemann\n\nELIAS MAZIAN\nhttps://soundcloud.com/eliasmazian\n\nJORIS\n/Joris Zwetsloot\n\n\u25ac BAR\n\nDIE ROOIE \n\nRICK SMAN\n\nSIMON PLAYS\n\n\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\n\nPLAK Soundcloud:\nhttps://soundcloud.com/plakken\n\n\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\n\nVVK GROEP \u20ac25,- (5 persoons) (uitverkocht)\nVVK VROEG \u20ac7,- (uitverkocht)\nVVK NORMAAL \u20ac 12,- \n\nLEEFTIJD 21+\n\n\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\n\nAFTER HOUR @ De ClubUp\nOnly doorsale \u20ac5,-\nhttps://www.facebook.com/events/620296124692532", 
@@ -504,6 +582,12 @@
   {
    "name": "VBX - SPECTRUM w/ Linkwood (UK), Alex Salvador, Alexander Valentyn & Tettero", 
    "start_time": "2014-03-22T23:00:00+0100", 
+   "imageurl": {
+    "source": "https:\\/\\/fbcdn-sphotos-c-a.akamaihd.net\\/hphotos-ak-ash3\\/t1.0-9\\/s720x720\\/1897829_263544077141567_916345290_n.jpg", 
+    "cover_id": 263544077141567, 
+    "offset_x": 0, 
+    "offset_y": 29
+   }, 
    "location": "Chicago Social Club", 
    "eventdata": {
     "description": "VBX \u2013 SPECTRUM\n\n\u2716 Timetable: \n\n23:00 - 01:30 Alexander Valentyn\n01:30 - 03:30 Linkwood\n03:30 - 05:30 Alex Salvador\n05:30 - 07:00 Larry de Kat & Samuel Deep\n07:00 - sluit U Know & The Drill\nHosted by drunk birthday boy Tettero \n\nSpectrum is a new party concept by VBX and is held at the Chicago Social Club every 4th Saturday of the month. \nExpect artists that emphasize their sets on house, but are happy to try something different too. \n\n22nd of March 2014\n23:00 \u2013 late\nChicago Social Club \nAmsterdam\n\n\u2716 Line up: \n\nLinkwood (UK)\nAlex Salvador\nAlexander Valentijn\nTettero (Drunk birthday boy host)\n+\nSlapFunk Records after-hour till late!\nSamuel Deep\nLarry de Kat\nU Know & The Drill\n\n\u2716 Tickets\n\nEarly bird 10.00 euro (limited)\nGroup 7.50 euro x 4 (limited)\nPre sale 12.50 euro\nDoor 15.00 euro\n\nhttp://bit.ly/vbxlinkwoodtickets", 
@@ -542,6 +626,12 @@
   {
    "name": "Crossroads met Phil Weeks (FR) / 21.03 / Chicago Social Club", 
    "start_time": "2014-03-21T23:00:00+0100", 
+   "imageurl": {
+    "source": "https:\\/\\/fbcdn-sphotos-c-a.akamaihd.net\\/hphotos-ak-ash3\\/t1.0-9\\/s720x720\\/1897829_263544077141567_916345290_n.jpg", 
+    "cover_id": 263544077141567, 
+    "offset_x": 0, 
+    "offset_y": 29
+   }, 
    "location": "Crossroads Amsterdam", 
    "eventdata": {
     "description": "Crossroads is het nieuwe concept waar gezelligheid opnieuw ontdekt wordt. En waar kan dat beter dan in de Social? Waar de Roaring Twenties in Chicago stopte gaan wij onbetwist verder. Dikke sigaren house van de bovenste plank met een touch van disco gaat de soos laten zien waar Chicago voor staat.\n\nPhil Weeks (FR, Robsoul) \u2013 Eigenaar en oprichter van het label Robsoul is onze headliner van de avond. Label waar onder andere helden als DJ Sneak, Derrick Carter en Chris Carrier op hebben gereleased. \n\nSpeciaal ingevlogen vanuit Frankrijk om een set neer te knallen in ons aller social. Speelden minstens al meer dan duizend zalen plat en nu is het de beurt aan ons om te genieten van the big boss. \n\n\nPete Bandit & Jason Shae (Times Are Ruff, Squz) \u2013 Koningen van Amsterdam, brengen ons alles wat past bij de social: gezelligheid, rammers van platen en hun energieke zelf. Pete en Jason hebben niet veel woorden nodig, bijzijn wordt meemaken deze avond!\n\nPhilou Louzolo (Tomorrow is Now, KID!) \u2013 Youngster van de TINK familie brengt met zijn swingende roots de Social in de juiste sferen. Hij brengt a la moment nummers uit waar je een grote grijns van op je gezicht krijgt. Swingen met de hoofdletter s!\n\nLine-up:\n\nPHIL WEEKS (FR, Robsoul)\n\nPete Bandit & Jason Shae (Times are Ruff, Squz)\n\nPhilou Louzolo (Tomorrow is Now, KID!)\n\nBAR:\n\nPaco (Natives, Nomads)\nOVT (Ad Infinitum)\nDer Tucan (Crossroads)\nTom van Haaren (DJBroadcast)\n\n21-03-2014 | 23:00-05:00\n\n200 kaarten in de presale!\n\n\u20ac9,00 early bird (UITVERKOCHT)\n\u20ac12,00 regular bird\nKaarten: http://goo.gl/7K2Hdf", 
@@ -578,6 +668,12 @@
   {
    "name": "SUPER SOCIAL |  20 MAART 2014", 
    "start_time": "2014-03-20T23:00:00+0100", 
+   "imageurl": {
+    "source": "https:\\/\\/fbcdn-sphotos-c-a.akamaihd.net\\/hphotos-ak-ash3\\/t1.0-9\\/s720x720\\/1897829_263544077141567_916345290_n.jpg", 
+    "cover_id": 263544077141567, 
+    "offset_x": 0, 
+    "offset_y": 29
+   }, 
    "location": "Chicago Social Club", 
    "eventdata": {
     "description": "SUPER SOCIAL\n\n\u266b CLUB \u266b\n\nLES DEUXX\n#TEAM PARTY\nMIKEY NICE\nLUCASH\n\nENTREE: 7 Euro\n\nGratis Entree voor 00:00HR? Houd de SUPER SOCIAL page in de gaten!\n----------------------------------------------\n\n\u266b BAR \u266b\n\nBUT WE WILL ALWAYS HAVE ROCKY\n\nGratis Entree: Vol = Vol\n\n----------------------------------------------\n\nSUPER SOCIAL\nElke donderdag\n23:00 - 04:00\nChicago Social Club\nMin. leeftijd 21+", 
@@ -612,6 +708,12 @@
   {
    "name": "BUT WE WILL ALWAYS HAVE ROCKY (AFSCHEIDS BORREL)", 
    "start_time": "2014-03-20T22:00:00+0100", 
+   "imageurl": {
+    "source": "https:\\/\\/fbcdn-sphotos-c-a.akamaihd.net\\/hphotos-ak-ash3\\/t1.0-9\\/s720x720\\/1897829_263544077141567_916345290_n.jpg", 
+    "cover_id": 263544077141567, 
+    "offset_x": 0, 
+    "offset_y": 29
+   }, 
    "location": "Chicago Social Club", 
    "eventdata": {
     "description": "Deze donderdag zwaait de Chicago Social Club haar geliefde (ex)manager Rocky Van Jaaren uit. \n\nNa 3 jaar keihard knallen als MR SOOS gaat hij een nieuwe uitdaging aan. \n\nKom deze donderdag dus langs vanaf 22:00 om je glas (veelvuldig) te heffen op Rocky\n\nDe muziek wordt naast uiteraard Rocky ook verzorgd door:\n\nROCKY\nDE BOY VIV\nSUNNY\nJORIS BAKKER\nWILLY PARTY\nJE M'APPELLE PASQUINEL\n \nDonderdag 20 April\n22:00 - 03:30\nGratis Entree\nVol = Vol", 
@@ -654,7 +756,15 @@
    "end_time": "2014-03-21T03:30:00+0100"
   }, 
   {
-   "id": "271329756369264", 
+   "name": "CHICAGO SOCIAL LATE NIGHT BAR WEDNESDAYS", 
+   "start_time": "2014-03-19", 
+   "imageurl": {
+    "source": "https:\\/\\/fbcdn-sphotos-c-a.akamaihd.net\\/hphotos-ak-ash3\\/t1.0-9\\/s720x720\\/1897829_263544077141567_916345290_n.jpg", 
+    "cover_id": 263544077141567, 
+    "offset_x": 0, 
+    "offset_y": 29
+   }, 
+   "location": "Chicago Social Club", 
    "eventdata": {
     "description": "Elke woensdag in de Chicago Social Bar nodigen we 2 DJs uit die je normaal gesproken ergens anders in het weekend  tegenkomt.\n\nVoor de rest geen poespas, praatjes of gedoe.\n\nGezellige plaatjes, goedkope shotjes en Party!\n\nDe goede richting in duwen doen we wel en daarom elke woensdag tussen 23:00 en 01:00 ALLE SHOTJES 2 EURO!\n\n*** DJS ***\n\nEkte (Olaf Willekes)\nSUNNY\n\n\nChicago Social Bar Wednesday\n23:00 - 04:00\nKun je niet wachten? Bar is open vanaf 20 uur.\n\n!! GRATIS ENTREE  !!", 
     "privacy": "OPEN", 
@@ -689,13 +799,17 @@
     "id": "271329756369264", 
     "name": "CHICAGO SOCIAL LATE NIGHT BAR WEDNESDAYS"
    }, 
-   "start_time": "2014-03-19", 
-   "name": "CHICAGO SOCIAL LATE NIGHT BAR WEDNESDAYS", 
-   "location": "Chicago Social Club"
+   "id": "271329756369264"
   }, 
   {
    "name": "The Workout - Hip House @ Chicago Social Club", 
    "start_time": "2014-03-15T23:00:00+0100", 
+   "imageurl": {
+    "source": "https:\\/\\/fbcdn-sphotos-c-a.akamaihd.net\\/hphotos-ak-ash3\\/t1.0-9\\/s720x720\\/1897829_263544077141567_916345290_n.jpg", 
+    "cover_id": 263544077141567, 
+    "offset_x": 0, 
+    "offset_y": 29
+   }, 
    "location": "Chicago Social Club", 
    "eventdata": {
     "description": "WORK IT OUT TO TWERK IT OUT! SERIOUS SQUADS! PERFECT PARTY PUSH-UPS! HARDCORE HIP HOUSE BOOTY SHAKING SENSATION! TURN UP THE BASS! THINK TYREE COOPER, FAST EDDIE & COOKIE CREW!\n\nLINE UP\n\u25aa San Proper (Soulshow set)\n\u25aa Full Crate Official\n\u25aa Kid Sublime x Elias Mazian\n\u25aa L'Atelier\n\u25aa MikeyNice (R&Bingo)\n\nTICKETS\nhttp://tiny.cc/theworkoutticketsale\n\nINFO\n18+", 
@@ -730,6 +844,12 @@
   {
    "name": "The Big Man Himself: Andhim - all night long (200 tickets aan de deur)", 
    "start_time": "2014-03-14T23:00:00+0100", 
+   "imageurl": {
+    "source": "https:\\/\\/fbcdn-sphotos-c-a.akamaihd.net\\/hphotos-ak-ash3\\/t1.0-9\\/s720x720\\/1897829_263544077141567_916345290_n.jpg", 
+    "cover_id": 263544077141567, 
+    "offset_x": 0, 
+    "offset_y": 29
+   }, 
    "location": "Chicago Social Club", 
    "eventdata": {
     "description": "De Dance wereld bestaat overwegend uit zich-zelf-veel-te-serieus muzieksmurfen. En Andhim. Simon & Tobi nemen zich zelf daarentegen allesbehalve serieus en jou met aan zekerheid grenzende waarschijnlijkheid in de maling. Hun muziekstijl? Geen deephouse, maar Superhouse! \n\nTerug op het het vertrouwde nest, de Chicago Social Club. Op 14 maart is ze dan eindelijk een hele avond van Andhim!\n\n\u25ac\u25ac \u266b LINE-UP \u266b \u25ac\u25ac\n\n\u2022 Andhim - all night long\n\n\u266c PREVIEW:\nhttps://soundcloud.com/andhim/andhim-live-at-fusion\n\n\u25ac\u25ac\u25ac Tickets \u25ac\u25ac\u25ac\n\nearly bird (12,50\u20ac) - SOLD OUT \nregular (15,00\u20ac) - SOLD OUT\n\n\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\n\n18+", 
@@ -770,6 +890,12 @@
   {
    "name": "ROUND THREE: 3-jarig bestaan Chicago Social Club", 
    "start_time": "2014-03-08T23:00:00+0100", 
+   "imageurl": {
+    "source": "https:\\/\\/fbcdn-sphotos-c-a.akamaihd.net\\/hphotos-ak-ash3\\/t1.0-9\\/s720x720\\/1897829_263544077141567_916345290_n.jpg", 
+    "cover_id": 263544077141567, 
+    "offset_x": 0, 
+    "offset_y": 29
+   }, 
    "location": "Chicago Social Club", 
    "eventdata": {
     "description": "Stap in de gezelligste boxring van Amsterdam tijdens Round Three.\nMet dit feest vieren we het 3-jarig bestaan van de Soos met vier speciale back-to-back sets in de club. Terwijl de bar fungeert als de heetste afkoelruimte ooit met de muziek van Gado x Gado.\n\nDe Boxring:\n\nHOMEWORK vs Chris Julien  \nBeesmunt Soundsystem vs Michael Jacques  \nSPACEGIRLS vs Doppelgang \nKerk! vs Tim Hoeben  \n\nDe Afkoelruimte:\n\nGado x Gado \n\nTickets\n\u20ac10,- voor middernacht \n\u20ac12,- na middernacht \n\nGeen voorverkoop", 
@@ -814,6 +940,12 @@
   {
    "name": "De Nachtdivisie met Richy Ahmed (Hot Creations, UK)", 
    "start_time": "2014-03-07T23:00:00+0100", 
+   "imageurl": {
+    "source": "https:\\/\\/fbcdn-sphotos-c-a.akamaihd.net\\/hphotos-ak-ash3\\/t1.0-9\\/s720x720\\/1897829_263544077141567_916345290_n.jpg", 
+    "cover_id": 263544077141567, 
+    "offset_x": 0, 
+    "offset_y": 29
+   }, 
    "location": "Chicago Social Club", 
    "eventdata": {
     "description": "Hot Creations eigen Richy Ahmed komt vrijdag 7 maart De nachtdivisie overnemen. Palmbomen house voor de liefhebbers<3\n\nRichy Ahmed (Hot Creations,UK)\nWNDWLCKRS\nKIMOU\n\nbar (Yani's bday bash):\nTerry Toner\nSergio Obergh\nKevin Duane \nLA3M\nLucas Wouters \nAlex & Micha Klerk \n\n23:00-05:00\n21+\nzoals altijd maar 250 kaarten in de presale\n\u20ac12,50\nhttp://goo.gl/2Tcw55\n\nDe Nachtdivisie Koningsnacht met Adriatique, wAFF & Burnski:\nhttps://www.facebook.com/events/262347900594090/", 

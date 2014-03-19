@@ -4,12 +4,18 @@
    "after": "NTMyNTgxMTE2ODM4OTM3", 
    "before": "NTg5OTQwNTg3NzYwNzg3"
   }, 
-  "next": "https://graph.facebook.com/301130305994/events?access_token=CAAHHjUXgVFoBAAdi2pyyqJbdfrkOHg8nZC6jwD4tPX4BKk4S5eIKHByIFpl4TvELzZBSZArlv0ZCMv8ZBZAtJztYxevXBWqmZCKE0HIXKwldAo3LorksQxOMRR4WG79FZAR4CDhplJYhEZBR8q90tYrrLV6MXZBTYU56FdPc76PskiIMPdIjZAG5PFVi64RBxA9oZC8Qc1ZA7v018zwZDZD&limit=25&after=NTMyNTgxMTE2ODM4OTM3"
+  "next": "https://graph.facebook.com/301130305994/events?access_token=CAAHHjUXgVFoBAEvsQghyANJSDy2VxKPkLwAxBRua1gNU673qryEBZA5rglzYQozfZCgcMHqTBa15JfJVgHI8KZAddUJTKw7Yir7kjwItZAyjBKNLBs2yEOcxFMdSdTPe5N3BPYD4FfQIHzh7r7PqwnnSePWZABBZCEm8lmuXbYjTZAQYzv78HmZAMgdAH6fZCH9LphM98iYombAZDZD&limit=25&after=NTMyNTgxMTE2ODM4OTM3"
  }, 
  "data": [
   {
    "name": "Letz Zep @ Melkweg Amsterdam", 
    "start_time": "2014-12-13T20:00:00+0100", 
+   "imageurl": {
+    "source": "https:\\/\\/fbcdn-sphotos-c-a.akamaihd.net\\/hphotos-ak-ash3\\/t1.0-9\\/s720x720\\/1897829_263544077141567_916345290_n.jpg", 
+    "cover_id": 263544077141567, 
+    "offset_x": 0, 
+    "offset_y": 29
+   }, 
    "location": "Melkweg Amsterdam", 
    "eventdata": {
     "description": "Letz Zep wordt beschouwd als \u00e9\u00e9n van de beste Led Zeppelin coverbands ter wereld door critici, Led Zeppelin fans \u00e9n de meesters zelf: \"I walked in, I saw me!\", was de reactie van Robert Plant na het bijwonen van een concert. In de ruim twee uur durende Letz Zep show komt de gehele catalogus van hun idolen voorbij, met zowel hits als 'Stairway To Heaven' en 'Kashmir' als minder bekend materiaal.\n\nVan uitverkochte arena\u2019s in Parijs en Madrid, grote festivals in Mexico en Venezuela en optredens door heel Europa, overal weten Billy Kulke, Andy Gray en de anderen het ware 'Zep gevoel' tot leven te brengen. Letz Zep gaat niet over nostalgie, maar maakt een vuist tegen de tand des tijds en houdt in leven wat de grote rock artiesten van weleer te vroeg hebben achter gelaten.\n\ninfo & tickets: http://www.melkweg.nl/nl/agenda/letz-zep-13-12-2014", 
@@ -52,6 +58,12 @@
   {
    "name": "Pink Martini @ Melkweg Amsterdam", 
    "start_time": "2014-10-21T19:00:00+0200", 
+   "imageurl": {
+    "source": "https:\\/\\/fbcdn-sphotos-c-a.akamaihd.net\\/hphotos-ak-ash3\\/t1.0-9\\/s720x720\\/1897829_263544077141567_916345290_n.jpg", 
+    "cover_id": 263544077141567, 
+    "offset_x": 0, 
+    "offset_y": 29
+   }, 
    "location": "Melkweg Amsterdam", 
    "eventdata": {
     "description": "Het eclectische muziekgezelschap Pink Martini komt met het nieuwste spektakel \u201cGet Happy\u201d naar de Rabozaal. Pink Martini bestaat momenteel uit 13 muzikanten die de meest uiteenlopende talen en muziekstijlen beheersen. Dankzij hun tournees doorheen Europa, Turkije, Taiwan, Japan, Libanon en Amerika absorbeerden ze nog meer muzikale invloeden. Tijdens een concert van hen waan je je achtereenvolgens in een samba parade in Rio, een Cubaans caf\u00e9, een Frans theater uit de jaren dertig, een Italiaans herenhuis of in Japan. Er wordt gezongen in maar liefst vijftien talen, met een doorleefde muzikale begeleiding die schippert tussen klassiek, jazz en pop. \n\ninfo & tickets: http://www.melkweg.nl/nl/agenda/pink-martini", 
@@ -94,6 +106,12 @@
   {
    "name": "Asking Alexandria @ Melkweg Amsterdam", 
    "start_time": "2014-10-07T18:00:00+0200", 
+   "imageurl": {
+    "source": "https:\\/\\/fbcdn-sphotos-c-a.akamaihd.net\\/hphotos-ak-ash3\\/t1.0-9\\/s720x720\\/1897829_263544077141567_916345290_n.jpg", 
+    "cover_id": 263544077141567, 
+    "offset_x": 0, 
+    "offset_y": 29
+   }, 
    "location": "Melkweg Amsterdam", 
    "eventdata": {
     "description": "De Britse metalcore sensatie Asking Alexandria komt weer naar de Melkweg. De mannen uit Yorkshire komen de Max weer op z\u2019n kop zetten met hun ruige mix van screamo, techno & rock n roll. Op de hun derde plaat \u2018From Death To Destiny\u2019 horen we een \u2018musical baby of M\u00f6tley Cr\u00fce and Slipknot\u2019 en naast veel geschreeuw van dit nieuwe bastaardkind, kunnen op dit concert natuurlijk ook weer de dikke breakdowns en het circle pit materiaal van het oude werk verwachten.\n\ninfo & tickets: http://www.melkweg.nl/nl/agenda/asking-alexandria", 
@@ -136,6 +154,12 @@
   {
    "name": "North Sea Surf Festival 2014", 
    "start_time": "2014-09-20T16:00:00+0200", 
+   "imageurl": {
+    "source": "https:\\/\\/fbcdn-sphotos-c-a.akamaihd.net\\/hphotos-ak-ash3\\/t1.0-9\\/s720x720\\/1897829_263544077141567_916345290_n.jpg", 
+    "cover_id": 263544077141567, 
+    "offset_x": 0, 
+    "offset_y": 29
+   }, 
    "location": "Melkweg Amsterdam", 
    "eventdata": {
     "description": "On Saturday September 20th the fourth installment will take place of the North Sea Surf Festival, the biggest festival in Northwestern Europe dedicated to instrumental surf music. \n\nThe festival will be held at the legendary venue De Melkweg in the heart of Amsterdam. The festival will feature 8 bands in the venue and 2 artists in the cinema and this year proudly presents Messer Chups (Russia), Dirty Fuse (Greece) Surfer Joe & The Tonomats (Italy/NL), Steinar Karlsen (Norway), The Krontjong Devils (NL) and The Akulas (Belgium) as part of the line up. Four more artists will be announced next year. Besides the 10 live shows there will be 4 surf movies at the Melkweg Cinema, a cocktailbar, clothing stands and a record store with collectable surf vinyl and cd\u2019s.", 
@@ -174,6 +198,12 @@
   {
    "name": "Only Crime @ Melkweg Amsterdam", 
    "start_time": "2014-07-10T19:00:00+0200", 
+   "imageurl": {
+    "source": "https:\\/\\/fbcdn-sphotos-c-a.akamaihd.net\\/hphotos-ak-ash3\\/t1.0-9\\/s720x720\\/1897829_263544077141567_916345290_n.jpg", 
+    "cover_id": 263544077141567, 
+    "offset_x": 0, 
+    "offset_y": 29
+   }, 
    "location": "Melkweg Amsterdam", 
    "eventdata": {
     "description": "Only Crime is een Amerikaanse all star punkband met Russ Rankin (Good Riddance), Aaron Dalbec (Bane/Converge), Bill Stevenson (Black Flag/Descendents/All), Dan Kelly (The Frisk/Tegan And Sara) en Matt Hoffman (Modern Life Is War). In 2004 brachten ze een goed ontvangen album \u2018To Nines\u2019 uit op Fat Wreck Chords, toen hun andere bands even op stil stonden. Er kwam een Europese tour en in 2005 stonden ze op de Deconstruction Tour. Het beviel de heren goed en er kwam zelfs een tweede album \u2018Virulence\u2019 en een weer een Europese tour, ditmaal met No Use For A Name. En nu 10 jaar later zijn ze er weer met hun messcherpe hardcore punk en komt er in mei zelfs een nieuw album op Rise Records!\n\nInfo & tickets: http://www.melkweg.nl/nl/agenda/only-crime", 
@@ -216,6 +246,12 @@
   {
    "name": "Ghost @ Melkweg Amsterdam", 
    "start_time": "2014-06-30T19:30:00+0200", 
+   "imageurl": {
+    "source": "https:\\/\\/fbcdn-sphotos-c-a.akamaihd.net\\/hphotos-ak-ash3\\/t1.0-9\\/s720x720\\/1897829_263544077141567_916345290_n.jpg", 
+    "cover_id": 263544077141567, 
+    "offset_x": 0, 
+    "offset_y": 29
+   }, 
    "location": "Melkweg Amsterdam", 
    "eventdata": {
     "description": "Eindelijk komt de illustere Zweedse metal band Ghost naar Amsterdam! Met hun rijk gearrangeerde vintage metal en opvallende uiterlijk met pijen, kappen en doodshoofden is het heel hard gegaan voor de band. Deze festivalfavoriet stond de afgelopen jaren al op podia van Roadburn, Graspop, Lowlands, en Hellfest en doet dit voorjaar o.a. Fortarock en Pinkpop aan. Gelukkig hebben zanger \u2018Papa Emeritus II\u2019 en zijn \u2018Nameless Ghouls\u2019 ook nog tijd voor een club show, want daar komt de duistere sfeer toch het beste tot zijn recht. Op het laatste album \u2018Infestissumam\u2019 horen we naast de 70s metal en koorzang meer pop invloeden, wat een nog toegankelijker geluid oplevert. Satanic rock for the masses!\n\ninfo & tickets: http://www.melkweg.nl/nl/agenda/ghost-30-06-2014", 
@@ -258,6 +294,12 @@
   {
    "name": "Tom Harding & JP @ Melkweg Amsterdam", 
    "start_time": "2014-06-27T23:30:00+0200", 
+   "imageurl": {
+    "source": "https:\\/\\/fbcdn-sphotos-c-a.akamaihd.net\\/hphotos-ak-ash3\\/t1.0-9\\/s720x720\\/1897829_263544077141567_916345290_n.jpg", 
+    "cover_id": 263544077141567, 
+    "offset_x": 0, 
+    "offset_y": 29
+   }, 
    "location": "Melkweg Amsterdam", 
    "eventdata": {
     "description": "A night filled with high quality Hardhouse classics only!\nLet there be House and let it be Hard! = )\n\nDJ Tom Harding\nDJ JP\n\nInfo & tickets: http://www.melkweg.nl/nl/agenda/tom-harding-jp-3", 
@@ -302,6 +344,12 @@
   {
    "name": "Mastodon @ Melkweg Amsterdam", 
    "start_time": "2014-06-27T18:30:00+0200", 
+   "imageurl": {
+    "source": "https:\\/\\/fbcdn-sphotos-c-a.akamaihd.net\\/hphotos-ak-ash3\\/t1.0-9\\/s720x720\\/1897829_263544077141567_916345290_n.jpg", 
+    "cover_id": 263544077141567, 
+    "offset_x": 0, 
+    "offset_y": 29
+   }, 
    "location": "Melkweg Amsterdam", 
    "eventdata": {
     "description": "De stijl van de Amerikaanse band Mastodon in \u00e9\u00e9n genre samenvatten is onbegonnen werk, maar ze zweven hoofdzakelijk tussen progressieve rock en metal en maken daarbij verrassende uitstapjes naar onder meer doom, psychedelica en zelfs jazz. De manier waarop de band uiteenlopende stijlen samensmelt tot een eigen herkenbare sound wordt alom geprezen door zowel fans als critici. Al drie keer eerder speelde Mastodon de Melkweg plat en nu is het beest terug om het publiek nog harder omver te blazen!\n\nMet hun laatste studioalbum \u2018The Hunter\u2019 liet Mastodon zien dat je na vier geweldige platen nog steeds kan groeien. Het album werd door verschillende bladen verkozen tot beste album van 2011 en met het nummer 'Curl Of The Burl' sleepte de band een Grammy nominatie in de wacht. Album nummer zes is inmiddels onderweg en de verwachtingen zijn wederom hooggespannen! \n\ninfo & tickets: http://www.melkweg.nl/nl/agenda/mastodon-2", 
@@ -344,6 +392,12 @@
   {
    "name": "Brian Jonestown Massacre @ Melkweg Amsterdam", 
    "start_time": "2014-06-26T19:30:00+0200", 
+   "imageurl": {
+    "source": "https:\\/\\/fbcdn-sphotos-c-a.akamaihd.net\\/hphotos-ak-ash3\\/t1.0-9\\/s720x720\\/1897829_263544077141567_916345290_n.jpg", 
+    "cover_id": 263544077141567, 
+    "offset_x": 0, 
+    "offset_y": 29
+   }, 
    "location": "Melkweg Amsterdam", 
    "eventdata": {
     "description": "Sommige bands worden wereldberoemd en andere niet. Soms zegt dit iets over de kwaliteit van de muziek, maar veel vaker zegt het iets over marketing en platendeals. Het Spel van het Grote Geld dus. Zo werden de Dandy Warhols wereldberoemd en beweegt hun soortgenoot The Brian Jonestown Massacre zich al 15 jaar door de underground van de muziekwereld. De documentaire 'Dig!' over de vriendschap/rivaliteit tussen de bands is een echte aanrader! The Brian Jonestown Massacre frontman Anton Newcombe is tegelijkertijd geniaal songschrijver en bevlogen musicus. De beste psychedelische 60\u2019s rock sinds\u2026de 60\u2019s.\n\ninfo & tickets: http://www.melkweg.nl/nl/agenda/brian-jonestown-massacre-26-06-2014", 
@@ -386,6 +440,12 @@
   {
    "name": "The Wailers @ Melkweg Amsterdam", 
    "start_time": "2014-06-25T19:30:00+0200", 
+   "imageurl": {
+    "source": "https:\\/\\/fbcdn-sphotos-c-a.akamaihd.net\\/hphotos-ak-ash3\\/t1.0-9\\/s720x720\\/1897829_263544077141567_916345290_n.jpg", 
+    "cover_id": 263544077141567, 
+    "offset_x": 0, 
+    "offset_y": 29
+   }, 
    "location": "Melkweg Amsterdam", 
    "eventdata": {
     "description": "The Wailers zijn de grootste levende exponenten van Jamaica's reggae traditie. Buiten hun grensverleggende werk met Bob Marley, hebben ze ook gespeeld met internationale acts als Sting, The Fugees, Stevie Wonder, Carlos Santana en Alpha Blondy.\n\ninfo & tickets: http://www.melkweg.nl/nl/agenda/the-wailers", 
@@ -428,6 +488,12 @@
   {
    "name": "Extreme @ Melkweg Amsterdam", 
    "start_time": "2014-06-19T19:30:00+0200", 
+   "imageurl": {
+    "source": "https:\\/\\/fbcdn-sphotos-c-a.akamaihd.net\\/hphotos-ak-ash3\\/t1.0-9\\/s720x720\\/1897829_263544077141567_916345290_n.jpg", 
+    "cover_id": 263544077141567, 
+    "offset_x": 0, 
+    "offset_y": 29
+   }, 
    "location": "Melkweg Amsterdam", 
    "eventdata": {
     "description": "De hardrockers verantwoordelijk voor de wereldhit \u2018More Than Words\u2019 zijn weer terug! De tour staat in het teken van het succesalbum \u2018Pornograffitti\u2019 uit 1990 en het album wordt deze avond in z\u00b4n geheel gespeeld. Rockende hits als 'Decadence Dance', 'Get the Funk Out' en natuurlijk de ballads 'Hole Hearted' en 'More Than Words' (onlangs nog in de Top 2000) komen in volle glorie voorbij. Een avond vol heerlijke jaren '90 hardrock nostalgie! \n\ninfo & tickets: http://www.melkweg.nl/nl/agenda/extreme", 
@@ -470,6 +536,12 @@
   {
    "name": "Philip H. Anselmo & the Illegals @ Melkweg Amsterdam", 
    "start_time": "2014-06-17T19:30:00+0200", 
+   "imageurl": {
+    "source": "https:\\/\\/fbcdn-sphotos-c-a.akamaihd.net\\/hphotos-ak-ash3\\/t1.0-9\\/s720x720\\/1897829_263544077141567_916345290_n.jpg", 
+    "cover_id": 263544077141567, 
+    "offset_x": 0, 
+    "offset_y": 29
+   }, 
    "location": "Melkweg Amsterdam", 
    "eventdata": {
     "description": "Als frontman van de legendarische metalband Pantera stond Phil Anselmo uit New Orleans al op de grootste podia van de wereld. Na het uiteenvallen van die band en de tragische dood van gitarist Dimebag Darrel, stortte deze veelzijdige brulboei zich op vele verschillende projecten. Met de southern sludge supergroep Down oogstte hij veel succes en stond meerdere malen in de Melkweg. Verder bracht hij twee albums uit met de hardcore band Superjoint Ritual en is er sinds vorig jaar zomer een solo-project onder zijn eigen naam Philip H. Anselmo & The Illegals, waar we Phil bozer dan ooit horen. \n\ninfo & tickets: http://www.melkweg.nl/nl/agenda/philip-h-anselmo-the-illegals", 
@@ -510,7 +582,15 @@
    "id": "506711772782581"
   }, 
   {
-   "id": "637708606277079", 
+   "name": "Trust @ Melkweg Amsterdam", 
+   "start_time": "2014-06-08", 
+   "imageurl": {
+    "source": "https:\\/\\/fbcdn-sphotos-c-a.akamaihd.net\\/hphotos-ak-ash3\\/t1.0-9\\/s720x720\\/1897829_263544077141567_916345290_n.jpg", 
+    "cover_id": 263544077141567, 
+    "offset_x": 0, 
+    "offset_y": 29
+   }, 
+   "location": "Melkweg Amsterdam", 
    "eventdata": {
     "description": "De Canadese synthpop band Trust is opgericht door Robert Alfons en Maya Postepsk, wie tevens in Austra speelt. Samen namen ze het debuut 'TRST' op en het is dan ook niet gek dat het geluid erg in de buurt van Austra ligt. Postepsk verliet Trust om zich volledig op Austra te richten, maar Alfons is bezig met het tweede album dat in maart moet uitkomen.", 
     "privacy": "OPEN", 
@@ -545,12 +625,18 @@
     "id": "637708606277079", 
     "name": "Trust @ Melkweg Amsterdam"
    }, 
-   "start_time": "2014-06-08", 
-   "name": "Trust @ Melkweg Amsterdam", 
-   "location": "Melkweg Amsterdam"
+   "id": "637708606277079"
   }, 
   {
-   "id": "709985245699108", 
+   "name": "Trust @ Melkweg Amsterdam", 
+   "start_time": "2014-06-08", 
+   "imageurl": {
+    "source": "https:\\/\\/fbcdn-sphotos-c-a.akamaihd.net\\/hphotos-ak-ash3\\/t1.0-9\\/s720x720\\/1897829_263544077141567_916345290_n.jpg", 
+    "cover_id": 263544077141567, 
+    "offset_x": 0, 
+    "offset_y": 29
+   }, 
+   "location": "Melkweg Amsterdam", 
    "eventdata": {
     "description": "De Canadese synthpop band Trust is opgericht door Robert Alfons en Maya Postepsk, wie tevens in Austra speelt. Samen namen ze het debuut 'TRST' op en het is dan ook niet gek dat het geluid erg in de buurt van Austra ligt. Postepsk verliet Trust om zich volledig op Austra te richten, maar Alfons is bezig met het tweede album dat in maart moet uitkomen.", 
     "privacy": "OPEN", 
@@ -585,13 +671,17 @@
     "id": "709985245699108", 
     "name": "Trust @ Melkweg Amsterdam"
    }, 
-   "start_time": "2014-06-08", 
-   "name": "Trust @ Melkweg Amsterdam", 
-   "location": "Melkweg Amsterdam"
+   "id": "709985245699108"
   }, 
   {
    "name": "Venetian Snares / Bong-ra / FFF / 030303 rave team / Gonzo Toby & Akemi\u00f6 Grey (Lemon Community) @ Melkweg Amsterdam", 
    "start_time": "2014-06-05T23:30:00+0200", 
+   "imageurl": {
+    "source": "https:\\/\\/fbcdn-sphotos-c-a.akamaihd.net\\/hphotos-ak-ash3\\/t1.0-9\\/s720x720\\/1897829_263544077141567_916345290_n.jpg", 
+    "cover_id": 263544077141567, 
+    "offset_x": 0, 
+    "offset_y": 29
+   }, 
    "location": "Melkweg Amsterdam", 
    "eventdata": {
     "description": "Venetian Snares / Bong-ra / FFF / 030303 rave team / Gonzo Toby & Akemi\u00f6 Grey (Lemon Community) @  Melkweg Amsterdam \n\nHet rave-collectief 030303 toert de laatste maanden door Nederland met Raven voor je Leven. Voor de allerhardste rave van het jaar komen ze naar de Melkweg met een overweldigende line-up van breakcore-, jungle-, IDM- en acidhelden.\n\nOnbetwiste headliner is breakcore-koning VENETIAN SNARES. Hij begon in de jaren '90 begon te experimenteren met verbijsterende maatsoorten, extreme tempo's en onvoorspelbare ritmes en kwam hij al snel te boek te staan als de nog schizofrenere versie van Aphex Twin. Zijn platen, voornamelijk uitgebracht op het toonaangevende Planet Mu, gaan van serene ambient en klassiek tot extreme acid, hardcore en onnavolgbare beats. Een nieuw album komt er binnenkort aan! Je weet nooit zeker wat deze geflipte geest uit zijn apparatuur tovert, maar vanaf minuut 1 gaat iedereen helemaal los.   \n\nOns kikkerlandje is enorm verwend doordat twee andere legendes beide uit Nederland komen: BONG-RA en FFF. Samen organiseerden ze de beruchte Breakcore a Go-Go feesten. De metal achtergrond van Bong-Ra is nog steeds hoorbaar in zijn sound: een unieke mix van jungle, metal, ragga, en breakcore. FFF begon halverwege de jaren '90 jungle, rave en hardcore te mixen en maakte snel naam in de underground. \n\n030303 weet als geen ander het rave gevoel neer te zetten en ze zijn dan ook een graag geziene gast op het grootste neo-rave festival ter wereld: Bangface. De lokale rave-helden zijn ook aanwezig: van LEMON COMMUNITY zijn Gonzo Toby & Akemi\u00f6 Grey afgevaardigd. Dit ravefestijn wordt zonder twijfel de hardste van het jaar!\n\nmeer info:\nhttp://www.melkweg.nl/nl/agenda/venetian-snares-bong-ra-030303-rave-team-fff-e-a", 
@@ -634,6 +724,12 @@
   {
    "name": "Adje @ Melkweg Amsterdam", 
    "start_time": "2014-06-05T19:30:00+0200", 
+   "imageurl": {
+    "source": "https:\\/\\/fbcdn-sphotos-c-a.akamaihd.net\\/hphotos-ak-ash3\\/t1.0-9\\/s720x720\\/1897829_263544077141567_916345290_n.jpg", 
+    "cover_id": 263544077141567, 
+    "offset_x": 0, 
+    "offset_y": 29
+   }, 
    "location": "Melkweg Amsterdam", 
    "eventdata": {
     "description": "Met Adje ligt de portie hiphop recht voor zijn raap op je bord en vliegen de punchlines je constant om de oren! Begonnen als zanger, maar dankzij THC-lid RB Djan besloot hij verder te gaan als rapper. En dat besluit was meer dan raak! Nog onder de naam Ado'nis, zette hij zich meteen op de kaart met de mixtape 'Who The Fuck is Ado'nis' en tourde hij met De Jeugd Van Tegenwoordig. Rond dezelfde tijd maakte de aanvoerder van de Sloddervosgang ook furore samen met zijn halfbroers Hef en Crooks. De legendarische 101barz sessie van het drietal is nog steeds niet weg te denken.\n\nIn 2010 besloot deze diamant uit de ghetto om solo zijn pad te verleggen en het bleef niet lang stil: een paar maanden later kwam hij alweer bovendrijven op de clubhit 'Fock Wachten' met Reverse en Jayh. Met Reverse dropte hij afgelopen oktober ook nog eens de succesvolle plaat 'Vossig'. Kortom, de altijd strak flowende Adje Donnie komt beslagen ten ijs en is klaar om te knallen!\n\ninfo & tickets: http://www.melkweg.nl/nl/agenda/adje", 
@@ -676,6 +772,12 @@
   {
    "name": "Sivert H\u00f8yem @ Melkweg Amsterdam", 
    "start_time": "2014-06-04T19:30:00+0200", 
+   "imageurl": {
+    "source": "https:\\/\\/fbcdn-sphotos-c-a.akamaihd.net\\/hphotos-ak-ash3\\/t1.0-9\\/s720x720\\/1897829_263544077141567_916345290_n.jpg", 
+    "cover_id": 263544077141567, 
+    "offset_x": 0, 
+    "offset_y": 29
+   }, 
    "location": "Melkweg Amsterdam", 
    "eventdata": {
     "description": "Na het einde van de Noorse rockband Madrugada is zanger Sivert H\u00f8yem gelukkig nog altijd te bewonderen als solo-artiest en heeft hij zojuist zijn nieuwe soloplaat 'Endless Love' uitgebracht. Deze is nu alleen nog verkrijgbaar in Denemarken, maar de internationale release volgt snel! \n\ninfo & tickets: http://www.melkweg.nl/nl/agenda/sivert-hoyem-04-06-2014", 
@@ -718,6 +820,12 @@
   {
    "name": "Jack Parow @ Melkweg Amsterdam", 
    "start_time": "2014-06-01T19:30:00+0200", 
+   "imageurl": {
+    "source": "https:\\/\\/fbcdn-sphotos-c-a.akamaihd.net\\/hphotos-ak-ash3\\/t1.0-9\\/s720x720\\/1897829_263544077141567_916345290_n.jpg", 
+    "cover_id": 263544077141567, 
+    "offset_x": 0, 
+    "offset_y": 29
+   }, 
    "location": "Melkweg Amsterdam", 
    "eventdata": {
     "description": "De Zuid-Afrikaanse rapper en opvallende verschijning Jack Parow zette de Melkweg al meerdere keren helemaal op zijn kop! Met zijn gigantische pet en extravagante outfits brengt hij zijn coole raps in het Afrikaans, wat best wel goed verstaanbaar is. Vroeger deed hij dit samen met acts als Die Antwoord en Fokofpolisiekar, nu al een aantal jaar solo. In 2014 brengt hij een nieuw album uit, waar hij zich meer van zijn romantische kant zal laten zien. We zijn heel erg benieuwd waar deze supercoole en grappige creatieveling nu weer mee gaat komen...\n\nInfo: http://www.melkweg.nl/nl/agenda/jack-parow", 
@@ -760,6 +868,12 @@
   {
    "name": "Danny Vera & Ordinary Men @ Melkweg Amsterdam", 
    "start_time": "2014-05-31T20:00:00+0200", 
+   "imageurl": {
+    "source": "https:\\/\\/fbcdn-sphotos-c-a.akamaihd.net\\/hphotos-ak-ash3\\/t1.0-9\\/s720x720\\/1897829_263544077141567_916345290_n.jpg", 
+    "cover_id": 263544077141567, 
+    "offset_x": 0, 
+    "offset_y": 29
+   }, 
    "location": "Melkweg Amsterdam", 
    "eventdata": {
     "description": "Elvis Presley, Johnny Cash en Roy Orbison zijn niet dood, ze leven voort in een singer/songwriter uit Zeeland met een vetkuif en een snor. Danny Vera blaast het Amerika van de jaren \u201950 en \u201960 nieuw leven in met zelf geschreven nummers waarmee hij de klassieke sound van zijn helden op prachtige wijze naar het heden brengt. Niet voor niets is Vera met zijn band al jaren de huisband van tv-programma Voetbal International van Johan Derksen, zijn grootste fan. Met zijn nieuwe plaat \u2018Distant Rumble\u2019 op Excelsior maakte hij precies de plaat die hij altijd al wilde maken: rauw, puur en verdomd aanstekelijk. Kortom, een avondje Danny Vera is een avond voor \u00e9n door Americana-fanaten!\n\ninfo & tickets: http://www.melkweg.nl/nl/agenda/danny-vera", 
@@ -802,6 +916,12 @@
   {
    "name": "The Notwist @ Melkweg Amsterdam", 
    "start_time": "2014-05-28T19:00:00+0200", 
+   "imageurl": {
+    "source": "https:\\/\\/fbcdn-sphotos-c-a.akamaihd.net\\/hphotos-ak-ash3\\/t1.0-9\\/s720x720\\/1897829_263544077141567_916345290_n.jpg", 
+    "cover_id": 263544077141567, 
+    "offset_x": 0, 
+    "offset_y": 29
+   }, 
    "location": "Melkweg Amsterdam", 
    "eventdata": {
     "description": "info & tickets: http://www.melkweg.nl/nl/agenda/the-notwist", 
@@ -844,6 +964,12 @@
   {
    "name": "Man or Astroman? @ Melkweg Amsterdam", 
    "start_time": "2014-05-27T19:30:00+0200", 
+   "imageurl": {
+    "source": "https:\\/\\/fbcdn-sphotos-c-a.akamaihd.net\\/hphotos-ak-ash3\\/t1.0-9\\/s720x720\\/1897829_263544077141567_916345290_n.jpg", 
+    "cover_id": 263544077141567, 
+    "offset_x": 0, 
+    "offset_y": 29
+   }, 
    "location": "Melkweg Amsterdam", 
    "eventdata": {
     "description": "De Alabama spacesurfers Man Or Astroman? zijn weer terug op aarde! Na een ruimtereis van 12 jaar kwamen originele leden Birdstuff, Coco the Electronic Monkey, Wizard en Star Crunch vorig jaar weer bij elkaar en verzamelden hun buitenaardse ervaringen op het nieuwe album \u2018Defcon 5\u20264\u20263\u20262\u20261\u2019. Met hun mix de 60\u2019s surf en 70s post-punk en een voorliefde voor obscure sci-fi films overrompelde deze unieke band begin jaren \u201890 de muziekwereld en heeft met hun 9 albums een stevige positie in de underground verworven. Met ruimtepakken, spacy visuals en tomeloze energie zijn de spaarzame bezoeken van deze buitenaardse wezens aan de Nederlandse podia altijd legendarisch en niet te missen!\n\ninfo & tickets: http://www.melkweg.nl/nl/agenda/man-or-astroman", 
@@ -886,6 +1012,12 @@
   {
    "name": "The Sisters Of Mercy @ Melkweg Amsterdam", 
    "start_time": "2014-05-25T19:00:00+0200", 
+   "imageurl": {
+    "source": "https:\\/\\/fbcdn-sphotos-c-a.akamaihd.net\\/hphotos-ak-ash3\\/t1.0-9\\/s720x720\\/1897829_263544077141567_916345290_n.jpg", 
+    "cover_id": 263544077141567, 
+    "offset_x": 0, 
+    "offset_y": 29
+   }, 
    "location": "Melkweg Amsterdam", 
    "eventdata": {
     "description": "The Sisters Of Mercy is een van de meest baanbrekende Britse groepen van de jaren tachtig. Als een van de eerste groepen die met drumcomputers werkten, stonden ze via de Post-punk beweging aan de wieg van New Wave- en Gothic-muziek. De band had grote hits met This Corrosion, Lucretia my Reflection en Temple Of Love. Een nieuw studioalbum is sinds 1990 nog altijd niet verschenen en of die er ooit komt, wordt zelfs door de bandleden betwist. Gelukkig blijft de band nog wel steeds toeren.\n\nInfo & tickets:\nhttp://www.melkweg.nl/nl/agenda/the-sisters-of-mercy-2", 
@@ -928,6 +1060,12 @@
   {
    "name": "Happy Camper @ Melkweg Amsterdam", 
    "start_time": "2014-05-24T19:30:00+0200", 
+   "imageurl": {
+    "source": "https:\\/\\/fbcdn-sphotos-c-a.akamaihd.net\\/hphotos-ak-ash3\\/t1.0-9\\/s720x720\\/1897829_263544077141567_916345290_n.jpg", 
+    "cover_id": 263544077141567, 
+    "offset_x": 0, 
+    "offset_y": 29
+   }, 
    "location": "Melkweg Amsterdam", 
    "eventdata": {
     "description": "Na het grote succes van de eerste plaat is Happy Camper terug. De prachtige popliedjes van Job Roggeveen, met invloeden uit chansons, jazz, gipsy- en filmmuziek worden op de nieuwe plaat uitgevoerd door dertien verschillende zangers. Ricky Koole, Janne Schra, Tim Knol, Maurits Westerik, Eefje de Visser, David Pino, MC Fit, Marien Dorleijn, Bouke Zoete, Leine, Appel, Helge Slikker en Odilo Girod zetten de zegetocht van Happy Camper door. Verwacht dan ook geen standaard popconcert, maar een onvergetelijk muzikaal feest met een verzameling van Nederlands beste muzikanten.\n\ninfo & tickets: http://www.melkweg.nl/nl/agenda/happy-camper", 
@@ -970,6 +1108,12 @@
   {
    "name": "B-Brave @ Melkweg Amsterdam", 
    "start_time": "2014-05-23T18:30:00+0200", 
+   "imageurl": {
+    "source": "https:\\/\\/fbcdn-sphotos-c-a.akamaihd.net\\/hphotos-ak-ash3\\/t1.0-9\\/s720x720\\/1897829_263544077141567_916345290_n.jpg", 
+    "cover_id": 263544077141567, 
+    "offset_x": 0, 
+    "offset_y": 29
+   }, 
    "location": "Melkweg Amsterdam", 
    "eventdata": {
     "description": "De boyband B-Brave wist in X-Factor flink de aandacht naar zich toe te trekken en eindige als derde. Ze leerden elkaar kennen in het musicalcircuit. Met nummers van Bruno Mars, Ne-Yo, Chris Brown en Usher bewezen ze in X-Factor over een ijzersterke podiumpresentatie \u00e9n een flinke dosis muzikaal talent te beschikken. Op dit moment werkt B-Brave hard aan nieuw, eigen materiaal. Gewapend met hun nieuwe tracks staan ze vanavond in The Max!\n\ninfo & tickets: http://www.melkweg.nl/nl/agenda/b-brave-23-05-2014", 
@@ -1012,6 +1156,12 @@
   {
    "name": "The Ghost Inside / Caliban / Devil Wears Prada / I Killed The Prom Queen @ Melkweg Amsterdam", 
    "start_time": "2014-05-20T18:00:00+0200", 
+   "imageurl": {
+    "source": "https:\\/\\/fbcdn-sphotos-c-a.akamaihd.net\\/hphotos-ak-ash3\\/t1.0-9\\/s720x720\\/1897829_263544077141567_916345290_n.jpg", 
+    "cover_id": 263544077141567, 
+    "offset_x": 0, 
+    "offset_y": 29
+   }, 
    "location": "Melkweg Amsterdam", 
    "eventdata": {
     "description": "IMPERICON PROGRESSION TOUR 2014\n\nImpericon presenteert de 'Progression' tour, een dikke metalcore package met The Ghost Inside, Caliban, The Devil Wears Prada, I KILLED THE PROM QUEEN en een nog onbekende opener. Mosh!\n\nhttp://www.melkweg.nl/nl/agenda/the-ghost-inside-caliban-the-devil-wears-prada-i-killed-the-prom-queen", 

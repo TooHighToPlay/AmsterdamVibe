@@ -2,6 +2,8 @@ __author__ = 'KevinGee'
 
 import facebook
 import json
+import urllib2
+import ast
 
 def writeJsontoFile(o, f):
     f.write(json.dumps(o, indent=1))
@@ -45,7 +47,12 @@ for club in clubList:
 	for event in eventList['data']:
 		eventId = event['id']
 		party = g.get_object(eventId)
+		# insert data about event
 		eventList['data'][counter]['eventdata'] = party
+		content = urllib2.urlopen("https://graph.facebook.com/227389920779142?access_token=" + ACCESS_TOKEN + "&fields=cover").read()
+		content = ast.literal_eval(content)
+		# insert data about event cover
+		eventList['data'][counter]['imageurl'] = content['cover']
 		counter+=1
 
 	writeJsontoFile(eventList, eventFile)

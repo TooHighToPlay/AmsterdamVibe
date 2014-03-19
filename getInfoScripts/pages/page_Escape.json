@@ -15,7 +15,7 @@
    "name": "Amusement"
   }
  ], 
- "likes": 28098, 
+ "likes": 28101, 
  "parking": {
   "street": 1, 
   "lot": 1, 
@@ -48,7 +48,7 @@
  "phone": "+3120-6221111", 
  "link": "https://www.facebook.com/escapeamsterdam", 
  "price_range": "$$ (10-30)", 
- "checkins": 59165, 
+ "checkins": 59166, 
  "about": "27 Years of Nightlife, Entertainment, Innovation and Premiership", 
  "name": "Escape Amsterdam", 
  "cover": {
@@ -58,6 +58,6 @@
   "offset_y": 0
  }, 
  "public_transit": "Trams 4, 9, 20", 
- "were_here_count": 59165, 
+ "were_here_count": 59166, 
  "is_published": true
 }

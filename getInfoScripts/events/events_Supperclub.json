@@ -4,12 +4,18 @@
    "after": "MTQ3NjUwNTMwOTI0NDI4MQ==", 
    "before": "NTkzMjkyNDI3NDE5MDQx"
   }, 
-  "next": "https://graph.facebook.com/105797235847/events?access_token=CAAHHjUXgVFoBAAdi2pyyqJbdfrkOHg8nZC6jwD4tPX4BKk4S5eIKHByIFpl4TvELzZBSZArlv0ZCMv8ZBZAtJztYxevXBWqmZCKE0HIXKwldAo3LorksQxOMRR4WG79FZAR4CDhplJYhEZBR8q90tYrrLV6MXZBTYU56FdPc76PskiIMPdIjZAG5PFVi64RBxA9oZC8Qc1ZA7v018zwZDZD&limit=25&after=MTQ3NjUwNTMwOTI0NDI4MQ%3D%3D"
+  "next": "https://graph.facebook.com/105797235847/events?access_token=CAAHHjUXgVFoBAEvsQghyANJSDy2VxKPkLwAxBRua1gNU673qryEBZA5rglzYQozfZCgcMHqTBa15JfJVgHI8KZAddUJTKw7Yir7kjwItZAyjBKNLBs2yEOcxFMdSdTPe5N3BPYD4FfQIHzh7r7PqwnnSePWZABBZCEm8lmuXbYjTZAQYzv78HmZAMgdAH6fZCH9LphM98iYombAZDZD&limit=25&after=MTQ3NjUwNTMwOTI0NDI4MQ%3D%3D"
  }, 
  "data": [
   {
    "name": "VIP GlamourBingo @ supperclub", 
    "start_time": "2014-03-30T19:00:00+0200", 
+   "imageurl": {
+    "source": "https:\\/\\/fbcdn-sphotos-c-a.akamaihd.net\\/hphotos-ak-ash3\\/t1.0-9\\/s720x720\\/1897829_263544077141567_916345290_n.jpg", 
+    "cover_id": 263544077141567, 
+    "offset_x": 0, 
+    "offset_y": 29
+   }, 
    "location": "Supperclub Amsterdam", 
    "eventdata": {
     "description": "The Supperclub en The GlamourBingo slaan de handen ineen!\nDe VIP editie belooft een waar spektakel te worden waarbij we lekker over the top gaan met fantastisch entertainment en geweldige prijzen! \n\nDe kosten voor deze speciale VIP editie zijn \u20ac 81,50.\nDit is inclusief een 3-gangenmenu(\u20ac45,-) en het bingoboekje(\u20ac35,-) alsmede (\u20ac1,50) administratiekosten.\n\nDeze editie is voor Boys & Girls! Met rondes alleen voor Girls en rondes alleen voor Boys!! En natuurlijk rondes for Boys & Girls.\nDus laat je verrassen en kom naar The VIP GlamourBingo @Supperclub!\n\nIn de week van 27 februari starten wij met de kaartverkoop!\nWees er snel bij want vol=vol.", 
@@ -58,6 +64,12 @@
   {
    "name": "Supper Galore", 
    "start_time": "2014-03-28T23:00:00+0100", 
+   "imageurl": {
+    "source": "https:\\/\\/fbcdn-sphotos-c-a.akamaihd.net\\/hphotos-ak-ash3\\/t1.0-9\\/s720x720\\/1897829_263544077141567_916345290_n.jpg", 
+    "cover_id": 263544077141567, 
+    "offset_x": 0, 
+    "offset_y": 29
+   }, 
    "location": "Supperclub Amsterdam", 
    "eventdata": {
     "description": "Come and spill the T at this new glamfest! Dragqueens are called queen for a reason! The higher the whig the closer to god. supperclub invites al the 'gurls' and 'queens' to this extravaganza!! Old, new, something borrowed something glued!! See you friday 28th of march!! Nah nah nah diva is the Female version of a Hustler!!", 
@@ -104,6 +116,12 @@
   {
    "name": "Double D (dirty disco) @ supperclub", 
    "start_time": "2014-03-23T20:00:00+0100", 
+   "imageurl": {
+    "source": "https:\\/\\/fbcdn-sphotos-c-a.akamaihd.net\\/hphotos-ak-ash3\\/t1.0-9\\/s720x720\\/1897829_263544077141567_916345290_n.jpg", 
+    "cover_id": 263544077141567, 
+    "offset_x": 0, 
+    "offset_y": 29
+   }, 
    "location": "Supperclub Amsterdam", 
    "eventdata": {
     "description": "Double D (dirty disco)\n\nClassic dirty disco all night with supperclub's brand new dirty sweaty, sexy and oh so sweet classic disco club night: DOUBLE D! Get those knockers and show them off on the dance floor!\n\nWith DJ's Mike Ho and Erick Eerdhuizen (classic disco set) and hosted by Miss Bunty!\n\nWe will serve our delicious supper platter for \u20ac 27,50 for two and get your groove on!\n\nAs it is \"restaurant week\" at supperclub from the 7th until the 23rd of March you can also make a reservation for our specially crafted 3-course supper for just \u20ac 27,50. Beware this is a club night that starts early. No romantic supper for two here.....but a sexy supper with the best disco EVER!", 
@@ -152,6 +170,12 @@
   {
    "name": "Cocktail Night by Tess Posthumus", 
    "start_time": "2014-03-20T19:00:00+0100", 
+   "imageurl": {
+    "source": "https:\\/\\/fbcdn-sphotos-c-a.akamaihd.net\\/hphotos-ak-ash3\\/t1.0-9\\/s720x720\\/1897829_263544077141567_916345290_n.jpg", 
+    "cover_id": 263544077141567, 
+    "offset_x": 0, 
+    "offset_y": 29
+   }, 
    "location": "Supperclub Amsterdam", 
    "eventdata": {
     "description": "- do 20 maart-\n\n\n    Award winning Bartender Tess Posthumus zal op donderdag 20 maart voor de derde maal heerlijke foodpairing cocktails shaken.\n\n    Hollands \u2018vrouwelijk\u2019 trots bekend om haar originele cocktailcombinaties is tijdens deze avond de gastvrouw en bartender en laat zien hoe je een eenheid kunt vormen tussen de mooiste spirits, mixers, kruiden en specerijen.\n\n    Het fenomeen foodpairing doet Tess haar cocktail hart bloeien van creativiteit.\n\n    Voor dit speciale event bieden wij jullie een:\n    5 gangen menu aan voor \u20ac 69 en\n    een bijpassende cocktailflight voor \u20ac 29,50\n\n    De muzikale begeleiding zal door niemand minder dan Sheila Hill en Tamore verzorgd worden. Deze prachtige dames zullen jullie tot in de late uurtjes van de meest overheerlijke Sexy House tunes voorzien. De voetjes moeten van de vloer.\n\n    Het entertainment zal door niemand minder dan de sexy Tatjana van Onna en de brutale Maria Kuchowicz voorzien worden.\n\n    Voor de kleine trek hebben wij natuurlijk onze bijzondere fingerfood kaart met bijpassende shots.\n\n    Uiteraard zijn jullie ook van harte welkom om alleen lekker een dansje te komen doen en te genieten van een overheerlijke cocktail of ander drankje.\n\n    Elke 3e donderdag van de maand\n    Open: 19:00\n    Jonge Roelensteeg 21, Amsterdam\n\n    Reserveren voor diner gewenst via 020 344 64 00 of via de website:\n\n    http://www.supperclub.com/html/amsterdam/reservation/\n\n    www.supperclub.com \u2013 www.tessposthumus.com\n\nSupperclub Amsterdam\nJonge Roelensteeg 21, 1012PL Amsterdam\nKaart bekijken \u00b7 Routebeschrijving", 

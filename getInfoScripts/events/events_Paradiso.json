@@ -4,12 +4,18 @@
    "after": "NzczMDg2NjIyNzE3NTk1", 
    "before": "MjU3MTc5NDMxMTI3MTEy"
   }, 
-  "next": "https://graph.facebook.com/42503443337/events?access_token=CAAHHjUXgVFoBAAdi2pyyqJbdfrkOHg8nZC6jwD4tPX4BKk4S5eIKHByIFpl4TvELzZBSZArlv0ZCMv8ZBZAtJztYxevXBWqmZCKE0HIXKwldAo3LorksQxOMRR4WG79FZAR4CDhplJYhEZBR8q90tYrrLV6MXZBTYU56FdPc76PskiIMPdIjZAG5PFVi64RBxA9oZC8Qc1ZA7v018zwZDZD&limit=25&after=NzczMDg2NjIyNzE3NTk1"
+  "next": "https://graph.facebook.com/42503443337/events?access_token=CAAHHjUXgVFoBAEvsQghyANJSDy2VxKPkLwAxBRua1gNU673qryEBZA5rglzYQozfZCgcMHqTBa15JfJVgHI8KZAddUJTKw7Yir7kjwItZAyjBKNLBs2yEOcxFMdSdTPe5N3BPYD4FfQIHzh7r7PqwnnSePWZABBZCEm8lmuXbYjTZAQYzv78HmZAMgdAH6fZCH9LphM98iYombAZDZD&limit=25&after=NzczMDg2NjIyNzE3NTk1"
  }, 
  "data": [
   {
    "name": "Vanessa Paradis @ Paradiso", 
    "start_time": "2014-06-19T19:30:00+0200", 
+   "imageurl": {
+    "source": "https:\\/\\/fbcdn-sphotos-c-a.akamaihd.net\\/hphotos-ak-ash3\\/t1.0-9\\/s720x720\\/1897829_263544077141567_916345290_n.jpg", 
+    "cover_id": 263544077141567, 
+    "offset_x": 0, 
+    "offset_y": 29
+   }, 
    "location": "Paradiso Amsterdam", 
    "eventdata": {
     "description": "Zangeres, model en actrice Vanessa Paradis geeft op donderdag 19 juni een concert in Paradiso te Amsterdam, het enige concert in Nederland. Het betreft een zeldzame mogelijkheid om de wereldster live te zien in Nederland, aangezien ze vooral optreedt in Frankrijk, Groot Brittanni\u00eb, Canada en de Verenigde Staten. Vrijdag 21 februari om 10:00 uur begint de voorverkoop van dit concert via Ticketmaster Nederland. Vorig jaar verscheen haar nieuwste album \u2018Love Songs\u2019, waarop ze samenwerkte met o.a. Carl Barat (The Libertines) en de Franse ster Benjamin Biolay. \n\nVanessa Paradis ontpopte zich eind jaren tachtig al als kindsterretje met de hit \u2018Joe le Taxi\u2019 en haar daaropvolgende samenwerking met Serge Gainsbourg. Haar samenwerking met rockster Lenny Kravitz leverde haar begin jaren een wereldhit op met \u2018Be My Baby\u2019. Tevens maakte ze naam als model (o.a. voor Chanel) en actrice en trouwde ze met Jonny Depp. Na deze relatiebreuk heeft Paradis zich gestort op een nieuw album. Dit resulteerde afgelopen jaar in \u2018Love Songs\u2019:  een dubbelalbum met een doorleefde, veelzijdige sound, van ingetogen luisterliedjes tot avontuurlijke popnummers in het Frans, Engels en Italiaans, begeleid door zowel gitaren als strijkers.\n\nVanessa Paradis\n+ voorprogramma\ndonderdag 19 juni 2014\nParadiso, Amsterdam\nAanvang: 19.30 uur \nZaal open: 19.00 uur \nEntree: \u20ac 30,- excl. lidmaatschap (\u20ac 3,50 p.m. / \u20ac 25,- p.j.) \nVoorverkoop vanaf 21 februari via Ticketmaster Nederland en Paradiso", 
@@ -52,6 +58,12 @@
   {
    "name": "Chromeo @ Paradiso", 
    "start_time": "2014-06-04T19:30:00+0200", 
+   "imageurl": {
+    "source": "https:\\/\\/fbcdn-sphotos-c-a.akamaihd.net\\/hphotos-ak-ash3\\/t1.0-9\\/s720x720\\/1897829_263544077141567_916345290_n.jpg", 
+    "cover_id": 263544077141567, 
+    "offset_x": 0, 
+    "offset_y": 29
+   }, 
    "location": "Paradiso Amsterdam", 
    "eventdata": {
     "description": "Deze avond vieren we dat Chromeo na vier jaar terug is met hun vierde album vol four-on-the-floor, feelgood discoliedjes, inclusief speelse synthesizers, staccato gitaarlicks en gierende vocoders. Het duo uit Montreal bestaat uit Patrick Gemayel (P-Thugg) en Dave Macklovitch (Dave 1, tevens broer van A-trak). Met de eerste van Arabische komaf en de tweede een Joodse achtergrond, zegt het duo schertsend dat zij \u201cthe only succesful Arab/Jewisch partnership since the dawn of human culture\u201d zijn. \n\nChromeo's nieuwe album \u2018White Women\u2019 komt begin 2014 uit en bevat gastbijdragen van Solange Knowles, Ezra Koenig van Vampire Weekend, Toro y Moi en voormalig LCD Soundsystem-drummer Pat Mahoney. Het duo omschrijft het nieuwe album als \"a combination of sexy, funky, macho music with neurotically love-torn lyrics.\"\n\nChromeo \nwoensdag 4 juni 2014\nParadiso (grote zaal)\naanvang: 20.30 uur\nvoorprogramma: 19.30 uur \nzaal open: 19.00 uur\nentree: \u20ac 18,- excl. lidmaatschap (3,50 p.m. / 25,- p.j.) \nvoorverkoop vanaf 11 januari\nhttp://www.paradiso.nl/web/Agenda-Item/Chromeo-1.htm", 
@@ -94,6 +106,12 @@
   {
    "name": "Brainfeeder presents: Flying Lotus, Captain Murphy & Thundercat | 03.06.2014 | Paradiso", 
    "start_time": "2014-06-03T20:30:00+0200", 
+   "imageurl": {
+    "source": "https:\\/\\/fbcdn-sphotos-c-a.akamaihd.net\\/hphotos-ak-ash3\\/t1.0-9\\/s720x720\\/1897829_263544077141567_916345290_n.jpg", 
+    "cover_id": 263544077141567, 
+    "offset_x": 0, 
+    "offset_y": 29
+   }, 
    "location": "Paradiso Amsterdam", 
    "eventdata": {
     "description": "Brainfeeder is het kwaliteitslabel van de Amerikaanse experimentele producer Flying Lotus. Voor deze label night neemt hij twee andere paradepaardjes mee: zijn rappende alter ego Captain Murphy en Thundercat.\n\naanvang: 20.30 uur \nzaal open: 19.00 uur \nentree: \u20ac 22,- excl. lidmaatschap (3,50 p.m. / 25,- p.j.)\nhttp://www.paradiso.nl/web/Agenda-Item/Brainfeeder-presents-Flying-Lotus-Captain-Murphy-Thundercat.htm", 
@@ -136,6 +154,12 @@
   {
    "name": "Giuda @ Paradiso Kleine Zaal", 
    "start_time": "2014-06-02T22:00:00+0200", 
+   "imageurl": {
+    "source": "https:\\/\\/fbcdn-sphotos-c-a.akamaihd.net\\/hphotos-ak-ash3\\/t1.0-9\\/s720x720\\/1897829_263544077141567_916345290_n.jpg", 
+    "cover_id": 263544077141567, 
+    "offset_x": 0, 
+    "offset_y": 29
+   }, 
    "location": "Paradiso Amsterdam", 
    "eventdata": {
     "description": "GIUDA\n\nKLEINE ZAAL 22.00 UUR \nZAAL OPEN 21.30 UUR \nENTREE 8,- EXCL. LIDMAATSCHAP (3,50 P.M. / 25,- P.J.)\n\nGiuda is een vijfmansformatie uit Rome die melodieuze \u201cgarage-glamrock\u201d en punk maakt. Heldere, glorieuze popliedjes die bloedserieus en met een zeer zorgvuldige vakkundigheid worden gespeeld. Het album \u2018Let\u2019s Do It Again\u2019 werd in november 2013 uitgebracht.", 
@@ -178,6 +202,12 @@
   {
    "name": "Domino & Ribbon Music present: Hamilton Leithauser, The Amazing Snakeheads, Francois & The Atlas Mountains, gepresenteerd door Paradiso", 
    "start_time": "2014-05-21T19:30:00+0200", 
+   "imageurl": {
+    "source": "https:\\/\\/fbcdn-sphotos-c-a.akamaihd.net\\/hphotos-ak-ash3\\/t1.0-9\\/s720x720\\/1897829_263544077141567_916345290_n.jpg", 
+    "cover_id": 263544077141567, 
+    "offset_x": 0, 
+    "offset_y": 29
+   }, 
    "location": "Tolhuistuin", 
    "eventdata": {
     "description": "Paradiso presenteert:\nHAMILTON LEITHAUSER, THE AMAZING SNAKEHEADS, FRANCOIS & THE ATLAS MOUNTAINS\nlocatie: Tolhuistuin (zaal). Adres: Buiksloterweg 5 C (ingang IJ-zijde), Amsterdam Noord.\naanvang: 19.30 uur | zaal open: 19.00 uur \nentree: \u20ac 12,50 incl. daglidmaatschap\nhttp://www.paradiso.nl/web/Agenda-Item/Domino-Ribbon-Music-present-Hamilton-Leithauser-The-Amazing-Snakeheads-Francois-The-Atlas-Mountains-Locatie-Tolhuistuin-zaal.htm\n\nHamilton Leithauser is bekend als zanger van The Walkmen, maar nu deze band een lange pauze inlast heeft hij besloten om eventjes alleen verder te gaan en brengt hij op 5 mei zijn solodebuut \u2018Black Hours\u2019 uit. De gevarieerde plaat wordt omschreven als: \u201cHalf orchestral, half rock 'n' roll\u2019.\u201d Een zeer geslaagd debuut, waarop de soulvolle, krachtige stem van Leithauser wordt ondersteund door getalenteerde muzikanten als Rostam Batmanglij (Vampire Weekend), Paul Maroon (The Walkmen), Morgan Henderson (Fleet Foxes) en Richard Swift (The Shins). Het album komt uit bij het Domino-zusterlabel Ribbon Music.\n\nThe Amazing Snakeheads is een jong trio uit Glasgow. Dale Barclay, William Coombe en Jordan Hutchinson grossieren in vuige bluespunk die klinkt als een working class Jon Spencer. Lo-fi, no nonsens en spijkerhard. Het debuutalbum \u2018Amphetamine Ballads\u2019 komt op 1 april uit.\n\nFrancois & The Atlas Mountains is het collectief rondom de Franse singer songwriter Francois Marry. In 2012 kwam het debuutalbum \u2018E Volo Love\u2019 uit, en de opvolger \u2018Piano Ombre\u2019 is nu eindelijk daar. De warme mix van afro ritmes, 60\u2019s girlpop en west-coast gitaren is op deze tweede plaat nog verder ge\u00ebvolueerd. Behalve een zeer goede liedjesschrijver en arrangeur is Francois tevens een gedreven verteller. Die openhartig donkere episodes in zijn leven afwisselt met humoristische verhalen, zowel in het Engels als in het Frans. Zijn warme zoetgevooisde stem past perfect bij de ritmisch stuwende melancholische gesofisticeerde pop. \u2018Piano Ombre\u2019 is een betoverend indiepopalbum geworden, van een band met voeten in Franse chansons, Engelse gitaar pop en afro-caribische percussie.", 
@@ -220,6 +250,12 @@
   {
    "name": "Teho Teardo & Blixa Bargeld in Paradiso", 
    "start_time": "2014-05-12T20:00:00+0200", 
+   "imageurl": {
+    "source": "https:\\/\\/fbcdn-sphotos-c-a.akamaihd.net\\/hphotos-ak-ash3\\/t1.0-9\\/s720x720\\/1897829_263544077141567_916345290_n.jpg", 
+    "cover_id": 263544077141567, 
+    "offset_x": 0, 
+    "offset_y": 29
+   }, 
    "location": "Paradiso Amsterdam", 
    "eventdata": {
     "description": "Einst\u00fcrzende Neubautenfrontman en voormalig gitarist van Nick Caves Bad Seed Blixa Bargeld en componist en multi-instrumentalist Teho Teardo geven op maandag 12 mei een concert in Paradiso, het enige in Nederland. Hun samenwerking heeft afgelopen jaar geresulteerd in het album \u2018Still Smiling\u2019. Live wordt het duo aangevuld met celliste Martina Bertoni. \n\nSinds Blixa Bargeld aankondigde dat \u201chet gigantische monster Einst\u00fcrzende Neubauten voor onbepaalde tijd op de bodem van de oceaan aan een winterslaap was begonnen\u201d, heeft hij niet stilgezeten. Hij maakte een album met Alva Noto onder de naam ANBB en werkte vorig jaar mee aan \u2018Desertshore\u2019, een project rond de liedjes van Nico. \n\nZijn samenwerking met de Italiaanse (film)componist en multi-instrumentalist Teho Teardo begon met een filmsoundtrack en leverde, in het verlengde daarvan, het album \u2018Still Smiling\u2019 op. Hierop staan twaalf veelzijdige, toegankelijke liedjes wiens arrangementen een mooi contrast en tegelijkertijd organische symbiose vormen tussen de klassieke grandeur van strijk- en snaarinstrumenten en electronica, van vederlicht tot gitzwart. Blixa Bargeld zingt in het Engels, Duits en Italiaans en toont ditmaal een zeldzaam persoonlijke en intieme kant van zichzelf. Bargeld en Teardo hebben twee jaar lang aan het album gewerkt vanuit Berlijn en Rome, voordat het afgelopen zomer uitkwam op Teardo\u2019s label Specula. Een parel om te koesteren.\n\nTEHO TEARDO & BLIXA BARGELD\nmaandag 12 mei 2014\nParadiso, Amsterdam (concert met zitplaatsen)\nAanvang: 20:00 uur | open: 19:00 uur\nEntree: \u20ac 18,50 excl. lidmaatschap (\u20ac 3,50 per maand / \u20ac 25 per jaar)\nVoorverkoop via Ticketmaster en Paradiso: http://www.paradiso.nl/web/Agenda-Item/Teho-Teardo-Blixa-Bargeld.htm \n\nVideo\u2019s:\nhttp://youtu.be/nXzcBpIGKas Mi Scusi\nhttp://youtu.be/DQhMiiHowCg Alone wit the Moon", 
@@ -262,6 +298,12 @@
   {
    "name": "Chet Faker, vrijdag 2 mei @ Bitterzoet", 
    "start_time": "2014-05-02T21:00:00+0200", 
+   "imageurl": {
+    "source": "https:\\/\\/fbcdn-sphotos-c-a.akamaihd.net\\/hphotos-ak-ash3\\/t1.0-9\\/s720x720\\/1897829_263544077141567_916345290_n.jpg", 
+    "cover_id": 263544077141567, 
+    "offset_x": 0, 
+    "offset_y": 29
+   }, 
    "location": "Paradiso Amsterdam", 
    "eventdata": {
     "description": "Paradiso presenteert Chet Faker in Bitterzoet. Adres: Spuistraat 2, Amsterdam.\n\nNicolas Murphy nam in 2011, zonder grote verwachtingen, een cover op van \u2018No Diggity\u2019. Een kleine groep mensen deelde het lied online, waarna Murphy geheel onverwachts een nummer-\u00e9\u00e9n-positie bereikte op Hype Machine. Zijn identiteit Chet Faker was geboren: een subtiele hint naar de zangstem van Chet Baker, en tegelijkertijd ook naar zijn eigen invloeden en stijl, die zijn voortgekomen uit een liefde voor disco en houseproducties. In zijn thuisland Australi\u00eb werd Chet Faker\u2019s succes steeds groter en zijn muziek kreeg meer vorm: trage R&B liedjes met genoeg ruimte voor zowel electronica als analoge instrumenten. Het debuutalbum \u2018Built On Glass\u2019 komt dit jaar uit en zal ongetwijfeld voor de definitieve internationale doorbraak gaan zorgen. Chet Faker werkte twee jaar aan de plaat, waarop R&B, rokerige vocalen en house-invloeden worden gecombineerd. Voor fans van James Blake, The Weeknd en Frank Ocean.", 
@@ -304,6 +346,12 @@
   {
    "name": "Nielson @ Paradiso, 18 april 2014", 
    "start_time": "2014-04-18T19:30:00+0200", 
+   "imageurl": {
+    "source": "https:\\/\\/fbcdn-sphotos-c-a.akamaihd.net\\/hphotos-ak-ash3\\/t1.0-9\\/s720x720\\/1897829_263544077141567_916345290_n.jpg", 
+    "cover_id": 263544077141567, 
+    "offset_x": 0, 
+    "offset_y": 29
+   }, 
    "location": "Paradiso Amsterdam", 
    "eventdata": {
     "description": "Singer-songwriter Nielson komt vrijdag 18 april naar Paradiso met zijn debuutalbum 'Zo Van Aaah Yeah'. Nu in de voorverkoop!\n\nNielson had met zijn single \u2018Beauty & de Brains\u2019 meteen een gouden plaat te pakken. Snelle, herkenbare Nederlandse teksten op een bedje van rustig gitaarspel. Niels Littooij is de echte naam van deze zanger met de gouden keel. Maar zijn succes komt niet zomaar uit de lucht vallen: de jonge zanger studeerde aan de Herman Brood Academie, won de Kunstbende en speelde later in popgroep Zirkus Zirkus. Het langverwachte album van Nielson komt er aan, en tot die tijd worden de fans zoet gehouden met aanstekelijke singles zoals het lied \u2018Mannenharten\u2019.\n\nVRIJDAG 18 APRIL 2014 \nNIELSON\nVOORPROGRAMMA: PROJECT BONGO\nHOOFDPROGRAMMA 20.30 UUR \nVOORPROGRAMMA 19.30 UUR \nZAAL OPEN 19.00 UUR \nENTREE 15,- EXCL. LIDMAATSCHAP (3,50 P.M. / 25,- P.J.)\n\nNieuwe single: http://www.youtube.com/watch?v=UaSqEavLsoM\nMeer info: http://www.paradiso.nl/web/Agenda-Item/Nielson-1.htm", 
@@ -346,6 +394,12 @@
   {
    "name": "M\u00d8 @ People's Place", 
    "start_time": "2014-03-26T21:00:00+0100", 
+   "imageurl": {
+    "source": "https:\\/\\/fbcdn-sphotos-c-a.akamaihd.net\\/hphotos-ak-ash3\\/t1.0-9\\/s720x720\\/1897829_263544077141567_916345290_n.jpg", 
+    "cover_id": 263544077141567, 
+    "offset_x": 0, 
+    "offset_y": 29
+   }, 
    "location": "People's Place", 
    "eventdata": {
     "description": "Paradiso presenteert:\nM\u00d8\nLocatie: People's Place (Stadhouderskade 5, Amsterdam)\n\nDe Deense electropopzangeres M\u00d8 (Karen Marie \u00d8rsted) + band is na overtuigende optredens op PITCH Festival en London Calling terug in Amsterdam voor haar eerste Nederlandse headline concert. Het langverwachte debuutalbum van M\u00d8 heet No Mythologies To Follow en komt uit op 24 februari 2014. Tot die tijd heeft ze ons via de blogosphere al warm kunnen maken via de singles Pilgrim, Waste of Time en  XXX 88 feat. Diplo. Na tournees met Aluna George en Major Lazor is het nu aan  M\u00d8 zelf om te schitteren!\n\naanvang 21.00 uur | zaal open 20.00 uur | entree \u20ac 13,- incl. daglidmaatschap", 
@@ -388,6 +442,12 @@
   {
    "name": "Anna Calvi @ Paradiso Amsterdam", 
    "start_time": "2014-03-23T20:30:00+0100", 
+   "imageurl": {
+    "source": "https:\\/\\/fbcdn-sphotos-c-a.akamaihd.net\\/hphotos-ak-ash3\\/t1.0-9\\/s720x720\\/1897829_263544077141567_916345290_n.jpg", 
+    "cover_id": 263544077141567, 
+    "offset_x": 0, 
+    "offset_y": 29
+   }, 
    "location": "Paradiso Amsterdam", 
    "eventdata": {
     "description": "Anna Calvi is naar eigen zeggen be\u00efnvloed door zangeressen als Maria Callas, Nina Simone, klassieke componisten als Ravel en Debussy en vrijzinnige rockers als David Bowie, Nick Cave en Captain Beefheart. Deze mengelmoes aan invloeden wordt door Anna Calvi samengesmolten tot emotioneel geladen popmuziek met een mysterieuze, ietwat donkere sfeer en een excentrieke intensiteit in haar zang en gitaarspel. Het nieuwe album \u2018One Breath\u2019 werd begin oktober uitgebracht op Domino Records.\n\nZONDAG 23 MAART 2014 \nANNA CALVI\nVOORVERKOOP VANAF 9 OKTOBER\nAANVANG 20.30 UUR \nZAAL OPEN 19.00 UUR \nENTREE 18,- EXCL. LIDMAATSCHAP (3,50 P.M. / 25,- P.J.)", 
@@ -430,6 +490,12 @@
   {
    "name": "Paradisolo - Shinedoe - Zaterdag 22 maart - Paradiso", 
    "start_time": "2014-03-22T23:30:00+0100", 
+   "imageurl": {
+    "source": "https:\\/\\/fbcdn-sphotos-c-a.akamaihd.net\\/hphotos-ak-ash3\\/t1.0-9\\/s720x720\\/1897829_263544077141567_916345290_n.jpg", 
+    "cover_id": 263544077141567, 
+    "offset_x": 0, 
+    "offset_y": 29
+   }, 
    "location": "Paradiso Amsterdam", 
    "eventdata": {
     "description": "ZAAL OPEN 23.30 - 05.00 UUR\nENTREE 15,- incl. daglidmaatschap \nTICKETS VIA: http://www.ticketmaster.nl/event/123733?brand=nl_paradiso&camefrom=paradiso\n\nEen nieuwe maandelijkse clubavond waarin \u00e9\u00e9n dj centraal staat. Tijdens Paradisolo draait de hele avond om \u00e9\u00e9n dj die zijn of haar muziek, sfeer en favoriete dj\u00b4s meebrengt. Het komende jaar gaan onder andere Michel de Hey, Melon, Steve Rachmad & Benny Rodrigues solo in Paradiso. De tweede dj in deze nieuwe reeks is Shinedoe, met support van Tom Ruijg en VJ Pablo Dias.\n\nShinedoe is de Amsterdamse dj die internationaal furore maakte en oprichtster is van het label Intacto Records. Haar unieke visie op elektronische dansmuziek, haar talent als dj en haar ondernemende geest hebben Shinedoe vooruit doen schieten als boegbeeld van de house en techno-scenes wereldwijd.", 
@@ -474,6 +540,12 @@
   {
    "name": "Elbow @ Paradiso", 
    "start_time": "2014-03-18T21:30:00+0100", 
+   "imageurl": {
+    "source": "https:\\/\\/fbcdn-sphotos-c-a.akamaihd.net\\/hphotos-ak-ash3\\/t1.0-9\\/s720x720\\/1897829_263544077141567_916345290_n.jpg", 
+    "cover_id": 263544077141567, 
+    "offset_x": 0, 
+    "offset_y": 29
+   }, 
    "location": "Paradiso Amsterdam", 
    "eventdata": {
     "description": "De Britse band Elbow komt op dinsdag 18 maart a.s. voor een exclusief optreden naar Paradiso. Dit optreden vindt plaats ter gelegenheid van het nieuwe album The Take Off And Landing Of Everything, dat op vrijdag 7 maart a.s. verschijnt. Tickets voor het Paradiso-optreden kosten \u20ac35 excl. servicekosten en zijn vanaf zaterdag 8 maart a.s. om 10:00 uur te koop.\n\nThe Take Off And Landing Of Everything werd opgenomen in de eigen studio van de band en als altijd geproduceerd door toetsenist Craig Potter. De plaat is het vervolg op het succesvolle Build a Rocket Boys! Eerste single van het nieuwe album is New York Morning en staat al enkele weken op de 3FM-playlist.\n\nIntieme show\n\nDe afgelopen jaren bouwde Elbow een warme band op met Nederland. Na succesvolle shows op onder andere Lowlands, Pinkpop en in een uitverkochte Heineken Music Hall is de band uit Manchester komende zomer afsluiter op Best Kept Secret Festival (zondag 22 juni). Maar eerst keert de band begin volgende maand voor \u00e9\u00e9n keer terug naar Paradiso voor een intieme show.\n\nTicketinfo\n\nKaarten voor dit exclusieve optreden van Elbow kosten \u20ac35 excl. servicekosten en zijn alleen verkrijgbaar via Ticketmaster.nl en de site van Paradiso. De ticketverkoop start op zaterdag 8 maart a.s. om 10:00 uur. Het aantal tickets is beperkt.", 
@@ -516,6 +588,12 @@
   {
    "name": "TRAUMAHELIKOPTER & WHITE SLICE @ Bitterzoet, 8 maart", 
    "start_time": "2014-03-08T20:00:00+0100", 
+   "imageurl": {
+    "source": "https:\\/\\/fbcdn-sphotos-c-a.akamaihd.net\\/hphotos-ak-ash3\\/t1.0-9\\/s720x720\\/1897829_263544077141567_916345290_n.jpg", 
+    "cover_id": 263544077141567, 
+    "offset_x": 0, 
+    "offset_y": 29
+   }, 
    "location": "Paradiso Amsterdam", 
    "eventdata": {
     "description": "Paradiso presenteert traumahelikopter & white slice in Bitterzoet. Adres: Spuistraat 2, Amsterdam.\n\nPrecies een jaar na het uitbrengen van hun titelloze debuut wordt \u201cde tweede traumahelikopter\u201d aangekondigd, getiteld: \u2018I Don\u2019t Understand Them At All\u2019. Op dit tweede album kruipen we in het hoofd van frontman Mark Lada. Hij schrijft over vervreemding, eenzaamheid en wanhoop. Lada komt met ijzersterke melodie\u00ebn en vakkundig geschreven liedjes, terwijl de minimale set-up van de band  ervoor zorgt dat er niet teveel van de essentie, rock \u2018n roll, wordt afgeweken. Teksten laten de band\u2019s liefde voor ironie blijken, met een nummer als \u2018Last Night I Dreamed I Killed Myself\u2019 als de ultieme sing-a-long. \u201cMensen maken me bang\u201d, en \u201cde wereld is lelijk\u201d, zegt Lada, maar hij had zijn outsider feelings niet op een catchier wijze kunnen vatten.\n\nZATERDAG 8 MAART 2014 \nTRAUMAHELIKOPTER - LOCATIE: BITTERZOET\nVOORPROGRAMMA: WHITE SLICE\n\nVOORVERKOOP VANAF 18 JANUARI\nBITTERZOET, HOOFDPROGRAMMA 21.00 UUR \nVOORPROGRAMMA 20.00 UUR \nZAAL OPEN 19.30 UUR \n\nENTREE 10,- INCL. DAGLIDMAATSCHAP\nInfo: http://www.paradiso.nl/web/Agenda-Item/Traumahelikopter-Locatie-Bitterzoet.htm", 
@@ -558,6 +636,12 @@
   {
    "name": "5 Days Off | Day 4 Paradiso: NILS FRAHM", 
    "start_time": "2014-03-08T20:00:00+0100", 
+   "imageurl": {
+    "source": "https:\\/\\/fbcdn-sphotos-c-a.akamaihd.net\\/hphotos-ak-ash3\\/t1.0-9\\/s720x720\\/1897829_263544077141567_916345290_n.jpg", 
+    "cover_id": 263544077141567, 
+    "offset_x": 0, 
+    "offset_y": 29
+   }, 
    "location": "Paradiso", 
    "eventdata": {
     "description": "De Berlijnse neoklassieke componist Nils Frahm is van origine een pianist. De afgelopen jaren heeft hij vooral naam gemaakt met zijn unieke mix van electronica en klassieke muziek. Op de zaterdag komt hij naar Paradiso met een compleet nieuwe elektronische en meer club geori\u00ebnteerde show.\n\nTickets: http://bit.ly/18AH0df\n\nwww.5daysoff.nl", 
@@ -590,6 +674,12 @@
   {
    "name": "Rokia Traor\u00e9 @ Paradiso", 
    "start_time": "2014-03-06T20:00:00+0100", 
+   "imageurl": {
+    "source": "https:\\/\\/fbcdn-sphotos-c-a.akamaihd.net\\/hphotos-ak-ash3\\/t1.0-9\\/s720x720\\/1897829_263544077141567_916345290_n.jpg", 
+    "cover_id": 263544077141567, 
+    "offset_x": 0, 
+    "offset_y": 29
+   }, 
    "location": "Paradiso Amsterdam", 
    "eventdata": {
     "description": "Rokia Traor\u00e9 is een singer-songwriter uit Mali, die op haar onlangs verschenen album \u2018Beautiful Africa\u2019 Malinese muziek maakt met een universele aantrekkingskracht. Ze verweeft Malinese ritmes en instrumenten, blues, het rockabillygeluid van haar elektrische Gretsch-gitaar en haar fantastische stem tot een avontuurlijke sound. Als dochter van een Malinese diplomaat groeide de jonge Rokia op in Europa, het Midden-Oosten en de Verenigde Staten. Zo ontwikkelde ze een kosmopolitische muzikale visie, die later in Mali vorm kreeg. \n\nMet dj Mombasa.\n\nRokia Traore\ndonderdag 6 maart 2014\nParadiso, Amsterdam\naanvang: 20.00 uur \nzaal open: 19.00 uur \nentree: \u20ac 22,50 excl. lidmaatschap (3,50 p.m. / 25,- p.j.)\nhttp://www.paradiso.nl/web/Agenda-Item/Rokia-Traore.htm", 
@@ -632,6 +722,12 @@
   {
    "name": "Sam Smith @ People's Place", 
    "start_time": "2014-03-05T21:00:00+0100", 
+   "imageurl": {
+    "source": "https:\\/\\/fbcdn-sphotos-c-a.akamaihd.net\\/hphotos-ak-ash3\\/t1.0-9\\/s720x720\\/1897829_263544077141567_916345290_n.jpg", 
+    "cover_id": 263544077141567, 
+    "offset_x": 0, 
+    "offset_y": 29
+   }, 
    "location": "People's Place", 
    "eventdata": {
     "description": "Paradiso presenteert:\nSam Smith \n\nSam Smith is bekend geworden als gastzanger op Disclosure\u2019s single \u2018Latch\u2019 en Naughty Boy\u2019s hit \u2018La La La\u2019. Deze jonge Britse zanger met indrukwekkend flexibele stem geeft op 5 maart zijn eerste Nederlandse optreden in People\u2019s Place. Zijn Nirvana EP is nu uit; zijn debuutalbum volgt volgend jaar. Hou hem in de gaten!\n\nlocatie: PEOPLE'S PLACE\naanvang: 21.00 uur | zaal open: 20.00 uur\nentree: \u20ac 13,- (incl. daglidm.)\nhttp://www.paradiso.nl/web/Agenda-Item/Sam-Smith-Locatie-Peoples-Place.htm", 

@@ -68,7 +68,7 @@
  }, 
  "phone": "020-344 64 00", 
  "link": "https://www.facebook.com/amsterdamsupperclub", 
- "checkins": 25717, 
+ "checkins": 25720, 
  "about": "www.supperclub.com", 
  "name": "Supperclub Amsterdam", 
  "restaurant_services": {
@@ -89,6 +89,6 @@
   "offset_y": 0
  }, 
  "public_transit": "by tram 1,2 and 5", 
- "were_here_count": 25717, 
+ "were_here_count": 25720, 
  "is_published": true
 }
