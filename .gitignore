@@ -1,3 +1,9 @@
+# MAC files
+.DS_Store
+
+# Access token
+access_token.txt
+
 *.py[cod]
 
 # C extensions
