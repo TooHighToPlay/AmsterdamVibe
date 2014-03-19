@@ -37,10 +37,15 @@ DUMMY_EVENT = {
 
 
 def list(request):
+    # we should query the local datastore via sparql here and get
+    # the events
     events = [DUMMY_EVENT for i in range(7)]
 
     return render_to_response('list.html', {'events': events})
 
 
 def details(request, id):
+    # we should query the local datastore via sparql here to
+    # get the details for this event
+
     return render_to_response('details.html', {'event': DUMMY_EVENT})
