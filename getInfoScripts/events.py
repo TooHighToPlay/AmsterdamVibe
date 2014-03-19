@@ -28,6 +28,20 @@ pp(g.get_object('301130305994'), f)
 
 f.close()
 
-# Get people count in the event
+f = open('melkwegEvents.json', 'w')
+
+melkwegEvents = g.get_connections('301130305994', 'events')
+
+pp(melkwegEvents, f)
+
+f.close()
+
+f = open('party.json', 'w')
+
+party = g.get_object('270503946447477')
+
+pp(party, f)
+
+f.close()
 
 # Get info about the event

@@ -1,0 +1,35 @@
+{
+ "description": "Het eclectische muziekgezelschap Pink Martini komt met het nieuwste spektakel \u201cGet Happy\u201d naar de Rabozaal. Pink Martini bestaat momenteel uit 13 muzikanten die de meest uiteenlopende talen en muziekstijlen beheersen. Dankzij hun tournees doorheen Europa, Turkije, Taiwan, Japan, Libanon en Amerika absorbeerden ze nog meer muzikale invloeden. Tijdens een concert van hen waan je je achtereenvolgens in een samba parade in Rio, een Cubaans caf\u00e9, een Frans theater uit de jaren dertig, een Italiaans herenhuis of in Japan. Er wordt gezongen in maar liefst vijftien talen, met een doorleefde muzikale begeleiding die schippert tussen klassiek, jazz en pop. \n\ninfo & tickets: http://www.melkweg.nl/nl/agenda/pink-martini", 
+ "privacy": "OPEN", 
+ "start_time": "2014-10-21T19:00:00+0200", 
+ "venue": {
+  "city": "Amsterdam", 
+  "zip": "1017 PH", 
+  "country": "Netherlands", 
+  "longitude": 4.881545849292, 
+  "street": "Lijnbaansgracht 234a", 
+  "latitude": 52.364792734793, 
+  "id": "301130305994"
+ }, 
+ "updated_time": "2014-02-06T10:51:49+0000", 
+ "is_date_only": false, 
+ "location": "Melkweg Amsterdam", 
+ "owner": {
+  "category": "Concert venue", 
+  "name": "Melkweg Amsterdam", 
+  "category_list": [
+   {
+    "id": "179943432047564", 
+    "name": "Concert Venue"
+   }, 
+   {
+    "id": "354275401259620", 
+    "name": "Nightlife"
+   }
+  ], 
+  "id": "301130305994"
+ }, 
+ "timezone": "Europe/Amsterdam", 
+ "id": "270503946447477", 
+ "name": "Pink Martini @ Melkweg Amsterdam"
+}
