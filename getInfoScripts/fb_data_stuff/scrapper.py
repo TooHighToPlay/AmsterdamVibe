@@ -94,6 +94,8 @@ for club in clubList:
 	   		attending = g.get_connections(eventId, 'attending')
 	   		for person in attending['data']:
 	   			personId = unicode(person['id']).encode('utf8')
+	   			# Add to dict, so there will be no duplicates
+	   			dict[personId] = 1
 	   			if personId in dict:
 	   				continue
 	   			driver.get("http://www.facebook.com/" + personId)
