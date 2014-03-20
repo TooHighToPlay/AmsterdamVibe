@@ -1,0 +1,77 @@
+{
+ "website": "www.canvas7.nl", 
+ "talking_about_count": 32, 
+ "category_list": [
+  {
+   "id": "197871390225897", 
+   "name": "Cafe"
+  }, 
+  {
+   "id": "191478144212980", 
+   "name": "Night Club"
+  }, 
+  {
+   "id": "193705277324704", 
+   "name": "Event Planning"
+  }
+ ], 
+ "likes": 6549, 
+ "parking": {
+  "street": 1, 
+  "lot": 0, 
+  "valet": 0
+ }, 
+ "id": "190487453847", 
+ "category": "Club", 
+ "payment_options": {
+  "amex": 1, 
+  "cash_only": 0, 
+  "mastercard": 1, 
+  "visa": 1, 
+  "discover": 0
+ }, 
+ "can_post": true, 
+ "location": {
+  "city": "Amsterdam", 
+  "zip": "1091 GR", 
+  "country": "Netherlands", 
+  "longitude": 4.9118482368018, 
+  "state": "", 
+  "street": "Wibautstraat 150", 
+  "latitude": 52.353904523327
+ }, 
+ "username": "Canvasopde7e", 
+ "restaurant_specialties": {
+  "lunch": 1, 
+  "breakfast": 0, 
+  "coffee": 1, 
+  "dinner": 1, 
+  "drinks": 1
+ }, 
+ "phone": "020-7163817", 
+ "link": "https://www.facebook.com/Canvasopde7e", 
+ "price_range": "$$ (10-30)", 
+ "checkins": 5043, 
+ "about": "Dinner, lunch, cocktails, expositions, clubnights and much more on the top floor of the old Volkskrantbuilding. Open daily!", 
+ "name": "Canvasopde7e", 
+ "restaurant_services": {
+  "delivery": 0, 
+  "kids": 1, 
+  "walkins": 1, 
+  "waiter": 1, 
+  "catering": 0, 
+  "takeout": 1, 
+  "outdoor": 1, 
+  "groups": 1, 
+  "reserve": 1
+ }, 
+ "cover": {
+  "source": "https://scontent-a.xx.fbcdn.net/hphotos-prn1/t1.0-9/s720x720/1545644_10151915694873848_488055845_n.jpg", 
+  "cover_id": "10151915694873848", 
+  "offset_x": 0, 
+  "offset_y": 0
+ }, 
+ "public_transit": "Tram:\nTram 3 stops at the corner of Wibautstraat/ Ruyschstraat. Walk in southern direction and find at your right hand the former Volkskrant building.\n\nSubway:\n# 51, 53 and 54 stop in front the door at the stop Wibautstraat. Take the exit Grensstraat. The last stop is at 0.39 AM.\n\nTrain:\nCanvasopde7e is at 10 minutes from the Amstel Station. The last train stops here at 1:01 AM. Walk from the station to the Prins Berhardsquare (roundabout). Take the the third exit: the Wibautstraat. Canvasopde7e will be found after the viaduct at your left side.\n\nNightbus:\nBus 355 goes from Central Station to the Bijlmermeer and stops at the corner of Wibautstraat/Ruyschstraat. Walk from the stop Wibautstraat in southern direction. On your rightside after \u00b1300mtrs you find Canvasopde7e.", 
+ "were_here_count": 5043, 
+ "is_published": true
+}

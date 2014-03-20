@@ -4,6 +4,9 @@
 # Access token
 access_token.txt
 
+# Credentials
+credentials.txt
+
 *.py[cod]
 
 # C extensions

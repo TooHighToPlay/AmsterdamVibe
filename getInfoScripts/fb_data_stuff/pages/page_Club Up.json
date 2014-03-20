@@ -1,0 +1,54 @@
+{
+ "category": "Arts/entertainment/nightlife", 
+ "username": "DeClubUp", 
+ "about": "De Club Up ", 
+ "talking_about_count": 141, 
+ "likes": 7514, 
+ "description": "De Club Up is onderdeel van De Kring. De club is elke donderdag van 23.00 t/m 04.00 uur open, vrijdag en zaterdag van 23.00 t/m 05.00 uur open. Wij hanteren een minimum leeftijd van 18 jaar. \n\nOp www.clubup.nl vind je onze actuele agenda, maar houd natuurlijk ook de Facebookpagina in de gaten. \n\nBen je iets verloren tijdens een clubavond?\nKijk dan eerst in het lost and found fotoalbum. Of mail naar info@kring.nl of bel naar 020-6236985. ", 
+ "category_list": [
+  {
+   "id": "176139629103647", 
+   "name": "Dance Club"
+  }, 
+  {
+   "id": "133436743388217", 
+   "name": "Arts & Entertainment"
+  }, 
+  {
+   "id": "191478144212980", 
+   "name": "Night Club"
+  }
+ ], 
+ "can_post": true, 
+ "cover": {
+  "source": "https://scontent-a.xx.fbcdn.net/hphotos-frc3/t1.0-9/s720x720/1661042_591264590950108_2115492575_n.jpg", 
+  "cover_id": 591264590950108, 
+  "offset_x": 0, 
+  "offset_y": 0
+ }, 
+ "website": "www.clubup.nl", 
+ "name": "De ClubUp", 
+ "hours": {
+  "sat_1_close": "05:00", 
+  "thu_1_open": "23:00", 
+  "sat_1_open": "23:00", 
+  "thu_1_close": "04:00", 
+  "fri_1_open": "23:00", 
+  "fri_1_close": "05:00"
+ }, 
+ "phone": "020 623 6985", 
+ "link": "https://www.facebook.com/DeClubUp", 
+ "location": {
+  "city": "Amsterdam", 
+  "zip": "1017 RC", 
+  "country": "Netherlands", 
+  "longitude": 4.8833823641746, 
+  "state": "", 
+  "street": "Korte Leidsedwarsstraat 26 - I", 
+  "latitude": 52.363578947487
+ }, 
+ "were_here_count": 12321, 
+ "checkins": 12321, 
+ "id": "117962971613608", 
+ "is_published": true
+}
