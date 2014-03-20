@@ -88,16 +88,18 @@ for club in clubList:
 	   		eventId = event['id']
 	   		attending = g.get_connections(eventId, 'attending')
 	   		for person in attending['data']:
-	   			personId = person['id']
-	   			driver.get("http://www.facebook.com/" + str(personId))
+	   			personId = unicode(person['id']).encode('utf8')
+	   			driver.get("http://www.facebook.com/" + personId)
 	   			lives_in = driver.find_elements_by_class_name("_4_ug")
-	   			test.write(unicode(personId).encode('utf8') + ';')
+	   			#test.write(unicode(personId).encode('utf8') + ';')
+	   			currentPlace = ''
+	   			fromPlace = ''
 	   			for info in lives_in:
 	   				if info.text.startswith('Lives'):
-	   					test.write(info.text.encode('utf8') + ';')
+	   					currentPlace = info.text.encode('utf8')
 	   				if info.text.startswith('From'):
-	   					test.write(info.text.encode('utf8') + ';')
-	   			test.write('\n')
+	   					fromPlace = info.text.encode('utf8')
+	   			test.write(personId + ';' + currentPlace + ';' + fromPlace + '\n')
 	   			test.flush()
 
 test.close()
