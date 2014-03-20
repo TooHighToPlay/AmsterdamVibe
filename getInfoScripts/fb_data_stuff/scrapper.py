@@ -40,8 +40,13 @@ email.send_keys(CREDENTIALS[0])
 password.send_keys(CREDENTIALS[1])
 password.submit()
 
-test = open('user_locations/scrapped.txt', 'w')
-
+# Load data because session expires
+test = open('user_locations/scrapped.txt', 'r')
+dict = dict()
+for line in test:
+	dict[line.strip().split(';')[0]] = 1
+test.close()
+test = open('user_locations/scrapped.txt', 'a')
 
 g = facebook.GraphAPI(ACCESS_TOKEN)
 
@@ -89,6 +94,8 @@ for club in clubList:
 	   		attending = g.get_connections(eventId, 'attending')
 	   		for person in attending['data']:
 	   			personId = unicode(person['id']).encode('utf8')
+	   			if personId in dict:
+	   				continue
 	   			driver.get("http://www.facebook.com/" + personId)
 	   			lives_in = driver.find_elements_by_class_name("_4_ug")
 	   			#test.write(unicode(personId).encode('utf8') + ';')
