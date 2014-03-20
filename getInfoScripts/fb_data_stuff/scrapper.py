@@ -46,7 +46,7 @@ dict = dict()
 for line in test:
 	dict[line.strip().split(';')[0]] = 1
 test.close()
-test = open('user_locations/scrapped.txt', 'a')
+test = open('user_locations/scrapped2.txt', 'a')
 
 g = facebook.GraphAPI(ACCESS_TOKEN)
 
@@ -72,43 +72,28 @@ for club in clubList:
 
 	counter = 0
 
-	# Update event list with info about event under name "eventdata" : {concrete data}
-	for event in eventList['data']:
-		eventId = event['id']
-		# insert data about people attending event
-		attending = g.get_connections(eventId, 'attending')
-		# Scrap nationalities from fb
-	   	for person in attending['data']:
-			personId = person['id']
-			driver.get("http://www.facebook.com/" + str(personId))
-			lives_in = driver.find_elements_by_class_name("_4_ug")
-			for info in lives_in:
-				if info.text.startswith('Lives'):
-					test.write(info.text.encode('utf8') + '\n')
-					test.flush()
-					continue
-		counter+=1
-
-	   	for event in eventList['data']:
-	   		eventId = event['id']
-	   		attending = g.get_connections(eventId, 'attending')
-	   		for person in attending['data']:
-	   			personId = unicode(person['id']).encode('utf8')
-	   			# Add to dict, so there will be no duplicates
-	   			dict[personId] = 1
-	   			if personId in dict:
-	   				continue
-	   			driver.get("http://www.facebook.com/" + personId)
-	   			lives_in = driver.find_elements_by_class_name("_4_ug")
-	   			#test.write(unicode(personId).encode('utf8') + ';')
-	   			currentPlace = ''
-	   			fromPlace = ''
-	   			for info in lives_in:
-	   				if info.text.startswith('Lives'):
-	   					currentPlace = info.text.encode('utf8')
-	   				if info.text.startswith('From'):
-	   					fromPlace = info.text.encode('utf8')
-	   			test.write(personId + ';' + currentPlace + ';' + fromPlace + '\n')
-	   			test.flush()
+   	for event in eventList['data']:
+   		eventId = event['id']
+   		attending = g.get_connections(eventId, 'attending')
+   		for person in attending['data']:
+   			personId = unicode(person['id']).encode('utf8')
+   			# Add to dict, so there will be no duplicates
+   			
+   			if personId in dict:
+   				print personId
+   				continue
+   			driver.get("http://www.facebook.com/" + personId)
+   			lives_in = driver.find_elements_by_class_name("_4_ug")
+   			#test.write(unicode(personId).encode('utf8') + ';')
+   			currentPlace = ''
+   			fromPlace = ''
+   			for info in lives_in:
+   				if info.text.startswith('Lives'):
+   					currentPlace = info.text.encode('utf8')
+   				if info.text.startswith('From'):
+   					fromPlace = info.text.encode('utf8')
+   			test.write(personId + ';' + currentPlace + ';' + fromPlace + '\n')
+   			test.flush()
+   			dict[personId] = 1
 
 test.close()
