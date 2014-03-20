@@ -46,7 +46,7 @@ dict = dict()
 for line in test:
 	dict[line.strip().split(';')[0]] = 1
 test.close()
-test = open('user_locations/scrapped2.txt', 'a')
+test = open('user_locations/scrapped.txt', 'a')
 
 g = facebook.GraphAPI(ACCESS_TOKEN)
 
@@ -80,7 +80,6 @@ for club in clubList:
    			# Add to dict, so there will be no duplicates
    			
    			if personId in dict:
-   				print personId
    				continue
    			driver.get("http://www.facebook.com/" + personId)
    			lives_in = driver.find_elements_by_class_name("_4_ug")
