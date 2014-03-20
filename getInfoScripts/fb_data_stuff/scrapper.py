@@ -95,9 +95,9 @@ for club in clubList:
 	   			for info in lives_in:
 	   				if info.text.startswith('Lives'):
 	   					test.write(info.text.encode('utf8') + ';')
-	   					test.flush()
 	   				if info.text.startswith('From'):
 	   					test.write(info.text.encode('utf8') + ';')
-	   					test.flush()
+	   			test.write('\n')
+	   			test.flush()
 
 test.close()
