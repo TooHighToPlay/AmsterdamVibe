@@ -1,0 +1,71 @@
+{
+ "category": "Club", 
+ "username": "clubnl.nl", 
+ "payment_options": {
+  "amex": 1, 
+  "cash_only": 0, 
+  "mastercard": 1, 
+  "visa": 1, 
+  "discover": 0
+ }, 
+ "restaurant_services": {
+  "delivery": 0, 
+  "kids": 0, 
+  "walkins": 0, 
+  "waiter": 0, 
+  "catering": 0, 
+  "takeout": 0, 
+  "outdoor": 0, 
+  "groups": 0, 
+  "reserve": 1
+ }, 
+ "likes": 3341, 
+ "description": "Club NL is a uniquely stylish nightclub located in the heart of Amsterdam. With its excellent vibe and easy-going staff it serves as the perfect drinking and dancing joint to spend your nights out.\n\nSix nights a week, we offer you the coolest tunes mixed together by some of the best dj\u2019s this city has to offer. They will provide you with a perfect mixture of easy musical atmosphere early-on in the evening, progressively evolving into some truly groovy house tunes as the evening turns into night.\n\nApart from our resident dj line-up we also regularly host clubbing events, boasting famous international dj\u2019s.\nIn the past we\u2019ve already welcomed internationally renowned dj\u2019s like Guy J., Maceo Plex, Dave Seaman, Danny Howells, Trentemoller, Ricardo Villalobos, 16 bit Lolitas, Tod Bodine, Rui da Silva and many more", 
+ "category_list": [
+  {
+   "id": "191478144212980", 
+   "name": "Night Club"
+  }
+ ], 
+ "can_post": true, 
+ "cover": {
+  "source": "https://scontent-a.xx.fbcdn.net/hphotos-prn2/t1.0-9/s720x720/1977050_742178985801535_85018235_n.jpg", 
+  "cover_id": 742178985801535, 
+  "offset_x": 100, 
+  "offset_y": 0
+ }, 
+ "website": "www.clubnl.nl", 
+ "name": "Club NL", 
+ "hours": {
+  "sun_1_close": "03:00", 
+  "sat_1_close": "04:00", 
+  "sun_1_open": "23:00", 
+  "fri_1_close": "04:00", 
+  "thu_1_open": "23:00", 
+  "tue_1_close": "03:00", 
+  "sat_1_open": "23:00", 
+  "mon_1_open": "23:00", 
+  "mon_1_close": "03:00", 
+  "wed_1_open": "23:00", 
+  "wed_1_close": "03:00", 
+  "tue_1_open": "23:00", 
+  "fri_1_open": "23:00", 
+  "thu_1_close": "03:00"
+ }, 
+ "phone": "+31206227510", 
+ "link": "https://www.facebook.com/clubnl.nl", 
+ "location": {
+  "city": "Amsterdam", 
+  "zip": "1012 RK", 
+  "country": "Netherlands", 
+  "longitude": 4.8910081306601, 
+  "state": "", 
+  "street": "Nieuwezijds Voorburgwal 169", 
+  "latitude": 52.372040472725
+ }, 
+ "were_here_count": 7327, 
+ "talking_about_count": 263, 
+ "checkins": 7327, 
+ "id": "145218438830929", 
+ "is_published": true
+}

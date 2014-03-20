@@ -1,0 +1,94 @@
+{
+ "website": "http://www.supperclub.com", 
+ "talking_about_count": 262, 
+ "category_list": [
+  {
+   "id": "176139629103647", 
+   "name": "Dance Club"
+  }, 
+  {
+   "id": "110290705711626", 
+   "name": "Bar"
+  }, 
+  {
+   "id": "191478144212980", 
+   "name": "Night Club"
+  }
+ ], 
+ "likes": 13911, 
+ "parking": {
+  "street": 1, 
+  "lot": 0, 
+  "valet": 0
+ }, 
+ "id": "105797235847", 
+ "category": "Restaurant/cafe", 
+ "payment_options": {
+  "amex": 1, 
+  "cash_only": 0, 
+  "mastercard": 1, 
+  "visa": 1, 
+  "discover": 0
+ }, 
+ "can_post": true, 
+ "location": {
+  "city": "Amsterdam", 
+  "zip": "1012PL", 
+  "country": "Netherlands", 
+  "longitude": 4.8911982226253, 
+  "state": "", 
+  "street": "Jonge Roelensteeg 21", 
+  "latitude": 52.37197008921
+ }, 
+ "attire": "Dressy", 
+ "username": "amsterdamsupperclub", 
+ "description": "freedom is the keyword at supperclub. supperclub is a mix of food, music, performances, art, our staff and... you", 
+ "restaurant_specialties": {
+  "lunch": 0, 
+  "breakfast": 0, 
+  "coffee": 0, 
+  "dinner": 1, 
+  "drinks": 1
+ }, 
+ "hours": {
+  "sun_1_close": "01:00", 
+  "sat_1_close": "03:00", 
+  "sun_1_open": "20:00", 
+  "fri_1_close": "03:00", 
+  "thu_1_open": "20:00", 
+  "tue_1_close": "01:00", 
+  "sat_1_open": "20:00", 
+  "mon_1_open": "20:00", 
+  "mon_1_close": "01:00", 
+  "wed_1_open": "20:00", 
+  "wed_1_close": "01:00", 
+  "tue_1_open": "20:00", 
+  "fri_1_open": "20:00", 
+  "thu_1_close": "01:00"
+ }, 
+ "phone": "020-344 64 00", 
+ "link": "https://www.facebook.com/amsterdamsupperclub", 
+ "checkins": 25729, 
+ "about": "www.supperclub.com", 
+ "name": "Supperclub Amsterdam", 
+ "restaurant_services": {
+  "delivery": 0, 
+  "kids": 0, 
+  "walkins": 0, 
+  "waiter": 1, 
+  "catering": 0, 
+  "takeout": 0, 
+  "outdoor": 0, 
+  "groups": 1, 
+  "reserve": 1
+ }, 
+ "cover": {
+  "source": "https://fbcdn-sphotos-f-a.akamaihd.net/hphotos-ak-frc1/t1.0-9/s720x720/1978780_10151982845580848_1932116961_n.jpg", 
+  "cover_id": "10151982845580848", 
+  "offset_x": 0, 
+  "offset_y": 0
+ }, 
+ "public_transit": "by tram 1,2 and 5", 
+ "were_here_count": 25729, 
+ "is_published": true
+}

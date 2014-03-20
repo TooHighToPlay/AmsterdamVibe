@@ -1,0 +1,78 @@
+{
+ "website": "http://www.bitterzoet.com", 
+ "talking_about_count": 452, 
+ "category_list": [
+  {
+   "id": "176139629103647", 
+   "name": "Dance Club"
+  }, 
+  {
+   "id": "191478144212980", 
+   "name": "Night Club"
+  }, 
+  {
+   "id": "110290705711626", 
+   "name": "Bar"
+  }
+ ], 
+ "likes": 13560, 
+ "parking": {
+  "street": 1, 
+  "lot": 0, 
+  "valet": 0
+ }, 
+ "id": "129786563758412", 
+ "category": "Bar", 
+ "payment_options": {
+  "amex": 0, 
+  "cash_only": 1, 
+  "mastercard": 0, 
+  "visa": 0, 
+  "discover": 0
+ }, 
+ "can_post": true, 
+ "location": {
+  "city": "Amsterdam", 
+  "zip": "1012TS", 
+  "country": "Netherlands", 
+  "longitude": 4.8942700017458, 
+  "state": "", 
+  "street": "Spuistraat 2", 
+  "latitude": 52.377471136074
+ }, 
+ "attire": "Casual", 
+ "username": "BitterzoetAmsterdam", 
+ "description": "Bitterzoet is club maar ook een podium.\n\nGastvrijheid, dialoog, creativiteit, kwaliteit en samenwerking tussen cultuur en bedrijfsleven vormen het uitgangspunt van Bitterzoet. Een transparant en laagdrempelig podium waarop jong en oud kennis, ervaring en idee\u00ebn uitwisselen. Dit proces moet uiteindelijk bijdragen aan creatieve, culturele en sociale vernieuwing.\n\nDe waardering van culturele verschillen zien we als een belangrijke stap in een artistiek proces. Momenteel is de uitwisseling tussen culturen noodzakelijker dan ooit. Daarom wil Bitterzoet een gastvrij podium bieden aan kunstenaars uit diverse culturen en disciplines.\n\nWij nodigen een breed publiek middels projecten, tentoonstellingen, voorstellingen, clubavonden en concerten uit zich bij ons te voegen en met een nieuwe blik naar de wereld te kijken.", 
+ "restaurant_specialties": {
+  "lunch": 0, 
+  "breakfast": 0, 
+  "coffee": 0, 
+  "dinner": 0, 
+  "drinks": 1
+ }, 
+ "phone": "020-42 123 18", 
+ "link": "https://www.facebook.com/BitterzoetAmsterdam", 
+ "checkins": 23796, 
+ "about": "Bitterzoet Amsterdam", 
+ "name": "Bitterzoet Amsterdam", 
+ "restaurant_services": {
+  "delivery": 0, 
+  "kids": 0, 
+  "walkins": 0, 
+  "waiter": 0, 
+  "catering": 0, 
+  "takeout": 0, 
+  "outdoor": 0, 
+  "groups": 1, 
+  "reserve": 0
+ }, 
+ "cover": {
+  "source": "https://scontent-b.xx.fbcdn.net/hphotos-prn2/t1.0-9/s720x720/1898017_650719151665148_1264884316_n.jpg", 
+  "cover_id": 650719151665148, 
+  "offset_x": 52, 
+  "offset_y": 0
+ }, 
+ "public_transit": "Tegenover Centraal Station", 
+ "were_here_count": 23796, 
+ "is_published": true
+}

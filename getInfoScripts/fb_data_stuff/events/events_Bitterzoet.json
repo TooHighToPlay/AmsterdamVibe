@@ -1,0 +1,60 @@
+{
+ "paging": {
+  "cursors": {
+   "after": "NjE0MjA5MzY4NjI2MjQy", 
+   "before": "NjE0MjA5MzY4NjI2MjQy"
+  }, 
+  "next": "https://graph.facebook.com/129786563758412/events?access_token=CAACEdEose0cBADZC2BqWfioOt5tuTihjtSBXb01vGSzScGuKvGevBuk1T7wZAPlTwdjZBBBL9b0db3xQvjRSmAoKUIZBPcwe7Env6l20MvrePfzRQuZCIyygZCdAM8wZBfSvlqo168rYQepONRFfQGKXVHbKtoWsOtqEmnuq4fuupKKsRfcd8sShc1qtUKZA5edEp4hCHkdZCNQZDZD&limit=25&after=NjE0MjA5MzY4NjI2MjQy"
+ }, 
+ "data": [
+  {
+   "attending_total": 412, 
+   "name": "HIGHER GROUND & FRESHCOTTON present YUNG LEAN & SAD BOYS + T.N.O. in concert", 
+   "start_time": "2014-04-02T20:00:00+0200", 
+   "image_url": {
+    "source": "https:\\/\\/fbcdn-sphotos-c-a.akamaihd.net\\/hphotos-ak-ash3\\/t1.0-9\\/s720x720\\/1897829_263544077141567_916345290_n.jpg", 
+    "cover_id": 263544077141567, 
+    "offset_x": 0, 
+    "offset_y": 29
+   }, 
+   "location": "Bitterzoet Amsterdam", 
+   "eventdata": {
+    "description": "\u2730 HIGHER GROUND & FRESHCOTTON \u2730\n\npresent \n\n\u2639 \u2639 YUNG LEAN & SAD BOYS + T.N.O. in concert \u2639 \u2639\n\nHet zijn emotionele tijden, FRESHCOTTON online met een spiksplinter nieuwe website en HIGHR GROUND organiseert zijn eerste concert. Reden genoeg voor FRESHCOTTON & HIGHER GROUND to team up voor een avondje tranendal met YUNG LEAN en THE SAD BOYS CREW. \n\nDe Zweedse rapper YUNG LEAN, doet zijn naam eer aan, hij is namelijk super jong. De online sensatie heeft bizarre raps over Super Mario, Gouden Motorola\u2019s, Morfine en Oreo Milkshakes over wavey beats. De bizarre videoclips tonen wat er bij deze gekwelde geesten omgaat. \n\nDe support act van YUNG LEAN is T.N.O. ofwel The New Originals. De Amsterdamse mannen zijn jong en succesvol en timmeren momenteel hard aan de weg op mode en muziekaal gebied. En dat is niet onopgemerkt gebleven. Ze waren deze zomer al \u00e9\u00e9n van de hoogtepunten van Appelsap. T.N.O. zal zowel een DJ-set verzorgen als Live optreden. Kijk daar naar uit! \n\nMaar de emoties houden hier niet op. Als concert ganger krijg je namelijk ook gratis toegang tot de afterparty met  Lean resident Lantei en sfeer alchimist Urvinho & Faya.\n\n:\u2019( Stay emotional :\u2019(\n\n\u2730 HIGHER GROUND X FRESHCOTTON \u2730\n\n\u25ac\u25ac\u25ac\u25ac \u2639 \u25ac\u25ac\u25ac\u25ac    Main Act    \u25ac\u25ac\u25ac\u25ac \u2639 \u25ac\u25ac\u25ac\u25ac\n\nYUNG LEAN & SAD BOYS  \n\n\u25ac\u25ac\u25ac\u25ac \u2639 \u25ac\u25ac\u25ac\u25ac  Support Act  \u25ac\u25ac\u25ac\u25ac \u2639 \u25ac\u25ac\u25ac\u25ac\n\nT.N.O (The New Originals)\n\n\u25ac\u25ac\u25ac\u25ac \u2639 \u25ac\u25ac\u25ac\u25ac  After-Party   \u25ac\u25ac\u25ac\u25ac \u2639 \u25ac\u25ac\u25ac\u25ac\n\nUrvinho & Faya\nLantei\n\n\u25ac\u25ac\u25ac\u25ac \u2639 \u25ac\u25ac\u25ac  Tickets & Info  \u25ac\u25ac\u25ac\u25ac \u2639 \u25ac\u25ac\u25ac\u25ac\n\n\u2730 Concert \u2730\nVVK \u20ac 15,- excl. service kosten (incl. after-party)\nDeur \u20ac 17,- (incl. after-party)  \n\nTicket link: http://bit.ly/1eM8S1K\n\nZaal opent om 20.00\n\n\u2730 After-party \u2730\nDeur \u20ac 5,- \n\nDeuren openen vanaf 23.00", 
+    "privacy": "OPEN", 
+    "start_time": "2014-04-02T20:00:00+0200", 
+    "venue": {
+     "city": "Amsterdam", 
+     "zip": "1012TS", 
+     "country": "Netherlands", 
+     "longitude": 4.8942700017458, 
+     "street": "Spuistraat 2", 
+     "latitude": 52.377471136074, 
+     "id": "129786563758412"
+    }, 
+    "updated_time": "2014-03-18T19:14:03+0000", 
+    "is_date_only": false, 
+    "location": "Bitterzoet Amsterdam", 
+    "owner": {
+     "category": "Event planning/event services", 
+     "name": "Higher Ground", 
+     "category_list": [
+      {
+       "id": "192119584190796", 
+       "name": "Event"
+      }, 
+      {
+       "id": "193705277324704", 
+       "name": "Event Planning"
+      }
+     ], 
+     "id": "508973905864865"
+    }, 
+    "timezone": "Europe/Amsterdam", 
+    "id": "614209368626242", 
+    "name": "HIGHER GROUND & FRESHCOTTON present YUNG LEAN & SAD BOYS + T.N.O. in concert"
+   }, 
+   "timezone": "Europe/Amsterdam", 
+   "id": "614209368626242"
+  }
+ ]
+}
