@@ -124,6 +124,22 @@ def extractArtistsFromText(text):
 	foundDbpediaArtists = dbpedia_spotlight.getArtistEntities(text)
 	return foundDbpediaArtists
 
+def getArtistEnglishName(artistUri):
+	query = """
+	    PREFIX dbo: <http://dbpedia.org/ontology/>
+	    PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+	    SELECT DISTINCT ?artist_name
+	    WHERE { 
+	    %s foaf:name ?artist_name.
+	  	FILTER(langMatches(lang(?artist_name), "EN")).
+	    }
+	"""%artistUri
+	dbpediaResults = getJsonDBpediaResults(query)
+	if dbpediaResults and len(dbpediaResults)>0:
+		artistName = dbpediaResults[0]["artist_name"]["value"]
+		return artistName
+	return getJsonDBpediaResults(query)
+
 
 # def getArtistOrBandForEntityNames(artist):
 # 	query = """
@@ -146,6 +162,8 @@ def extractArtistsFromText(text):
 # 	results = dbpediaSPARQLWrapper.query().convert()
 
 	return results["results"]["bindings"]
+
+
 
 
 def getUnicodeConverted(text):

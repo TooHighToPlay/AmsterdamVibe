@@ -15,7 +15,7 @@ def getArtistEntities(text):
 	#res=requests.get(dbpedia_spotlight_url,params=get_params,headers=headers)
 	spotlight_json=res.json()
 	entities_uris=[]
-	if spotlight_json and spotlight_json["Resources"]:
+	if spotlight_json and "Resources" in spotlight_json.keys():
 		for entity in spotlight_json["Resources"]:
 			entities_uris.append(entity["@URI"])
 	return entities_uris

@@ -18,7 +18,6 @@ def getSoundCloudTracksIdsForArtist(client,artistName):
 	tracks = client.get('/tracks',q=artistName,limit=number_of_tracks)
 	for track in tracks:
 		track_ids.append(track.id)
-		print track.title
 	return track_ids
 
 if __name__ == "__main__":

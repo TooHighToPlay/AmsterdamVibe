@@ -1,17 +1,24 @@
-from rdflib import Namespace, BNode, Literal, URIRef, RDFS, RDF
+from datetime import datetime
+from os import listdir
+from os.path import isfile, join
+from rdflib import Namespace, BNode, Literal, URIRef, RDFS, RDF, XSD
 from rdflib.graph import Graph, ConjunctiveGraph
 from rdflib.plugins.memory import IOMemory
 import dbpedia
+import dbpedia_spotlight
+import soundcloud_get_tracks
 import simplejson as json
 import sesame
 
-amsterdamVibeUri =  "http://amsterdamvibe.nl#"
+amsterdamVibeUri =  "http://amsterdamvibe.nl/"
 dbpediaOntologyUri = "http://dbpedia.org/ontology/"
-facebookOntologyUri = "http://facebook.com#"
+facebookOntologyUri = "http://facebook.com/"
+soundcloudOntologyUri = "http://soundcloud.com/tracks/"
 
 ns=Namespace(amsterdamVibeUri)
 dbo=Namespace(dbpediaOntologyUri)
 fb=Namespace(facebookOntologyUri)
+sc=Namespace(soundcloudOntologyUri)
 
 store = IOMemory()
 
@@ -53,12 +60,14 @@ def importVenuesFromFile(file_path):
 			venues.append(venue)
 	return venues
 
-def importEventsFromFile(file_path):
+def importEventsFromDirectory(directory_path):
 	eventsToReturn=[]
-	with open(file_path,"r") as f:
-		allEventsJson = json.load(f)
-		for eventJson in allEventsJson["data"]:
-			eventsToReturn.append(eventJson)
+	onlyfiles = [ join(directory_path,f) for f in listdir(directory_path) if isfile(join(directory_path,f)) ]
+	for file_path in onlyfiles:
+		with open(file_path,"r") as f:
+			allEventsJson = json.load(f)
+			for eventJson in allEventsJson["data"]:
+				eventsToReturn.append(eventJson)
 	return eventsToReturn
 
 
@@ -93,12 +102,94 @@ def createGraphForEvents(events):
 		gevent.add((eventUriRef,RDFS.label,Literal(event["name"])))
 		gevent.add((eventUriRef,fb["id"],Literal(event["id"])))
 		gevent.add((eventUriRef,fb["image_url"],Literal(event["image_url"]["source"])))
-		gevent.add((eventUriRef,fb["start_time"],Literal(event["start_time"])))
-		gevent.add((eventUriRef,fb["description"],Literal(event["eventdata"]["description"])))
-		gevent.add((eventUriRef,fb["venue"],URIRef("http://facebook.com/"+event["eventdata"]["venue"]["id"]+"#")))
+
+		start_time_string = event["start_time"]
+		start_time_string_without_timezone = start_time_string.split("+")[0]
+
+		date_added=False
+		#try to add date
+		try:
+			start_time_date = datetime.strptime(start_time_string_without_timezone,'%Y-%m-%dT%H:%M:%S')
+			gevent.add((eventUriRef,fb["start_time"],Literal(start_time_string_without_timezone,datatype=XSD.dateTime)))
+			date_added=True
+		except:
+			print "could not process datetime, try date instead"
+
+		if not date_added:
+			try:
+				start_time_date = datetime.strptime(start_time_string_without_timezone,'%Y-%m-%d')
+				gevent.add((eventUriRef,fb["start_time"],Literal(start_time_string_without_timezone,datatype=XSD.date)))
+			except:
+				print "could not even add event date, something wrong"
+
+		gevent.add((eventUriRef,fb["location"],Literal(event["location"])))
+		
+		if "eventdata" in event.keys():
+			if("description" in event["eventdata"].keys()):
+				gevent.add((eventUriRef,fb["description"],Literal(event["eventdata"]["description"])))
+			if("venue" in event["eventdata"].keys() and "id" in event["eventdata"]["venue"].keys()):
+				gevent.add((eventUriRef,fb["venue"],URIRef("http://facebook.com/"+event["eventdata"]["venue"]["id"]+"#")))
 		gevent.add((eventUriRef,fb["attending_total"],Literal(event["attending_total"])))
 
-		#TODO: add info about artists and genres
+	return g.serialize(format="n3")
+
+def getRdfUri(uri):
+	return "<"+uri+">"
+
+def createGraphForEventArtistsAndGenres(events):
+	g=ConjunctiveGraph(store=store)
+	g.bind("av",ns)
+	g.bind("sc",sc)
+	g.bind("dbo",dbo)
+	g.bind("fb",fb)
+	
+	count =0 
+	allArtistUris = []
+	for event in events:
+		eventUriRef = URIRef("http://facebook.com/"+event["id"])
+
+		gevent = Graph(store=store,identifier=eventUriRef)
+		
+		if "eventdata" in event.keys():
+			if("description" in event["eventdata"].keys()):
+				description = event["eventdata"]["description"]
+				genres = dbpedia.extractMusicGenreNamesFromText(description)
+				for dbpediaGenreUri in genres:
+					gevent.add((eventUriRef,ns["genre"],URIRef(dbpediaGenreUri)))
+				artists = dbpedia_spotlight.getArtistEntities(description)
+				for artistUri in artists:
+					gevent.add((eventUriRef,ns["relatedArtist"],URIRef(artistUri)))
+					if artistUri not in allArtistUris:
+						allArtistUris.append(artistUri)
+		
+		count = count+1
+
+		print "processed artists for "+str(count)+" out of "+str(len(events))+" events"
+	# if count==2:
+	# 	break
+
+	#now add soundcloud tracks id data to all artists
+
+	count = 0 
+	soundcloudClient = soundcloud_get_tracks.getSoundcloudClient()
+	for artistUri in allArtistUris:
+		artistName = dbpedia.getArtistEnglishName(getRdfUri(artistUri))
+		if(artistName!=None):
+			trackIds = soundcloud_get_tracks.getSoundCloudTracksIdsForArtist(soundcloudClient,artistName)
+			if trackIds and len(trackIds)>0:
+				for trackId in trackIds:
+					artistUriRef = URIRef(artistUri)
+					trackUriRef = sc[str(trackId)]
+					gtrack = Graph(store=store,identifier=trackUriRef)
+					gtrack.add((trackUriRef,RDF.type,sc["track"]))
+					gtrack.add((trackUriRef,sc["id"],Literal(str(trackId))))
+
+					gartist = Graph(store=store,identifier=artistUriRef)
+					gartist.add((artistUriRef,ns["hasTrack"],trackUriRef))
+		count = count+1
+		print "processed soundcloud tracks for "+str(count)+" out of "+str(len(allArtistUris))+" artists"
+
+
 
 	return g.serialize(format="n3")
 
@@ -114,8 +205,12 @@ if __name__=="__main__":
 	venuesGraph = createGraphForVenues(venues)
 
 	#TODO: loop through all files
-	events = importEventsFromFile("fb_data_stuff/events/events_Melkweg.json")
+	events = importEventsFromDirectory("fb_data_stuff/events/")
 	eventsGraph = createGraphForEvents(events)
+	artistAndGenresGraph = createGraphForEventArtistsAndGenres(events)
 
-	sesame.import_content("iwaf1",venuesGraph)
-	sesame.import_content("iwaf1",eventsGraph)
+	with open("test.ttl","w") as f:
+		f.write(artistAndGenresGraph)
+
+	#sesame.import_content("iwaf1",venuesGraph)
+	#sesame.import_content("iwaf1",eventsGraph)
