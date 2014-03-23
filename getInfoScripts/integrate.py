@@ -22,31 +22,6 @@ sc=Namespace(soundcloudOntologyUri)
 
 store = IOMemory()
 
-def createTurtleForEvent(eventid,dbpediaGenres,artists):
-	ns=Namespace(amsterdamVibeNs)
-	dbpediaOntologyNs=Namespace(dbpediaOntologyUri)
-	
-	event = URIRef("http://amsterdamvibe.nl/"+eventid+"#")
-
-	store = IOMemory()
-
-	g=ConjunctiveGraph(store=store)
-	g.bind("av",ns)
-	g.bind("dbo",dbpediaOntologyNs)
-
-	gevent = Graph(store=store,identifier=event)
-
-	print dbpediaGenres
-	for dbpediaGenre in dbpediaGenres:
-		graphGenre = URIRef(dbpediaGenre)
-		gevent.add((event,dbpediaOntologyNs["MusicGenre"],graphGenre))
-
-	for dbpediaArtist in artists:
-		graphArtist = URIRef(dbpediaArtist)
-		gevent.add((event,ns["referenceToArtist"],graphArtist))
-
-	print(g.serialize(format="n3"))
-
 def importVenuesFromFile(file_path):
 	f=open(file_path,"r")
 	venues=[]
@@ -71,12 +46,7 @@ def importEventsFromDirectory(directory_path):
 	return eventsToReturn
 
 
-def createGraphForVenues(venues):
-	g=ConjunctiveGraph(store=store)
-	g.bind("av",ns)
-	g.bind("dbo",dbo)
-	g.bind("fb",fb)
-	
+def createGraphForVenues(g,venues):
 	for venue in venues:
 		venueUriRef = URIRef("http://facebook.com/"+venue["id"]+"#")
 
@@ -86,14 +56,7 @@ def createGraphForVenues(venues):
 		gvenue.add((venueUriRef,fb["id"],Literal(venue["id"])))
 		gvenue.add((venueUriRef,fb["url"],Literal(venue["url"])))
 
-	return g.serialize(format="n3")
-
-def createGraphForEvents(events):
-	g=ConjunctiveGraph(store=store)
-	g.bind("av",ns)
-	g.bind("dbo",dbo)
-	g.bind("fb",fb)
-	
+def createGraphForEvents(g,events):
 	for event in events:
 		eventUriRef = URIRef("http://facebook.com/"+event["id"]+"#")
 
@@ -131,18 +94,10 @@ def createGraphForEvents(events):
 				gevent.add((eventUriRef,fb["venue"],URIRef("http://facebook.com/"+event["eventdata"]["venue"]["id"]+"#")))
 		gevent.add((eventUriRef,fb["attending_total"],Literal(event["attending_total"])))
 
-	return g.serialize(format="n3")
-
 def getRdfUri(uri):
 	return "<"+uri+">"
 
-def createGraphForEventArtistsAndGenres(events):
-	g=ConjunctiveGraph(store=store)
-	g.bind("av",ns)
-	g.bind("sc",sc)
-	g.bind("dbo",dbo)
-	g.bind("fb",fb)
-	
+def createGraphForEventArtistsAndGenres(g,events):
 	count =0 
 	allArtistUris = []
 	for event in events:
@@ -164,6 +119,9 @@ def createGraphForEventArtistsAndGenres(events):
 		
 		count = count+1
 
+		if count==5:
+			break
+
 		print "processed artists for "+str(count)+" out of "+str(len(events))+" events"
 	# if count==2:
 	# 	break
@@ -173,41 +131,76 @@ def createGraphForEventArtistsAndGenres(events):
 	count = 0 
 	soundcloudClient = soundcloud_get_tracks.getSoundcloudClient()
 	for artistUri in allArtistUris:
-		artistName = dbpedia.getArtistEnglishName(getRdfUri(artistUri))
-		if(artistName!=None):
-			trackIds = soundcloud_get_tracks.getSoundCloudTracksIdsForArtist(soundcloudClient,artistName)
-			if trackIds and len(trackIds)>0:
-				for trackId in trackIds:
-					artistUriRef = URIRef(artistUri)
-					trackUriRef = sc[str(trackId)]
-					gtrack = Graph(store=store,identifier=trackUriRef)
-					gtrack.add((trackUriRef,RDF.type,sc["track"]))
-					gtrack.add((trackUriRef,sc["id"],Literal(str(trackId))))
-
-					gartist = Graph(store=store,identifier=artistUriRef)
-					gartist.add((artistUriRef,ns["hasTrack"],trackUriRef))
+		rdfArtistUri = getRdfUri(artistUri)
+		extractArtistInfoAndAddToGraph(g,rdfArtistUri)
 		count = count+1
-		print "processed soundcloud tracks for "+str(count)+" out of "+str(len(allArtistUris))+" artists"
+		print "processed artist info for "+str(count)+" out of "+str(len(allArtistUris))+" artists"
 
+def extractArtistInfoAndAddToGraph(g,rdfArtistUri):
+	artistName = dbpedia.getArtistEnglishName(rdfArtistUri)
 
+	if(artistName!=None):
+		#attach to it dbpedia data
+		artistUriRef = URIRef(artistUri)
+		gartist = Graph(store=store,identifier=artistUriRef)
 
-	return g.serialize(format="n3")
+		gartist.add((artistUriRef,RDFS.label,Literal(artistName)))
+		gartist.add((artistUriRef,RDF.type,ns["ArtistEntity"]))
 
+		commentDbpediaData = dbpedia.getArtistComment(rdfArtistUri)
+		if "comment" in commentDbpediaData[0].keys():
+			gartist.add((artistUriRef,RDFS.comment,Literal(commentDbpediaData[0]["comment"]["value"])))
 
-def processDescriptionText(eventid,text,dbpediaGenres):
-	dbpediaGenresFoundInText = dbpedia.extractMusicGenreNamesFromText(dbpediaGenres,text)
-	dbpediaArtistsFoundInText = dbpedia.extractArtistsFromText(text)
+		thumbnailDbpediaData = dbpedia.getArtistThumbnail(rdfArtistUri)
+		if "thumbnail" in thumbnailDbpediaData[0].keys():
+			gartist.add((artistUriRef,dbo["thumbnail"],Literal(thumbnailDbpediaData[0]["thumbnail"]["value"])))
 
-	createTurtle(eventId,processDescriptionText,)
+		genresDbpediaData = dbpedia.getArtistGenres(rdfArtistUri)
+		for genre in genresDbpediaData:
+			gartist.add((artistUriRef,dbo["MusicGenre"],Literal(genre["genre"]["value"])))
+
+		#attach soundcloud data
+		trackIds = soundcloud_get_tracks.getSoundCloudTracksIdsForArtist(soundcloudClient,artistName)
+		if trackIds and len(trackIds)>0:
+			for trackId in trackIds:
+				trackUriRef = sc[str(trackId)]
+				gtrack = Graph(store=store,identifier=trackUriRef)
+				gtrack.add((trackUriRef,RDF.type,sc["track"]))
+				gtrack.add((trackUriRef,sc["id"],Literal(str(trackId))))
+
+				gartist.add((artistUriRef,ns["hasTrack"],trackUriRef))
+
+def createGraphForGenres(g,genreNames,genreRelations):
+	for genre in genreNames:
+		genreUri = URIRef(genre["genre"]["value"])
+		ggenre = Graph(store=store,identifier=genreUri)
+		ggenre.add((genreUri,RDFS.label,Literal(genre["genre_name"]["value"])))
+		ggenre.add((genreUri,RDF.type,dbo["MusicGenre"]))
+
+	for genreRelation in genreRelations:
+		genre1UriRef = URIRef(genreRelation["genre1"]["value"])
+		genre2UriRef = URIRef(genreRelation["genre2"]["value"])
+		relationUriRef = URIRef(genreRelation["relation"]["value"])
+		ggenre = Graph(store=store,identifier=genre1UriRef)
+		ggenre.add((genre1UriRef,relationUriRef,genre2UriRef))
 
 if __name__=="__main__":
 	venues = importVenuesFromFile("fb_data_stuff/venues.txt")
-	venuesGraph = createGraphForVenues(venues)
-
-	#TODO: loop through all files
 	events = importEventsFromDirectory("fb_data_stuff/events/")
-	eventsGraph = createGraphForEvents(events)
-	artistAndGenresGraph = createGraphForEventArtistsAndGenres(events)
+	#genreRelations = dbpedia.getDBpediaGenreRelations()
+	#genreNames = dbpedia.getDbpediaMusicGenres()
+
+	g=ConjunctiveGraph(store=store)
+	g.bind("av",ns)
+	g.bind("sc",sc)
+	g.bind("dbo",dbo)
+	g.bind("fb",fb)
+
+	#eventsGraph = createGraphForEvents(events)
+	venuesGraph = createGraphForVenues(g,venues)
+	artistAndGenresGraph = createGraphForEventArtistsAndGenres(g,events)
+
+	#genreRelationsGraph = createGraphForGenres(genreNames,genreRelations)
 
 	with open("test.ttl","w") as f:
 		f.write(artistAndGenresGraph)

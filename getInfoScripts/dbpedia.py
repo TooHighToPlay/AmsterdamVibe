@@ -80,8 +80,21 @@ def getDbpediaMusicGenres():
 	    SELECT DISTINCT ?genre ?genre_name
 	    WHERE { 
 	    ?genre a dbo:MusicGenre.
-	  	?genre foaf:name ?genre_name.
+	  	?genre rdfs:label ?genre_name
 	    }
+	"""
+	return getJsonDBpediaResults(query)
+
+def getDBpediaGenreRelations():
+	query = """
+	PREFIX dbo: <http://dbpedia.org/ontology/>
+	SELECT ?genre1 ?relation ?genre2 WHERE 
+	{
+	?genre1 a dbo:MusicGenre.
+	?genre2 a dbo:MusicGenre.
+	?genre1 ?relation ?genre2.
+	?relation rdfs:range dbo:MusicGenre.
+	}
 	"""
 	return getJsonDBpediaResults(query)
 
@@ -130,14 +143,43 @@ def getArtistEnglishName(artistUri):
 	    PREFIX foaf: <http://xmlns.com/foaf/0.1/>
 	    SELECT DISTINCT ?artist_name
 	    WHERE { 
-	    %s foaf:name ?artist_name.
+	    %s rdfs:label ?artist_name.
 	  	FILTER(langMatches(lang(?artist_name), "EN")).
-	    }
+	    } LIMIT 1
 	"""%artistUri
 	dbpediaResults = getJsonDBpediaResults(query)
 	if dbpediaResults and len(dbpediaResults)>0:
 		artistName = dbpediaResults[0]["artist_name"]["value"]
 		return artistName
+	return getJsonDBpediaResults(query)
+
+def getArtistComment(artistUri):
+	query = """
+		PREFIX dbo: <http://dbpedia.org/ontology/>
+		PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+		select distinct ?artist ?comment WHERE {
+		%s rdfs:comment ?comment.
+		FILTER(langMatches(lang(?comment),"EN")).
+		}
+	"""%artistUri
+	return getJsonDBpediaResults(query)
+
+def getArtistGenres(artistUri):
+	query = """
+		PREFIX dbo: <http://dbpedia.org/ontology/>
+		select distinct ?genre WHERE {
+		%s dbo:genre ?genre.
+		}
+	"""%artistUri
+	return getJsonDBpediaResults(query)
+
+def getArtistThumbnail(artistUri):
+	query = """
+		PREFIX dbo: <http://dbpedia.org/ontology/>
+		select distinct ?thumbnail WHERE {
+		%s dbo:thumbnail ?thumbnail.
+		}
+	"""%artistUri
 	return getJsonDBpediaResults(query)
 
 
