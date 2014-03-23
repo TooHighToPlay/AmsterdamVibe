@@ -24,6 +24,7 @@
         </div>
         <div class="pull-right auth">
                 {% if user.is_authenticated %}
+                    <a class="btn" href="{% url 'import_fb_data' %}">Import FB data</a>
                     <form method="post" action="{% url 'account_logout' %}" class="logout-form">
                         {% csrf_token %}
                         {% if redirect_field_value %}

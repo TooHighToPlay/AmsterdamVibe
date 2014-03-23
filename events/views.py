@@ -1,5 +1,9 @@
-from django.shortcuts import render_to_response
+from django.core.urlresolvers import reverse
+from django.shortcuts import render_to_response, redirect
 from django.template import RequestContext
+
+import facebook
+import requests
 
 
 def home(request):
@@ -60,3 +64,28 @@ def details(request, id):
     # get the details for this event
 
     return render_to_response('details.html', {'event': DUMMY_EVENT}, context_instance=RequestContext(request))
+
+
+def import_fb_data(request):
+    def get_all_data(url):
+        data = []
+        response = g.get_object(url)
+        data.extend(response['data'])
+
+        while 'paging' in response and 'next' in response['paging']:
+            response = requests.get(response['paging']['next']).json()
+            data.extend(response['data'])
+
+        return data
+
+    TOKEN = request.user.socialaccount_set.all()[0].socialtoken_set.all()[0].token
+    g = facebook.GraphAPI(TOKEN)
+
+    events = get_all_data('/me/events')
+    likes = get_all_data('/me/likes')
+    artists = [l for l in likes if l['category'] == 'Musician/band']
+    genres = [l for l in likes if l['category'] == 'Musical genre']
+
+    # TODO: save into RDF store
+
+    return redirect(reverse('event_list'))
