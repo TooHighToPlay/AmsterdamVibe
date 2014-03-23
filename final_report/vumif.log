@@ -1,0 +1,274 @@
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2014.2.21)  23 MAR 2014 18:12
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**vumif
+(./vumif.tex
+LaTeX2e <2011/06/27>
+Babel <3.9f> and hyphenation patterns for 78 languages loaded.
+(/usr/local/texlive/2013/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2007/10/19 v1.4h Standard LaTeX document class
+(/usr/local/texlive/2013/texmf-dist/tex/latex/base/size12.clo
+File: size12.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+(/usr/local/texlive/2013/texmf-dist/tex/latex/base/inputenc.sty
+Package: inputenc 2008/03/30 v1.1d Input encoding file
+\inpenc@prehook=\toks14
+\inpenc@posthook=\toks15
+
+(/usr/local/texlive/2013/texmf-dist/tex/latex/ucs/utf8x.def
+File: utf8x.def 2004/10/17 UCS: Input encoding UTF-8
+))
+(/usr/local/texlive/2013/texmf-dist/tex/latex/ucs/ucs.sty
+Package: ucs 2013/05/11 v2.2 UCS: Unicode input support
+
+(/usr/local/texlive/2013/texmf-dist/tex/latex/ucs/data/uni-global.def
+File: uni-global.def 2013/05/13 UCS: Unicode global data
+)
+\uc@secondtry=\count87
+\uc@combtoks=\toks16
+\uc@combtoksb=\toks17
+\uc@temptokena=\toks18
+)
+(/usr/local/texlive/2013/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
+
+(/usr/local/texlive/2013/texmf-dist/tex/latex/lithuanian/l7xenc.def
+File: l7xenc.def 2008/10/14 v1.96 LaTeX-LT file
+LaTeX Info: Redefining \selectfont on input line 30.
+)
+LaTeX Font Info:    Failed loading font information for L7x+cmr. on input line 
+100.
+LaTeX Font Info:    Try loading font information for L7x+lmr on input line 100.
+
+
+(/usr/local/texlive/2013/texmf-dist/tex/latex/lm/l7xlmr.fd
+File: l7xlmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
+))
+(/usr/local/texlive/2013/texmf-dist/tex/generic/babel/babel.sty
+Package: babel 2013/05/16 v3.9f The Babel package
+
+(/usr/local/texlive/2013/texmf-dist/tex/latex/lithuanian/lithuanian.ldf
+Language: lithuanian 2006/09/20 v0.5 Lithuanian support from the babel system
+
+(/usr/local/texlive/2013/texmf-dist/tex/generic/babel/babel.def
+File: babel.def 2013/05/16 v3.9f Babel common definitions
+\babel@savecnt=\count88
+\U@D=\dimen103
+))) (./VUMIF.sty
+Package: VUMIF 2007/01/29 1.2 VU MIF Style
+(./LTPlius.sty
+Package: LTPlius 2007/01/21 1.3.0 Lithuanian language additions
+ (/usr/local/texlive/2013/texmf-dist/tex/latex/was/icomma.sty
+Package: icomma 2002/03/10 v2.0 (WaS)
+)
+Package babel Info: Making " an active character on input line 66.
+)
+(/usr/local/texlive/2013/texmf-dist/tex/latex/vmargin/vmargin.sty
+Package: vmargin 2004/07/15 V2.5 set document margins (VK)
+
+Package: vmargin 2004/07/15 V2.5 set document margins (VK)
+\PaperWidth=\dimen104
+\PaperHeight=\dimen105
+) (/usr/local/texlive/2013/texmf-dist/tex/latex/setspace/setspace.sty
+Package: setspace 2011/12/19 v6.7a set line spacing
+))
+(/usr/local/texlive/2013/texmf-dist/tex/latex/listings/listings.sty
+(/usr/local/texlive/2013/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks19
+)
+\lst@mode=\count89
+\lst@gtempboxa=\box26
+\lst@token=\toks20
+\lst@length=\count90
+\lst@currlwidth=\dimen106
+\lst@column=\count91
+\lst@pos=\count92
+\lst@lostspace=\dimen107
+\lst@width=\dimen108
+\lst@newlines=\count93
+\lst@lineno=\count94
+\lst@maxwidth=\dimen109
+
+(/usr/local/texlive/2013/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2007/02/22 1.4 (Carsten Heinz)
+\c@lstnumber=\count95
+\lst@skipnumbers=\count96
+\lst@framebox=\box27
+)
+(/usr/local/texlive/2013/texmf-dist/tex/latex/listings/listings.cfg
+File: listings.cfg 2007/02/22 1.4 listings configuration
+))
+Package: listings 2007/02/22 1.4 (Carsten Heinz)
+
+(/usr/local/texlive/2013/texmf-dist/tex/latex/graphics/color.sty
+Package: color 2005/11/14 v1.0j Standard LaTeX Color (DPC)
+
+(/usr/local/texlive/2013/texmf-dist/tex/latex/latexconfig/color.cfg
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package color Info: Driver file: pdftex.def on input line 130.
+
+(/usr/local/texlive/2013/texmf-dist/tex/latex/pdftex-def/pdftex.def
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+
+(/usr/local/texlive/2013/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+)
+(/usr/local/texlive/2013/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count97
+))
+(./vumif.aux)
+\openout1 = `vumif.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 80.
+LaTeX Font Info:    ... okay on input line 80.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 80.
+LaTeX Font Info:    ... okay on input line 80.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 80.
+LaTeX Font Info:    ... okay on input line 80.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 80.
+LaTeX Font Info:    ... okay on input line 80.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 80.
+LaTeX Font Info:    ... okay on input line 80.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 80.
+LaTeX Font Info:    ... okay on input line 80.
+LaTeX Font Info:    Checking defaults for L7x/lmr/m/n on input line 80.
+LaTeX Font Info:    ... okay on input line 80.
+LaTeX Font Info:    Failed loading font information for L7x+cmr. on input line 
+80.
+ (/usr/local/texlive/2013/texmf-dist/tex/latex/ucs/ucsencs.def
+File: ucsencs.def 2011/01/21 Fixes to fontencodings LGR, T3
+)
+\c@lstlisting=\count98
+
+(/usr/local/texlive/2013/texmf-dist/tex/context/base/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count99
+\scratchdimen=\dimen110
+\scratchbox=\box28
+\nofMPsegments=\count100
+\nofMParguments=\count101
+\everyMPshowfont=\toks21
+\MPscratchCnt=\count102
+\MPscratchDim=\dimen111
+\MPnumerator=\count103
+\makeMPintoPDFobject=\count104
+\everyMPtoPDFconversion=\toks22
+)
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 82.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 82.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 82.
+ (/usr/local/texlive/2013/texmf-dist/tex/latex/ucs/data/uni-1.def
+File: uni-1.def 2013/05/13 UCS: Unicode data U+0100..U+01FF
+)
+LaTeX Font Info:    Failed loading font information for L7x+cmr. on input line 
+82.
+ [1
+
+{/usr/local/texlive/2013/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+LaTeX Font Info:    Failed loading font information for L7x+cmr. on input line 
+84.
+LaTeX Font Info:    Failed loading font information for L7x+cmr. on input line 
+84.
+ (./vumif.toc
+LaTeX Font Info:    Failed loading font information for L7x+cmr. on input line 
+3.
+LaTeX Font Info:    Failed loading font information for L7x+cmr. on input line 
+4.
+LaTeX Font Info:    Failed loading font information for L7x+cmr. on input line 
+5.
+LaTeX Font Info:    Failed loading font information for L7x+cmr. on input line 
+7.
+LaTeX Font Info:    Failed loading font information for L7x+cmr. on input line 
+8.
+LaTeX Font Info:    Failed loading font information for L7x+cmr. on input line 
+9.
+)
+\tf@toc=\write3
+\openout3 = `vumif.toc'.
+
+LaTeX Font Info:    Failed loading font information for L7x+cmr. on input line 
+84.
+LaTeX Font Info:    Failed loading font information for L7x+cmr. on input line 
+84.
+
+[2
+
+]
+LaTeX Font Info:    Failed loading font information for L7x+cmr. on input line 
+86.
+LaTeX Font Info:    Failed loading font information for L7x+cmr. on input line 
+90.
+LaTeX Font Info:    Failed loading font information for L7x+cmr. on input line 
+112.
+LaTeX Font Info:    Failed loading font information for L7x+cmr. on input line 
+124.
+LaTeX Font Info:    Failed loading font information for L7x+cmr. on input line 
+134.
+LaTeX Font Info:    Failed loading font information for L7x+cmr. on input line 
+134.
+ [3
+
+]
+LaTeX Font Info:    Failed loading font information for L7x+cmr. on input line 
+134.
+LaTeX Font Info:    Failed loading font information for L7x+cmr. on input line 
+136.
+LaTeX Font Info:    Failed loading font information for L7x+cmr. on input line 
+154.
+LaTeX Font Info:    Failed loading font information for L7x+cmr. on input line 
+156.
+LaTeX Font Info:    Failed loading font information for L7x+cmr. on input line 
+158.
+LaTeX Font Info:    Failed loading font information for L7x+cmr. on input line 
+160.
+LaTeX Font Info:    Failed loading font information for L7x+cmr. on input line 
+162.
+LaTeX Font Info:    Failed loading font information for L7x+cmr. on input line 
+164.
+LaTeX Font Info:    Failed loading font information for L7x+cmr. on input line 
+166.
+LaTeX Font Info:    Failed loading font information for L7x+cmr. on input line 
+169.
+LaTeX Font Info:    Failed loading font information for L7x+cmr. on input line 
+169.
+ [4
+
+] (./vumif.aux) ) 
+Here is how much of TeX's memory you used:
+ 4177 strings out of 493315
+ 55061 string characters out of 6137904
+ 118063 words of memory out of 5000000
+ 7602 multiletter control sequences out of 15000+600000
+ 14812 words of font info for 28 fonts, out of 8000000 for 9000
+ 957 hyphenation exceptions out of 8191
+ 27i,6n,40p,325b,669s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2013/texmf-dist/fonts/enc/dvips/lm/lm-l7x.
+enc}</usr/local/texlive/2013/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></usr/
+local/texlive/2013/texmf-dist/fonts/type1/public/lm/lmr12.pfb>
+Output written on vumif.pdf (4 pages, 65617 bytes).
+PDF statistics:
+ 26 PDF objects out of 1000 (max. 8388607)
+ 17 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 500000)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+

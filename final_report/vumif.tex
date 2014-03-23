@@ -1,0 +1,169 @@
+\documentclass[12pt, a4paper, lithuanian]{article}
+
+\usepackage[utf8x]{inputenc}
+\def\LTfontencoding{L7x}
+\usepackage[\LTfontencoding]{fontenc}
+\usepackage[lithuanian]{babel}
+
+\usepackage{VUMIF}
+\usepackage{listings}
+
+% "define" Scala
+\lstdefinelanguage{scala}{
+  morekeywords={abstract,case,catch,class,def,%
+    do,else,extends,false,final,finally,%
+    for,if,implicit,import,match,mixin,%
+    new,null,object,override,package,%
+    private,protected,requires,return,sealed,%
+    super,this,throw,trait,true,try,%
+    type,val,var,while,with,yield},
+  otherkeywords={=>,<-,<\%,<:,>:,\#,@},
+  sensitive=true,
+  morecomment=[l]{//},
+  morecomment=[n]{/*}{*/},
+  morestring=[b]",
+  morestring=[b]',
+  morestring=[b]""
+}
+
+\usepackage{color}
+\definecolor{dkgreen}{rgb}{0,0.6,0}
+\definecolor{gray}{rgb}{0.5,0.5,0.5}
+\definecolor{mauve}{rgb}{0.58,0,0.82}
+
+
+% Default settings for code listings
+\lstset{frame=tb,
+  language=scala,
+  aboveskip=3mm,
+  belowskip=3mm,
+  showstringspaces=false,
+  columns=flexible,
+  basicstyle={\small\ttfamily},
+  numbers=none,
+  numberstyle=\tiny\color{gray},
+  %keywordstyle=\color{blue},
+  %commentstyle=\color{dkgreen},
+  %stringstyle=\color{mauve},
+  frame=single,
+  breaklines=true,
+  breakatwhitespace=true
+  tabsize=3
+}
+
+% \usepackage[mathcsdepttitle]{VUMIF} % --- matematinės informatikos katedros
+%     titulinio puslapio formatavimas
+
+% Titulinio puslapio reikalai
+\vumifpaper{Project report}
+\title{Amsterdam Vibe}
+\engtitle{Intelligent Web Applications course final project}
+\author{
+    \\
+    Žilvinas Kučinskas \\
+    Student number: 2547940 \\
+    E-mail: zil.kucinskas@gmail.com
+}
+
+\supervisor{
+    Mihnea Dobrescu-Balaur \\
+    Student number: 2549278 \\
+    E-mail: mihnea@linux.com
+}
+\reviewer{
+  Arthur-Ervin Avramiea \\
+  Student number: 2517642 \\
+  E-mail: a.e.avramiea@student.vu.nl
+}
+\date{Amsterdam \\ 2014}
+
+\begin{document}
+
+\maketitle
+
+\tableofcontents
+
+\section{Introduction}
+
+This is comprehensive report of Intelligent Web Applications course final group project.
+
+\subsection{Requirements}
+
+There was the following requirements for the project:
+
+\begin{itemize}
+    \item Use an RDF store.
+
+    \item Use semantic Web reasoning in your RDF store to generate new information.
+
+    \item Integrate at least three data sources.
+
+    \item Present the integrated information in cool, interesting and innovative ways.
+
+    \item Interact with at least one remote SPARQL endpoint (In addition to your local RDF store).
+
+    \item Interact with at least one non RDF Web service.
+
+    \item Write a report about it.
+
+\end{itemize}
+
+
+\subsection{Code}
+
+All code can be found in the following public Github repository:
+
+\begin{itemize}
+
+  \item https://github.com/TooHighToPlay/AmsterdamVibe
+
+  \item or www.amsterdamvibe.nl
+
+\end{itemize}
+
+\subsection{Link to working application}
+
+Working example of the application can be found on the following link:
+
+\begin{itemize}
+
+  \item amsterdamvibe.herokuapp.com
+
+\end{itemize}
+
+\section{Report}
+
+\subsection{Questions to cover}
+
+\begin{itemize}
+  
+    \item the goal of the application (what does it aim to do, and why is this useful?).
+
+    \item the datasets and services used by the application
+
+    \item the functionality of the application (what things does the application do, what is a typical workflow)
+
+    \item the inferencing used by the application (it helps if you give a concrete example).
+
+    \item any other considerations you had during the design and implementation (what worked, what didn't work, what motivated your decision to go for a particular solution)
+
+    \item any future plans you may have (what would you like to add if you had the time?)
+
+\end{itemize}
+
+\subsection{Idea}
+
+\subsection{Goal}
+
+\subsection{Functionality}
+
+\subsection{Datasets and services}
+
+\subsection{Inferencing}
+
+\subsection{Challenges}
+
+\subsection{Future work}
+
+
+\end{document}
