@@ -10,7 +10,42 @@
 
     <div class="container-fluid text-center">
 
-    {% for event in events %}
+    <h2>Suggested Events</h2>
+    {% for event in suggested_events %}
+
+        <article class="event-card panel panel-primary" data-details-url="{% url 'event_details' event.id %}">
+            <header class="panel-heading">
+                <h1 class="panel-title text-center">{{ event.name }}</h1>
+                <br/>
+                <p class="date text-center">{{ event.date }} at {{ event.time }}</p>
+            </header>
+
+
+            <div class="card-body">
+                <img class="img-rounded img-responsive" src="{{ event.img_url }}" alt=""/>
+
+                <ul class="text-center">
+                    {% for genre in event.genres %}
+                        <li class="label label-info">{{ genre }}</li>
+                    {% endfor %}
+                </ul>
+
+                <div class="venue-textbox text-center">
+                    <p>
+                        <a href={{ event.venue.url }}>{{ event.venue.name }}</a>
+                        {{ event.venue.address }}
+                    </p>
+                </div>
+            </div>
+        </article>
+
+    {% endfor %}
+    {% if not suggested_events %}
+        <p>You have to log in to get suggestions.</p>
+    {% endif %}
+
+    <h2>Top Events</h2>
+    {% for event in top_events %}
 
         <article class="event-card panel panel-primary" data-details-url="{% url 'event_details' event.id %}">
             <header class="panel-heading">

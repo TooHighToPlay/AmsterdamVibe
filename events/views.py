@@ -43,9 +43,16 @@ DUMMY_EVENT = {
 def list(request):
     # we should query the local datastore via sparql here and get
     # the events
-    events = [DUMMY_EVENT for i in range(7)]
+    top_events = [DUMMY_EVENT for i in range(7)]
 
-    return render_to_response('list.html', {'events': events}, context_instance=RequestContext(request))
+    suggested_events = None
+    if request.user.is_authenticated():
+        suggested_events = top_events[:3]
+
+    return render_to_response('list.html', {
+            'top_events': top_events,
+            'suggested_events': suggested_events
+        }, context_instance=RequestContext(request))
 
 
 def details(request, id):
