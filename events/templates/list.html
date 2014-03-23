@@ -1,6 +1,7 @@
 {% extends 'site_base.html' %}
 
 {% load staticfiles %}
+{% load socialaccount %}
 
 {% block scripts %}
     <script src="{% static 'js/list.js' %}"></script>
@@ -41,7 +42,12 @@
 
     {% endfor %}
     {% if not suggested_events %}
-        <p>You have to log in to get suggestions.</p>
+        <p>You have to
+            <a title="Facebook" class="socialaccount_provider facebook"
+                href="{% provider_login_url 'facebook' process=process %}">
+                log in
+            </a>
+        to get suggestions.</p>
     {% endif %}
 
     <h2>Top Events</h2>

@@ -1,0 +1,12 @@
+{% extends 'site_base.html' %}
+
+{% load staticfiles %}
+{% load socialaccount %}
+
+
+{% block content %}
+<a title="Facebook" class="socialaccount_provider facebook"
+    href="{% provider_login_url 'facebook' process=process %}">
+        <img src="{% static 'images/fb.png' %}" alt="Log in"/>
+</a>
+{% endblock %}
