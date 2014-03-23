@@ -8,8 +8,8 @@
 \contentsline {subsection}{\numberline {2.2.}Idea}{4}
 \contentsline {subsection}{\numberline {2.3.}Goal}{4}
 \contentsline {subsection}{\numberline {2.4.}Comparison}{5}
-\contentsline {subsection}{\numberline {2.5.}Functionality}{5}
-\contentsline {subsection}{\numberline {2.6.}Datasets and services}{5}
-\contentsline {subsection}{\numberline {2.7.}Inferencing}{5}
-\contentsline {subsection}{\numberline {2.8.}Challenges}{5}
-\contentsline {subsection}{\numberline {2.9.}Future work}{5}
+\contentsline {subsection}{\numberline {2.5.}Functionality}{6}
+\contentsline {subsection}{\numberline {2.6.}Datasets and services}{6}
+\contentsline {subsection}{\numberline {2.7.}Inferencing}{6}
+\contentsline {subsection}{\numberline {2.8.}Challenges}{6}
+\contentsline {subsection}{\numberline {2.9.}Future work}{6}
