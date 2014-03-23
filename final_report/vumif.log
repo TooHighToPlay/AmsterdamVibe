@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2014.2.21)  23 MAR 2014 18:35
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2014.2.21)  23 MAR 2014 19:36
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -184,23 +184,23 @@ LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
 ] [4
 
 ]
-(./vumif.aux) ) 
+[5] (./vumif.aux) ) 
 Here is how much of TeX's memory you used:
  3800 strings out of 493315
  51270 string characters out of 6137904
- 117270 words of memory out of 5000000
+ 118270 words of memory out of 5000000
  7234 multiletter control sequences out of 15000+600000
  7587 words of font info for 27 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
- 39i,7n,40p,301b,669s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/
-cm/cmbx12.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/c
-m/cmr12.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/
-cmsy10.pfb>
-Output written on vumif.pdf (4 pages, 48286 bytes).
+ 39i,7n,40p,575b,669s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfo
+nts/cm/cmbx12.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfon
+ts/cm/cmr12.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts
+/cm/cmsy10.pfb>
+Output written on vumif.pdf (5 pages, 51074 bytes).
 PDF statistics:
- 29 PDF objects out of 1000 (max. 8388607)
- 19 compressed objects within 1 object stream
+ 32 PDF objects out of 1000 (max. 8388607)
+ 21 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
