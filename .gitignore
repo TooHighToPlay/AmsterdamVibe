@@ -43,3 +43,5 @@ nosetests.xml
 .mr.developer.cfg
 .project
 .pydevproject
+
+db.sqlite3
