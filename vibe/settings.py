@@ -24,7 +24,21 @@ SECRET_KEY = 'nvx0o()kmal!$fy$7_yx7wyg8(5gw^pr$kya@4f6u@v$)@l*9('
 DEBUG = True
 
 TEMPLATE_DEBUG = True
-TEMPLATE_DIRS = [os.path.join(BASE_DIR, 'events', 'templates')]
+TEMPLATE_DIRS = [
+    os.path.join(BASE_DIR, 'events', 'templates'),
+]
+
+TEMPLATE_CONTEXT_PROCESSORS = [
+    'django.core.context_processors.request',
+    'allauth.account.context_processors.account',
+    'allauth.socialaccount.context_processors.socialaccount',
+    'django.contrib.auth.context_processors.auth',
+]
+
+AUTHENTICATION_BACKENDS = [
+    'django.contrib.auth.backends.ModelBackend',
+    'allauth.account.auth_backends.AuthenticationBackend',
+]
 
 ALLOWED_HOSTS = []
 
@@ -38,8 +52,31 @@ INSTALLED_APPS = (
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'django.contrib.sites',
     'events',
+    'allauth',
+    'allauth.account',
+    'allauth.socialaccount',
+    'allauth.socialaccount.providers.facebook',
 )
+
+SITE_ID = 2
+
+SOCIALACCOUNT_PROVIDERS = {
+    'facebook': {
+        'SCOPE': [
+            'user_events',
+            'user_likes',
+            'user_friends',
+            'user_location',
+            'friends_events',
+            'friends_location',
+            'friends_likes',
+        ]
+    }
+}
+
+LOGIN_REDIRECT_URL = '/'
 
 MIDDLEWARE_CLASSES = (
     'django.contrib.sessions.middleware.SessionMiddleware',
