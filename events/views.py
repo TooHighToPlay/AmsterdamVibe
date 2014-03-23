@@ -1,7 +1,9 @@
 from django.shortcuts import render_to_response
+from django.template import RequestContext
+
 
 def home(request):
-    return render_to_response('home.html')
+    return render_to_response('home.html', context_instance=RequestContext(request))
 
 
 DUMMY_EVENT = {
@@ -43,11 +45,11 @@ def list(request):
     # the events
     events = [DUMMY_EVENT for i in range(7)]
 
-    return render_to_response('list.html', {'events': events})
+    return render_to_response('list.html', {'events': events}, context_instance=RequestContext(request))
 
 
 def details(request, id):
     # we should query the local datastore via sparql here to
     # get the details for this event
 
-    return render_to_response('details.html', {'event': DUMMY_EVENT})
+    return render_to_response('details.html', {'event': DUMMY_EVENT}, context_instance=RequestContext(request))

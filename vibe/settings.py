@@ -26,6 +26,7 @@ DEBUG = True
 TEMPLATE_DEBUG = True
 TEMPLATE_DIRS = [
     os.path.join(BASE_DIR, 'events', 'templates'),
+    os.path.join(BASE_DIR, 'templates'),
 ]
 
 TEMPLATE_CONTEXT_PROCESSORS = [
