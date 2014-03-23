@@ -216,6 +216,8 @@ Working example of the application can be found on the following link:
 
   \item DBPedia Spotlight service
 
+  \item DBPedia data set
+
   \item Sesame data store.
 
 \end{itemize}
@@ -224,7 +226,13 @@ Working example of the application can be found on the following link:
 
 \subsection{Challenges}
 
+  There was some challenges making this application and some cool features was dismissed because lack of information and time. First of all, Amsterdam Vibe application was intended to distinguish events, focuse to local people from more internationally oriented events. But there was obstacle, because Facebook API does not let to take information about user, specifically where he lives and where he is from, if retriever is not friend with that person. Web Scrapper was written with Watir/Selenium to login and fetch information about users, but it's too slow for the first release of Amsterdam Vibe.
+  Secondly, there was not enough information about music artists sometimes. Idea to fetch that information from site mentioned earlier, partyflock.nl, was proposed. Proof of concept was tested by writing a web scrapper, but that was also dismissed due to lack of time.
+
 \subsection{Future work}
 
+  For the next release of Amsterdam Vibe, it would be awesome to implement features, which was dismissed due to lack of time. It should be possible to maintain information locally about artists and people attending to events, and casually run scrapper jobs to get the latest information. So Amsterdam Vibe application could provide even more comprehensive data about events.
+
+  In addition, it could be possible to analyze countries, from where people come to the event. It is possible that it would factor some people's decision of attending to specific events.
 
 \end{document}

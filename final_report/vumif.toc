@@ -10,6 +10,6 @@
 \contentsline {subsection}{\numberline {2.4.}Comparison}{5}
 \contentsline {subsection}{\numberline {2.5.}Functionality}{6}
 \contentsline {subsection}{\numberline {2.6.}Datasets and services}{6}
-\contentsline {subsection}{\numberline {2.7.}Inferencing}{6}
-\contentsline {subsection}{\numberline {2.8.}Challenges}{6}
-\contentsline {subsection}{\numberline {2.9.}Future work}{6}
+\contentsline {subsection}{\numberline {2.7.}Inferencing}{7}
+\contentsline {subsection}{\numberline {2.8.}Challenges}{7}
+\contentsline {subsection}{\numberline {2.9.}Future work}{7}
