@@ -4,6 +4,7 @@ from django.template import RequestContext
 
 import facebook
 import requests
+import sparql
 
 
 def home(request):
@@ -89,3 +90,21 @@ def import_fb_data(request):
     # TODO: save into RDF store
 
     return redirect(reverse('event_list'))
+
+
+def sparql_query(query, endpoint):
+    """
+    Runs the given (string) query against the given endpoint,
+    returns a list of dicts with the variables' values.
+    """
+    result = sparql.query(endpoint, query)
+
+    data = []
+    for row in result:
+        values = sparql.unpack_row(row)
+        d = {}
+        for i, v in enumerate(values):
+            d[result.variables[i]] = v
+        data.append(d)
+
+    return data
