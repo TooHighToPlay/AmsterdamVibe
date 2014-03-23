@@ -154,16 +154,16 @@
   \global\let\vumifchecktitle\relax
 }
 
-% 'Turinys' centruotas ir pagrindinio teksto šrifto bei dydžio
+% 'Content' centruotas ir pagrindinio teksto šrifto bei dydžio
 \renewcommand\tableofcontents{%
     % Visame dokumente už titulinio lapo:
     % Viršutinė paraštė 2 cm, apatinė paraštė 2 cm,
     % kairė paraštė 3 cm, dešinė paraštė ne mažiau 1.5 cm.
     \setmarginsrb{35mm}{20mm}{15mm}{20mm}{0mm}{0mm}{0mm}{20pt}%
     \pagestyle{plain}%
-    % Turinys su viengubu intervalu tarp eilučių
+    % Content su viengubu intervalu tarp eilučių
     \begin{spacing}{1}%
-    \section*{\normalfont\normalsize\centering\contentsname
+    \section*{\normalfont\normalsize\centering{Table of contents}
         \@mkboth{%
            \MakeUppercase\contentsname}{\MakeUppercase\contentsname}}%
     \@starttoc{toc}%
