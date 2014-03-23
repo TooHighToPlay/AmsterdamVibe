@@ -7,20 +7,19 @@ from rdflib.plugins.memory import IOMemory
 import dbpedia
 import dbpedia_spotlight
 import soundcloud_get_tracks
+import fbdata
 import simplejson as json
 import sesame
 
-amsterdamVibeUri =  "http://amsterdamvibe.nl/"
-dbpediaOntologyUri = "http://dbpedia.org/ontology/"
-facebookOntologyUri = "http://facebook.com/"
-soundcloudOntologyUri = "http://soundcloud.com/tracks/"
+amsterdamVibeUri =  "http://amsterdamvibe.nl#"
+dbpediaOntologyUri = "http://dbpedia.org/ontology#"
+facebookOntologyUri = "http://facebook.com#"
+soundcloudOntologyUri = "http://soundcloud.com#"
 
 ns=Namespace(amsterdamVibeUri)
 dbo=Namespace(dbpediaOntologyUri)
 fb=Namespace(facebookOntologyUri)
 sc=Namespace(soundcloudOntologyUri)
-
-store = IOMemory()
 
 def importVenuesFromFile(file_path):
 	f=open(file_path,"r")
@@ -46,25 +45,27 @@ def importEventsFromDirectory(directory_path):
 	return eventsToReturn
 
 
-def createGraphForVenues(g,venues):
+def createGraphForVenues(store,venues):
 	for venue in venues:
-		venueUriRef = URIRef("http://facebook.com/"+venue["id"]+"#")
+		venueUriRef = URIRef("http://facebook.com/"+venue["id"])
 
 		gvenue = Graph(store=store,identifier=venueUriRef)
-		gvenue.add((venueUriRef,RDF.type,fb["venue"]))
+		gvenue.add((venueUriRef,RDF.type,fb["Venue"]))
 		gvenue.add((venueUriRef,RDFS.label,Literal(venue["name"])))
 		gvenue.add((venueUriRef,fb["id"],Literal(venue["id"])))
 		gvenue.add((venueUriRef,fb["url"],Literal(venue["url"])))
 
-def createGraphForEvents(g,events):
+def createGraphForEvents(store,events,gfacebook_user=None,gfacebook_user_uriref=None):
 	for event in events:
-		eventUriRef = URIRef("http://facebook.com/"+event["id"]+"#")
+		eventUriRef = URIRef("http://facebook.com/"+event["id"])
 
 		gevent = Graph(store=store,identifier=eventUriRef)
-		gevent.add((eventUriRef,RDF.type,fb["event"]))
+		gevent.add((eventUriRef,RDF.type,fb["Event"]))
 		gevent.add((eventUriRef,RDFS.label,Literal(event["name"])))
 		gevent.add((eventUriRef,fb["id"],Literal(event["id"])))
-		gevent.add((eventUriRef,fb["image_url"],Literal(event["image_url"]["source"])))
+
+		if "image_url" in event.keys():
+			gevent.add((eventUriRef,fb["image_url"],Literal(event["image_url"]["source"])))
 
 		start_time_string = event["start_time"]
 		start_time_string_without_timezone = start_time_string.split("+")[0]
@@ -91,13 +92,18 @@ def createGraphForEvents(g,events):
 			if("description" in event["eventdata"].keys()):
 				gevent.add((eventUriRef,fb["description"],Literal(event["eventdata"]["description"])))
 			if("venue" in event["eventdata"].keys() and "id" in event["eventdata"]["venue"].keys()):
-				gevent.add((eventUriRef,fb["venue"],URIRef("http://facebook.com/"+event["eventdata"]["venue"]["id"]+"#")))
-		gevent.add((eventUriRef,fb["attending_total"],Literal(event["attending_total"])))
+				gevent.add((eventUriRef,fb["at_venue"],URIRef("http://facebook.com/"+event["eventdata"]["venue"]["id"])))
+				if "latitude" in event["eventdata"]["venue"].keys() and "longitude" in event["eventdata"]["venue"].keys():
+					gevent.add((eventUriRef,ns["latitude"],Literal(event["eventdata"]["venue"]["latitude"])))
+					gevent.add((eventUriRef,ns["longitude"],Literal(event["eventdata"]["venue"]["longitude"])))
+		
+		if "attending_total" in event.keys():
+			gevent.add((eventUriRef,fb["attending_total"],Literal(event["attending_total"])))
 
-def getRdfUri(uri):
-	return "<"+uri+">"
+		if(gfacebook_user!=None and gfacebook_user_uriref!=None):
+			gfacebook_user.add((gfacebook_user_uriref,ns["was_at"],eventUriRef))
 
-def createGraphForEventArtistsAndGenres(g,events):
+def createGraphForEventArtistsAndGenres(store,events):
 	count =0 
 	allArtistUris = []
 	for event in events:
@@ -119,7 +125,7 @@ def createGraphForEventArtistsAndGenres(g,events):
 		
 		count = count+1
 
-		if count==5:
+		if count==15:
 			break
 
 		print "processed artists for "+str(count)+" out of "+str(len(events))+" events"
@@ -131,13 +137,12 @@ def createGraphForEventArtistsAndGenres(g,events):
 	count = 0 
 	soundcloudClient = soundcloud_get_tracks.getSoundcloudClient()
 	for artistUri in allArtistUris:
-		rdfArtistUri = getRdfUri(artistUri)
-		extractArtistInfoAndAddToGraph(g,rdfArtistUri)
+		extractArtistInfoAndAddToGraph(store,artistUri,soundcloudClient)
 		count = count+1
 		print "processed artist info for "+str(count)+" out of "+str(len(allArtistUris))+" artists"
 
-def extractArtistInfoAndAddToGraph(g,rdfArtistUri):
-	artistName = dbpedia.getArtistEnglishName(rdfArtistUri)
+def extractArtistInfoAndAddToGraph(store,artistUri,soundcloudClient):
+	artistName = dbpedia.getArtistEnglishName(artistUri)
 
 	if(artistName!=None):
 		#attach to it dbpedia data
@@ -147,15 +152,15 @@ def extractArtistInfoAndAddToGraph(g,rdfArtistUri):
 		gartist.add((artistUriRef,RDFS.label,Literal(artistName)))
 		gartist.add((artistUriRef,RDF.type,ns["ArtistEntity"]))
 
-		commentDbpediaData = dbpedia.getArtistComment(rdfArtistUri)
-		if "comment" in commentDbpediaData[0].keys():
+		commentDbpediaData = dbpedia.getArtistComment(artistUri)
+		if commentDbpediaData and "comment" in commentDbpediaData[0].keys():
 			gartist.add((artistUriRef,RDFS.comment,Literal(commentDbpediaData[0]["comment"]["value"])))
 
-		thumbnailDbpediaData = dbpedia.getArtistThumbnail(rdfArtistUri)
-		if "thumbnail" in thumbnailDbpediaData[0].keys():
+		thumbnailDbpediaData = dbpedia.getArtistThumbnail(artistUri)
+		if thumbnailDbpediaData and "thumbnail" in thumbnailDbpediaData[0].keys():
 			gartist.add((artistUriRef,dbo["thumbnail"],Literal(thumbnailDbpediaData[0]["thumbnail"]["value"])))
 
-		genresDbpediaData = dbpedia.getArtistGenres(rdfArtistUri)
+		genresDbpediaData = dbpedia.getArtistGenres(artistUri)
 		for genre in genresDbpediaData:
 			gartist.add((artistUriRef,dbo["MusicGenre"],Literal(genre["genre"]["value"])))
 
@@ -163,19 +168,19 @@ def extractArtistInfoAndAddToGraph(g,rdfArtistUri):
 		trackIds = soundcloud_get_tracks.getSoundCloudTracksIdsForArtist(soundcloudClient,artistName)
 		if trackIds and len(trackIds)>0:
 			for trackId in trackIds:
-				trackUriRef = sc[str(trackId)]
+				trackUriRef = URIRef("http://soundcloud.com/"+str(trackId))
 				gtrack = Graph(store=store,identifier=trackUriRef)
-				gtrack.add((trackUriRef,RDF.type,sc["track"]))
-				gtrack.add((trackUriRef,sc["id"],Literal(str(trackId))))
+				gtrack.add((trackUriRef,RDF.type,ns["Track"]))
+				gtrack.add((trackUriRef,ns["id"],Literal(str(trackId))))
 
 				gartist.add((artistUriRef,ns["hasTrack"],trackUriRef))
 
-def createGraphForGenres(g,genreNames,genreRelations):
+def createGraphForGenres(store,genreNames,genreRelations):
 	for genre in genreNames:
 		genreUri = URIRef(genre["genre"]["value"])
 		ggenre = Graph(store=store,identifier=genreUri)
 		ggenre.add((genreUri,RDFS.label,Literal(genre["genre_name"]["value"])))
-		ggenre.add((genreUri,RDF.type,dbo["MusicGenre"]))
+		ggenre.add((genreUri,RDF.type,ns["MusicGenre"]))
 
 	for genreRelation in genreRelations:
 		genre1UriRef = URIRef(genreRelation["genre1"]["value"])
@@ -184,11 +189,34 @@ def createGraphForGenres(g,genreNames,genreRelations):
 		ggenre = Graph(store=store,identifier=genre1UriRef)
 		ggenre.add((genre1UriRef,relationUriRef,genre2UriRef))
 
-if __name__=="__main__":
-	venues = importVenuesFromFile("fb_data_stuff/venues.txt")
-	events = importEventsFromDirectory("fb_data_stuff/events/")
-	#genreRelations = dbpedia.getDBpediaGenreRelations()
-	#genreNames = dbpedia.getDbpediaMusicGenres()
+def createGraphForFBUser(store,userId,userToken):
+	[genres,artists,userEventsInfo] = fbdata.get_fbuser_data(userToken)
+
+	userUri = URIRef(facebookOntologyUri+str(userId))
+	gfacebook_user = Graph(store=store,identifier=userUri)
+	gfacebook_user.add((userUri,RDF.type,ns["User"]))
+	gfacebook_user.add((userUri,ns["fbid"],Literal(userId)))
+
+	soundcloud_client = soundcloud_get_tracks.getSoundcloudClient()
+	for artist in artists:
+		artistName = artist["name"]
+		dbpediaArtistsWithName = dbpedia.getArtistWithNmae(artistName)
+		if(dbpediaArtistsWithName):
+			artistUri = dbpediaArtistsWithName[0]["artist"]["value"]
+			artistURIRef = URIRef(artistUri)
+			extractArtistInfoAndAddToGraph(store,artistUri,soundcloud_client)
+
+			gfacebook_user.add((userUri,ns["likes"],artistURIRef))
+
+	for genre in genres:
+		genreName = genre["name"]
+		dbpediaGenresWithName = dbpedia.getGenreWithName(genre)
+
+	createGraphForEvents(store,userEventsInfo,gfacebook_user,userUri)
+	createGraphForEventArtistsAndGenres(store,userEventsInfo)
+
+def gatherAndExportGenreData(repo_name):
+	store = IOMemory()
 
 	g=ConjunctiveGraph(store=store)
 	g.bind("av",ns)
@@ -196,14 +224,65 @@ if __name__=="__main__":
 	g.bind("dbo",dbo)
 	g.bind("fb",fb)
 
-	#eventsGraph = createGraphForEvents(events)
-	venuesGraph = createGraphForVenues(g,venues)
-	artistAndGenresGraph = createGraphForEventArtistsAndGenres(g,events)
+	genreRelations = dbpedia.getDBpediaGenreRelations()
+	genreNames = dbpedia.getDbpediaMusicGenres()
+	createGraphForGenres(store,genreNames,genreRelations)
 
-	#genreRelationsGraph = createGraphForGenres(genreNames,genreRelations)
 
-	with open("test.ttl","w") as f:
-		f.write(artistAndGenresGraph)
+	graphString = g.serialize(format="n3")
 
-	#sesame.import_content("iwaf1",venuesGraph)
-	#sesame.import_content("iwaf1",eventsGraph)
+	with open("genres.ttl","w") as f:
+		f.write(graphString)
+
+	response = sesame.import_content(repo_name,graphString)
+
+def gatherAndExportGlobalData(repo_name):
+	store = IOMemory()
+
+	g=ConjunctiveGraph(store=store)
+	g.bind("av",ns)
+	g.bind("sc",sc)
+	g.bind("dbo",dbo)
+	g.bind("fb",fb)
+
+	venues = importVenuesFromFile("fb_data_stuff/venues.txt")
+	events = importEventsFromDirectory("fb_data_stuff/events/")
+	
+
+	createGraphForEvents(store,events)
+	createGraphForVenues(store,venues)
+	createGraphForEventArtistsAndGenres(store,events)
+
+	graphString = g.serialize(format="n3")
+
+	with open("global.ttl","w") as f:
+		f.write(graphString)
+
+	response = sesame.import_content(repo_name,graphString)
+
+def gatherAndExportUserData(repo_name,userId,userToken):
+	store = IOMemory()
+
+	g=ConjunctiveGraph(store=store)
+	g.bind("av",ns)
+	g.bind("sc",sc)
+	g.bind("dbo",dbo)
+	g.bind("fb",fb)
+
+	createGraphForFBUser(store,userId,fbuser_TOKEN)
+
+	graphString = g.serialize(format="n3")
+	with open("user.ttl","w") as f:
+		f.write(graphString)
+
+	response = sesame.import_content(repo_name,graphString)
+
+if __name__=="__main__":
+	repo_name="iwaf1"
+
+	#gatherAndExportGenreData(repo_name)
+	gatherAndExportGlobalData(repo_name)
+
+	fbuser_TOKEN = 'CAACEdEose0cBAF9DcZC3ofCZBQsMjUpEiguQAODaPbHa2OZAVEAeYCf4Is9k4lXP4lwBqQBZAAXd9nlZBJPVf2qYT7YvLozDWN0K10Yy67jZC62tZB4W7CIapxAVjJxpxRAU1JuN292plYCauyPEHtefGUeAQsVeTPoiGO6XX2ZAUI1pxS0zFRbsADejcSAiAzIZD'
+	userId = "12312341234"
+	#gatherAndExportUserData(repo_name,userId,fbuser_TOKEN)

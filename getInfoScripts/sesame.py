@@ -9,9 +9,9 @@ def import_content(repository_name,filecontent):
 	"content-type":"application/x-turtle"
 	}
 	# f=open(file_path,"r")
-	res = requests.put(upload_link,data=filecontent,headers=headers)
+	res = requests.post(upload_link,data=filecontent,headers=headers)
 	# f.close()
-	print res.text
+	return res
 
 if __name__=="__main__":
 	file_name = "fs.ttl"

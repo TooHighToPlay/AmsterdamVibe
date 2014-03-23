@@ -1,10 +1,12 @@
 import facebook
 import json
 import requests
+from pprint import pprint
 
-def get_all_data(url):
+def get_all_data(g,url):
     data = []
     response = g.get_object(url)
+
     data.extend(response['data'])
 
     while 'paging' in response and 'next' in response['paging']:
@@ -13,25 +15,27 @@ def get_all_data(url):
 
     return data
 
-# put your own token here
-TOKEN = ''
 
-# Create a connection to the Graph API with your access token
-g = facebook.GraphAPI(TOKEN)
+def get_fbuser_data(fbtoken):
+	# Create a connection to the Graph API with your access token
+	g = facebook.GraphAPI(fbtoken)
 
-# list of events like
-#{u'id': u'1474661709416555',
-#u'location': u'room EC101, Faculty of Automatic Control and Computers',
-#u'name': u'Ixia Day 2014',
-#u'rsvp_status': u'attending',
-#u'start_time': u'2014-03-27T14:00:00+0200',
-#u'timezone': u'Europe/Bucharest'}
-events = get_all_data('/me/events')
+	userevents = get_all_data(g,'/me/events')
 
-# list of likes like
-# {u'category': u'Travel/leisure', u'created_time': u'2014-03-23T11:23:17+0000', u'name': u'FamilyVacation.com', u'id': u'260157990676396'}
-likes = get_all_data('/me/likes')
+	likes = get_all_data(g,'/me/likes')
 
-artists = [l for l in likes if l['category'] == 'Musician/band']
-genres = [l for l in likes if l['category'] == 'Musical genre']
+	artists = [l for l in likes if l['category'] == 'Musician/band']
+	genres = [l for l in likes if l['category'] == 'Musical genre']
 
+	allEventsInfo = []
+	for event in userevents:
+		event_id = event["id"]
+		event_info = g.get_object("/"+str(event_id))
+		if event_info:
+			allEventsInfo.append(event_info)
+
+	return [genres,artists,allEventsInfo]
+
+if __name__=="__main__":
+	fbuser_TOKEN = 'CAACEdEose0cBAMFV2XY6GvVeZCQxm8GImv5lEqZCEeEY3Y3QGrvXuoZCzQ4jgLeBXcPPvlZCACZABf60BOJi3WhxhGiywxiLqlspA2Uet7ags2NKy8g9oAdpzsrwFbLurAUkGp6trYgPLTeBb6ixWgNsGRKiMR85r95Xk2DMBtTiKZAWyfLO7WTuQrbZBUuqwoZD'
+	get_fbuser_data(fbuser_TOKEN)

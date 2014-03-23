@@ -48,11 +48,19 @@ def extractNamedEntities(text):
 	return namedEntities
 
 def getJsonDBpediaResults(query):
-	dbpediaSPARQLWrapper.setQuery(query)
-	dbpediaSPARQLWrapper.setReturnFormat(JSON)
-	results = dbpediaSPARQLWrapper.query().convert()
+	try:
+		dbpediaSPARQLWrapper.setQuery(query)
+		dbpediaSPARQLWrapper.setReturnFormat(JSON)
+		results = dbpediaSPARQLWrapper.query().convert()
 
-	return results["results"]["bindings"]
+		return results["results"]["bindings"]
+	except Exception as e:
+		print e
+		print query
+		return None
+
+def getRdfUri(uri):
+	return "<"+uri+">"
 
 def getDbpediaArtists():
 	query = """
@@ -138,6 +146,7 @@ def extractArtistsFromText(text):
 	return foundDbpediaArtists
 
 def getArtistEnglishName(artistUri):
+	rdfUri = getRdfUri(artistUri)
 	query = """
 	    PREFIX dbo: <http://dbpedia.org/ontology/>
 	    PREFIX foaf: <http://xmlns.com/foaf/0.1/>
@@ -146,7 +155,7 @@ def getArtistEnglishName(artistUri):
 	    %s rdfs:label ?artist_name.
 	  	FILTER(langMatches(lang(?artist_name), "EN")).
 	    } LIMIT 1
-	"""%artistUri
+	"""%rdfUri
 	dbpediaResults = getJsonDBpediaResults(query)
 	if dbpediaResults and len(dbpediaResults)>0:
 		artistName = dbpediaResults[0]["artist_name"]["value"]
@@ -154,6 +163,7 @@ def getArtistEnglishName(artistUri):
 	return getJsonDBpediaResults(query)
 
 def getArtistComment(artistUri):
+	rdfUri = getRdfUri(artistUri)
 	query = """
 		PREFIX dbo: <http://dbpedia.org/ontology/>
 		PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
@@ -161,25 +171,56 @@ def getArtistComment(artistUri):
 		%s rdfs:comment ?comment.
 		FILTER(langMatches(lang(?comment),"EN")).
 		}
-	"""%artistUri
+	"""%rdfUri
 	return getJsonDBpediaResults(query)
 
 def getArtistGenres(artistUri):
+	rdfUri = getRdfUri(artistUri)
 	query = """
 		PREFIX dbo: <http://dbpedia.org/ontology/>
 		select distinct ?genre WHERE {
 		%s dbo:genre ?genre.
 		}
-	"""%artistUri
+	"""%rdfUri
 	return getJsonDBpediaResults(query)
 
 def getArtistThumbnail(artistUri):
+	rdfUri = getRdfUri(artistUri)
 	query = """
 		PREFIX dbo: <http://dbpedia.org/ontology/>
 		select distinct ?thumbnail WHERE {
 		%s dbo:thumbnail ?thumbnail.
 		}
-	"""%artistUri
+	"""%rdfUri
+	return getJsonDBpediaResults(query)
+
+def getArtistWithNmae(artistName):
+	query = """
+		PREFIX dbo: <http://dbpedia.org/ontology/>
+		select distinct ?artist WHERE {
+		{
+		?artist a dbo:MusicalArtist.
+		?artist rdfs:label ?artist_name.
+		FILTER regex(?artist_name,"%s","i").
+		} UNION {
+		?artist a dbo:Band.
+		?artist rdfs:label ?artist_name.
+		FILTER regex(?artist_name,"%s","i").
+		}
+		}
+	"""%(artistName,artistName)
+	return getJsonDBpediaResults(query)
+
+def getGenreWithName(genreName):
+	query = """
+		PREFIX dbo: <http://dbpedia.org/ontology/>
+		select distinct ?genre WHERE {
+		{
+		?genre a dbo:MusicGenre.
+		?genre rdfs:label ?genreName.
+		FILTER regex(?genreName,"%s","i").
+		}
+	"""%genreName
 	return getJsonDBpediaResults(query)
 
 
