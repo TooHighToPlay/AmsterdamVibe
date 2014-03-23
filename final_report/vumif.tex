@@ -166,7 +166,7 @@ Working example of the application can be found on the following link:
 
   \item Suggest places by providing personalization in Amsterdam Vibe application.
 
-  \item Make it simple and easy to use (that means less user interaction events, for example mouse clicks, to reach relevant information comparing to analyzed alternatives)
+  \item Make it simple and easy to use (that means less user interaction events, for example mouse clicks, to reach relevant information comparing to analyzed alternatives).
 
 \end{itemize}
 
@@ -198,7 +198,7 @@ Working example of the application can be found on the following link:
 
   \item Suggested events - when user logs into Facebook via Amsterdam Vibe application, it suggests events to the user by analyzing their likes and events, which user attended in the past. It tries to find specific genres of music, which would probably user would like.
 
-  \item Top Events - top events of best clubs in Amsterdam sorted out by date, so the nearest event comes first in the agenda
+  \item Top Events - top events of best clubs in Amsterdam sorted out by date, so the nearest event comes first in the agenda.
 
 \end{itemize}
 
@@ -212,21 +212,49 @@ Working example of the application can be found on the following link:
 
 \begin{itemize}
 
-  \item Facebook API
+  \item Facebook API - retrieving events of selected clubs pages, getting description, location, date, price, link, cover photo. Also getting past events and user likes to personalize his content.
 
-  \item SoundCloud API
+  \item SoundCloud API - retrieving music samples by music artirst and embedding into application.
 
-  \item Open Street Map API
+  \item Open Street Map API - visualizing location of place, where event is held.
 
-  \item DBPedia Spotlight service
+  \item DBPedia Spotlight service - extracting music artist entities from description text.
 
-  \item DBPedia data set
+  \item DBPedia data set - getting relevant information about artists.
 
-  \item Sesame data store.
+  \item Sesame data store - saving all information acquired and inferencing rules.
 
 \end{itemize}
 
 \subsection{Inferencing}
+
+Inferencing was used to suggest users events depending on their past likes and events, in which they participated. Here are some rules, which was used in Amsterdam Vibe application:
+
+\begin{itemize}
+  
+    \item IF user at event X AND event X has genre G than user may like X.
+
+    \item IF user at event X AND event X has artist A and NOT(user dislike A)  than user may like A.
+
+    \item IF user (likes or may like) genre G1 and genre G2 related to genre G1 than user may like G2.
+
+    \item IF user (likes or may like) genre G AND artist A has genre G AND NOT (user dislike A) than user may like A.
+
+    \item IF future event F has artist A and user may like artist A than user suggested event F.
+
+    \item IF future event F has artist A and user likes artist A user suggested event F.
+
+    \item IF future event F has genre G AND user may like genre G than user suggested event F.
+  
+    \item IF future event F has genre G AND user likes genre G than user suggested event F.
+
+    \item IF suggested event F AND F has artist A AND user likes A then reason for suggestion A.
+
+    \item IF suggested event F AND F has genre G AND user likes A then reason for suggestion G.
+
+    \item If an event is suggested, and its genre is related to the one of a past event at which the user was present,  than reason for suggestion is (past event, past event genre).
+
+\end{itemize}
 
 \subsection{Challenges}
 
