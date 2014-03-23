@@ -1,8 +1,10 @@
 {% load staticfiles %}
+{% load socialaccount %}
 
 <!DOCTYPE html>
 <html>
 <head>
+    <link rel="stylesheet" type="text/css" href="events/static/css/styles.css"/>
     <title>Amsterdam Vibe</title>
 
     <link rel="stylesheet" href="{% static 'css/bootstrap.css' %}"/>
@@ -19,6 +21,22 @@
     <div class="container-fluid">
         <div class="navbar-header">
             <a class="navbar-brand" href="/">Amsterdam Vibe</a>
+        </div>
+        <div class="pull-right auth">
+                {% if user.is_authenticated %}
+                    <form method="post" action="{% url 'account_logout' %}" class="logout-form">
+                        {% csrf_token %}
+                        {% if redirect_field_value %}
+                            <input type="hidden" name="{{redirect_field_name}}" value="{{redirect_field_value}}"/>
+                        {% endif %}
+                        <input type="submit" value="Log out">
+                    </form>
+                {% else %}
+                    <a title="Facebook" class="socialaccount_provider facebook"
+                    href="{% provider_login_url 'facebook' process=process %}">
+                        <img src="{% static 'images/fb.png' %}" alt="Log in"/>
+                    </a>
+                {% endif %}
         </div>
     </div>
 </nav>

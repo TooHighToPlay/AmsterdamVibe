@@ -49,3 +49,11 @@ body {
     margin-bottom: 5rem;
 }
 
+.logout-form {
+    display: inline-block;
+}
+
+.auth input[type=submit] {
+    height: 4rem;
+    width: 10rem;
+}
