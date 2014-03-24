@@ -3,7 +3,7 @@ from django.core.urlresolvers import reverse
 from django.shortcuts import render_to_response, redirect
 from django.template import RequestContext
 
-from getInfoScripts.sesame_repository import getFutureEvents
+from getInfoScripts.sesame_repository import getFutureEvents, getEventInfoForId
 
 import facebook
 import requests
@@ -42,8 +42,10 @@ def list(request):
 def details(request, id):
     # we should query the local datastore via sparql here to
     # get the details for this event
+    event = getEventInfoForId('vibe', id)
+    event = parse_rdf_event(event)
 
-    return render_to_response('details.html', {'event': DUMMY_EVENT}, context_instance=RequestContext(request))
+    return render_to_response('details.html', {'event': event}, context_instance=RequestContext(request))
 
 
 def import_fb_data(request):

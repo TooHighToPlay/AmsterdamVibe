@@ -26,38 +26,39 @@
             </p>
 
 
-            <strong>Genres:</strong>
-            <ul>
-                {% for genre in event.genres %}
-                    <li class="label">{{ genre }}</li>
-                {% endfor %}
-            </ul>
+            {% if event.genres %}
+                <strong>Genres:</strong>
+                <ul>
+                    {% for genre in event.genres %}
+                        <li class="label">{{ genre }}</li>
+                    {% endfor %}
+                </ul>
+            {% endif %}
 
 
-            <p>Artists:</p>
-            <ul>
-                {% for artist in event.artists %}
-                    <li>{{ artist }}</li>
-                {% endfor %}
-            </ul>
+            {% if event.artists %}
+                <p>Artists:</p>
+                <ul>
+                    {% for artist in event.artists %}
+                        <li>{{ artist }}</li>
+                    {% endfor %}
+                </ul>
+            {% endif %}
 
             <p>{{ event.date }} at {{ event.time }}</p>
 
-            <p>Price: {{ event.price }}</p>
-
-            <p>{{ event.people_going }} people going</p>
+            <p>{{ event.attending_total }} people going</p>
 
         </div>
 
         <div class="col-lg-4">
-            <img src="{{ event.img_url }}" alt=""/>
+            <img class="img-responsive img-rounded" src="{{ event.image_url }}" alt=""/>
 
             <hr/>
 
-            <p><a href="{{ event.venue.url }}">{{ event.venue.name }}</a></p>
-            <p>{{ event.venue.address }}</p>
+            <p><a href="#">{{ event.venue }}</a></p>
 
-            <div id="map" data-lat="{{ event.venue.lat }}" data-lng="{{ event.venue.lng }}"></div>
+            <div id="map" data-lat="{{ event.latitude }}" data-lng="{{ event.longitude }}"></div>
         </div>
 
     </article>

@@ -78,7 +78,7 @@ def getEventInfoForId(repo_name,event_id):
 	"""%event_id
 	event = getQueryResults(repo_name,query)
 	if(event):
-		return getEventInfo(event[0]["event"])
+		return getEventInfo(repo_name, event[0]["event"])
 	else:
 		return None
 
