@@ -93,6 +93,24 @@ def getEventInfo(repo_name,event_uri):
 	else:
 		return None
 
+	queryStartTime=prefixes+"""
+	SELECT DISTINCT ?start_time WHERE{
+	%s fb:start_time ?start_time.
+	}
+	"""%rdfUri
+	eventStartTime=getQueryResults(repo_name,queryStartTime)
+	if(eventStartTime):
+		event["date"]=eventStartTime[0]["start_time"]
+
+	queryImg=prefixes+"""
+	SELECT DISTINCT ?image_url WHERE{
+	%s fb:image_url ?image_url.
+	}
+	"""%rdfUri
+	eventImg=getQueryResults(repo_name,queryImg)
+	if(eventImg):
+		event["image_url"]=eventImg[0]["image_url"]
+
 	queryPosition=prefixes+"""
 	SELECT DISTINCT ?latitude ?longitude WHERE{
 	%s av:latitude ?latitude.
