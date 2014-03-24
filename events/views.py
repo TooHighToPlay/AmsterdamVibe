@@ -2,6 +2,7 @@ import datetime
 from django.core.urlresolvers import reverse
 from django.shortcuts import render_to_response, redirect
 from django.template import RequestContext
+from getInfoScripts import integrate
 
 from getInfoScripts.sesame_repository import getFutureEvents, getEventInfoForId
 
@@ -68,7 +69,7 @@ def import_fb_data(request):
     artists = [l for l in likes if l['category'] == 'Musician/band']
     genres = [l for l in likes if l['category'] == 'Musical genre']
 
-    # TODO: save into RDF store
+    integrate.gatherAndExportUserData('vibe', request.user.socialaccount_set.all()[0].extra_data['id'], TOKEN)
 
     return redirect(reverse('event_list'))
 
