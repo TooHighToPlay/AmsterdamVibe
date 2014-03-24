@@ -40,7 +40,7 @@
                 <p>Artists:</p>
                 <ul>
                     {% for artist in event.artists %}
-                        <li>{{ artist }}</li>
+                        <li>{{ artist.name }} {{ artist.sample_html|safe }}</li>
                     {% endfor %}
                 </ul>
             {% endif %}

@@ -1,16 +1,16 @@
 \select@language {lithuanian}
-\contentsline {section}{\numberline {1.}Introduction}{3}
-\contentsline {subsection}{\numberline {1.1.}Requirements}{3}
-\contentsline {subsection}{\numberline {1.2.}Code}{3}
-\contentsline {subsection}{\numberline {1.3.}Link to working application}{3}
-\contentsline {section}{\numberline {2.}Report}{4}
-\contentsline {subsection}{\numberline {2.1.}Questions to cover}{4}
-\contentsline {subsection}{\numberline {2.2.}Idea}{4}
-\contentsline {subsection}{\numberline {2.3.}Goal}{4}
-\contentsline {subsection}{\numberline {2.4.}Clubs and events}{5}
-\contentsline {subsection}{\numberline {2.5.}Comparison}{5}
-\contentsline {subsection}{\numberline {2.6.}Functionality}{6}
-\contentsline {subsection}{\numberline {2.7.}Datasets and services}{7}
-\contentsline {subsection}{\numberline {2.8.}Inferencing}{7}
-\contentsline {subsection}{\numberline {2.9.}Challenges}{8}
-\contentsline {subsection}{\numberline {2.10.}Future work}{9}
+\contentsline {section}{\numberline {1.}Introduction}{4}
+\contentsline {subsection}{\numberline {1.1.}Requirements}{4}
+\contentsline {subsection}{\numberline {1.2.}Code}{4}
+\contentsline {subsection}{\numberline {1.3.}Link to working application}{4}
+\contentsline {section}{\numberline {2.}Report}{5}
+\contentsline {subsection}{\numberline {2.1.}Questions to cover}{5}
+\contentsline {subsection}{\numberline {2.2.}Idea}{5}
+\contentsline {subsection}{\numberline {2.3.}Goal}{5}
+\contentsline {subsection}{\numberline {2.4.}Clubs and events}{6}
+\contentsline {subsection}{\numberline {2.5.}Comparison}{6}
+\contentsline {subsection}{\numberline {2.6.}Functionality}{7}
+\contentsline {subsection}{\numberline {2.7.}Datasets and services}{8}
+\contentsline {subsection}{\numberline {2.8.}Inferencing}{8}
+\contentsline {subsection}{\numberline {2.9.}Challenges}{9}
+\contentsline {subsection}{\numberline {2.10.}Future work}{10}

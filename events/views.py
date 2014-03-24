@@ -2,7 +2,7 @@ import datetime
 from django.core.urlresolvers import reverse
 from django.shortcuts import render_to_response, redirect
 from django.template import RequestContext
-from getInfoScripts import integrate
+from getInfoScripts import integrate, soundcloud_get_tracks
 
 from getInfoScripts.sesame_repository import getFutureEvents, getEventInfoForId
 
@@ -21,6 +21,11 @@ def parse_rdf_event(event):
     date = dt.strftime('%d %B %Y')
     event['time'] = time
     event['date'] = date
+
+    if 'artists' in event:
+        for i in range(len(event['artists'])):
+            artist = event['artists'][i]
+            artist['sample_html'] = soundcloud_get_tracks.getEmbedHtml(artist['soundcloud_track_ids'][0])
 
     return event
 

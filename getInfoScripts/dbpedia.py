@@ -109,24 +109,24 @@ def getDBpediaGenreRelations():
 def getAndSaveAllDbpediaData():
 	print "getting genres data"
 	musicGenresJson = getDbpediaMusicGenres()
-	f = open("dbpediaGenres.json","w")
+	f = open("getInfoScripts/dbpediaGenres.json","w")
 	json.dump(musicGenresJson,f)
 	f.close()
 
 	print "getting artists data"
 	dbpediaArtistsJson = getDbpediaArtists()
-	f = open("dbpediaArtists.json","w")
+	f = open("getInfoScripts/dbpediaArtists.json","w")
 	json.dump(dbpediaArtistsJson,f)
 	f.close()
 
 def loadGenres():
-	f=open("dbpediaGenres.json","r")
+	f=open("getInfoScripts/dbpediaGenres.json","r")
 	dbpediaGenres = json.load(f)
 	f.close()
 	return dbpediaGenres
 
 def loadArtists():
-	f=open("dbpediaArtists.json","r")
+	f=open("getInfoScripts/dbpediaArtists.json","r")
 	dbpediaArtists = json.load(f)
 	f.close()
 	return dbpediaArtists
