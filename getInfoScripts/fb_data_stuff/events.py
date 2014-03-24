@@ -49,10 +49,14 @@ for club in clubList:
 		party = g.get_object(eventId)
 		# insert data about event
 		eventList['data'][counter]['eventdata'] = party
-		content = urllib2.urlopen("https://graph.facebook.com/227389920779142?access_token=" + ACCESS_TOKEN + "&fields=cover").read()
+		content = urllib2.urlopen("https://graph.facebook.com/" + eventId + "?access_token=" + ACCESS_TOKEN + "&fields=cover").read()
 		content = ast.literal_eval(content)
 		# insert data about event cover
-		eventList['data'][counter]['image_url'] = content['cover']
+		if 'cover' in content.keys():
+  			eventList['data'][counter]['image_url'] = content['cover']
+		else:
+  			eventList['data'][counter]['image_url'] = None
+			
 		# insert data about people attending event
 		attending = g.get_connections(eventId, 'attending')
 		personCount = 0

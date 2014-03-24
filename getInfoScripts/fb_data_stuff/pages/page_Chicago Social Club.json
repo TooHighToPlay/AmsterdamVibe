@@ -2,8 +2,8 @@
  "category": "Club", 
  "username": "chicagosocialclub", 
  "website": "http://www.chicagosocialclub.nl", 
- "talking_about_count": 604, 
- "likes": 18657, 
+ "talking_about_count": 432, 
+ "likes": 18776, 
  "description": "Chicago Social Club is een latenight bar en club op het Leidseplein in Amsterdam. \n\nOpeningstijden Bar:\nzondag t/m woensdag: 20.00 - 04.00\nvrijdag & zaterdag: 20:00 -05:00\n\nOpeningstijden Club:\ndonderdag: 23.00 - 04.00\nvrijdag en zaterdag: 23.00 - 05.00\nVoor de club wordt er een minimum leeftijd van 21 gehanteerd.\n\nBen je iets verloren? Niet bellen maar mailen naar: lostandfound@chicagosocialclub.nl\n__________________________________________________________________\n\nChicago Social Club is a late night bar and club situated on the Leidse Square in Amsterdam.\n\nOpening hours Bar:\nMonday till Thursday: 8PM - 4AM\nFriday: 8PM - 5AM\nSaturday: 8PM - 5AM\nSunday: 12PM - 4AM\n\nOpening hours Club:\nThursday: 11Pm - 4AM\nFriday and Saturday: 11PM - 5AM\nYou have to be 21 to enter the club.\n\nLost something? Don't call, but send an e-mail instead:\nlostandfound@chicagosocialclub.nl\n\n", 
  "category_list": [
   {
@@ -27,9 +27,9 @@
   "reserve": 0
  }, 
  "cover": {
-  "source": "https://fbcdn-sphotos-d-a.akamaihd.net/hphotos-ak-prn1/t1.0-9/s720x720/48112_648121071922821_882452037_n.jpg", 
-  "cover_id": 648121071922821, 
-  "offset_x": 50, 
+  "source": "https://scontent-b.xx.fbcdn.net/hphotos-frc3/t1.0-9/s720x720/1471395_651517098249885_318633809_n.jpg", 
+  "cover_id": 651517098249885, 
+  "offset_x": 0, 
   "offset_y": 0
  }, 
  "public_transit": "Tram 1, 2 & 5, halte Leidseplein.", 
@@ -61,8 +61,8 @@
   "street": "Leidseplein 12", 
   "latitude": 52.364304861291
  }, 
- "were_here_count": 30572, 
- "checkins": 30572, 
+ "were_here_count": 30717, 
+ "checkins": 30717, 
  "id": "128412910560309", 
  "is_published": true
 }

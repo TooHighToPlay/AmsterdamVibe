@@ -15,7 +15,7 @@
    "name": "Amusement"
   }
  ], 
- "likes": 28106, 
+ "likes": 28184, 
  "parking": {
   "street": 1, 
   "lot": 1, 
@@ -23,15 +23,15 @@
  }, 
  "id": "139138742816664", 
  "category": "Club", 
- "talking_about_count": 716, 
+ "talking_about_count": 838, 
  "location": {
   "city": "Amsterdam", 
   "zip": "1017 CT", 
   "country": "Netherlands", 
-  "longitude": 4.8963211342511, 
+  "longitude": 4.8963209960217, 
   "state": "", 
   "street": "Rembrandtplein 11", 
-  "latitude": 52.366595437628
+  "latitude": 52.366595612364
  }, 
  "username": "escapeamsterdam", 
  "description": "Escape is a multi-spaced venue for a total clubbing experience. With special Club dinner arrangements you can enjoy a 4 course menu at Escape Caff\u00e9 and get VIP access to Escape Club afterwards. Escape was founded in 1986, what means that in 2011 it celebrated it's 25th anniversary! All these years Escape had been very popular for domestic and foreign visitors. It's cutting edge design and technical facilities as well as a tremendously good sound system are ingredients for a wonderful clubbing experience. Escape hosts clubnights like Brainwash and Reveal with lots of national and international talented DJ\u2019s and entertainment. Be sure to check the website, because 2012 will bring lots of special surprises!", 
@@ -48,16 +48,16 @@
  "phone": "+3120-6221111", 
  "link": "https://www.facebook.com/escapeamsterdam", 
  "price_range": "$$ (10-30)", 
- "checkins": 59172, 
+ "checkins": 59462, 
  "about": "27 Years of Nightlife, Entertainment, Innovation and Premiership", 
  "name": "Escape Amsterdam", 
  "cover": {
-  "source": "https://fbcdn-sphotos-a-a.akamaihd.net/hphotos-ak-frc3/t1.0-9/s720x720/1470280_606107552786445_966033655_n.jpg", 
-  "cover_id": 606107552786445, 
+  "source": "https://scontent-b.xx.fbcdn.net/hphotos-prn1/t1.0-9/s720x720/1012133_658727560857777_1884173673_n.jpg", 
+  "cover_id": 658727560857777, 
   "offset_x": 0, 
-  "offset_y": 0
+  "offset_y": 29
  }, 
  "public_transit": "Trams 4, 9, 20", 
- "were_here_count": 59172, 
+ "were_here_count": 59462, 
  "is_published": true
 }

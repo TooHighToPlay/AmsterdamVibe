@@ -4,24 +4,24 @@
    "after": "MTQ3NjUwNTMwOTI0NDI4MQ==", 
    "before": "NTkzMjkyNDI3NDE5MDQx"
   }, 
-  "next": "https://graph.facebook.com/105797235847/events?access_token=CAACEdEose0cBADZC2BqWfioOt5tuTihjtSBXb01vGSzScGuKvGevBuk1T7wZAPlTwdjZBBBL9b0db3xQvjRSmAoKUIZBPcwe7Env6l20MvrePfzRQuZCIyygZCdAM8wZBfSvlqo168rYQepONRFfQGKXVHbKtoWsOtqEmnuq4fuupKKsRfcd8sShc1qtUKZA5edEp4hCHkdZCNQZDZD&limit=25&after=MTQ3NjUwNTMwOTI0NDI4MQ%3D%3D"
+  "next": "https://graph.facebook.com/105797235847/events?access_token=CAACEdEose0cBAOet2VJez2nkH6dHSPT7QaJv0s5Ifvg5hZAYvPSb9ntWmmgwMNFHifLUSZB6c6ujGXeq9KW6svaWZAt8VpUxKyOohLinEfMFEohVn55rtVzZCOMpY7ZCFAZCxdgLI2l8X8e8ZBLpBUtwwkpXzVIAIRTRVJwMOFsZCb57sFAANNtIZAJnXKuEYfM0iHev4Ine30AZDZD&limit=25&after=MTQ3NjUwNTMwOTI0NDI4MQ%3D%3D"
  }, 
  "data": [
   {
    "attending_total": 97, 
    "name": "VIP GlamourBingo @ supperclub", 
-   "start_time": "2014-03-30T19:00:00+0200", 
+   "start_time": "2014-03-30T18:30:00+0200", 
    "image_url": {
-    "source": "https:\\/\\/fbcdn-sphotos-c-a.akamaihd.net\\/hphotos-ak-ash3\\/t1.0-9\\/s720x720\\/1897829_263544077141567_916345290_n.jpg", 
-    "cover_id": 263544077141567, 
+    "source": "https:\\/\\/scontent-b.xx.fbcdn.net\\/hphotos-prn2\\/t1.0-9\\/s720x720\\/1891124_10151978760765848_950841902_n.jpg", 
+    "cover_id": "10151978760765848", 
     "offset_x": 0, 
-    "offset_y": 29
+    "offset_y": 0
    }, 
    "location": "Supperclub Amsterdam", 
    "eventdata": {
-    "description": "The Supperclub en The GlamourBingo slaan de handen ineen!\nDe VIP editie belooft een waar spektakel te worden waarbij we lekker over the top gaan met fantastisch entertainment en geweldige prijzen! \n\nDe kosten voor deze speciale VIP editie zijn \u20ac 81,50.\nDit is inclusief een 3-gangenmenu(\u20ac45,-) en het bingoboekje(\u20ac35,-) alsmede (\u20ac1,50) administratiekosten.\n\nDeze editie is voor Boys & Girls! Met rondes alleen voor Girls en rondes alleen voor Boys!! En natuurlijk rondes for Boys & Girls.\nDus laat je verrassen en kom naar The VIP GlamourBingo @Supperclub!\n\nIn de week van 27 februari starten wij met de kaartverkoop!\nWees er snel bij want vol=vol.", 
+    "description": "The Supperclub and The Glamour Bingo join hands! \nThis VIP edition promises to be a real over the top spectacle with fantastic entertainment and  FABULOUS prices! This edition is for Boys & Girls! \n\nThe Supperclub serves a fantastic \n3-course menu and various delicious fingerfood or food platter . \nSo indulge  yourself and come to The VIP Glamour Bingo @ Supperclub! \n\nFor more information regarding reservatiosn and tickets: amsterdamintroductions@gmail.com", 
     "privacy": "OPEN", 
-    "start_time": "2014-03-30T19:00:00+0200", 
+    "start_time": "2014-03-30T18:30:00+0200", 
     "venue": {
      "city": "Amsterdam", 
      "zip": "1012PL", 
@@ -31,7 +31,7 @@
      "latitude": 52.37197008921, 
      "id": "105797235847"
     }, 
-    "updated_time": "2014-03-11T22:04:53+0000", 
+    "updated_time": "2014-03-24T18:14:51+0000", 
     "is_date_only": false, 
     "end_time": "2014-03-30T23:30:00+0200", 
     "location": "Supperclub Amsterdam", 
@@ -63,14 +63,14 @@
    "end_time": "2014-03-30T23:30:00+0200"
   }, 
   {
-   "attending_total": 23, 
+   "attending_total": 27, 
    "name": "Supper Galore", 
    "start_time": "2014-03-28T23:00:00+0100", 
    "image_url": {
-    "source": "https:\\/\\/fbcdn-sphotos-c-a.akamaihd.net\\/hphotos-ak-ash3\\/t1.0-9\\/s720x720\\/1897829_263544077141567_916345290_n.jpg", 
-    "cover_id": 263544077141567, 
+    "source": "https:\\/\\/scontent-b.xx.fbcdn.net\\/hphotos-ash3\\/t1.0-9\\/s720x720\\/1920514_10151977040440848_834419830_n.jpg", 
+    "cover_id": "10151977040440848", 
     "offset_x": 0, 
-    "offset_y": 29
+    "offset_y": 0
    }, 
    "location": "Supperclub Amsterdam", 
    "eventdata": {
@@ -116,14 +116,14 @@
    "id": "1377791595815014"
   }, 
   {
-   "attending_total": 49, 
+   "attending_total": 52, 
    "name": "Double D (dirty disco) @ supperclub", 
    "start_time": "2014-03-23T20:00:00+0100", 
    "image_url": {
-    "source": "https:\\/\\/fbcdn-sphotos-c-a.akamaihd.net\\/hphotos-ak-ash3\\/t1.0-9\\/s720x720\\/1897829_263544077141567_916345290_n.jpg", 
-    "cover_id": 263544077141567, 
+    "source": "https:\\/\\/scontent-b.xx.fbcdn.net\\/hphotos-prn1\\/t1.0-9\\/s720x720\\/1607031_10151969933345848_1805820099_n.jpg", 
+    "cover_id": "10151969933345848", 
     "offset_x": 0, 
-    "offset_y": 29
+    "offset_y": 0
    }, 
    "location": "Supperclub Amsterdam", 
    "eventdata": {
@@ -171,14 +171,14 @@
    "end_time": "2014-03-24T02:00:00+0100"
   }, 
   {
-   "attending_total": 39, 
+   "attending_total": 44, 
    "name": "Cocktail Night by Tess Posthumus", 
    "start_time": "2014-03-20T19:00:00+0100", 
    "image_url": {
-    "source": "https:\\/\\/fbcdn-sphotos-c-a.akamaihd.net\\/hphotos-ak-ash3\\/t1.0-9\\/s720x720\\/1897829_263544077141567_916345290_n.jpg", 
-    "cover_id": 263544077141567, 
+    "source": "https:\\/\\/fbcdn-sphotos-d-a.akamaihd.net\\/hphotos-ak-prn2\\/t1.0-9\\/s720x720\\/1393537_10151982846515848_1700813952_n.jpg", 
+    "cover_id": "10151982846515848", 
     "offset_x": 0, 
-    "offset_y": 29
+    "offset_y": 0
    }, 
    "location": "Supperclub Amsterdam", 
    "eventdata": {

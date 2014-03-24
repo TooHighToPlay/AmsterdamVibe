@@ -4,18 +4,18 @@
    "after": "MTQyNzkyOTE2MDc3OTA5Mw==", 
    "before": "ODM5NzgyNDM5MzcyMDMw"
   }, 
-  "next": "https://graph.facebook.com/144839688861341/events?access_token=CAACEdEose0cBADZC2BqWfioOt5tuTihjtSBXb01vGSzScGuKvGevBuk1T7wZAPlTwdjZBBBL9b0db3xQvjRSmAoKUIZBPcwe7Env6l20MvrePfzRQuZCIyygZCdAM8wZBfSvlqo168rYQepONRFfQGKXVHbKtoWsOtqEmnuq4fuupKKsRfcd8sShc1qtUKZA5edEp4hCHkdZCNQZDZD&limit=25&after=MTQyNzkyOTE2MDc3OTA5Mw%3D%3D"
+  "next": "https://graph.facebook.com/144839688861341/events?access_token=CAACEdEose0cBAOet2VJez2nkH6dHSPT7QaJv0s5Ifvg5hZAYvPSb9ntWmmgwMNFHifLUSZB6c6ujGXeq9KW6svaWZAt8VpUxKyOohLinEfMFEohVn55rtVzZCOMpY7ZCFAZCxdgLI2l8X8e8ZBLpBUtwwkpXzVIAIRTRVJwMOFsZCb57sFAANNtIZAJnXKuEYfM0iHev4Ine30AZDZD&limit=25&after=MTQyNzkyOTE2MDc3OTA5Mw%3D%3D"
  }, 
  "data": [
   {
-   "attending_total": 7, 
+   "attending_total": 49, 
    "name": "Weijers & Van Saarloos / \u2018De nieuwe seksistische talkshow\u2019  (open for all)", 
    "start_time": "2014-04-17T20:30:00+0200", 
    "image_url": {
-    "source": "https:\\/\\/fbcdn-sphotos-c-a.akamaihd.net\\/hphotos-ak-ash3\\/t1.0-9\\/s720x720\\/1897829_263544077141567_916345290_n.jpg", 
-    "cover_id": 263544077141567, 
+    "source": "https:\\/\\/fbcdn-sphotos-e-a.akamaihd.net\\/hphotos-ak-prn2\\/t1.0-9\\/s720x720\\/1796570_773985615946742_423830722_n.jpg", 
+    "cover_id": 773985615946742, 
     "offset_x": 0, 
-    "offset_y": 29
+    "offset_y": 48
    }, 
    "location": "Odeon", 
    "eventdata": {
@@ -63,14 +63,14 @@
    "end_time": "2014-04-18T03:00:00+0200"
   }, 
   {
-   "attending_total": 88, 
+   "attending_total": 104, 
    "name": "PIRI PIRI Launch Party! ft. Romare (Black Acre, UK)", 
    "start_time": "2014-03-29T23:00:00+0100", 
    "image_url": {
-    "source": "https:\\/\\/fbcdn-sphotos-c-a.akamaihd.net\\/hphotos-ak-ash3\\/t1.0-9\\/s720x720\\/1897829_263544077141567_916345290_n.jpg", 
-    "cover_id": 263544077141567, 
+    "source": "https:\\/\\/scontent-a.xx.fbcdn.net\\/hphotos-frc1\\/t1.0-9\\/s720x720\\/1911671_619010714835109_969849593_n.jpg", 
+    "cover_id": 619010714835109, 
     "offset_x": 0, 
-    "offset_y": 29
+    "offset_y": 0
    }, 
    "location": "Odeon", 
    "eventdata": {
@@ -104,14 +104,14 @@
    "end_time": "2014-03-30T05:00:00+0200"
   }, 
   {
-   "attending_total": 108, 
+   "attending_total": 137, 
    "name": "Nachtdieren 21-03-14 w/Beesmunt Soundsytem", 
    "start_time": "2014-03-21T21:00:00+0100", 
    "image_url": {
-    "source": "https:\\/\\/fbcdn-sphotos-c-a.akamaihd.net\\/hphotos-ak-ash3\\/t1.0-9\\/s720x720\\/1897829_263544077141567_916345290_n.jpg", 
-    "cover_id": 263544077141567, 
+    "source": "https:\\/\\/fbcdn-sphotos-f-a.akamaihd.net\\/hphotos-ak-ash4\\/t1.0-9\\/s720x720\\/1070077_1434514193459337_1032004564_n.jpg", 
+    "cover_id": 1434514193459337, 
     "offset_x": 0, 
-    "offset_y": 29
+    "offset_y": 100
    }, 
    "location": "Odeon", 
    "eventdata": {
@@ -127,7 +127,7 @@
      "latitude": 52.367580559576, 
      "id": "144839688861341"
     }, 
-    "updated_time": "2014-03-19T13:13:25+0000", 
+    "updated_time": "2014-03-21T18:12:43+0000", 
     "is_date_only": false, 
     "end_time": "2014-03-22T05:00:00+0100", 
     "location": "Odeon", 
@@ -136,7 +136,7 @@
      "name": "Nachtdieren", 
      "category_list": [
       {
-       "id": "2260", 
+       "id": "152880021441864", 
        "name": "Community Organization"
       }
      ], 
@@ -155,10 +155,10 @@
    "name": "Nachtdieren 14-03-14", 
    "start_time": "2014-03-14T21:00:00+0100", 
    "image_url": {
-    "source": "https:\\/\\/fbcdn-sphotos-c-a.akamaihd.net\\/hphotos-ak-ash3\\/t1.0-9\\/s720x720\\/1897829_263544077141567_916345290_n.jpg", 
-    "cover_id": 263544077141567, 
+    "source": "https:\\/\\/scontent-a.xx.fbcdn.net\\/hphotos-prn1\\/t1.0-9\\/s720x720\\/1976882_1430364590540964_1389641549_n.jpg", 
+    "cover_id": 1430364590540964, 
     "offset_x": 0, 
-    "offset_y": 29
+    "offset_y": 0
    }, 
    "location": "Odeon", 
    "eventdata": {
@@ -183,7 +183,7 @@
      "name": "Nachtdieren", 
      "category_list": [
       {
-       "id": "2260", 
+       "id": "152880021441864", 
        "name": "Community Organization"
       }
      ], 
@@ -198,14 +198,14 @@
    "end_time": "2014-03-15T05:00:00+0100"
   }, 
   {
-   "attending_total": 249, 
+   "attending_total": 247, 
    "name": "*Cancelled* MassiveTalent Night", 
    "start_time": "2014-03-13T20:00:00+0100", 
    "image_url": {
-    "source": "https:\\/\\/fbcdn-sphotos-c-a.akamaihd.net\\/hphotos-ak-ash3\\/t1.0-9\\/s720x720\\/1897829_263544077141567_916345290_n.jpg", 
-    "cover_id": 263544077141567, 
+    "source": "https:\\/\\/scontent-b.xx.fbcdn.net\\/hphotos-frc3\\/t1.0-9\\/s720x720\\/1508075_733638283313502_211131990_n.jpg", 
+    "cover_id": 733638283313502, 
     "offset_x": 0, 
-    "offset_y": 29
+    "offset_y": 0
    }, 
    "location": "Odeon", 
    "eventdata": {

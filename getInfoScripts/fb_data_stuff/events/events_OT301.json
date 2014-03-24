@@ -1,10 +1,10 @@
 {
  "paging": {
   "cursors": {
-   "after": "NjczNzE5OTI5MzU5MDYx", 
+   "after": "NzI3MDAxMDQwNjUxODE3", 
    "before": "MTM4MTM4Mjk2NTQ2OTA0OA=="
   }, 
-  "next": "https://graph.facebook.com/247184411984485/events?access_token=CAACEdEose0cBADZC2BqWfioOt5tuTihjtSBXb01vGSzScGuKvGevBuk1T7wZAPlTwdjZBBBL9b0db3xQvjRSmAoKUIZBPcwe7Env6l20MvrePfzRQuZCIyygZCdAM8wZBfSvlqo168rYQepONRFfQGKXVHbKtoWsOtqEmnuq4fuupKKsRfcd8sShc1qtUKZA5edEp4hCHkdZCNQZDZD&limit=25&after=NjczNzE5OTI5MzU5MDYx"
+  "next": "https://graph.facebook.com/247184411984485/events?access_token=CAACEdEose0cBAOet2VJez2nkH6dHSPT7QaJv0s5Ifvg5hZAYvPSb9ntWmmgwMNFHifLUSZB6c6ujGXeq9KW6svaWZAt8VpUxKyOohLinEfMFEohVn55rtVzZCOMpY7ZCFAZCxdgLI2l8X8e8ZBLpBUtwwkpXzVIAIRTRVJwMOFsZCb57sFAANNtIZAJnXKuEYfM0iHev4Ine30AZDZD&limit=25&after=NzI3MDAxMDQwNjUxODE3"
  }, 
  "data": [
   {
@@ -12,10 +12,10 @@
    "name": "Amsterdam RnR Monthly : POSSESSED BY PAUL JAMES + Special Screening of HARD SOIL - THE MUDDY ROOTS OF AMERICAN MUSIC", 
    "start_time": "2014-06-11T20:00:00+0200", 
    "image_url": {
-    "source": "https:\\/\\/fbcdn-sphotos-c-a.akamaihd.net\\/hphotos-ak-ash3\\/t1.0-9\\/s720x720\\/1897829_263544077141567_916345290_n.jpg", 
-    "cover_id": 263544077141567, 
+    "source": "https:\\/\\/scontent-a.xx.fbcdn.net\\/hphotos-prn1\\/t1.0-9\\/s720x720\\/1924531_651901628179426_724040606_n.jpg", 
+    "cover_id": 651901628179426, 
     "offset_x": 0, 
-    "offset_y": 29
+    "offset_y": 10
    }, 
    "location": "OT301", 
    "eventdata": {
@@ -65,10 +65,10 @@
    "name": "Amsterdam RnR Monthly : JAYKE ORVIS & THE BROKEN BAND + THE FREEBORN BROTHERS + JAMES HUNNICUTT", 
    "start_time": "2014-05-29T20:00:00+0200", 
    "image_url": {
-    "source": "https:\\/\\/fbcdn-sphotos-c-a.akamaihd.net\\/hphotos-ak-ash3\\/t1.0-9\\/s720x720\\/1897829_263544077141567_916345290_n.jpg", 
-    "cover_id": 263544077141567, 
+    "source": "https:\\/\\/scontent-a.xx.fbcdn.net\\/hphotos-ash3\\/t1.0-9\\/s720x720\\/1800256_637701222932800_1251817159_n.jpg", 
+    "cover_id": 637701222932800, 
     "offset_x": 0, 
-    "offset_y": 29
+    "offset_y": 31
    }, 
    "location": "OT301", 
    "eventdata": {
@@ -114,14 +114,14 @@
    "id": "658956237504408"
   }, 
   {
-   "attending_total": 55, 
+   "attending_total": 57, 
    "name": "SOFT METALS + SALLY DIGE", 
    "start_time": "2014-05-22T20:30:00+0200", 
    "image_url": {
-    "source": "https:\\/\\/fbcdn-sphotos-c-a.akamaihd.net\\/hphotos-ak-ash3\\/t1.0-9\\/s720x720\\/1897829_263544077141567_916345290_n.jpg", 
-    "cover_id": 263544077141567, 
+    "source": "https:\\/\\/fbcdn-sphotos-b-a.akamaihd.net\\/hphotos-ak-prn1\\/t1.0-9\\/s720x720\\/1535544_10152199881515505_768597487_n.jpg", 
+    "cover_id": "10152199881515505", 
     "offset_x": 0, 
-    "offset_y": 29
+    "offset_y": 41
    }, 
    "location": "OT301", 
    "eventdata": {
@@ -157,10 +157,10 @@
    "name": "Cinema Derive: Betty Blue", 
    "start_time": "2014-04-27T20:00:00+0200", 
    "image_url": {
-    "source": "https:\\/\\/fbcdn-sphotos-c-a.akamaihd.net\\/hphotos-ak-ash3\\/t1.0-9\\/s720x720\\/1897829_263544077141567_916345290_n.jpg", 
-    "cover_id": 263544077141567, 
+    "source": "https:\\/\\/fbcdn-sphotos-a-a.akamaihd.net\\/hphotos-ak-frc3\\/t1.0-9\\/s720x720\\/1509825_656358977733691_17195377_n.jpg", 
+    "cover_id": 656358977733691, 
     "offset_x": 0, 
-    "offset_y": 29
+    "offset_y": 39
    }, 
    "location": "OT301", 
    "eventdata": {
@@ -206,14 +206,14 @@
    "id": "800086333352661"
   }, 
   {
-   "attending_total": 14, 
+   "attending_total": 16, 
    "name": "Future Shorts: Spring Edition", 
    "start_time": "2014-04-22T20:30:00+0200", 
    "image_url": {
-    "source": "https:\\/\\/fbcdn-sphotos-c-a.akamaihd.net\\/hphotos-ak-ash3\\/t1.0-9\\/s720x720\\/1897829_263544077141567_916345290_n.jpg", 
-    "cover_id": 263544077141567, 
-    "offset_x": 0, 
-    "offset_y": 29
+    "source": "https:\\/\\/fbcdn-sphotos-b-a.akamaihd.net\\/hphotos-ak-ash4\\/t1.0-9\\/s720x720\\/999949_655851971117725_1113416481_n.jpg", 
+    "cover_id": 655851971117725, 
+    "offset_x": 67, 
+    "offset_y": 0
    }, 
    "location": "OT301", 
    "eventdata": {
@@ -259,14 +259,14 @@
    "id": "274362082731643"
   }, 
   {
-   "attending_total": 1, 
+   "attending_total": 2, 
    "name": "Cinema Derive: Louis Malle's Lacombe Lucien", 
    "start_time": "2014-04-20T20:00:00+0200", 
    "image_url": {
-    "source": "https:\\/\\/fbcdn-sphotos-c-a.akamaihd.net\\/hphotos-ak-ash3\\/t1.0-9\\/s720x720\\/1897829_263544077141567_916345290_n.jpg", 
-    "cover_id": 263544077141567, 
+    "source": "https:\\/\\/scontent-b.xx.fbcdn.net\\/hphotos-prn2\\/t1.0-9\\/s720x720\\/1982136_655549771147945_1370171314_n.jpg", 
+    "cover_id": 655549771147945, 
     "offset_x": 0, 
-    "offset_y": 29
+    "offset_y": 18
    }, 
    "location": "OT301", 
    "eventdata": {
@@ -312,14 +312,14 @@
    "id": "1415352318720806"
   }, 
   {
-   "attending_total": 31, 
+   "attending_total": 33, 
    "name": "THE DINOSAUR TRUCKERS + DEREK W DUNN (.357 STRING BAND)", 
    "start_time": "2014-04-16T20:00:00+0200", 
    "image_url": {
-    "source": "https:\\/\\/fbcdn-sphotos-c-a.akamaihd.net\\/hphotos-ak-ash3\\/t1.0-9\\/s720x720\\/1897829_263544077141567_916345290_n.jpg", 
-    "cover_id": 263544077141567, 
+    "source": "https:\\/\\/scontent-a.xx.fbcdn.net\\/hphotos-prn2\\/t1.0-9\\/s720x720\\/1920065_641838672519055_821910898_n.jpg", 
+    "cover_id": 641838672519055, 
     "offset_x": 0, 
-    "offset_y": 29
+    "offset_y": 40
    }, 
    "location": "OT301", 
    "eventdata": {
@@ -365,14 +365,14 @@
    "id": "519097491537389"
   }, 
   {
-   "attending_total": 6, 
+   "attending_total": 9, 
    "name": "Kino Praxis: B\u00e9la Tarr's Werckmeister Harmonies", 
    "start_time": "2014-04-15T20:30:00+0200", 
    "image_url": {
-    "source": "https:\\/\\/fbcdn-sphotos-c-a.akamaihd.net\\/hphotos-ak-ash3\\/t1.0-9\\/s720x720\\/1897829_263544077141567_916345290_n.jpg", 
-    "cover_id": 263544077141567, 
+    "source": "https:\\/\\/fbcdn-sphotos-d-a.akamaihd.net\\/hphotos-ak-prn2\\/t1.0-9\\/s720x720\\/1920216_655085887861000_1422902617_n.jpg", 
+    "cover_id": 655085887861000, 
     "offset_x": 0, 
-    "offset_y": 29
+    "offset_y": 50
    }, 
    "location": "OT301", 
    "eventdata": {
@@ -418,14 +418,14 @@
    "id": "711432205576189"
   }, 
   {
-   "attending_total": 26, 
+   "attending_total": 27, 
    "name": "A/V Club Presents Strange Creatures", 
    "start_time": "2014-04-13T20:30:00+0200", 
    "image_url": {
-    "source": "https:\\/\\/fbcdn-sphotos-c-a.akamaihd.net\\/hphotos-ak-ash3\\/t1.0-9\\/s720x720\\/1897829_263544077141567_916345290_n.jpg", 
-    "cover_id": 263544077141567, 
+    "source": "https:\\/\\/fbcdn-sphotos-f-a.akamaihd.net\\/hphotos-ak-frc3\\/t1.0-9\\/s720x720\\/1970356_10151951110386175_241871748_n.jpg", 
+    "cover_id": "10151951110386175", 
     "offset_x": 0, 
-    "offset_y": 29
+    "offset_y": 0
    }, 
    "location": "OT301", 
    "eventdata": {
@@ -441,7 +441,7 @@
      "latitude": 52.359739223429, 
      "id": "247184411984485"
     }, 
-    "updated_time": "2014-03-15T08:38:22+0000", 
+    "updated_time": "2014-03-23T20:20:22+0000", 
     "is_date_only": false, 
     "location": "OT301", 
     "owner": {
@@ -471,14 +471,14 @@
    "id": "1402712049993484"
   }, 
   {
-   "attending_total": 9, 
+   "attending_total": 12, 
    "name": "Action Beat with G.W Sok", 
    "start_time": "2014-04-10", 
    "image_url": {
-    "source": "https:\\/\\/fbcdn-sphotos-c-a.akamaihd.net\\/hphotos-ak-ash3\\/t1.0-9\\/s720x720\\/1897829_263544077141567_916345290_n.jpg", 
-    "cover_id": 263544077141567, 
+    "source": "https:\\/\\/fbcdn-sphotos-f-a.akamaihd.net\\/hphotos-ak-prn1\\/t1.0-9\\/s720x720\\/12453_656800667689522_778205060_n.jpg", 
+    "cover_id": 656800667689522, 
     "offset_x": 0, 
-    "offset_y": 29
+    "offset_y": 0
    }, 
    "location": "OT301", 
    "eventdata": {
@@ -522,18 +522,18 @@
    "id": "697844463589172"
   }, 
   {
-   "attending_total": 24, 
+   "attending_total": 26, 
    "name": "Imagine Film Festival 2014 Sneak Preview", 
    "start_time": "2014-04-08T20:30:00+0200", 
    "image_url": {
-    "source": "https:\\/\\/fbcdn-sphotos-c-a.akamaihd.net\\/hphotos-ak-ash3\\/t1.0-9\\/s720x720\\/1897829_263544077141567_916345290_n.jpg", 
-    "cover_id": 263544077141567, 
+    "source": "https:\\/\\/fbcdn-sphotos-e-a.akamaihd.net\\/hphotos-ak-ash3\\/t1.0-9\\/375757_654737921229130_48339044_n.jpg", 
+    "cover_id": 654737921229130, 
     "offset_x": 0, 
-    "offset_y": 29
+    "offset_y": 37
    }, 
    "location": "OT301", 
    "eventdata": {
-    "description": "Imagine: Amsterdam Fantastic Film Festival is Amsterdam's annual film festival celebrating the best of cult, science-fiction, fantasy and horror film. This year it will take place from 9-18 April at the EYE Film Institute.\n\nBefore the festival starts, OT301 will host a special sneak preview of one of the festival films. Come check it out as last year's sneak preview film turned out to be the festival's Audience Award winner!\n\n4 euro", 
+    "description": "Imagine: Amsterdam Fantastic Film Festival is Amsterdam's annual film festival celebrating the best of cult, science-fiction, fantasy and horror film. This year it will take place from 9-18 April at the EYE Film Institute.\n\nBefore the festival starts, OT301 will host a special sneak preview of one of the festival films. Imagine's artistic director Chris Oosterom will introduce the film. Come check it out as last year's sneak preview film turned out to be the festival's Audience Award winner!\n\n4 euro", 
     "privacy": "OPEN", 
     "start_time": "2014-04-08T20:30:00+0200", 
     "venue": {
@@ -545,7 +545,7 @@
      "latitude": 52.359739223429, 
      "id": "247184411984485"
     }, 
-    "updated_time": "2014-03-13T13:01:25+0000", 
+    "updated_time": "2014-03-24T15:32:32+0000", 
     "is_date_only": false, 
     "location": "OT301", 
     "owner": {
@@ -575,14 +575,14 @@
    "id": "133012953538904"
   }, 
   {
-   "attending_total": 8, 
+   "attending_total": 9, 
    "name": "Cinema Derive: Federico Fellini's Roma", 
    "start_time": "2014-04-06T20:00:00+0200", 
    "image_url": {
-    "source": "https:\\/\\/fbcdn-sphotos-c-a.akamaihd.net\\/hphotos-ak-ash3\\/t1.0-9\\/s720x720\\/1897829_263544077141567_916345290_n.jpg", 
-    "cover_id": 263544077141567, 
+    "source": "https:\\/\\/fbcdn-sphotos-h-a.akamaihd.net\\/hphotos-ak-ash4\\/t1.0-9\\/s720x720\\/10003523_654359487933640_1430980061_n.jpg", 
+    "cover_id": 654359487933640, 
     "offset_x": 0, 
-    "offset_y": 29
+    "offset_y": 31
    }, 
    "location": "OT301", 
    "eventdata": {
@@ -628,18 +628,71 @@
    "id": "587166091377160"
   }, 
   {
-   "attending_total": 284, 
-   "name": "FOREST SWORDS + LEMONTRIP", 
-   "start_time": "2014-04-03T20:30:00+0200", 
+   "attending_total": 37, 
+   "name": "ReVersed Poetry Film Festival - Opening Night", 
+   "start_time": "2014-04-04T20:00:00+0200", 
    "image_url": {
-    "source": "https:\\/\\/fbcdn-sphotos-c-a.akamaihd.net\\/hphotos-ak-ash3\\/t1.0-9\\/s720x720\\/1897829_263544077141567_916345290_n.jpg", 
-    "cover_id": 263544077141567, 
+    "source": "https:\\/\\/fbcdn-sphotos-b-a.akamaihd.net\\/hphotos-ak-frc3\\/t1.0-9\\/s720x720\\/1468715_657923534243902_1069306896_n.jpg", 
+    "cover_id": 657923534243902, 
     "offset_x": 0, 
-    "offset_y": 29
+    "offset_y": 0
    }, 
    "location": "OT301", 
    "eventdata": {
-    "description": "Forest Swords \nTri-Angle, UK\nhttps://soundcloud.com/forestswords\n\nLemontrip\nFog Mountain, NL\nhttps://soundcloud.com/lemontrip\n\nOT301, Amsterdam \n\n20.30 | \u20ac10 | Free for Subbacultcha! members\n\nMore info: http://bit.ly/18uW9vE", 
+    "description": "Opening night of the ReVersed Poetry Film Festival. ReVersed is the first festival in the Netherlands dedicated to the poetry film genre. With an opening night at OT301, symposia at Perdu and 5 film programmes at Filmtheater Kriterion, ReVersed will explore the intersection of poetry and film.\n\nOpening night:\n- Keynote talk on poetry film by artist Alastair Cook\n- Opening films\n- Extra: Een avond buiten Amsterdam (2014, premiere). Documentary about Amsterdam citypoet Menno Wigman\n- Amsterdam Writers Guild poetry readings\n- Why kids and adults aren't afraid: a nuclear video performance by Alina Ozerova\n-..and more! Full programme coming soon.\n\nDoors 8 euro\nFree access to the party afterwards:\nSISTEMSIZ // J. Tijn | DJ+ | El Maria\nFrom 23.30 til 03.00.\n\nwww.reversed.nu", 
+    "privacy": "OPEN", 
+    "start_time": "2014-04-04T20:00:00+0200", 
+    "venue": {
+     "city": "Amsterdam", 
+     "zip": "1054 HW", 
+     "country": "Netherlands", 
+     "longitude": 4.8659683224742, 
+     "street": "Overtoom 301", 
+     "latitude": 52.359739223429, 
+     "id": "247184411984485"
+    }, 
+    "updated_time": "2014-03-24T19:44:59+0000", 
+    "is_date_only": false, 
+    "location": "OT301", 
+    "owner": {
+     "category": "Arts/entertainment/nightlife", 
+     "name": "OT301", 
+     "category_list": [
+      {
+       "id": "179943432047564", 
+       "name": "Concert Venue"
+      }, 
+      {
+       "id": "192511100766680", 
+       "name": "Movie Theatre"
+      }, 
+      {
+       "id": "200742186618963", 
+       "name": "Vegetarian & Vegan Restaurant"
+      }
+     ], 
+     "id": "247184411984485"
+    }, 
+    "timezone": "Europe/Amsterdam", 
+    "id": "1405318639731335", 
+    "name": "ReVersed Poetry Film Festival - Opening Night"
+   }, 
+   "timezone": "Europe/Amsterdam", 
+   "id": "1405318639731335"
+  }, 
+  {
+   "attending_total": 310, 
+   "name": "FOREST SWORDS + LEMONTRIP", 
+   "start_time": "2014-04-03T20:30:00+0200", 
+   "image_url": {
+    "source": "https:\\/\\/scontent-a.xx.fbcdn.net\\/hphotos-prn2\\/t1.0-9\\/s720x720\\/603120_10151988210025505_270354876_n.jpg", 
+    "cover_id": "10151988210025505", 
+    "offset_x": 0, 
+    "offset_y": 13
+   }, 
+   "location": "OT301", 
+   "eventdata": {
+    "description": "Forest Swords \nTri-Angle, UK\nhttps://soundcloud.com/forestswords\n\nLemontrip\nFog Mountain, NL\nhttps://soundcloud.com/lemontrip\n\nDJ: Real Traxx Magick\nTruants, NL\nhttps://soundcloud.com/always-everything\n\nOT301, Amsterdam \n\n20.30 | \u20ac10 | Free for Subbacultcha! members\n\nIn recent years Tri-Angle Records has helped cultivate a crop of hermetic young producers sprouting up around the world who specialize in grafting elements of hip hop and R&B into barren electronic soundscapes. Dagger Paths, Forest Swords' haunting 2010 debut EP, was among the label\u2019s most rewarding and acclaimed early releases, but in spite of the EP's success, its creator, a producer from the UK countryside by the name of Matthew Barnes, remained in obscurity as he battled tinnitus and focused on his day job as a graphic designer. On last year\u2019s Engravings, his full length debut, he finally emerged from his dormancy with a more refined take on the murky melancholy of his early work. Much as an engraving is traced onto a flat surface with the intention of using it to create prints, Engravings carves something remarkable out of an unremarkable existence and will likely leave a lasting impression on all who hear it. For the first half of this excellent double bill, Dutch producer Lemontrip will set the mood with his atmospheric blend of post-dubstep vibes and hip hop beats, which should appeal to fans of kindred spirits like Balam Acab and Nosaj Thing.\n\nMore info: http://bit.ly/18uW9vE", 
     "privacy": "OPEN", 
     "start_time": "2014-04-03T20:30:00+0200", 
     "venue": {
@@ -651,7 +704,7 @@
      "latitude": 52.359739223429, 
      "id": "247184411984485"
     }, 
-    "updated_time": "2014-02-10T10:46:13+0000", 
+    "updated_time": "2014-03-24T15:34:12+0000", 
     "is_date_only": false, 
     "location": "OT301", 
     "owner": {
@@ -667,14 +720,14 @@
    "id": "220013271456420"
   }, 
   {
-   "attending_total": 10, 
+   "attending_total": 19, 
    "name": "Movies that Matter: Suddenly, Last Winter", 
    "start_time": "2014-04-01T20:30:00+0200", 
    "image_url": {
-    "source": "https:\\/\\/fbcdn-sphotos-c-a.akamaihd.net\\/hphotos-ak-ash3\\/t1.0-9\\/s720x720\\/1897829_263544077141567_916345290_n.jpg", 
-    "cover_id": 263544077141567, 
+    "source": "https:\\/\\/fbcdn-sphotos-f-a.akamaihd.net\\/hphotos-ak-ash3\\/t1.0-9\\/s720x720\\/1620716_651005898268999_80185901_n.jpg", 
+    "cover_id": 651005898268999, 
     "offset_x": 0, 
-    "offset_y": 29
+    "offset_y": 44
    }, 
    "location": "OT301", 
    "eventdata": {
@@ -720,14 +773,14 @@
    "id": "580338778722578"
   }, 
   {
-   "attending_total": 8, 
+   "attending_total": 11, 
    "name": "Cinema Derive: Aki Kaurism\u00e4ki's The Match Factory Girl", 
    "start_time": "2014-03-30T20:00:00+0200", 
    "image_url": {
-    "source": "https:\\/\\/fbcdn-sphotos-c-a.akamaihd.net\\/hphotos-ak-ash3\\/t1.0-9\\/s720x720\\/1897829_263544077141567_916345290_n.jpg", 
-    "cover_id": 263544077141567, 
+    "source": "https:\\/\\/scontent-a.xx.fbcdn.net\\/hphotos-prn2\\/t1.0-9\\/s720x720\\/1604858_638880359481553_1625934782_n.jpg", 
+    "cover_id": 638880359481553, 
     "offset_x": 0, 
-    "offset_y": 29
+    "offset_y": 55
    }, 
    "location": "OT301", 
    "eventdata": {
@@ -773,14 +826,14 @@
    "id": "1415256398721349"
   }, 
   {
-   "attending_total": 105, 
+   "attending_total": 159, 
    "name": "DUB EXPLORATIONS @ OT301", 
    "start_time": "2014-03-28T23:00:00+0100", 
    "image_url": {
-    "source": "https:\\/\\/fbcdn-sphotos-c-a.akamaihd.net\\/hphotos-ak-ash3\\/t1.0-9\\/s720x720\\/1897829_263544077141567_916345290_n.jpg", 
-    "cover_id": 263544077141567, 
+    "source": "https:\\/\\/fbcdn-sphotos-h-a.akamaihd.net\\/hphotos-ak-prn1\\/t1.0-9\\/s720x720\\/1011086_628309877205415_855342535_n.jpg", 
+    "cover_id": 628309877205415, 
     "offset_x": 0, 
-    "offset_y": 29
+    "offset_y": 0
    }, 
    "location": "OT301", 
    "eventdata": {
@@ -812,14 +865,67 @@
    "id": "1468274083400700"
   }, 
   {
-   "attending_total": 7, 
+   "attending_total": 4, 
+   "name": "Highs and Lows", 
+   "start_time": "2014-03-26T21:00:00+0100", 
+   "image_url": {
+    "source": "https:\\/\\/fbcdn-sphotos-h-a.akamaihd.net\\/hphotos-ak-frc3\\/t1.0-9\\/1958192_658249387544650_2096273356_n.jpg", 
+    "cover_id": 658249387544650, 
+    "offset_x": 0, 
+    "offset_y": 48
+   }, 
+   "location": "OT301", 
+   "eventdata": {
+    "description": "Dance Artists: Irina Baldini, Clare Daly, Matsushita Masako, Cornelia Voglmayr, Maren Fidje Bjorneseth\n\nLights: Ellen Knops \t\n\nDoors open: 21:00 Starts: 21:00 hrs Entrance: 7 euro\n\nAn evening of perormances on movement research in contemporary dance curated by Irina Baldini (Finnish/Italian) and Masako Matsushita (Japanese/Italian), dance artists and performers forming the duo Soi3 since 2009.\n They have been collaborating and exhibiting consistently, performing in group and solo shows internationally as well as realising commissioned work for art galleries, theatres, site specific and international festivals. Currently they run 4bid Gallery @ OT301 together with two other creatives.\nFor this evening they present a show that collects solos and duos from Norway, UK, Ireland, Austria.\n \n\nweb link:http://soitre.tumblr.com/\nhttp://masakomatsushita.wordpress.com/\nhttp://www.irinaosterberg.com/\nhttps://vimeo.com/user12402409", 
+    "privacy": "OPEN", 
+    "start_time": "2014-03-26T21:00:00+0100", 
+    "venue": {
+     "city": "Amsterdam", 
+     "zip": "1054 HW", 
+     "country": "Netherlands", 
+     "longitude": 4.8659683224742, 
+     "street": "Overtoom 301", 
+     "latitude": 52.359739223429, 
+     "id": "247184411984485"
+    }, 
+    "updated_time": "2014-03-22T10:25:44+0000", 
+    "is_date_only": false, 
+    "location": "OT301", 
+    "owner": {
+     "category": "Arts/entertainment/nightlife", 
+     "name": "OT301", 
+     "category_list": [
+      {
+       "id": "179943432047564", 
+       "name": "Concert Venue"
+      }, 
+      {
+       "id": "192511100766680", 
+       "name": "Movie Theatre"
+      }, 
+      {
+       "id": "200742186618963", 
+       "name": "Vegetarian & Vegan Restaurant"
+      }
+     ], 
+     "id": "247184411984485"
+    }, 
+    "timezone": "Europe/Rome", 
+    "id": "520072658101984", 
+    "name": "Highs and Lows"
+   }, 
+   "timezone": "Europe/Rome", 
+   "id": "520072658101984"
+  }, 
+  {
+   "attending_total": 19, 
    "name": "YoungHwa: Korean Food and Film - Woman on the Beach", 
    "start_time": "2014-03-25T19:30:00+0100", 
    "image_url": {
-    "source": "https:\\/\\/fbcdn-sphotos-c-a.akamaihd.net\\/hphotos-ak-ash3\\/t1.0-9\\/s720x720\\/1897829_263544077141567_916345290_n.jpg", 
-    "cover_id": 263544077141567, 
+    "source": "https:\\/\\/scontent-a.xx.fbcdn.net\\/hphotos-frc3\\/t1.0-9\\/s720x720\\/1926863_653959237973665_186512364_n.jpg", 
+    "cover_id": 653959237973665, 
     "offset_x": 0, 
-    "offset_y": 29
+    "offset_y": 39
    }, 
    "location": "OT301", 
    "eventdata": {
@@ -865,14 +971,14 @@
    "id": "1428661744043034"
   }, 
   {
-   "attending_total": 46, 
+   "attending_total": 64, 
    "name": "Short Waves 2014: Polish Short Films", 
    "start_time": "2014-03-23T20:30:00+0100", 
    "image_url": {
-    "source": "https:\\/\\/fbcdn-sphotos-c-a.akamaihd.net\\/hphotos-ak-ash3\\/t1.0-9\\/s720x720\\/1897829_263544077141567_916345290_n.jpg", 
-    "cover_id": 263544077141567, 
+    "source": "https:\\/\\/fbcdn-sphotos-c-a.akamaihd.net\\/hphotos-ak-ash3\\/t1.0-9\\/s720x720\\/1899899_647798828589706_1140465569_n.jpg", 
+    "cover_id": 647798828589706, 
     "offset_x": 0, 
-    "offset_y": 29
+    "offset_y": 6
    }, 
    "location": "OT301", 
    "eventdata": {
@@ -918,14 +1024,14 @@
    "id": "1413775235539073"
   }, 
   {
-   "attending_total": 22, 
+   "attending_total": 21, 
    "name": "Kino Praxis: Earth and Ashes", 
    "start_time": "2014-03-18T20:30:00+0100", 
    "image_url": {
-    "source": "https:\\/\\/fbcdn-sphotos-c-a.akamaihd.net\\/hphotos-ak-ash3\\/t1.0-9\\/s720x720\\/1897829_263544077141567_916345290_n.jpg", 
-    "cover_id": 263544077141567, 
+    "source": "https:\\/\\/fbcdn-sphotos-g-a.akamaihd.net\\/hphotos-ak-prn2\\/t1.0-9\\/s720x720\\/1897721_642788002424122_595555575_n.jpg", 
+    "cover_id": 642788002424122, 
     "offset_x": 0, 
-    "offset_y": 29
+    "offset_y": 52
    }, 
    "location": "OT301", 
    "eventdata": {
@@ -975,10 +1081,10 @@
    "name": "Cinema Pasta: Italian food, film and dance", 
    "start_time": "2014-03-16T18:00:00+0100", 
    "image_url": {
-    "source": "https:\\/\\/fbcdn-sphotos-c-a.akamaihd.net\\/hphotos-ak-ash3\\/t1.0-9\\/s720x720\\/1897829_263544077141567_916345290_n.jpg", 
-    "cover_id": 263544077141567, 
+    "source": "https:\\/\\/scontent-b.xx.fbcdn.net\\/hphotos-ash3\\/t1.0-9\\/s720x720\\/1896842_655555091147413_1754793333_n.jpg", 
+    "cover_id": 655555091147413, 
     "offset_x": 0, 
-    "offset_y": 29
+    "offset_y": 21
    }, 
    "location": "OT301", 
    "eventdata": {
@@ -1028,10 +1134,10 @@
    "name": "BAM BAM @ OT301 with MC Xander", 
    "start_time": "2014-03-15T22:00:00+0100", 
    "image_url": {
-    "source": "https:\\/\\/fbcdn-sphotos-c-a.akamaihd.net\\/hphotos-ak-ash3\\/t1.0-9\\/s720x720\\/1897829_263544077141567_916345290_n.jpg", 
-    "cover_id": 263544077141567, 
-    "offset_x": 0, 
-    "offset_y": 29
+    "source": "https:\\/\\/fbcdn-sphotos-a-a.akamaihd.net\\/hphotos-ak-frc1\\/t1.0-9\\/s720x720\\/1618528_621014564634705_166163244_n.jpg", 
+    "cover_id": 621014564634705, 
+    "offset_x": 58, 
+    "offset_y": 0
    }, 
    "location": "OT301", 
    "eventdata": {
@@ -1069,10 +1175,10 @@
    "name": "THE DAD HORSE EXPERIENCE + JOSEPH HUBER (.357 STRING BAND) + DJ BONE", 
    "start_time": "2014-03-13T20:00:00+0100", 
    "image_url": {
-    "source": "https:\\/\\/fbcdn-sphotos-c-a.akamaihd.net\\/hphotos-ak-ash3\\/t1.0-9\\/s720x720\\/1897829_263544077141567_916345290_n.jpg", 
-    "cover_id": 263544077141567, 
+    "source": "https:\\/\\/scontent-a.xx.fbcdn.net\\/hphotos-ash3\\/t1.0-9\\/s720x720\\/1017154_606661312714236_1464160885_n.jpg", 
+    "cover_id": 606661312714236, 
     "offset_x": 0, 
-    "offset_y": 29
+    "offset_y": 37
    }, 
    "location": "OT301", 
    "eventdata": {
@@ -1116,167 +1222,6 @@
    }, 
    "timezone": "Europe/Amsterdam", 
    "id": "727001040651817"
-  }, 
-  {
-   "attending_total": 19, 
-   "name": "Cinema Derive: Andrei Tarkovsky's Nostalghia", 
-   "start_time": "2014-03-09T20:00:00+0100", 
-   "image_url": {
-    "source": "https:\\/\\/fbcdn-sphotos-c-a.akamaihd.net\\/hphotos-ak-ash3\\/t1.0-9\\/s720x720\\/1897829_263544077141567_916345290_n.jpg", 
-    "cover_id": 263544077141567, 
-    "offset_x": 0, 
-    "offset_y": 29
-   }, 
-   "location": "OT301", 
-   "eventdata": {
-    "description": "20:00 Introduction by Jeffrey Babcock\n20:15 Nostalghia  (1983) by Andrei Tarkovsky, 125 min. HD.\n22:30 Agnes From Here to There (2011) by Agn\u00e8s Varda, 45 min.\n\nAndrei Tarkovsky's first film in exile and the next to the last of his entire career, this is a brooding poetic masterpiece which explores the meaning of Russian nostalgia. Tarkovsky would never return to his homeland and this film articulates his melancholy and despair of being torn away from the things he loved. When a reporter asked Tarkovsky which country he wanted to settle in now that he left Russia, he replied \"That's like asking me which cemetery I want to bury my dead child in.\"\n\nThis film follows the journey of a Russian poet doing research in Italy and his feelings of displacement and homesickness. He finds himself attracted to the rich Italian landscape, beautifully shrouded in mist. He is attracted to his beautiful translator, but he also feels alienated at the same time. Along the way he comes across Domenico, a man who has just been released from a mental institute, and who foretells the Apocalypse. Beyond these narrative details the real core of the film is about determination, belief, endurance and responsibility.\n\n+\n\nAgnes From Here to There\n\nMade up of five 45-minute episodes, the series chronicles Agn\u00e8s Varda's travels around the world over the course of an entire year, as she examines the global art scene, meeting with different artists and filmmakers. This first episode visits the atelier of Chris Marker, muses about Joseph Beuys, and goes to Portugal to speak to Manoel de Oliveira.\n\nBoth films with English subtitles.\n4 euro", 
-    "privacy": "OPEN", 
-    "start_time": "2014-03-09T20:00:00+0100", 
-    "venue": {
-     "city": "Amsterdam", 
-     "zip": "1054 HW", 
-     "country": "Netherlands", 
-     "longitude": 4.8659683224742, 
-     "street": "Overtoom 301", 
-     "latitude": 52.359739223429, 
-     "id": "247184411984485"
-    }, 
-    "updated_time": "2014-02-03T10:02:22+0000", 
-    "is_date_only": false, 
-    "location": "OT301", 
-    "owner": {
-     "category": "Arts/entertainment/nightlife", 
-     "name": "OT301", 
-     "category_list": [
-      {
-       "id": "179943432047564", 
-       "name": "Concert Venue"
-      }, 
-      {
-       "id": "192511100766680", 
-       "name": "Movie Theatre"
-      }, 
-      {
-       "id": "200742186618963", 
-       "name": "Vegetarian & Vegan Restaurant"
-      }
-     ], 
-     "id": "247184411984485"
-    }, 
-    "timezone": "Europe/Amsterdam", 
-    "id": "639151546151030", 
-    "name": "Cinema Derive: Andrei Tarkovsky's Nostalghia"
-   }, 
-   "timezone": "Europe/Amsterdam", 
-   "id": "639151546151030"
-  }, 
-  {
-   "attending_total": 98, 
-   "name": "De Ruiskamer #006 // March 8th @ OT301", 
-   "start_time": "2014-03-08T20:30:00+0100", 
-   "image_url": {
-    "source": "https:\\/\\/fbcdn-sphotos-c-a.akamaihd.net\\/hphotos-ak-ash3\\/t1.0-9\\/s720x720\\/1897829_263544077141567_916345290_n.jpg", 
-    "cover_id": 263544077141567, 
-    "offset_x": 0, 
-    "offset_y": 29
-   }, 
-   "location": "OT301", 
-   "eventdata": {
-    "description": "The main room will be transformed into a comfortable meeting place to celebrate the weekend. \n\nWith both your and our DJ friends rotating on the decks for short sets, this promises to be a night of many different sounds and good vibes. So come chill on the couch, enjoy a beer and unwind with friends!\n\nFree entrance!\n\nRabo in de Dabo\nRas Sjamaan\nMike Mago\nJose Ibanez (Elevator Passion) \nStroes\nDJ Daniel Quiros \nWolf & Disaster\nAxel Savage (Bam Bam)\nPower VS Power \nBRUTUZZ\nSjam", 
-    "privacy": "OPEN", 
-    "start_time": "2014-03-08T20:30:00+0100", 
-    "venue": {
-     "city": "Amsterdam", 
-     "zip": "1054 HW", 
-     "country": "Netherlands", 
-     "longitude": 4.8659683224742, 
-     "street": "Overtoom 301", 
-     "latitude": 52.359739223429, 
-     "id": "247184411984485"
-    }, 
-    "updated_time": "2014-03-06T10:46:57+0000", 
-    "is_date_only": false, 
-    "end_time": "2014-03-09T03:00:00+0100", 
-    "location": "OT301", 
-    "owner": {
-     "category": "Arts/entertainment/nightlife", 
-     "name": "OT301", 
-     "category_list": [
-      {
-       "id": "179943432047564", 
-       "name": "Concert Venue"
-      }, 
-      {
-       "id": "192511100766680", 
-       "name": "Movie Theatre"
-      }, 
-      {
-       "id": "200742186618963", 
-       "name": "Vegetarian & Vegan Restaurant"
-      }
-     ], 
-     "id": "247184411984485"
-    }, 
-    "timezone": "Europe/Amsterdam", 
-    "id": "291902984291950", 
-    "name": "De Ruiskamer #006 // March 8th @ OT301"
-   }, 
-   "timezone": "Europe/Amsterdam", 
-   "id": "291902984291950", 
-   "end_time": "2014-03-09T03:00:00+0100"
-  }, 
-  {
-   "attending_total": 15, 
-   "name": "Help Me to Crash & Calleja/Garrouste Duo", 
-   "start_time": "2014-03-06T21:00:00+0100", 
-   "image_url": {
-    "source": "https:\\/\\/fbcdn-sphotos-c-a.akamaihd.net\\/hphotos-ak-ash3\\/t1.0-9\\/s720x720\\/1897829_263544077141567_916345290_n.jpg", 
-    "cover_id": 263544077141567, 
-    "offset_x": 0, 
-    "offset_y": 29
-   }, 
-   "location": "OT301", 
-   "eventdata": {
-    "description": "21:00 doors open Start 21:30 \nentrance: 7 euros\n\n2 sets\n1.HELP ME TO CRASH BAND - Music by Onno Govaert (drums), Arvind Ganga (guitar), dance by Maria Mavridou and Ma\u0142gorzata Haduch \n\nHELP ME TO CRASH BAND has emerged at first from an artistic tandem between dancer Malgorzata Haduch (Poland) and guitar player Arvind Ganga (Netherlands) and a duo collaboration between another dancer Maria Mavridou (Holland/Greece) and Malgorzata. In spring 2014 Dutch drummer Onno Govaert joins the Help Me To Crash band. This way the group opens up a new chapter for the further development of this quartet. They all met in the fertile jazz and improvisation scene in Amsterdam where, during the last decade, they have been developing their own individual artistic pathways and shared interest about investigating a performance with free improvised music and free improvised dance. The performers are seeking for an unique language that is personal and intimate, looking for expression that is firm, free and rocking. How deep can we go with that? The so far experience brings focus on the borders of autonomy in the common composition, the balance between an emotional state, and sharing it with the audience as well as the role that each of the performers has.  Help Me To Crash Band is supported by trust, tenderness and rawness. The band goes for an adventure on stage and aims to make visible what lies deep while it keeps on falling.\n\n\n2. Duo by:\nMathieu Garrouste: electronic\nMathieu Calleja: drums\nThis electronic and drums duo started building their sound in the trio MetHat with Xavier Lopez  then with  T.E.E (Trashvortex Electronic Ensemble) in Paris 2007. Sound of urban lives, crack of sound, feedback, no-input in order to shape  a timeless frame.\n\nLights: Emese Csornai", 
-    "privacy": "OPEN", 
-    "start_time": "2014-03-06T21:00:00+0100", 
-    "venue": {
-     "city": "Amsterdam", 
-     "zip": "1054 HW", 
-     "country": "Netherlands", 
-     "longitude": 4.8659683224742, 
-     "street": "Overtoom 301", 
-     "latitude": 52.359739223429, 
-     "id": "247184411984485"
-    }, 
-    "updated_time": "2014-03-02T16:23:07+0000", 
-    "is_date_only": false, 
-    "location": "OT301", 
-    "owner": {
-     "category": "Arts/entertainment/nightlife", 
-     "name": "OT301", 
-     "category_list": [
-      {
-       "id": "179943432047564", 
-       "name": "Concert Venue"
-      }, 
-      {
-       "id": "192511100766680", 
-       "name": "Movie Theatre"
-      }, 
-      {
-       "id": "200742186618963", 
-       "name": "Vegetarian & Vegan Restaurant"
-      }
-     ], 
-     "id": "247184411984485"
-    }, 
-    "timezone": "Europe/Rome", 
-    "id": "673719929359061", 
-    "name": "Help Me to Crash & Calleja/Garrouste Duo"
-   }, 
-   "timezone": "Europe/Rome", 
-   "id": "673719929359061"
   }
  ]
 }

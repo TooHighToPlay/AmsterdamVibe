@@ -1,6 +1,6 @@
 {
  "website": "http://www.bitterzoet.com", 
- "talking_about_count": 452, 
+ "talking_about_count": 300, 
  "category_list": [
   {
    "id": "176139629103647", 
@@ -15,7 +15,7 @@
    "name": "Bar"
   }
  ], 
- "likes": 13560, 
+ "likes": 13607, 
  "parking": {
   "street": 1, 
   "lot": 0, 
@@ -52,7 +52,7 @@
  }, 
  "phone": "020-42 123 18", 
  "link": "https://www.facebook.com/BitterzoetAmsterdam", 
- "checkins": 23796, 
+ "checkins": 23978, 
  "about": "Bitterzoet Amsterdam", 
  "name": "Bitterzoet Amsterdam", 
  "restaurant_services": {
@@ -67,12 +67,12 @@
   "reserve": 0
  }, 
  "cover": {
-  "source": "https://scontent-b.xx.fbcdn.net/hphotos-prn2/t1.0-9/s720x720/1898017_650719151665148_1264884316_n.jpg", 
-  "cover_id": 650719151665148, 
-  "offset_x": 52, 
-  "offset_y": 0
+  "source": "https://scontent-a.xx.fbcdn.net/hphotos-frc3/t1.0-9/s720x720/1939903_653107341426329_282114052_n.jpg", 
+  "cover_id": 653107341426329, 
+  "offset_x": 0, 
+  "offset_y": 81
  }, 
  "public_transit": "Tegenover Centraal Station", 
- "were_here_count": 23796, 
+ "were_here_count": 23978, 
  "is_published": true
 }
