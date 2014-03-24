@@ -68,6 +68,19 @@ def getFutureEvents(repo_name):
 		return allFutureEvents
 	return None
 
+def getEventInfoForId(repo_name,event_id):
+	query = prefixes+"""
+	SELECT DISTINCT ?event WHERE{
+	?event a fb:Event.
+	?event fb:id "%s"
+	}
+	"""%event_id
+	event = getQueryResults(repo_name,query)
+	if(event):
+		return getEventInfo(event[0]["event"])
+	else:
+		return None
+
 def getEventInfo(repo_name,event_uri):
 	rdfUri =getRdfUri(event_uri)
 	event={}
