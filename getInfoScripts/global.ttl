@@ -11,6 +11,7 @@
     rdfs:label "Imagine Film Festival 2014 Sneak Preview" ;
     av:latitude 5.235974e+01 ;
     av:longitude 4.865968e+00 ;
+    av:relatedArtist <http://dbpedia.org/resource/The_Specials> ;
     fb:at_venue <http://facebook.com/247184411984485> ;
     fb:attending_total 24 ;
     fb:description """Imagine: Amsterdam Fantastic Film Festival is Amsterdam's annual film festival celebrating the best of cult, science-fiction, fantasy and horror film. This year it will take place from 9-18 April at the EYE Film Institute.
@@ -37,8 +38,15 @@ Before the festival starts, OT301 will host a special sneak preview of one of th
 
 <http://facebook.com/1381382965469048> a fb:Event ;
     rdfs:label "Amsterdam RnR Monthly : POSSESSED BY PAUL JAMES + Special Screening of HARD SOIL - THE MUDDY ROOTS OF AMERICAN MUSIC" ;
+    av:genre <http://dbpedia.org/resource/Blues>,
+        <http://dbpedia.org/resource/Blues_fiddle>,
+        <http://dbpedia.org/resource/Punk_rock>,
+        <http://dbpedia.org/resource/Soul_music> ;
     av:latitude 5.235974e+01 ;
     av:longitude 4.865968e+00 ;
+    av:relatedArtist <http://dbpedia.org/resource/Link_Wray>,
+        <http://dbpedia.org/resource/System_of_a_Down>,
+        <http://dbpedia.org/resource/The_Jimi_Hendrix_Experience> ;
     fb:at_venue <http://facebook.com/247184411984485> ;
     fb:attending_total 15 ;
     fb:description """AMSTERDAM RNR MONTHLY & SLOWBOAT FILMS ARE PROUD TO PRESENT - POSSESSED BY PAUL JAMES + HARD SOIL FILM SCREENING.
@@ -57,6 +65,7 @@ Possessed by Paul James's music has been described by many as more of a life-cha
     rdfs:label "BORIS 'WIPWAP' WERNER SHOW - EXTRA LONG MARATHON SET" ;
     av:latitude 5.236721e+01 ;
     av:longitude 4.896393e+00 ;
+    av:relatedArtist <http://dbpedia.org/resource/The_Specials> ;
     fb:at_venue <http://facebook.com/199623270044> ;
     fb:attending_total 536 ;
     fb:description """Attention: there will be doorsale all night! 
@@ -93,6 +102,11 @@ More info: www.studio-80.nl""" ;
 
 <http://facebook.com/1392184704382199> a fb:Event ;
     rdfs:label "LANDED (by SFFRMKRS)" ;
+    av:genre <http://dbpedia.org/resource/Deep_house>,
+        <http://dbpedia.org/resource/Funk>,
+        <http://dbpedia.org/resource/Future_garage>,
+        <http://dbpedia.org/resource/House_music>,
+        <http://dbpedia.org/resource/UK_garage> ;
     av:latitude 5.236358e+01 ;
     av:longitude 4.883382e+00 ;
     fb:at_venue <http://facebook.com/117962971613608> ;
@@ -118,6 +132,7 @@ LANDED (by SFFRMKRS)""" ;
 
 <http://facebook.com/1392259164369969> a fb:Event ;
     rdfs:label "LET FEAT. PROSUMER / MURAT TEPELI / LUKE HESS / STEVE O'SULLIVAN LIVE / JEAN PIERRE ENFANT" ;
+    av:genre <http://dbpedia.org/resource/House_music> ;
     av:latitude 5.235406e+01 ;
     av:longitude 4.912317e+00 ;
     fb:at_venue <http://facebook.com/111197278919528> ;
@@ -155,6 +170,9 @@ Entree €18 // Trouwe Honden €10 // €8 voor middernacht""" ;
 
 <http://facebook.com/1394113234185437> a fb:Event ;
     rdfs:label "Live: Atlanter" ;
+    av:genre <http://dbpedia.org/resource/Blues>,
+        <http://dbpedia.org/resource/Blues_fiddle>,
+        <http://dbpedia.org/resource/Krautrock> ;
     av:latitude 5.236473e+01 ;
     av:longitude 4.881825e+00 ;
     fb:at_venue <http://facebook.com/130350927079784> ;
@@ -173,6 +191,9 @@ https://www.facebook.com/atlanternorway""" ;
 
 <http://facebook.com/1398133440438660> a fb:Event ;
     rdfs:label "Paradisolo - Shinedoe - Zaterdag 22 maart - Paradiso" ;
+    av:genre <http://dbpedia.org/resource/House_music>,
+        <http://dbpedia.org/resource/Techno>,
+        <http://dbpedia.org/resource/VIA_music> ;
     av:latitude 5.236221e+01 ;
     av:longitude 4.883852e+00 ;
     fb:at_venue <http://facebook.com/42503443337> ;
@@ -191,6 +212,7 @@ Shinedoe is de Amsterdamse dj die internationaal furore maakte en oprichtster is
 
 <http://facebook.com/1398919553696972> a fb:Event ;
     rdfs:label "TWSTd DJ CONTEST - Maandfinale maart" ;
+    av:genre <http://dbpedia.org/resource/VIA_music> ;
     av:latitude 5.236721e+01 ;
     av:longitude 4.896393e+00 ;
     fb:at_venue <http://facebook.com/199623270044> ;
@@ -238,6 +260,8 @@ www.studio-80.nl""" ;
 
 <http://facebook.com/1399464643655669> a fb:Event ;
     rdfs:label "ARTHOUSE" ;
+    av:genre <http://dbpedia.org/resource/House_music>,
+        <http://dbpedia.org/resource/Techno> ;
     av:latitude 5.236473e+01 ;
     av:longitude 4.881825e+00 ;
     fb:at_venue <http://facebook.com/130350927079784> ;
@@ -300,6 +324,7 @@ jullie Gastheren""" ;
 
 <http://facebook.com/1400336693559734> a fb:Event ;
     rdfs:label "CLAUDE VONSTROKE w/ CLAUDE VONSTROKE (USA), J.PHLIP (USA), PRESK, KNOW V.A. & DJ+" ;
+    av:genre <http://dbpedia.org/resource/House_music> ;
     av:latitude 5.236721e+01 ;
     av:longitude 4.896393e+00 ;
     fb:at_venue <http://facebook.com/199623270044> ;
@@ -351,6 +376,9 @@ www.ot301.nl""" ;
 
 <http://facebook.com/1405782453012062> a fb:Event ;
     rdfs:label "Modern Movement. Zaterdag 29 maart in De Club Up en De Kring" ;
+    av:genre <http://dbpedia.org/resource/Funk>,
+        <http://dbpedia.org/resource/House_music>,
+        <http://dbpedia.org/resource/Techno> ;
     av:latitude 5.236358e+01 ;
     av:longitude 4.883382e+00 ;
     fb:at_venue <http://facebook.com/117962971613608> ;
@@ -402,6 +430,9 @@ Modern Movement verwelkomt jullie allemaal op Zaterdag 29 Maart 2014 voor onze t
 
 <http://facebook.com/1407678112823967> a fb:Event ;
     rdfs:label "HET GROTE CLUBUP LENTEFEEST / ZATERDAG 5 APRIL / 23h-07h" ;
+    av:genre <http://dbpedia.org/resource/Beat_music>,
+        <http://dbpedia.org/resource/Disco>,
+        <http://dbpedia.org/resource/House_music> ;
     av:latitude 5.236358e+01 ;
     av:longitude 4.883382e+00 ;
     fb:at_venue <http://facebook.com/117962971613608> ;
@@ -490,6 +521,8 @@ Entree €18 // Trouwe Honden €10 // €8 voor middernacht""" ;
 
 <http://facebook.com/1409470272645991> a fb:Event ;
     rdfs:label "I amtechno w/ FRANCOIS X (FR)" ;
+    av:genre <http://dbpedia.org/resource/Beat_music>,
+        <http://dbpedia.org/resource/Techno> ;
     av:latitude 5.236721e+01 ;
     av:longitude 4.896393e+00 ;
     fb:at_venue <http://facebook.com/199623270044> ;
@@ -549,6 +582,7 @@ Tickets: Presale €10 | Doorsale €15 www.studio-80.nl""" ;
 
 <http://facebook.com/1409482065976554> a fb:Event ;
     rdfs:label "INDIGO AERA & SOHASO FEAT. BENNY RODRIGUES / ANTIGONE / JASPER WOLFF & MAARTEN MITTENDORFF / JOHANNES BRECHT LIVE / LOVE OVER ENTROPY LIVE / DAVID CORNELISSEN / NUNO DOS SANTOS" ;
+    av:genre <http://dbpedia.org/resource/Soul_music> ;
     av:latitude 5.235406e+01 ;
     av:longitude 4.912317e+00 ;
     fb:at_venue <http://facebook.com/111197278919528> ;
@@ -578,6 +612,7 @@ Entree €18 // Trouwe Honden €10 // €8 voor middernacht""" ;
 
 <http://facebook.com/1409732839282588> a fb:Event ;
     rdfs:label "PIRI PIRI Launch Party! ft. Romare (Black Acre, UK)" ;
+    av:genre <http://dbpedia.org/resource/Trance_music> ;
     av:latitude 5.236758e+01 ;
     av:longitude 4.889064e+00 ;
     fb:at_venue <http://facebook.com/144839688861341> ;
@@ -628,6 +663,8 @@ Line up: Troj, 2 Man 1 Paardenkop, Mc Marboo, Vj Joury, photographer Dennis Veld
 
 <http://facebook.com/1409903185920969> a fb:Event ;
     rdfs:label "Chromeo @ Paradiso" ;
+    av:genre <http://dbpedia.org/resource/Disco>,
+        <http://dbpedia.org/resource/Funk> ;
     av:latitude 5.236221e+01 ;
     av:longitude 4.883852e+00 ;
     fb:at_venue <http://facebook.com/42503443337> ;
@@ -700,6 +737,9 @@ www.soundcloud.com/studio80wknd""" ;
 
 <http://facebook.com/1413130695596661> a fb:Event ;
     rdfs:label "GROOVEBOX w/ SNUFF CREW, SPACEGIRLS, INTERSTELLAR FUNK, KERK! & THE AMAZING AGENCY" ;
+    av:genre <http://dbpedia.org/resource/Chicago_house>,
+        <http://dbpedia.org/resource/Funk>,
+        <http://dbpedia.org/resource/House_music> ;
     av:latitude 5.23643e+01 ;
     av:longitude 4.882795e+00 ;
     fb:at_venue <http://facebook.com/128412910560309> ;
@@ -799,6 +839,10 @@ https://frontoffice.paylogic.nl/?event_id=92440&point_of_sale_id=3162""" ;
 
 <http://facebook.com/1413775235539073> a fb:Event ;
     rdfs:label "Short Waves 2014: Polish Short Films" ;
+    av:genre <http://dbpedia.org/resource/Disco>,
+        <http://dbpedia.org/resource/Enka>,
+        <http://dbpedia.org/resource/House_music>,
+        <http://dbpedia.org/resource/Ska> ;
     av:latitude 5.235974e+01 ;
     av:longitude 4.865968e+00 ;
     fb:at_venue <http://facebook.com/247184411984485> ;
@@ -834,6 +878,7 @@ A video clip to a track created by the Rebeka duo. The duo takes part in the cli
 
 <http://facebook.com/1415256398721349> a fb:Event ;
     rdfs:label "Cinema Derive: Aki Kaurismäki's The Match Factory Girl" ;
+    av:genre <http://dbpedia.org/resource/Trap_(music_genre)> ;
     av:latitude 5.235974e+01 ;
     av:longitude 4.865968e+00 ;
     fb:at_venue <http://facebook.com/247184411984485> ;
@@ -879,6 +924,9 @@ As you might have guessed this movie was hugely controversial when it came out, 
 
 <http://facebook.com/1419742204939445> a fb:Event ;
     rdfs:label "DOORGESJEESD #5 IN SUGARFACTORY" ;
+    av:genre <http://dbpedia.org/resource/Hardcore_techno>,
+        <http://dbpedia.org/resource/Hip_hop_music>,
+        <http://dbpedia.org/resource/Ska> ;
     av:latitude 5.236473e+01 ;
     av:longitude 4.881825e+00 ;
     fb:at_venue <http://facebook.com/130350927079784> ;
@@ -922,6 +970,9 @@ https://frontoffice.paylogic.nl/?event_id=91955&point_of_sale_id=3162""" ;
 
 <http://facebook.com/1422535414653991> a fb:Event ;
     rdfs:label "Ad Infinitum @ Club Up // Anil Aras - Larry de Kat - Danny Woof" ;
+    av:genre <http://dbpedia.org/resource/Beat_music>,
+        <http://dbpedia.org/resource/Funk>,
+        <http://dbpedia.org/resource/House_music> ;
     av:latitude 5.236358e+01 ;
     av:longitude 4.883382e+00 ;
     fb:at_venue <http://facebook.com/117962971613608> ;
@@ -966,6 +1017,7 @@ https://shop.ticketscript.com/channel/web2/start-order/rid/YZB5QSH5/language/nl
 
 <http://facebook.com/1423083521271319> a fb:Event ;
     rdfs:label "HOUSE RULES" ;
+    av:genre <http://dbpedia.org/resource/Emo> ;
     av:latitude 5.23666e+01 ;
     av:longitude 4.896321e+00 ;
     fb:at_venue <http://facebook.com/139138742816664> ;
@@ -980,6 +1032,9 @@ Line up: Gabriel & Castellon, Troj, Demoro, Mc Dan Stezo, Vj Joury, photographer
 
 <http://facebook.com/1424265161147621> a fb:Event ;
     rdfs:label "Teho Teardo & Blixa Bargeld in Paradiso" ;
+    av:genre <http://dbpedia.org/resource/Electro_(music)>,
+        <http://dbpedia.org/resource/Electronica>,
+        <http://dbpedia.org/resource/VIA_music> ;
     av:latitude 5.236221e+01 ;
     av:longitude 4.883852e+00 ;
     fb:at_venue <http://facebook.com/42503443337> ;
@@ -1033,8 +1088,16 @@ Entree €20 // Trouwe Honden €10 // €10 voor middernacht""" ;
 
 <http://facebook.com/1425458891032525> a fb:Event ;
     rdfs:label "Only Crime @ Melkweg Amsterdam" ;
+    av:genre <http://dbpedia.org/resource/Hardcore_punk>,
+        <http://dbpedia.org/resource/Hardcore_techno> ;
     av:latitude 5.236479e+01 ;
     av:longitude 4.881546e+00 ;
+    av:relatedArtist <http://dbpedia.org/resource/Bane_%28band%29>,
+        <http://dbpedia.org/resource/Bill_Stevenson_%28musician%29>,
+        <http://dbpedia.org/resource/Black_Flag_%28band%29>,
+        <http://dbpedia.org/resource/Converge_%28band%29>,
+        <http://dbpedia.org/resource/Descendents>,
+        <http://dbpedia.org/resource/Good_Riddance> ;
     fb:at_venue <http://facebook.com/301130305994> ;
     fb:attending_total 1 ;
     fb:description """Only Crime is een Amerikaanse all star punkband met Russ Rankin (Good Riddance), Aaron Dalbec (Bane/Converge), Bill Stevenson (Black Flag/Descendents/All), Dan Kelly (The Frisk/Tegan And Sara) en Matt Hoffman (Modern Life Is War). In 2004 brachten ze een goed ontvangen album ‘To Nines’ uit op Fat Wreck Chords, toen hun andere bands even op stil stonden. Er kwam een Europese tour en in 2005 stonden ze op de Deconstruction Tour. Het beviel de heren goed en er kwam zelfs een tweede album ‘Virulence’ en een weer een Europese tour, ditmaal met No Use For A Name. En nu 10 jaar later zijn ze er weer met hun messcherpe hardcore punk en komt er in mei zelfs een nieuw album op Rise Records!
@@ -1099,6 +1162,7 @@ Min. leeftijd 21+""" ;
 
 <http://facebook.com/1428661744043034> a fb:Event ;
     rdfs:label "YoungHwa: Korean Food and Film - Woman on the Beach" ;
+    av:genre <http://dbpedia.org/resource/VIA_music> ;
     av:latitude 5.235974e+01 ;
     av:longitude 4.865968e+00 ;
     fb:at_venue <http://facebook.com/247184411984485> ;
@@ -1119,6 +1183,7 @@ Soup only: 2 euro (while available)""" ;
 
 <http://facebook.com/1429409167298447> a fb:Event ;
     rdfs:label "DE KLAMME DONDERDAG | JORDAN PEAK (UK)" ;
+    av:genre <http://dbpedia.org/resource/Disco> ;
     av:latitude 5.236358e+01 ;
     av:longitude 4.883382e+00 ;
     fb:at_venue <http://facebook.com/117962971613608> ;
@@ -1167,6 +1232,7 @@ http://www.jongensvdwereld.nl/""" ;
 
 <http://facebook.com/1436401639928974> a fb:Event ;
     rdfs:label "OUTSIDERS - TREVINO, TASKER, VONDER, ROGER, MINDSTER" ;
+    av:genre <http://dbpedia.org/resource/Disco> ;
     av:latitude 5.236721e+01 ;
     av:longitude 4.896393e+00 ;
     fb:at_venue <http://facebook.com/199623270044> ;
@@ -1200,6 +1266,9 @@ Line up: Mike van Loon, Troj, Veron, Mc Vika Kova, Vj Joury, photographer Dennis
 
 <http://facebook.com/1443077212590871> a fb:Event ;
     rdfs:label "The Sisters Of Mercy @ Melkweg Amsterdam" ;
+    av:genre <http://dbpedia.org/resource/New_Wave_music>,
+        <http://dbpedia.org/resource/Post-punk>,
+        <http://dbpedia.org/resource/VIA_music> ;
     av:latitude 5.236479e+01 ;
     av:longitude 4.881546e+00 ;
     fb:at_venue <http://facebook.com/301130305994> ;
@@ -1217,9 +1286,6 @@ http://www.melkweg.nl/nl/agenda/the-sisters-of-mercy-2""" ;
     rdfs:label "Cabaret Noir w/ ROOG, Steven Quarre & Martien Verheyden" ;
     av:latitude 5.236621e+01 ;
     av:longitude 4.899074e+00 ;
-    av:relatedArtist <http://dbpedia.org/resource/Air_%28French_band%29>,
-        <http://dbpedia.org/resource/The_Features>,
-        <http://dbpedia.org/resource/The_Jimi_Hendrix_Experience> ;
     fb:at_venue <http://facebook.com/109020085791036> ;
     fb:attending_total 74 ;
     fb:description """14/03/2014
@@ -1262,6 +1328,7 @@ info & tickets: http://www.melkweg.nl/nl/agenda/brian-jonestown-massacre-26-06-2
 
 <http://facebook.com/1456293337916513> a fb:Event ;
     rdfs:label "TWSTd DJ CONTEST - Maandfinale april" ;
+    av:genre <http://dbpedia.org/resource/VIA_music> ;
     av:latitude 5.236721e+01 ;
     av:longitude 4.896393e+00 ;
     fb:at_venue <http://facebook.com/199623270044> ;
@@ -1325,6 +1392,8 @@ info & tickets: http://www.melkweg.nl/nl/agenda/adje""" ;
 
 <http://facebook.com/1462045164015333> a fb:Event ;
     rdfs:label "CULT WAVE" ;
+    av:genre <http://dbpedia.org/resource/Disco>,
+        <http://dbpedia.org/resource/Swing_music> ;
     av:latitude 5.236358e+01 ;
     av:longitude 4.883382e+00 ;
     fb:at_venue <http://facebook.com/117962971613608> ;
@@ -1360,6 +1429,9 @@ o yeah baby...
 
 <http://facebook.com/1462947863922015> a fb:Event ;
     rdfs:label "Domino & Ribbon Music present: Hamilton Leithauser, The Amazing Snakeheads, Francois & The Atlas Mountains, gepresenteerd door Paradiso" ;
+    av:genre <http://dbpedia.org/resource/Blues>,
+        <http://dbpedia.org/resource/Blues_fiddle>,
+        <http://dbpedia.org/resource/Soul_music> ;
     av:latitude 5.238367e+01 ;
     av:longitude 4.905424e+00 ;
     fb:at_venue <http://facebook.com/116954721702118> ;
@@ -1383,6 +1455,9 @@ Francois & The Atlas Mountains is het collectief rondom de Franse singer songwri
 
 <http://facebook.com/1463584613860717> a fb:Event ;
     rdfs:label "Rokia Traoré @ Paradiso" ;
+    av:genre <http://dbpedia.org/resource/Blues>,
+        <http://dbpedia.org/resource/Blues_fiddle>,
+        <http://dbpedia.org/resource/Rockabilly> ;
     av:latitude 5.236221e+01 ;
     av:longitude 4.883852e+00 ;
     fb:at_venue <http://facebook.com/42503443337> ;
@@ -1405,6 +1480,8 @@ http://www.paradiso.nl/web/Agenda-Item/Rokia-Traore.htm""" ;
 
 <http://facebook.com/1466997450195632> a fb:Event ;
     rdfs:label "Pacific Parc Kermis Rock 'n Roll Treffen: 13, 14, 15 Maart!" ;
+    av:genre <http://dbpedia.org/resource/Blues>,
+        <http://dbpedia.org/resource/Blues_fiddle> ;
     fb:attending_total 334 ;
     fb:description """Het is weer kermis op 't Westergasterrein! En de kermis is er niet alleen voor bontkraagjes op scooters maar ook voor leren jasjes en vetkuiven vinden wij. Jaja, net als vroeger want eigenlijk zijn we natuurlijk gewoon heel ouderwetse jongens. Dus: live bands + DJ's, 3 dagen lang!
 
@@ -1447,6 +1524,20 @@ Kijk voor meer info over de bands op: http://www.pacificparc.nl/rocknroll/kermis
 
 <http://facebook.com/1468274083400700> a fb:Event ;
     rdfs:label "DUB EXPLORATIONS @ OT301" ;
+    av:genre <http://dbpedia.org/resource/Beat_music>,
+        <http://dbpedia.org/resource/Breakbeat>,
+        <http://dbpedia.org/resource/Dancehall>,
+        <http://dbpedia.org/resource/Dub_(music)>,
+        <http://dbpedia.org/resource/Electro_(music)>,
+        <http://dbpedia.org/resource/Emo>,
+        <http://dbpedia.org/resource/Hardcore_techno>,
+        <http://dbpedia.org/resource/Hip_hop_music>,
+        <http://dbpedia.org/resource/House_music>,
+        <http://dbpedia.org/resource/Oldschool_jungle>,
+        <http://dbpedia.org/resource/Reggae>,
+        <http://dbpedia.org/resource/Roots_reggae>,
+        <http://dbpedia.org/resource/Ska>,
+        <http://dbpedia.org/resource/Trance_music> ;
     av:latitude 5.235974e+01 ;
     av:longitude 4.865968e+00 ;
     fb:at_venue <http://facebook.com/247184411984485> ;
@@ -1509,6 +1600,8 @@ Line up: RAYMUNDO SOLO!, [6 HOUR SET], Mc Yanto, VJ Joury, Eclectic/Urban@deLux:
 
 <http://facebook.com/1474530959439720> a fb:Event ;
     rdfs:label "5 Days Off | Day 4 Paradiso: NILS FRAHM" ;
+    av:genre <http://dbpedia.org/resource/Electro_(music)>,
+        <http://dbpedia.org/resource/Electronica> ;
     av:latitude 5.236217e+01 ;
     av:longitude 4.883869e+00 ;
     fb:at_venue <http://facebook.com/164594723599029> ;
@@ -1525,6 +1618,8 @@ www.5daysoff.nl""" ;
 
 <http://facebook.com/1476505309244281> a fb:Event ;
     rdfs:label "Cocktail Night by Tess Posthumus" ;
+    av:genre <http://dbpedia.org/resource/House_music>,
+        <http://dbpedia.org/resource/VIA_music> ;
     av:latitude 5.237197e+01 ;
     av:longitude 4.891198e+00 ;
     fb:at_venue <http://facebook.com/105797235847> ;
@@ -1594,6 +1689,7 @@ Du Chatinier""" ;
 
 <http://facebook.com/1484808598408811> a fb:Event ;
     rdfs:label "DISCOTEKA | ROGÉR (DEATHMETALDISCOCLUB) & CELESTIAL TERRESTRIAL (CLUB VON WESTEN)" ;
+    av:genre <http://dbpedia.org/resource/Disco> ;
     fb:attending_total 32 ;
     fb:description """FOR THE FREAKS
 
@@ -1717,6 +1813,8 @@ Entree €18 // Trouwe Honden €10 // €8 voor 22.00""" ;
 
 <http://facebook.com/200962653435155> a fb:Event ;
     rdfs:label "TOMORROW IS NOW, KID! w/ JOVONN (USA)" ;
+    av:genre <http://dbpedia.org/resource/Disco>,
+        <http://dbpedia.org/resource/House_music> ;
     av:latitude 5.236721e+01 ;
     av:longitude 4.896393e+00 ;
     fb:at_venue <http://facebook.com/199623270044> ;
@@ -1748,6 +1846,7 @@ www.tomorrowisnowkid.com""" ;
 
 <http://facebook.com/205133149697170> a fb:Event ;
     rdfs:label "Elbow @ Paradiso" ;
+    av:genre <http://dbpedia.org/resource/VIA_music> ;
     av:latitude 5.236221e+01 ;
     av:longitude 4.883852e+00 ;
     fb:at_venue <http://facebook.com/42503443337> ;
@@ -1774,9 +1873,7 @@ Kaarten voor dit exclusieve optreden van Elbow kosten €35 excl. servicekosten 
         <http://dbpedia.org/resource/Electro_(music)> ;
     av:latitude 5.236621e+01 ;
     av:longitude 4.899074e+00 ;
-    av:relatedArtist <http://dbpedia.org/resource/David_Guetta>,
-        <http://dbpedia.org/resource/Massive_Attack>,
-        <http://dbpedia.org/resource/Ti%C3%ABsto> ;
+    av:relatedArtist <http://dbpedia.org/resource/Massive_Attack> ;
     fb:at_venue <http://facebook.com/109020085791036> ;
     fb:attending_total 202 ;
     fb:description """Access, March 22 AIR, Amsterdam
@@ -1815,6 +1912,8 @@ Presale tickets: Available at www.air.nl & www.ea-events.com""" ;
 
 <http://facebook.com/209295209263409> a fb:Event ;
     rdfs:label "Madnutz - Episode Two - Techno Nutrition" ;
+    av:genre <http://dbpedia.org/resource/Beat_music>,
+        <http://dbpedia.org/resource/Techno> ;
     av:latitude 5.236473e+01 ;
     av:longitude 4.881825e+00 ;
     fb:at_venue <http://facebook.com/130350927079784> ;
@@ -1886,8 +1985,12 @@ Entree €20 // Trouwe Honden €10 // €8 voor 20.00 // Tussen 18.00 en 20.00 
 
 <http://facebook.com/212460048949725> a fb:Event ;
     rdfs:label "Subbacultcha presents: Helfer" ;
+    av:genre <http://dbpedia.org/resource/Electro_(music)> ;
     av:latitude 5.236473e+01 ;
     av:longitude 4.881825e+00 ;
+    av:relatedArtist <http://dbpedia.org/resource/Air_%28French_band%29>,
+        <http://dbpedia.org/resource/Free_%28band%29>,
+        <http://dbpedia.org/resource/Journey_%28band%29> ;
     fb:at_venue <http://facebook.com/130350927079784> ;
     fb:attending_total 54 ;
     fb:description """€5 | Free for Subbacultcha! members
@@ -1959,6 +2062,7 @@ info & tickets: http://www.melkweg.nl/nl/agenda/b-brave-23-05-2014""" ;
 
 <http://facebook.com/220013271456420> a fb:Event ;
     rdfs:label "FOREST SWORDS + LEMONTRIP" ;
+    av:genre <http://dbpedia.org/resource/Emo> ;
     av:latitude 5.235974e+01 ;
     av:longitude 4.865968e+00 ;
     fb:at_venue <http://facebook.com/247184411984485> ;
@@ -2008,8 +2112,14 @@ www.soundcloud.com/studio80wknd""" ;
 
 <http://facebook.com/225027364358975> a fb:Event ;
     rdfs:label "OPEL MANTRA LAUNCH PARTY FEAT. AWANTO 3" ;
+    av:genre <http://dbpedia.org/resource/Electro_(music)>,
+        <http://dbpedia.org/resource/House_music>,
+        <http://dbpedia.org/resource/Trance_music>,
+        <http://dbpedia.org/resource/VIA_music> ;
     av:latitude 5.235406e+01 ;
     av:longitude 4.912317e+00 ;
+    av:relatedArtist <http://dbpedia.org/resource/Free_%28band%29>,
+        <http://dbpedia.org/resource/Sublime_%28band%29> ;
     fb:at_venue <http://facebook.com/111197278919528> ;
     fb:attending_total 259 ;
     fb:description """Under his Awanto 3 guise, Steven van Hulle has long been considered a producer with immense potential. Next to Kid Sublime, Aardvarck, Tom Trago, San Proper and Young Marco, he has been a key figure in the Amsterdam electronic music scene for quite some time. 
@@ -2026,6 +2136,8 @@ For the occasion, KesselsKramer has made a teaser film that will run for the ent
 
 <http://facebook.com/227060224153341> a fb:Event ;
     rdfs:label "Mijke & Co Live @Sugarfactory gratis met o.a. Kapok, Clazz Ensemble, Equinox feat Marjorie Barnes en The Ob6sions ft. Michael Moore" ;
+    av:genre <http://dbpedia.org/resource/Funk>,
+        <http://dbpedia.org/resource/Soul_music> ;
     av:latitude 5.236473e+01 ;
     av:longitude 4.881825e+00 ;
     fb:at_venue <http://facebook.com/130350927079784> ;
@@ -2052,6 +2164,8 @@ Wekelijks in het programma hoor je huisband The Ob6sions. De band bestaande uit 
 
 <http://facebook.com/227389920779142> a fb:Event ;
     rdfs:label "CARTEL KINGSDAY AFTER PARTY w/ DJ TLR & INNERSHADES" ;
+    av:genre <http://dbpedia.org/resource/Funk>,
+        <http://dbpedia.org/resource/House_music> ;
     av:latitude 5.236721e+01 ;
     av:longitude 4.896393e+00 ;
     fb:at_venue <http://facebook.com/199623270044> ;
@@ -2093,6 +2207,11 @@ www.youtube.com/user/cartelamsterdam/videos""" ;
 
 <http://facebook.com/229327567247295> a fb:Event ;
     rdfs:label "Klonckenstein | Tuesday 11th of March @ Sugarfactory | GUESSBEATS & KIDMALONE ALL NIGHT LONG" ;
+    av:genre <http://dbpedia.org/resource/Beat_music>,
+        <http://dbpedia.org/resource/Boogie_(genre)>,
+        <http://dbpedia.org/resource/Disco>,
+        <http://dbpedia.org/resource/House_music>,
+        <http://dbpedia.org/resource/Soul_music> ;
     av:latitude 5.230721e+01 ;
     av:longitude 4.63316e+00 ;
     fb:at_venue <http://facebook.com/137689653097044> ;
@@ -2119,6 +2238,7 @@ Genre: House""" ;
     rdfs:label "White Rabbit @ Club Up w/ La Vondèl & Huminal" ;
     av:latitude 5.236358e+01 ;
     av:longitude 4.883382e+00 ;
+    av:relatedArtist <http://dbpedia.org/resource/Franz_Ferdinand_%28band%29> ;
     fb:at_venue <http://facebook.com/117962971613608> ;
     fb:attending_total 25 ;
     fb:description """White Rabbit Witte Donderdag De ClubUp
@@ -2157,6 +2277,7 @@ Guestlist closes at 01:00""" ;
 
 <http://facebook.com/230439907143038> a fb:Event ;
     rdfs:label "VERKNIPT invites Sidney Charles |DE|" ;
+    av:genre <http://dbpedia.org/resource/House_music> ;
     av:latitude 5.23643e+01 ;
     av:longitude 4.882795e+00 ;
     fb:at_venue <http://facebook.com/128412910560309> ;
@@ -2233,6 +2354,7 @@ www.soundcloud.com/studio80wknd""" ;
 
 <http://facebook.com/233938943451845> a fb:Event ;
     rdfs:label "Extreme @ Melkweg Amsterdam" ;
+    av:genre <http://dbpedia.org/resource/Funk> ;
     av:latitude 5.236479e+01 ;
     av:longitude 4.881546e+00 ;
     fb:at_venue <http://facebook.com/301130305994> ;
@@ -2261,6 +2383,9 @@ info & tickets: http://www.melkweg.nl/nl/agenda/sivert-hoyem-04-06-2014""" ;
 
 <http://facebook.com/240405012791876> a fb:Event ;
     rdfs:label "Asking Alexandria @ Melkweg Amsterdam" ;
+    av:genre <http://dbpedia.org/resource/Metalcore>,
+        <http://dbpedia.org/resource/Screamo>,
+        <http://dbpedia.org/resource/Techno> ;
     av:latitude 5.236479e+01 ;
     av:longitude 4.881546e+00 ;
     fb:at_venue <http://facebook.com/301130305994> ;
@@ -2275,6 +2400,8 @@ info & tickets: http://www.melkweg.nl/nl/agenda/asking-alexandria""" ;
 
 <http://facebook.com/244277499086826> a fb:Event ;
     rdfs:label "YELLOW LOUNGE FEAT. VALENTINA LISITSA piano & PATRICE BÄUMEL dj" ;
+    av:genre <http://dbpedia.org/resource/Techno>,
+        <http://dbpedia.org/resource/VIA_music> ;
     av:latitude 5.235406e+01 ;
     av:longitude 4.912317e+00 ;
     fb:at_venue <http://facebook.com/111197278919528> ;
@@ -2296,6 +2423,7 @@ Online €10 // Deur €10 // Deuren open 20.30""" ;
 
 <http://facebook.com/245913078892589> a fb:Event ;
     rdfs:label "REVEAL  ★ APRIL 10   ★  ESCAPE AMSTERDAM ★" ;
+    av:genre <http://dbpedia.org/resource/Trance_music> ;
     av:latitude 5.23666e+01 ;
     av:longitude 4.896321e+00 ;
     fb:at_venue <http://facebook.com/139138742816664> ;
@@ -2347,6 +2475,7 @@ Voorverkoop €35 // Deur € 35 // Trouwe Honden €25 // Deuren open 23.00""" 
 
 <http://facebook.com/249616921884642> a fb:Event ;
     rdfs:label "BASICS. | Pedestrian invites Dark Sky | 19/04 | Chicago Social Club" ;
+    av:genre <http://dbpedia.org/resource/House_music> ;
     av:latitude 5.23643e+01 ;
     av:longitude 4.882795e+00 ;
     fb:at_venue <http://facebook.com/128412910560309> ;
@@ -2403,6 +2532,7 @@ Jongens v/d Wereld  & OUR HOUSE""" ;
 
 <http://facebook.com/253874818125098> a fb:Event ;
     rdfs:label "PRISMA w/ ATOMNATION & MANUAL MUSIC ft. APPLESCAL, WEVAL, MATTHEIS & MORE" ;
+    av:genre <http://dbpedia.org/resource/Techno> ;
     av:latitude 5.236721e+01 ;
     av:longitude 4.896393e+00 ;
     fb:at_venue <http://facebook.com/199623270044> ;
@@ -2435,6 +2565,16 @@ www.holyprisma.com ▲ www.studio-80.nl/tickets""" ;
 
 <http://facebook.com/255440921282448> a fb:Event ;
     rdfs:label "BAM BAM @ OT301 with MC Xander" ;
+    av:genre <http://dbpedia.org/resource/Beat_music>,
+        <http://dbpedia.org/resource/Dancehall>,
+        <http://dbpedia.org/resource/Dub_(music)>,
+        <http://dbpedia.org/resource/Dubstep>,
+        <http://dbpedia.org/resource/Freestyle_music>,
+        <http://dbpedia.org/resource/Oldschool_jungle>,
+        <http://dbpedia.org/resource/Ragga>,
+        <http://dbpedia.org/resource/Ragga_jungle>,
+        <http://dbpedia.org/resource/Reggae>,
+        <http://dbpedia.org/resource/Trance_music> ;
     av:latitude 5.235974e+01 ;
     av:longitude 4.865968e+00 ;
     fb:at_venue <http://facebook.com/247184411984485> ;
@@ -2458,6 +2598,8 @@ Entrance : 10€/ 7€ before 23h""" ;
 
 <http://facebook.com/257179431127112> a fb:Event ;
     rdfs:label "Vanessa Paradis @ Paradiso" ;
+    av:genre <http://dbpedia.org/resource/Dub_(music)>,
+        <http://dbpedia.org/resource/VIA_music> ;
     av:latitude 5.236221e+01 ;
     av:longitude 4.883852e+00 ;
     fb:at_venue <http://facebook.com/42503443337> ;
@@ -2481,6 +2623,7 @@ Voorverkoop vanaf 21 februari via Ticketmaster Nederland en Paradiso""" ;
 
 <http://facebook.com/263438460496840> a fb:Event ;
     rdfs:label "Kino Praxis: Earth and Ashes" ;
+    av:genre <http://dbpedia.org/resource/Emo> ;
     av:latitude 5.235974e+01 ;
     av:longitude 4.865968e+00 ;
     fb:at_venue <http://facebook.com/247184411984485> ;
@@ -2502,6 +2645,9 @@ Based on a novel director Atiq Rahimi wrote himself, Earth and Ashes pulls our a
 
 <http://facebook.com/264095180424263> a fb:Event ;
     rdfs:label "CROSSOVERS @ Club Up/De Kring 19.04.14" ;
+    av:genre <http://dbpedia.org/resource/Beat_music>,
+        <http://dbpedia.org/resource/House_music>,
+        <http://dbpedia.org/resource/Techno> ;
     av:latitude 5.236358e+01 ;
     av:longitude 4.883382e+00 ;
     fb:at_venue <http://facebook.com/117962971613608> ;
@@ -2541,8 +2687,11 @@ Line up: ROUL & DOORS(DEFECTED), Raymundo, Troj, Frederik Abas, Mc Vika Kova, Mc
 
 <http://facebook.com/265723316909330> a fb:Event ;
     rdfs:label "North Sea Surf Festival 2014" ;
+    av:genre <http://dbpedia.org/resource/Surf_music> ;
     av:latitude 5.236479e+01 ;
     av:longitude 4.881546e+00 ;
+    av:relatedArtist <http://dbpedia.org/resource/Heart_%28band%29>,
+        <http://dbpedia.org/resource/Underworld_%28band%29> ;
     fb:at_venue <http://facebook.com/301130305994> ;
     fb:attending_total 106 ;
     fb:description """On Saturday September 20th the fourth installment will take place of the North Sea Surf Festival, the biggest festival in Northwestern Europe dedicated to instrumental surf music. 
@@ -2555,8 +2704,12 @@ The festival will be held at the legendary venue De Melkweg in the heart of Amst
 
 <http://facebook.com/267170276780957> a fb:Event ;
     rdfs:label "WELCOME TO THE FUTURE w/ GEORGE FITZGERALD (UK) & CINNAMAN" ;
+    av:genre <http://dbpedia.org/resource/Funk>,
+        <http://dbpedia.org/resource/House_music> ;
     av:latitude 5.236721e+01 ;
     av:longitude 4.896393e+00 ;
+    av:relatedArtist <http://dbpedia.org/resource/Jesse_Malin>,
+        <http://dbpedia.org/resource/Sublime_%28band%29> ;
     fb:at_venue <http://facebook.com/199623270044> ;
     fb:attending_total 251 ;
     fb:description """Before we strike down at the natural grounds of 'het Twiske' for the 8th edition of Welcome to the Future Festival, it's time for another Welcome to the Future clubnight at Studio 80! And we're up for something special, as George Fitzgerald will be celebrating his album release.. 
@@ -2580,6 +2733,7 @@ Presale €13 | Doorsale €15 | info: www.studio-80.nl""" ;
 
 <http://facebook.com/270503946447477> a fb:Event ;
     rdfs:label "Pink Martini @ Melkweg Amsterdam" ;
+    av:genre <http://dbpedia.org/resource/Samba> ;
     av:latitude 5.236479e+01 ;
     av:longitude 4.881546e+00 ;
     fb:at_venue <http://facebook.com/301130305994> ;
@@ -2594,6 +2748,12 @@ info & tickets: http://www.melkweg.nl/nl/agenda/pink-martini""" ;
 
 <http://facebook.com/270777109766117> a fb:Event ;
     rdfs:label "Klapstuk! - 1ste Paasdag - Kring & Club Up!" ;
+    av:genre <http://dbpedia.org/resource/Boogie_(genre)>,
+        <http://dbpedia.org/resource/Disco>,
+        <http://dbpedia.org/resource/Funk>,
+        <http://dbpedia.org/resource/Oldschool_jungle>,
+        <http://dbpedia.org/resource/Soul_music>,
+        <http://dbpedia.org/resource/Swing_music> ;
     av:latitude 5.236351e+01 ;
     av:longitude 4.883334e+00 ;
     fb:at_venue <http://facebook.com/160549850667772> ;
@@ -2682,6 +2842,9 @@ More info: www.studio-80.nl""" ;
 
 <http://facebook.com/274362082731643> a fb:Event ;
     rdfs:label "Future Shorts: Spring Edition" ;
+    av:genre <http://dbpedia.org/resource/Dub_(music)>,
+        <http://dbpedia.org/resource/Emo>,
+        <http://dbpedia.org/resource/House_music> ;
     av:latitude 5.235974e+01 ;
     av:longitude 4.865968e+00 ;
     fb:at_venue <http://facebook.com/247184411984485> ;
@@ -2724,6 +2887,7 @@ Participated in 2013 Sundance Film Festival, "Best Short Film" nominee for The B
 
 <http://facebook.com/279348595561648> a fb:Event ;
     rdfs:label "MIDNIGHT CITY, Invites ART OF TONES" ;
+    av:genre <http://dbpedia.org/resource/Funk> ;
     av:latitude 5.236358e+01 ;
     av:longitude 4.883382e+00 ;
     fb:at_venue <http://facebook.com/117962971613608> ;
@@ -2781,6 +2945,8 @@ www.youtube.com/midnightcitynl""" ;
 
 <http://facebook.com/281715021985547> a fb:Event ;
     rdfs:label "KISS Escort presents: \" Smierige Beisten Festijn\"" ;
+    av:genre <http://dbpedia.org/resource/Soul_music>,
+        <http://dbpedia.org/resource/Trance_music> ;
     av:latitude 5.236358e+01 ;
     av:longitude 4.883382e+00 ;
     fb:at_venue <http://facebook.com/117962971613608> ;
@@ -2840,6 +3006,7 @@ EERSTE PAASDAG Chicago Social Club:
 
 <http://facebook.com/287854011368872> a fb:Event ;
     rdfs:label "Black Light District invites Pitto" ;
+    av:genre <http://dbpedia.org/resource/Emo> ;
     fb:attending_total 11 ;
     fb:description """David Granaada (Geheime Muziekjes)
 https://soundcloud.com/david-granaada
@@ -2857,6 +3024,10 @@ https://soundcloud.com/justpitto""" ;
 
 <http://facebook.com/288182004666295> a fb:Event ;
     rdfs:label "Klonckenstein - elke dinsdag" ;
+    av:genre <http://dbpedia.org/resource/Boogie_(genre)>,
+        <http://dbpedia.org/resource/Disco>,
+        <http://dbpedia.org/resource/House_music>,
+        <http://dbpedia.org/resource/Soul_music> ;
     av:latitude 5.236473e+01 ;
     av:longitude 4.881825e+00 ;
     fb:at_venue <http://facebook.com/130350927079784> ;
@@ -2869,6 +3040,7 @@ https://soundcloud.com/justpitto""" ;
 
 <http://facebook.com/291902984291950> a fb:Event ;
     rdfs:label "De Ruiskamer #006 // March 8th @ OT301" ;
+    av:genre <http://dbpedia.org/resource/Trance_music> ;
     av:latitude 5.235974e+01 ;
     av:longitude 4.865968e+00 ;
     fb:at_venue <http://facebook.com/247184411984485> ;
@@ -2897,6 +3069,10 @@ Sjam""" ;
 
 <http://facebook.com/292062417607491> a fb:Event ;
     rdfs:label "Crossroads met Phil Weeks (FR) / 21.03 / Chicago Social Club" ;
+    av:genre <http://dbpedia.org/resource/Disco>,
+        <http://dbpedia.org/resource/House_music>,
+        <http://dbpedia.org/resource/Soul_music>,
+        <http://dbpedia.org/resource/Swing_music> ;
     av:latitude 5.235996e+01 ;
     av:longitude 4.85314e+00 ;
     fb:at_venue <http://facebook.com/609041759175168> ;
@@ -2958,6 +3134,10 @@ http://www.paradiso.nl/web/Agenda-Item/Brainfeeder-presents-Flying-Lotus-Captain
 
 <http://facebook.com/302211626599081> a fb:Event ;
     rdfs:label "Mijke & Co Live @sugarfactory gratis met o.a. Sven Hammond Soul, Nishe, Maite Hontelé en The Ob6sions" ;
+    av:genre <http://dbpedia.org/resource/Funk>,
+        <http://dbpedia.org/resource/Salsa_music>,
+        <http://dbpedia.org/resource/Soul_music>,
+        <http://dbpedia.org/resource/Swing_music> ;
     fb:attending_total 42 ;
     fb:description """OP DE HOOGTE BLIJVEN VAN DE PROGRAMMERING, MELD JE AAN VOOR DE NIEUWSBRIEF: http://bit.ly/1js5sqA
 
@@ -2993,6 +3173,7 @@ Wekelijks in het programma hoor je huisband The Ob6sions. De band bestaande uit 
 
 <http://facebook.com/310000872458590> a fb:Event ;
     rdfs:label "De Nachtdivisie met Richy Ahmed (Hot Creations, UK)" ;
+    av:genre <http://dbpedia.org/resource/House_music> ;
     av:latitude 5.23643e+01 ;
     av:longitude 4.882795e+00 ;
     fb:at_venue <http://facebook.com/128412910560309> ;
@@ -3026,6 +3207,9 @@ https://www.facebook.com/events/262347900594090/""" ;
 
 <http://facebook.com/332963893508357> a fb:Event ;
     rdfs:label "MØ @ People's Place" ;
+    av:genre <http://dbpedia.org/resource/Electro_(music)>,
+        <http://dbpedia.org/resource/Ska>,
+        <http://dbpedia.org/resource/VIA_music> ;
     av:latitude 5.236329e+01 ;
     av:longitude 4.879548e+00 ;
     fb:at_venue <http://facebook.com/168613903156500> ;
@@ -3044,6 +3228,10 @@ aanvang 21.00 uur | zaal open 20.00 uur | entree € 13,- incl. daglidmaatschap"
 
 <http://facebook.com/339864646122329> a fb:Event ;
     rdfs:label "EVERY SUNDAY: Wicked Jazz Sounds Clubnight @ Sugarfactory Amsterdam" ;
+    av:genre <http://dbpedia.org/resource/Funk>,
+        <http://dbpedia.org/resource/Hip_hop_music>,
+        <http://dbpedia.org/resource/House_music>,
+        <http://dbpedia.org/resource/Soul_music> ;
     av:latitude 5.236473e+01 ;
     av:longitude 4.881825e+00 ;
     fb:at_venue <http://facebook.com/130350927079784> ;
@@ -3090,8 +3278,6 @@ More Metals: http://bit.ly/1iAg6LQ""" ;
         <http://dbpedia.org/resource/House_music> ;
     av:latitude 5.23643e+01 ;
     av:longitude 4.882795e+00 ;
-    av:relatedArtist <http://dbpedia.org/resource/Janet_Jackson>,
-        <http://dbpedia.org/resource/The_Doors> ;
     fb:at_venue <http://facebook.com/128412910560309> ;
     fb:attending_total 51 ;
     fb:description """✖ VBX – SPECTRUM
@@ -3126,6 +3312,8 @@ http://bit.ly/vbxthemoletickets""" ;
 
 <http://facebook.com/395809670564736> a fb:Event ;
     rdfs:label "Man or Astroman? @ Melkweg Amsterdam" ;
+    av:genre <http://dbpedia.org/resource/Electro_(music)>,
+        <http://dbpedia.org/resource/Post-punk> ;
     av:latitude 5.236479e+01 ;
     av:longitude 4.881546e+00 ;
     fb:at_venue <http://facebook.com/301130305994> ;
@@ -3140,6 +3328,7 @@ info & tickets: http://www.melkweg.nl/nl/agenda/man-or-astroman""" ;
 
 <http://facebook.com/407717952664012> a fb:Event ;
     rdfs:label "TROUW OP ZONDAG FEAT. PACHANGA BOYS / MALAWI" ;
+    av:genre <http://dbpedia.org/resource/Pachanga> ;
     av:latitude 5.235406e+01 ;
     av:longitude 4.912317e+00 ;
     fb:at_venue <http://facebook.com/111197278919528> ;
@@ -3159,6 +3348,7 @@ Entree €18 // Trouwe Honden €10 // Tussen 18.00 en 20.00 Trouw maaltijd in h
 
 <http://facebook.com/415640758539350> a fb:Event ;
     rdfs:label "Springplank" ;
+    av:genre <http://dbpedia.org/resource/House_music> ;
     av:latitude 5.236358e+01 ;
     av:longitude 4.883382e+00 ;
     fb:at_venue <http://facebook.com/117962971613608> ;
@@ -3207,6 +3397,7 @@ https://soundcloud.com/le-point
 
 <http://facebook.com/420138951466209> a fb:Event ;
     rdfs:label "RUSH HOUR FEAT. BEAUTIFUL SWIMMERS / ANTAL / TAKO / KASSEM MOSSE / XOSAR LIVE / INTERSTELLAR FUNK / ROBERT BERGMAN" ;
+    av:genre <http://dbpedia.org/resource/Funk> ;
     av:latitude 5.235406e+01 ;
     av:longitude 4.912317e+00 ;
     fb:at_venue <http://facebook.com/111197278919528> ;
@@ -3278,6 +3469,10 @@ Geen voorverkoop""" ;
 
 <http://facebook.com/447794138683007> a fb:Event ;
     rdfs:label "Chet Faker, vrijdag 2 mei @ Bitterzoet" ;
+    av:genre <http://dbpedia.org/resource/Disco>,
+        <http://dbpedia.org/resource/Electro_(music)>,
+        <http://dbpedia.org/resource/Electronica>,
+        <http://dbpedia.org/resource/House_music> ;
     av:latitude 5.236221e+01 ;
     av:longitude 4.883852e+00 ;
     fb:at_venue <http://facebook.com/42503443337> ;
@@ -3295,7 +3490,6 @@ Nicolas Murphy nam in 2011, zonder grote verwachtingen, een cover op van ‘No D
     av:genre <http://dbpedia.org/resource/Ska> ;
     av:latitude 5.236621e+01 ;
     av:longitude 4.899171e+00 ;
-    av:relatedArtist <http://dbpedia.org/resource/Lady_Gaga> ;
     fb:at_venue <http://facebook.com/240498266023061> ;
     fb:attending_total 285 ;
     fb:description """Donderdag 13 maart vinden de spectaculaire XITE AWARDS 2014 plaats in club AIR, Amsterdam. 
@@ -3312,6 +3506,7 @@ En dat allemaal voor slechts 10,- dus haal snel je tickets op www.air.nl en neem
 
 <http://facebook.com/461281283998193> a fb:Event ;
     rdfs:label "Tom Harding & JP @ Melkweg Amsterdam" ;
+    av:genre <http://dbpedia.org/resource/House_music> ;
     av:latitude 5.236479e+01 ;
     av:longitude 4.881546e+00 ;
     fb:at_venue <http://facebook.com/301130305994> ;
@@ -3332,8 +3527,6 @@ Info & tickets: http://www.melkweg.nl/nl/agenda/tom-harding-jp-3""" ;
     rdfs:label "CookieClub invites Moda Black" ;
     av:latitude 5.236621e+01 ;
     av:longitude 4.899074e+00 ;
-    av:relatedArtist <http://dbpedia.org/resource/Andy_Williams>,
-        <http://dbpedia.org/resource/George_Harrison> ;
     fb:at_venue <http://facebook.com/109020085791036> ;
     fb:attending_total 63 ;
     fb:description """29/03/2014
@@ -3359,6 +3552,7 @@ Moda Black: www.thisismoda.com""" ;
 
 <http://facebook.com/464059417054158> a fb:Event ;
     rdfs:label "Double D (dirty disco) @ supperclub" ;
+    av:genre <http://dbpedia.org/resource/Disco> ;
     av:latitude 5.237197e+01 ;
     av:longitude 4.891198e+00 ;
     fb:at_venue <http://facebook.com/105797235847> ;
@@ -3403,6 +3597,8 @@ Entree €18 // Trouwe Honden €10 // €8 voor middernacht""" ;
 
 <http://facebook.com/486026734841589> a fb:Event ;
     rdfs:label "ANIMO X WOLF MUSIC RECORDINGS w/ MEDLAR, GREYMATTER, KRL, MATT & STU" ;
+    av:genre <http://dbpedia.org/resource/Beat_music>,
+        <http://dbpedia.org/resource/Electro_(music)> ;
     av:latitude 5.236721e+01 ;
     av:longitude 4.896393e+00 ;
     fb:at_venue <http://facebook.com/199623270044> ;
@@ -3491,6 +3687,7 @@ Entree €20 // Trouwe Honden €10 // Tussen 18.00 en 20.00 Trouw maaltijd in h
 
 <http://facebook.com/506711772782581> a fb:Event ;
     rdfs:label "Philip H. Anselmo & the Illegals @ Melkweg Amsterdam" ;
+    av:genre <http://dbpedia.org/resource/Hardcore_techno> ;
     av:latitude 5.236479e+01 ;
     av:longitude 4.881546e+00 ;
     fb:at_venue <http://facebook.com/301130305994> ;
@@ -3505,6 +3702,7 @@ info & tickets: http://www.melkweg.nl/nl/agenda/philip-h-anselmo-the-illegals"""
 
 <http://facebook.com/507463209374730> a fb:Event ;
     rdfs:label "JUNGLE BY NIGHT" ;
+    av:genre <http://dbpedia.org/resource/Oldschool_jungle> ;
     av:latitude 5.235406e+01 ;
     av:longitude 4.912317e+00 ;
     fb:at_venue <http://facebook.com/111197278919528> ;
@@ -3525,6 +3723,7 @@ Entrée €15 // Voorverkoop €12 // Trouwe Honden €10 // Deuren open 20.30""
 
 <http://facebook.com/515669318457680> a fb:Event ;
     rdfs:label "REVEAL ★ THURSDAY MARCH 27 ★ ESCAPE AMSTERDAM" ;
+    av:genre <http://dbpedia.org/resource/Trance_music> ;
     av:latitude 5.23666e+01 ;
     av:longitude 4.896321e+00 ;
     fb:at_venue <http://facebook.com/139138742816664> ;
@@ -3552,6 +3751,7 @@ http://www.facebook.com/reveal.escape""" ;
 
 <http://facebook.com/516419625142679> a fb:Event ;
     rdfs:label "FIELD DAY FEAT. JAMIE XX / FOUR TET" ;
+    av:genre <http://dbpedia.org/resource/Oldschool_jungle> ;
     av:latitude 5.235406e+01 ;
     av:longitude 4.912317e+00 ;
     fb:at_venue <http://facebook.com/111197278919528> ;
@@ -3573,8 +3773,21 @@ Entree €20 // Trouwe Honden €10 // Deuren open 00.00 uur""" ;
 
 <http://facebook.com/519097491537389> a fb:Event ;
     rdfs:label "THE DINOSAUR TRUCKERS + DEREK W DUNN (.357 STRING BAND)" ;
+    av:genre <http://dbpedia.org/resource/Bluegrass_fiddle>,
+        <http://dbpedia.org/resource/Bluegrass_music>,
+        <http://dbpedia.org/resource/Blues>,
+        <http://dbpedia.org/resource/Blues_fiddle>,
+        <http://dbpedia.org/resource/Country_blues>,
+        <http://dbpedia.org/resource/Mariachi>,
+        <http://dbpedia.org/resource/Rock_and_roll>,
+        <http://dbpedia.org/resource/Rockabilly> ;
     av:latitude 5.235974e+01 ;
     av:longitude 4.865968e+00 ;
+    av:relatedArtist <http://dbpedia.org/resource/Dinosaur_Jr.>,
+        <http://dbpedia.org/resource/Hank_Williams>,
+        <http://dbpedia.org/resource/Lead_Belly>,
+        <http://dbpedia.org/resource/The_Band>,
+        <http://dbpedia.org/resource/Woody_Guthrie> ;
     fb:at_venue <http://facebook.com/247184411984485> ;
     fb:attending_total 31 ;
     fb:description """www.dinosaurtruckers.de
@@ -3654,8 +3867,10 @@ Resistance Orchestra""" ;
 
 <http://facebook.com/532581116838937> a fb:Event ;
     rdfs:label "The Ghost Inside / Caliban / Devil Wears Prada / I Killed The Prom Queen @ Melkweg Amsterdam" ;
+    av:genre <http://dbpedia.org/resource/Metalcore> ;
     av:latitude 5.236479e+01 ;
     av:longitude 4.881546e+00 ;
+    av:relatedArtist <http://dbpedia.org/resource/Caliban_%28band%29> ;
     fb:at_venue <http://facebook.com/301130305994> ;
     fb:attending_total 76 ;
     fb:description """IMPERICON PROGRESSION TOUR 2014
@@ -3765,6 +3980,7 @@ Meer info: http://www.paradiso.nl/web/Agenda-Item/Nielson-1.htm""" ;
 
 <http://facebook.com/543342305781835> a fb:Event ;
     rdfs:label "KRAFT - by InDeep'n'Dance Records" ;
+    av:genre <http://dbpedia.org/resource/Techno> ;
     av:latitude 5.236473e+01 ;
     av:longitude 4.881825e+00 ;
     fb:at_venue <http://facebook.com/130350927079784> ;
@@ -3880,6 +4096,7 @@ https://www.facebook.com/odeonamsterdam/app_1425""" ;
 
 <http://facebook.com/548415688587210> a fb:Event ;
     rdfs:label "Anna Calvi @ Paradiso Amsterdam" ;
+    av:genre <http://dbpedia.org/resource/Emo> ;
     av:latitude 5.236221e+01 ;
     av:longitude 4.883852e+00 ;
     fb:at_venue <http://facebook.com/42503443337> ;
@@ -3899,6 +4116,7 @@ ENTREE 18,- EXCL. LIDMAATSCHAP (3,50 P.M. / 25,- P.J.)""" ;
 
 <http://facebook.com/560956773959835> a fb:Event ;
     rdfs:label "REVEAL ★ EVERY THURSDAY   ★ 20 MARCH" ;
+    av:genre <http://dbpedia.org/resource/Trance_music> ;
     av:latitude 5.23666e+01 ;
     av:longitude 4.896321e+00 ;
     fb:at_venue <http://facebook.com/139138742816664> ;
@@ -3925,6 +4143,8 @@ http://www.facebook.com/reveal.escape""" ;
 
 <http://facebook.com/562266537202213> a fb:Event ;
     rdfs:label "LOBI 21+ | De beste late 90's & early 00's hits | Elke laatste vrijdag van de maand" ;
+    av:genre <http://dbpedia.org/resource/Disco>,
+        <http://dbpedia.org/resource/Emo> ;
     av:latitude 5.236473e+01 ;
     av:longitude 4.881825e+00 ;
     fb:at_venue <http://facebook.com/130350927079784> ;
@@ -4068,6 +4288,7 @@ Giuda is een vijfmansformatie uit Rome die melodieuze “garage-glamrock” en p
     rdfs:label "The Notwist @ Melkweg Amsterdam" ;
     av:latitude 5.236479e+01 ;
     av:longitude 4.881546e+00 ;
+    av:relatedArtist <http://dbpedia.org/resource/The_Notwist> ;
     fb:at_venue <http://facebook.com/301130305994> ;
     fb:attending_total 20 ;
     fb:description "info & tickets: http://www.melkweg.nl/nl/agenda/the-notwist" ;
@@ -4152,6 +4373,9 @@ Entree €20 // Trouwe Honden €10 // €8 voor middernacht""" ;
 
 <http://facebook.com/578829098880370> a fb:Event ;
     rdfs:label "WAVEFILES INVITES DUBBEL DUTCH (US) & LEE ANY / DONDERDAG 3 APRIL @ CLUB UP" ;
+    av:genre <http://dbpedia.org/resource/Dub_(music)>,
+        <http://dbpedia.org/resource/Grime_(music)>,
+        <http://dbpedia.org/resource/Techno> ;
     av:latitude 5.236358e+01 ;
     av:longitude 4.883382e+00 ;
     fb:at_venue <http://facebook.com/117962971613608> ;
@@ -4190,6 +4414,7 @@ Suddenly, Last Winter (IT, 2008) by G. Hofer & L. Ragazzi, 78 min. English subti
 
 <http://facebook.com/583219901756571> a fb:Event ;
     rdfs:label "DOWN BELOW - DE VERDIEPING ONLY FEAT. OMAR S / ELIAS MAZIAN / INTERSTELLAR FUNK" ;
+    av:genre <http://dbpedia.org/resource/Funk> ;
     av:latitude 5.235406e+01 ;
     av:longitude 4.912317e+00 ;
     fb:at_venue <http://facebook.com/111197278919528> ;
@@ -4210,6 +4435,7 @@ Entree €18 // Trouwe Honden €10 // €8 voor middernacht""" ;
 
 <http://facebook.com/587166091377160> a fb:Event ;
     rdfs:label "Cinema Derive: Federico Fellini's Roma" ;
+    av:genre <http://dbpedia.org/resource/Emo> ;
     av:latitude 5.235974e+01 ;
     av:longitude 4.865968e+00 ;
     fb:at_venue <http://facebook.com/247184411984485> ;
@@ -4247,6 +4473,7 @@ info & tickets: http://www.melkweg.nl/nl/agenda/letz-zep-13-12-2014""" ;
 
 <http://facebook.com/590545864372121> a fb:Event ;
     rdfs:label "The Wailers @ Melkweg Amsterdam" ;
+    av:genre <http://dbpedia.org/resource/Reggae> ;
     av:latitude 5.236479e+01 ;
     av:longitude 4.881546e+00 ;
     fb:at_venue <http://facebook.com/301130305994> ;
@@ -4319,6 +4546,7 @@ TICKETS: http://bit.ly/1fDhYN5
 
 <http://facebook.com/593261954089948> a fb:Event ;
     rdfs:label "The Big Man Himself: Andhim - all night long (200 tickets aan de deur)" ;
+    av:genre <http://dbpedia.org/resource/House_music> ;
     av:latitude 5.23643e+01 ;
     av:longitude 4.882795e+00 ;
     fb:at_venue <http://facebook.com/128412910560309> ;
@@ -4416,6 +4644,8 @@ Tot dan :) !!!""" ;
 
 <http://facebook.com/596022910479621> a fb:Event ;
     rdfs:label "Cinema Pasta: Italian food, film and dance" ;
+    av:genre <http://dbpedia.org/resource/Disco>,
+        <http://dbpedia.org/resource/VIA_music> ;
     av:latitude 5.235974e+01 ;
     av:longitude 4.865968e+00 ;
     fb:at_venue <http://facebook.com/247184411984485> ;
@@ -4432,8 +4662,13 @@ The film tells the story of a virtual reality game designer who discovers that t
 
 <http://facebook.com/596770047072710> a fb:Event ;
     rdfs:label "Live: BOWRAIN – Far Out debut album release" ;
+    av:genre <http://dbpedia.org/resource/Electro_(music)> ;
     av:latitude 5.236473e+01 ;
     av:longitude 4.881825e+00 ;
+    av:relatedArtist <http://dbpedia.org/resource/Kate_Bush>,
+        <http://dbpedia.org/resource/Michael_Jackson>,
+        <http://dbpedia.org/resource/Portishead_%28band%29>,
+        <http://dbpedia.org/resource/The_Feeling> ;
     fb:at_venue <http://facebook.com/130350927079784> ;
     fb:attending_total 66 ;
     fb:description """BOWRAIN is the electronic project of Slovenian musician Tine Grgurevic. The name was created in late September 2011 in Amsterdam. At the moment Tine is working together with producer Nikos Kandarakis on BOWRAIN’s debut album Far Out. His influences go from jazz, classical, pop and electronic to film music. His live performances are a mix of playing piano and Dj-ing with sampling voice and speech.
@@ -4503,6 +4738,7 @@ Leeftijd: 21+""" ;
 
 <http://facebook.com/605793789509054> a fb:Event ;
     rdfs:label "PLAK presents: WILLY'S (CRAZY) AFTER" ;
+    av:genre <http://dbpedia.org/resource/House_music> ;
     av:latitude 5.236358e+01 ;
     av:longitude 4.883382e+00 ;
     fb:at_venue <http://facebook.com/117962971613608> ;
@@ -4630,7 +4866,6 @@ Info: http://www.paradiso.nl/web/Agenda-Item/Traumahelikopter-Locatie-Bitterzoet
         <http://dbpedia.org/resource/Emo> ;
     av:latitude 5.237747e+01 ;
     av:longitude 4.89427e+00 ;
-    av:relatedArtist <http://dbpedia.org/resource/Bizarre_%28rapper%29> ;
     fb:at_venue <http://facebook.com/129786563758412> ;
     fb:attending_total 412 ;
     fb:description """✰ HIGHER GROUND & FRESHCOTTON ✰
@@ -4685,6 +4920,7 @@ Deuren openen vanaf 23.00""" ;
 
 <http://facebook.com/617129938365755> a fb:Event ;
     rdfs:label "THE SHELL XIII w/ SEVERINO (UK)" ;
+    av:genre <http://dbpedia.org/resource/Disco> ;
     av:latitude 5.236721e+01 ;
     av:longitude 4.896393e+00 ;
     fb:at_venue <http://facebook.com/199623270044> ;
@@ -4796,6 +5032,7 @@ Entree €20 // Trouwe Honden €10 // €10 tussen 08.00 en 12.00 uur""" ;
 
 <http://facebook.com/623936050993208> a fb:Event ;
     rdfs:label "REVEAL ▲  THURSDAY 17 APRIL - EASTER EDITION" ;
+    av:genre <http://dbpedia.org/resource/Trance_music> ;
     av:latitude 5.23666e+01 ;
     av:longitude 4.896321e+00 ;
     fb:at_venue <http://facebook.com/139138742816664> ;
@@ -4822,6 +5059,13 @@ Students: FREE entrance with your student ID card, Regular: €10,- , VIP Tables
 
 <http://facebook.com/625365867534796> a fb:Event ;
     rdfs:label "Venetian Snares / Bong-ra / FFF / 030303 rave team / Gonzo Toby & Akemiö Grey (Lemon Community) @ Melkweg Amsterdam" ;
+    av:genre <http://dbpedia.org/resource/Beat_music>,
+        <http://dbpedia.org/resource/Breakcore>,
+        <http://dbpedia.org/resource/Emo>,
+        <http://dbpedia.org/resource/Go-go>,
+        <http://dbpedia.org/resource/Hardcore_techno>,
+        <http://dbpedia.org/resource/Oldschool_jungle>,
+        <http://dbpedia.org/resource/Ragga> ;
     av:latitude 5.236479e+01 ;
     av:longitude 4.881546e+00 ;
     fb:at_venue <http://facebook.com/301130305994> ;
@@ -4864,6 +5108,7 @@ Amsterdam's only EDM Clubnight, in Amsterdam's biggest club!
 
 <http://facebook.com/632191570149354> a fb:Event ;
     rdfs:label "Nachtdieren 14-03-14" ;
+    av:genre <http://dbpedia.org/resource/Oldschool_jungle> ;
     av:latitude 5.236758e+01 ;
     av:longitude 4.889064e+00 ;
     fb:at_venue <http://facebook.com/144839688861341> ;
@@ -4907,6 +5152,7 @@ https://www.facebook.com/odeonamsterdam/app_1425""" ;
 
 <http://facebook.com/637708606277079> a fb:Event ;
     rdfs:label "Trust @ Melkweg Amsterdam" ;
+    av:genre <http://dbpedia.org/resource/Synthpop> ;
     av:latitude 5.236479e+01 ;
     av:longitude 4.881546e+00 ;
     fb:at_venue <http://facebook.com/301130305994> ;
@@ -4946,6 +5192,10 @@ Both films with English subtitles.
 
 <http://facebook.com/647750351938651> a fb:Event ;
     rdfs:label "The Workout - Hip House @ Chicago Social Club" ;
+    av:genre <http://dbpedia.org/resource/Hardcore_techno>,
+        <http://dbpedia.org/resource/Hip_house>,
+        <http://dbpedia.org/resource/House_music>,
+        <http://dbpedia.org/resource/Soul_music> ;
     av:latitude 5.23643e+01 ;
     av:longitude 4.882795e+00 ;
     fb:at_venue <http://facebook.com/128412910560309> ;
@@ -4987,6 +5237,11 @@ http://www.jameshunnicutt.com/""" ;
 
 <http://facebook.com/660248287365278> a fb:Event ;
     rdfs:label "WAVEFILES INVITES DJ PAYPAL & 813 / DONDERDAG 6 MAART @ CLUB UP" ;
+    av:genre <http://dbpedia.org/resource/Beat_music>,
+        <http://dbpedia.org/resource/Electro_(music)>,
+        <http://dbpedia.org/resource/Electronica>,
+        <http://dbpedia.org/resource/Ghetto_house>,
+        <http://dbpedia.org/resource/House_music> ;
     av:latitude 5.236358e+01 ;
     av:longitude 4.883382e+00 ;
     fb:at_venue <http://facebook.com/117962971613608> ;
@@ -5019,6 +5274,9 @@ Adres: Korte Leidsedwarsstraat 26-1""" ;
 
 <http://facebook.com/666687653388048> a fb:Event ;
     rdfs:label "Radio Mortale Live met The Silverfaces, Novack en Ode To The Quiet" ;
+    av:genre <http://dbpedia.org/resource/Blues>,
+        <http://dbpedia.org/resource/Blues_fiddle>,
+        <http://dbpedia.org/resource/VIA_music> ;
     av:latitude 5.236473e+01 ;
     av:longitude 4.881825e+00 ;
     fb:at_venue <http://facebook.com/130350927079784> ;
@@ -5044,6 +5302,10 @@ Kaarten te koop via: http://bit.ly/1bPsaH4""" ;
 
 <http://facebook.com/667053403351349> a fb:Event ;
     rdfs:label "De Nachtdivisie & SHMLSS present Night Fever met RAHAAN (US)" ;
+    av:genre <http://dbpedia.org/resource/Beat_music>,
+        <http://dbpedia.org/resource/Disco>,
+        <http://dbpedia.org/resource/Soul_music>,
+        <http://dbpedia.org/resource/VIA_music> ;
     av:latitude 5.23643e+01 ;
     av:longitude 4.882795e+00 ;
     fb:at_venue <http://facebook.com/128412910560309> ;
@@ -5087,8 +5349,19 @@ De Nachtdivisie Koningsnacht met ADRIATIQUE (3hr set), wAFF & BURNSKI""" ;
 
 <http://facebook.com/673719929359061> a fb:Event ;
     rdfs:label "Help Me to Crash & Calleja/Garrouste Duo" ;
+    av:genre <http://dbpedia.org/resource/Electro_(music)>,
+        <http://dbpedia.org/resource/Emo>,
+        <http://dbpedia.org/resource/Trance_music> ;
     av:latitude 5.235974e+01 ;
     av:longitude 4.865968e+00 ;
+    av:relatedArtist <http://dbpedia.org/resource/Focus_%28band%29>,
+        <http://dbpedia.org/resource/Free_%28band%29>,
+        <http://dbpedia.org/resource/Maria_Mena>,
+        <http://dbpedia.org/resource/Ocean_Colour_Scene>,
+        <http://dbpedia.org/resource/The_Frames>,
+        <http://dbpedia.org/resource/The_Jimi_Hendrix_Experience>,
+        <http://dbpedia.org/resource/The_Sounds>,
+        <http://dbpedia.org/resource/Twila_Paris> ;
     fb:at_venue <http://facebook.com/247184411984485> ;
     fb:attending_total 15 ;
     fb:description """21:00 doors open Start 21:30 
@@ -5115,7 +5388,6 @@ Lights: Emese Csornai""" ;
     rdfs:label "♛ Oranjebal 2014 ♛" ;
     av:latitude 5.23643e+01 ;
     av:longitude 4.882795e+00 ;
-    av:relatedArtist <http://dbpedia.org/resource/Van_Halen> ;
     fb:at_venue <http://facebook.com/128412910560309> ;
     fb:attending_total 151 ;
     fb:description """Oranjebal is HET begrip onder alle feestvierende koninginnedag liefhebbers die na al het festival geweld nog even hun laatste dansmoves willen laten zien en de laatste energie stoten eruit willen halen door wodka glazen naar hun mond te tillen. 
@@ -5156,6 +5428,7 @@ Ticketlink: http://goo.gl/PzUIhz""" ;
 
 <http://facebook.com/696994937010351> a fb:Event ;
     rdfs:label "Bunga 327 - The Final After" ;
+    av:genre <http://dbpedia.org/resource/House_music> ;
     av:latitude 5.236473e+01 ;
     av:longitude 4.881825e+00 ;
     fb:at_venue <http://facebook.com/130350927079784> ;
@@ -5196,6 +5469,7 @@ Regular 15,-""" ;
 
 <http://facebook.com/697844463589172> a fb:Event ;
     rdfs:label "Action Beat with G.W Sok" ;
+    av:genre <http://dbpedia.org/resource/Beat_music> ;
     av:latitude 5.235974e+01 ;
     av:longitude 4.865968e+00 ;
     fb:at_venue <http://facebook.com/247184411984485> ;
@@ -5223,8 +5497,12 @@ https://soundcloud.com/actionbeat/w-g-w-sok-disappearing-man""" ;
 
 <http://facebook.com/701881489863396> a fb:Event ;
     rdfs:label "Project Sugar 27th March - ANONYM, Stefan Kuipers, Thara Bergen & Ceze" ;
+    av:genre <http://dbpedia.org/resource/Beat_music>,
+        <http://dbpedia.org/resource/House_music>,
+        <http://dbpedia.org/resource/Techno> ;
     av:latitude 5.236473e+01 ;
     av:longitude 4.881825e+00 ;
+    av:relatedArtist <http://dbpedia.org/resource/The_Doors> ;
     fb:at_venue <http://facebook.com/130350927079784> ;
     fb:attending_total 58 ;
     fb:description """To celebrate our 20th edition we have decided to go big! 
@@ -5275,6 +5553,7 @@ info & tickets: http://www.melkweg.nl/nl/agenda/mastodon-2""" ;
 
 <http://facebook.com/709985245699108> a fb:Event ;
     rdfs:label "Trust @ Melkweg Amsterdam" ;
+    av:genre <http://dbpedia.org/resource/Synthpop> ;
     av:latitude 5.236479e+01 ;
     av:longitude 4.881546e+00 ;
     fb:at_venue <http://facebook.com/301130305994> ;
@@ -5287,6 +5566,8 @@ info & tickets: http://www.melkweg.nl/nl/agenda/mastodon-2""" ;
 
 <http://facebook.com/710348582343141> a fb:Event ;
     rdfs:label "PLAK / 28.03 / CHICAGO SOCIAL CLUB" ;
+    av:genre <http://dbpedia.org/resource/House_music>,
+        <http://dbpedia.org/resource/Swing_music> ;
     av:latitude 5.23643e+01 ;
     av:longitude 4.882795e+00 ;
     fb:at_venue <http://facebook.com/128412910560309> ;
@@ -5342,6 +5623,8 @@ https://www.facebook.com/events/620296124692532""" ;
 
 <http://facebook.com/711432205576189> a fb:Event ;
     rdfs:label "Kino Praxis: Béla Tarr's Werckmeister Harmonies" ;
+    av:genre <http://dbpedia.org/resource/Tango>,
+        <http://dbpedia.org/resource/Tango_(music)> ;
     av:latitude 5.235974e+01 ;
     av:longitude 4.865968e+00 ;
     fb:at_venue <http://facebook.com/247184411984485> ;
@@ -5359,6 +5642,7 @@ Werckmeister Harmonies is the seventh film by the Hungarian director Béla Tarr 
 
 <http://facebook.com/712182288822552> a fb:Event ;
     rdfs:label "NACHTVLINDERS (by SFFRMKRS)" ;
+    av:genre <http://dbpedia.org/resource/House_music> ;
     av:latitude 5.236351e+01 ;
     av:longitude 4.883334e+00 ;
     fb:at_venue <http://facebook.com/160549850667772> ;
@@ -5381,6 +5665,8 @@ https://www.facebook.com/events/1392184704382199/""" ;
 
 <http://facebook.com/720330184664556> a fb:Event ;
     rdfs:label "VBX - SPECTRUM w/ Linkwood (UK), Alex Salvador, Alexander Valentyn & Tettero" ;
+    av:genre <http://dbpedia.org/resource/Funk>,
+        <http://dbpedia.org/resource/House_music> ;
     av:latitude 5.23643e+01 ;
     av:longitude 4.882795e+00 ;
     fb:at_venue <http://facebook.com/128412910560309> ;
@@ -5451,6 +5737,8 @@ James G. Carlson - Examiner.com
 
 <http://facebook.com/730544683647185> a fb:Event ;
     rdfs:label "AMSTERDAM METALFEST" ;
+    av:genre <http://dbpedia.org/resource/Death_metal>,
+        <http://dbpedia.org/resource/Hard_rock> ;
     av:latitude 5.236473e+01 ;
     av:longitude 4.881825e+00 ;
     fb:at_venue <http://facebook.com/130350927079784> ;
@@ -5568,6 +5856,11 @@ Tickets via: http://goo.gl/fos8D8""" ;
 
 <http://facebook.com/749859111692223> a fb:Event ;
     rdfs:label "Weerloos" ;
+    av:genre <http://dbpedia.org/resource/Disco>,
+        <http://dbpedia.org/resource/Electro_(music)>,
+        <http://dbpedia.org/resource/Funk>,
+        <http://dbpedia.org/resource/House_music>,
+        <http://dbpedia.org/resource/Nu-disco> ;
     av:latitude 5.236473e+01 ;
     av:longitude 4.881825e+00 ;
     fb:at_venue <http://facebook.com/130350927079784> ;
@@ -5601,13 +5894,6 @@ Tickets: LENTEKORTING!!! €3,00 voor iedereen!""" ;
     av:genre <http://dbpedia.org/resource/House_music> ;
     av:latitude 5.236621e+01 ;
     av:longitude 4.899074e+00 ;
-    av:relatedArtist <http://dbpedia.org/resource/Air_%28French_band%29>,
-        <http://dbpedia.org/resource/Chris_Brown_%28American_entertainer%29>,
-        <http://dbpedia.org/resource/Justin_Bieber>,
-        <http://dbpedia.org/resource/Nicki_Minaj>,
-        <http://dbpedia.org/resource/Rick_Ross_%28rapper%29>,
-        <http://dbpedia.org/resource/Steely_Dan>,
-        <http://dbpedia.org/resource/Tyga> ;
     fb:at_venue <http://facebook.com/109020085791036> ;
     fb:attending_total 256 ;
     fb:description """BREAKING: 09 maart verwelkomen we niemand minder dan TYGA! Ja je leest het goed! Bekend van o.a Rack City en zijn samenwerkingen met Chris Brown, Justin Bieber, Nicki Minaj, Rick Ross en veel meer. Kaartjes zijn nu in de voorverkoop gaan, so be on time! 
@@ -5632,8 +5918,6 @@ Min leeftijd: 18 jr""" ;
     av:genre <http://dbpedia.org/resource/Emo> ;
     av:latitude 5.236621e+01 ;
     av:longitude 4.899074e+00 ;
-    av:relatedArtist <http://dbpedia.org/resource/Black_%28English_band%29>,
-        <http://dbpedia.org/resource/Dio_%28band%29> ;
     fb:at_venue <http://facebook.com/109020085791036> ;
     fb:attending_total 68 ;
     fb:description """21/03/2013
@@ -5662,6 +5946,8 @@ www.air.nl""" ;
 
 <http://facebook.com/772496869444668> a fb:Event ;
     rdfs:label "THE GREAT ESCAPE - DETROIT SWINDLE ALBUM RELEASE" ;
+    av:genre <http://dbpedia.org/resource/Beat_music>,
+        <http://dbpedia.org/resource/Electro_(music)> ;
     av:latitude 5.236633e+01 ;
     av:longitude 4.896615e+00 ;
     fb:at_venue <http://facebook.com/498414740279560> ;
@@ -5724,6 +6010,8 @@ http://www.paradiso.nl/web/Agenda-Item/Sam-Smith-Locatie-Peoples-Place.htm""" ;
 
 <http://facebook.com/798455223504961> a fb:Event ;
     rdfs:label "Koffie Verkeerd" ;
+    av:genre <http://dbpedia.org/resource/Disco>,
+        <http://dbpedia.org/resource/House_music> ;
     av:latitude 5.236358e+01 ;
     av:longitude 4.883382e+00 ;
     fb:at_venue <http://facebook.com/117962971613608> ;
@@ -5775,6 +6063,7 @@ The soaring soundtrack by Gabriel Yared is also a classic and there was a time i
 
 <http://facebook.com/820382971322213> a fb:Event ;
     rdfs:label "ONGPST maarwel LKKR #2 // Donderdag 13 Maart" ;
+    av:genre <http://dbpedia.org/resource/Hori_(music)> ;
     av:latitude 5.236358e+01 ;
     av:longitude 4.883382e+00 ;
     fb:at_venue <http://facebook.com/117962971613608> ;
@@ -5809,6 +6098,7 @@ En, de lijst sluit om half 1!""" ;
 
 <http://facebook.com/837194846306223> a fb:Event ;
     rdfs:label "IMPRINT FEAT. SANDRIEN ALL NIGHT LONG" ;
+    av:genre <http://dbpedia.org/resource/Techno> ;
     av:latitude 5.235406e+01 ;
     av:longitude 4.912317e+00 ;
     fb:at_venue <http://facebook.com/111197278919528> ;
@@ -5883,60 +6173,355 @@ Vol = Vol""" ;
     fb:location "Chicago Social Club" ;
     fb:start_time "2014-03-20T22:00:00"^^xsd:dateTime .
 
-<http://dbpedia.org/resource/Andy_Williams> a av:ArtistEntity ;
-    rdfs:label "Andy Williams" ;
-    av:hasTrack <http://soundcloud.com/110488161>,
+<http://dbpedia.org/resource/Air_%28French_band%29> a av:ArtistEntity ;
+    rdfs:label "Air (French band)" ;
+    av:hasTrack <http://soundcloud.com/104599475>,
+        <http://soundcloud.com/132616127>,
+        <http://soundcloud.com/138071647>,
+        <http://soundcloud.com/22295583>,
+        <http://soundcloud.com/36478305>,
+        <http://soundcloud.com/36478314>,
+        <http://soundcloud.com/37670321>,
+        <http://soundcloud.com/40807623>,
+        <http://soundcloud.com/6252465>,
+        <http://soundcloud.com/74573105> ;
+    dbo:MusicGenre <http://dbpedia.org/resource/Ambient_music>,
+        <http://dbpedia.org/resource/Chill-out_music>,
+        <http://dbpedia.org/resource/Downtempo>,
+        <http://dbpedia.org/resource/Dream_pop>,
+        <http://dbpedia.org/resource/Electronica>,
+        <http://dbpedia.org/resource/Space_rock> ;
+    dbo:thumbnail "http://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Air_(band)_playing_in_2010.jpg/200px-Air_(band)_playing_in_2010.jpg" ;
+    rdfs:comment "Air is a music duo from Versailles, France, consisting of Nicolas Godin and Jean-Benoît Dunckel. Air's debut EP, Premiers Symptômes, was followed by the critically acclaimed album Moon Safari, the re-release of Premiers Symptômes, The Virgin Suicides score, and subsequently albums 10 000 Hz Legend, Everybody Hertz, Talkie Walkie, Pocket Symphony, Love 2, and Le Voyage Dans La Lune." .
+
+<http://dbpedia.org/resource/Bane_%28band%29> a av:ArtistEntity ;
+    rdfs:label "Bane (band)" ;
+    av:hasTrack <http://soundcloud.com/117553449>,
+        <http://soundcloud.com/125157723>,
+        <http://soundcloud.com/15431411>,
+        <http://soundcloud.com/15432198>,
+        <http://soundcloud.com/19735815>,
+        <http://soundcloud.com/252487>,
+        <http://soundcloud.com/26406734>,
+        <http://soundcloud.com/28177029>,
+        <http://soundcloud.com/29295656>,
+        <http://soundcloud.com/43446689> ;
+    dbo:MusicGenre <http://dbpedia.org/resource/Hardcore_punk>,
+        <http://dbpedia.org/resource/Melodic_Hardcore> ;
+    dbo:thumbnail "http://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/W0805-Hellfest2013_Bane_AaronDalbec_AaronBedard_66852.JPG/200px-W0805-Hellfest2013_Bane_AaronDalbec_AaronBedard_66852.JPG" ;
+    rdfs:comment "Bane, a hardcore punk band, began as a side project between Aaron Dalbec and Damon Bellardo. Aaron approached Matt Firestone to sing and they played under the moniker of Gateway for a few shows, before Firestone departed ways to focus on other projects. Dalbec then approached Aaron Bedard (who had previously sung for the Worcester, Massachusetts hardcore band Backbone) about singing for Bane. They went into the studio in December 1995 with a few friends and released a 5 song demo." .
+
+<http://dbpedia.org/resource/Bill_Stevenson_%28musician%29> a av:ArtistEntity ;
+    rdfs:label "Bill Stevenson (musician)" ;
+    av:hasTrack <http://soundcloud.com/13523957>,
+        <http://soundcloud.com/18757977>,
+        <http://soundcloud.com/68598908>,
+        <http://soundcloud.com/6951158>,
+        <http://soundcloud.com/6951382>,
+        <http://soundcloud.com/6954108>,
+        <http://soundcloud.com/7024601>,
+        <http://soundcloud.com/7066308>,
+        <http://soundcloud.com/75246160>,
+        <http://soundcloud.com/8846320> ;
+    dbo:MusicGenre <http://dbpedia.org/resource/Punk_rock> ;
+    dbo:thumbnail "http://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Descendents_2011-12-18_11.JPG/200px-Descendents_2011-12-18_11.JPG" ;
+    rdfs:comment "John William \"Bill\" Stevenson (born September 10, 1963) is an American musician and record producer. He is the drummer and frequent songwriter for the California punk rock group Descendents. In late December 1981 he played a few concerts with Black Flag because their drummer ROBO was detained in England after a tour there. He went on to record with Black Flag on several of their albums until 1985." .
+
+<http://dbpedia.org/resource/Black_Flag_%28band%29> a av:ArtistEntity ;
+    rdfs:label "Black Flag (band)" ;
+    av:hasTrack <http://soundcloud.com/131780709>,
+        <http://soundcloud.com/138011922>,
+        <http://soundcloud.com/94292918>,
+        <http://soundcloud.com/98579241>,
+        <http://soundcloud.com/98579242>,
+        <http://soundcloud.com/98579245>,
+        <http://soundcloud.com/98579246>,
+        <http://soundcloud.com/98579251>,
+        <http://soundcloud.com/98579253>,
+        <http://soundcloud.com/98579254> ;
+    dbo:MusicGenre <http://dbpedia.org/resource/Hardcore_punk> ;
+    rdfs:comment "Black Flag is an American hardcore punk band formed in 1976 in Hermosa Beach, California. The band was established by Greg Ginn, the guitarist, primary songwriter, and sole continuous member through multiple personnel changes in the band. They are widely considered to be one of the first hardcore punk bands. After breaking up in 1986, Black Flag briefly reunited in 2003 and again in 2013." .
+
+<http://dbpedia.org/resource/Caliban_%28band%29> a av:ArtistEntity ;
+    rdfs:label "Caliban (band)" ;
+    av:hasTrack <http://soundcloud.com/125157723>,
+        <http://soundcloud.com/15431411>,
+        <http://soundcloud.com/15432198>,
+        <http://soundcloud.com/19735815>,
+        <http://soundcloud.com/252487>,
+        <http://soundcloud.com/26406734>,
+        <http://soundcloud.com/28177029>,
+        <http://soundcloud.com/29295656>,
+        <http://soundcloud.com/43446689>,
+        <http://soundcloud.com/54579994> ;
+    dbo:MusicGenre <http://dbpedia.org/resource/Metalcore> ;
+    dbo:thumbnail "http://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Caliban_2007_12_22_Riga_Latvia.jpg/200px-Caliban_2007_12_22_Riga_Latvia.jpg" ;
+    rdfs:comment "Caliban are a five-piece metalcore band from Germany. They have released Eight studio albums to-date, and two split albums with the band Heaven Shall Burn." .
+
+<http://dbpedia.org/resource/Converge_%28band%29> a av:ArtistEntity ;
+    rdfs:label "Converge (band)" ;
+    av:hasTrack <http://soundcloud.com/19735815>,
+        <http://soundcloud.com/26406734>,
+        <http://soundcloud.com/29295656>,
+        <http://soundcloud.com/41086181>,
+        <http://soundcloud.com/42725822>,
+        <http://soundcloud.com/42727378>,
+        <http://soundcloud.com/43617350>,
+        <http://soundcloud.com/49748851>,
+        <http://soundcloud.com/52419777>,
+        <http://soundcloud.com/69848697> ;
+    dbo:MusicGenre <http://dbpedia.org/resource/Grindcore>,
+        <http://dbpedia.org/resource/Hardcore_punk>,
+        <http://dbpedia.org/resource/Mathcore>,
+        <http://dbpedia.org/resource/Metalcore> ;
+    dbo:thumbnail "http://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Converge_f4287375.jpg/200px-Converge_f4287375.jpg" ;
+    rdfs:comment "Converge is an American hardcore band from Salem, Massachusetts formed in 1990. The group comprises vocalist Jacob Bannon, guitarist Kurt Ballou, bassist Nate Newton and drummer Ben Koller. All members are vegetarians. Playing a blend of hardcore punk and heavy metal, Converge has helped to define many of the elements of the metalcore genre. According to Allmusic, Converge are \"regarded as one of the most original and innovative bands to emerge from the punk underground\"." .
+
+<http://dbpedia.org/resource/Descendents> a av:ArtistEntity ;
+    rdfs:label "Descendents" ;
+    av:hasTrack <http://soundcloud.com/10431842>,
+        <http://soundcloud.com/18380326>,
+        <http://soundcloud.com/23893766>,
+        <http://soundcloud.com/23893767>,
+        <http://soundcloud.com/23893768>,
+        <http://soundcloud.com/32370577>,
+        <http://soundcloud.com/32742276>,
+        <http://soundcloud.com/618535>,
+        <http://soundcloud.com/62099013>,
+        <http://soundcloud.com/6699522> ;
+    dbo:MusicGenre <http://dbpedia.org/resource/Punk_rock> ;
+    dbo:thumbnail "http://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Descendents.png/200px-Descendents.png" ;
+    rdfs:comment "The Descendents are an American punk rock band formed in 1978 in Manhattan Beach, California. They have released six studio albums, three live albums, three compilation albums,. and three EPs. Since 1987, the band's lineup has consisted of singer Milo Aukerman, guitarist Stephen Egerton, bassist Karl Alvarez, and drummer Bill Stevenson." .
+
+<http://dbpedia.org/resource/Dinosaur_Jr.> a av:ArtistEntity ;
+    rdfs:label "Dinosaur Jr." ;
+    av:hasTrack <http://soundcloud.com/109574357>,
+        <http://soundcloud.com/2323542>,
+        <http://soundcloud.com/45710769>,
+        <http://soundcloud.com/51153383>,
+        <http://soundcloud.com/54098854>,
+        <http://soundcloud.com/6888720>,
+        <http://soundcloud.com/6888781>,
+        <http://soundcloud.com/6888882>,
+        <http://soundcloud.com/6888978>,
+        <http://soundcloud.com/83226180> ;
+    dbo:MusicGenre <http://dbpedia.org/resource/Alternative_rock>,
+        <http://dbpedia.org/resource/Indie_rock>,
+        <http://dbpedia.org/resource/Noise_rock> ;
+    dbo:thumbnail "http://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Dinosaur_Jr._at_WTAI_in_Stockholm.jpg/200px-Dinosaur_Jr._at_WTAI_in_Stockholm.jpg" ;
+    rdfs:comment "Dinosaur Jr. is an American alternative rock band formed in Amherst, Massachusetts in 1984, originally called simply Dinosaur until legal issues forced a change in name. The band was founded by J Mascis (guitar, vocals, primary songwriter), Lou Barlow (bass, vocals), and Murph (drums)." .
+
+<http://dbpedia.org/resource/Focus_%28band%29> a av:ArtistEntity ;
+    rdfs:label "Focus (band)" ;
+    av:hasTrack <http://soundcloud.com/106487488>,
+        <http://soundcloud.com/64416574>,
+        <http://soundcloud.com/67171930>,
+        <http://soundcloud.com/67175458>,
+        <http://soundcloud.com/67177384>,
+        <http://soundcloud.com/67180693>,
+        <http://soundcloud.com/67186999>,
+        <http://soundcloud.com/67188214>,
+        <http://soundcloud.com/67190092>,
+        <http://soundcloud.com/67191498> ;
+    dbo:MusicGenre <http://dbpedia.org/resource/Hard_rock>,
+        <http://dbpedia.org/resource/Instrumental_rock>,
+        <http://dbpedia.org/resource/Progressive_rock>,
+        <http://dbpedia.org/resource/Rock_music> ;
+    dbo:thumbnail "http://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Focus_-_TopPop_1974_6.png/200px-Focus_-_TopPop_1974_6.png" ;
+    rdfs:comment "Focus is a Dutch rock band which was founded by classically trained organist/flautist Thijs van Leer in 1969, and is most famous for the instrumental pieces \"Hocus Pocus\" and \"Sylvia\". The band have found renewed fame due to the use of \"Hocus Pocus\" by guitarist Gary Hoey on his 1993 album Animal Instinct, and as the theme for the Nike 2010 World Cup commercial, Write The Future, directed by the Mexican filmmaker Alejandro González Iñárritu." .
+
+<http://dbpedia.org/resource/Franz_Ferdinand_%28band%29> a av:ArtistEntity ;
+    rdfs:label "Franz Ferdinand (band)" ;
+    av:hasTrack <http://soundcloud.com/110919040>,
+        <http://soundcloud.com/110920646>,
+        <http://soundcloud.com/114051043>,
+        <http://soundcloud.com/114873430>,
+        <http://soundcloud.com/117987403>,
+        <http://soundcloud.com/26902260>,
+        <http://soundcloud.com/35444331>,
+        <http://soundcloud.com/5722865>,
+        <http://soundcloud.com/96862746>,
+        <http://soundcloud.com/97410512> ;
+    dbo:MusicGenre <http://dbpedia.org/resource/Dance-rock>,
+        <http://dbpedia.org/resource/Indie_rock>,
+        <http://dbpedia.org/resource/Post-punk_revival> ;
+    dbo:thumbnail "http://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Franz-ferdinand-live-2006-tag.jpg/200px-Franz-ferdinand-live-2006-tag.jpg" ;
+    rdfs:comment "Franz Ferdinand is a Scottish band formed in Glasgow in 2002. The band is composed of Alex Kapranos, Bob Hardy, Nick McCarthy, and Paul Thomson (drums, percussion and backing vocals). The band first experienced chart success when their second single, \"Take Me Out\", reached No.  3 in the UK Charts, followed by their debut album, Franz Ferdinand, which debuted on the UK album chart at No.  3." .
+
+<http://dbpedia.org/resource/Good_Riddance> a av:ArtistEntity ;
+    rdfs:label "Good Riddance" ;
+    av:hasTrack <http://soundcloud.com/116315445>,
+        <http://soundcloud.com/1497228>,
+        <http://soundcloud.com/42814595>,
+        <http://soundcloud.com/43028302>,
+        <http://soundcloud.com/4437784>,
+        <http://soundcloud.com/47666927>,
+        <http://soundcloud.com/57460542>,
+        <http://soundcloud.com/5862171>,
+        <http://soundcloud.com/76550290>,
+        <http://soundcloud.com/85950268> ;
+    dbo:MusicGenre <http://dbpedia.org/resource/Hardcore_punk>,
+        <http://dbpedia.org/resource/Melodic_hardcore>,
+        <http://dbpedia.org/resource/Pop_punk>,
+        <http://dbpedia.org/resource/Punk_rock>,
+        <http://dbpedia.org/resource/Skate_punk> ;
+    rdfs:comment "Good Riddance (sometimes abbreviated GR) is a punk rock band from Santa Cruz, California. They released seven full-length studio albums on Fat Wreck Chords, and their final album was a live recording of their farewell concert in 2007. Led by vocalist Russ Rankin, the band's longtime lineup included guitarist Luke Pabich, bassist Chuck Platt, and drummer Sean \"SC\" Sellers." .
+
+<http://dbpedia.org/resource/Hank_Williams> a av:ArtistEntity ;
+    rdfs:label "Hank Williams" ;
+    av:hasTrack <http://soundcloud.com/116555902>,
+        <http://soundcloud.com/122749680>,
         <http://soundcloud.com/127164225>,
-        <http://soundcloud.com/14671011>,
-        <http://soundcloud.com/29122197>,
-        <http://soundcloud.com/29220956>,
-        <http://soundcloud.com/47869409>,
-        <http://soundcloud.com/61370186>,
-        <http://soundcloud.com/62813332>,
-        <http://soundcloud.com/69170667>,
-        <http://soundcloud.com/84611053> ;
-    dbo:MusicGenre "http://dbpedia.org/resource/Country_music",
-        "http://dbpedia.org/resource/Easy_listening",
-        "http://dbpedia.org/resource/Traditional_pop_music" ;
-    dbo:thumbnail "http://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Andy_williams_1969.JPG/200px-Andy_williams_1969.JPG" ;
-    rdfs:comment "Howard Andrew Williams (December 3, 1927 – September 25, 2012) was an American popular music singer. He recorded seventeen Gold- and three Platinum-certified albums. He hosted The Andy Williams Show, a TV variety show, from 1962 to 1971, as well as numerous television specials. Most recently, he performed at his Moon River Theatre in Branson, Missouri, which was named after the Johnny Mercer and Henry Mancini song \"Moon River\", with which he is closely identified." .
+        <http://soundcloud.com/28183492>,
+        <http://soundcloud.com/30089006>,
+        <http://soundcloud.com/44349593>,
+        <http://soundcloud.com/45417891>,
+        <http://soundcloud.com/47865042>,
+        <http://soundcloud.com/74181388>,
+        <http://soundcloud.com/85205437> ;
+    dbo:thumbnail "http://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Hank_Williams_Promotional_Photo.jpg/200px-Hank_Williams_Promotional_Photo.jpg" ;
+    rdfs:comment "Hank Williams, born Hiram King Williams, was an American singer-songwriter and musician regarded as one of the most important country music artists of all time. Williams recorded 35 singles (five released posthumously) that would place in the Top 10 of the Billboard Country & Western Best Sellers chart, including 11 that ranked number one." .
 
-<http://dbpedia.org/resource/David_Guetta> a av:ArtistEntity ;
-    rdfs:label "David Guetta" ;
-    av:hasTrack <http://soundcloud.com/130325321>,
-        <http://soundcloud.com/15964556>,
-        <http://soundcloud.com/15964713>,
-        <http://soundcloud.com/15964976>,
-        <http://soundcloud.com/20706241>,
-        <http://soundcloud.com/67662416>,
-        <http://soundcloud.com/7817155>,
-        <http://soundcloud.com/85220107>,
-        <http://soundcloud.com/85362313>,
-        <http://soundcloud.com/85362320> ;
-    dbo:MusicGenre "http://dbpedia.org/resource/Hip_hop",
-        "http://dbpedia.org/resource/Pop",
-        "http://dbpedia.org/resource/Top_40" ;
-    dbo:thumbnail "http://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/David_Guetta_at_2011_MMVA.jpg/200px-David_Guetta_at_2011_MMVA.jpg" ;
-    rdfs:comment "David Guetta, is a French house music producer and disc jockey (DJ). Originally a DJ at nightclubs during the 1980s and 1990s, he co-founded Gum Productions and released his first album, Just a Little More Love, in 2002. Later, he released Guetta Blaster (2004) and Pop Life (2007)." .
+<http://dbpedia.org/resource/Heart_%28band%29> a av:ArtistEntity ;
+    rdfs:label "Heart (band)" ;
+    av:hasTrack <http://soundcloud.com/101580966>,
+        <http://soundcloud.com/106422728>,
+        <http://soundcloud.com/133254985>,
+        <http://soundcloud.com/140830653>,
+        <http://soundcloud.com/31474777>,
+        <http://soundcloud.com/33031495>,
+        <http://soundcloud.com/33569017>,
+        <http://soundcloud.com/42083691>,
+        <http://soundcloud.com/48906313>,
+        <http://soundcloud.com/88534576> ;
+    dbo:MusicGenre <http://dbpedia.org/resource/AOR>,
+        <http://dbpedia.org/resource/Folk_rock>,
+        <http://dbpedia.org/resource/Hard_rock>,
+        <http://dbpedia.org/resource/Heavy_metal>,
+        <http://dbpedia.org/resource/Pop_rock> ;
+    dbo:thumbnail "http://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Heart_at_the_Beacon_Theater,_2012.jpg/200px-Heart_at_the_Beacon_Theater,_2012.jpg" ;
+    rdfs:comment "Heart is an American rock band which first found success in Canada and later in the United States and worldwide. Over the group's four-decade history, the band has had three primary lineups, with the constant center of the group since 1974 being sisters lead singer Ann Wilson and guitarist Nancy Wilson. Heart rose to fame in the mid-1970s with music influenced by hard rock and heavy metal as well as folk music." .
 
-<http://dbpedia.org/resource/George_Harrison> a av:ArtistEntity ;
-    rdfs:label "George Harrison" ;
-    av:hasTrack <http://soundcloud.com/103133374>,
-        <http://soundcloud.com/1144340>,
-        <http://soundcloud.com/21470458>,
-        <http://soundcloud.com/360414>,
-        <http://soundcloud.com/36103768>,
-        <http://soundcloud.com/3644700>,
-        <http://soundcloud.com/41212379>,
-        <http://soundcloud.com/51948601>,
-        <http://soundcloud.com/70942569>,
-        <http://soundcloud.com/74993314> ;
-    dbo:MusicGenre "http://dbpedia.org/resource/Experimental_music",
-        "http://dbpedia.org/resource/Pop_music",
-        "http://dbpedia.org/resource/Rock_music",
-        "http://dbpedia.org/resource/World_music" ;
-    dbo:thumbnail "http://upload.wikimedia.org/wikipedia/commons/thumb/0/05/George_Harrison_1974_edited.jpg/200px-George_Harrison_1974_edited.jpg" ;
-    rdfs:comment "George Harrison, MBE (25 February 1943 – 29 November 2001) was an English musician, singer, and songwriter who achieved international fame as the lead guitarist of the Beatles. Although John Lennon and Paul McCartney wrote most of the Beatles' songs, their albums generally included at least one Harrison composition." .
+<http://dbpedia.org/resource/Jesse_Malin> a av:ArtistEntity ;
+    rdfs:label "Jesse Malin" ;
+    av:hasTrack <http://soundcloud.com/11154177>,
+        <http://soundcloud.com/119583305>,
+        <http://soundcloud.com/120907554>,
+        <http://soundcloud.com/2413075>,
+        <http://soundcloud.com/2802614>,
+        <http://soundcloud.com/47586077>,
+        <http://soundcloud.com/51244437>,
+        <http://soundcloud.com/6551561>,
+        <http://soundcloud.com/80905101>,
+        <http://soundcloud.com/88623102> ;
+    dbo:MusicGenre <http://dbpedia.org/resource/Punk_rock>,
+        <http://dbpedia.org/resource/Rock_(music)>,
+        <http://dbpedia.org/resource/Rock_music> ;
+    rdfs:comment "Jesse Malin (born January 26, 1968 in Flushing, Queens, New York, U.S. ) is a rock musician. He has played with Heart Attack band members:Javier Madariaga-drums, Paul Praver-base and D Generation. He is currently a solo recording artist." .
+
+<http://dbpedia.org/resource/Journey_%28band%29> a av:ArtistEntity ;
+    rdfs:label "Journey (band)" ;
+    av:hasTrack <http://soundcloud.com/113530872>,
+        <http://soundcloud.com/19735815>,
+        <http://soundcloud.com/252487>,
+        <http://soundcloud.com/26406734>,
+        <http://soundcloud.com/28177029>,
+        <http://soundcloud.com/29295656>,
+        <http://soundcloud.com/37218701>,
+        <http://soundcloud.com/43446689>,
+        <http://soundcloud.com/51219079>,
+        <http://soundcloud.com/62544095> ;
+    dbo:MusicGenre <http://dbpedia.org/resource/Hard_rock>,
+        <http://dbpedia.org/resource/Jazz_fusion>,
+        <http://dbpedia.org/resource/Progressive_rock>,
+        <http://dbpedia.org/resource/Rock_music>,
+        <http://dbpedia.org/resource/Soft_rock> ;
+    dbo:thumbnail "http://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Journey_publicity_photo_2013.jpg/200px-Journey_publicity_photo_2013.jpg" ;
+    rdfs:comment "Journey is an American rock band formed in 1973 in San Francisco by former members of Santana and Frumious Bandersnatch. The band has gone through several phases; its strongest commercial success occurred between 1978 and 1987, after which it temporarily disbanded. During that period, the band released a series of hit songs, including 1981's \"Don't Stop Believin'\", which became in 2009 the top-selling catalog track in iTunes history." .
+
+<http://dbpedia.org/resource/Kate_Bush> a av:ArtistEntity ;
+    rdfs:label "Kate Bush" ;
+    av:hasTrack <http://soundcloud.com/101332183>,
+        <http://soundcloud.com/116662153>,
+        <http://soundcloud.com/1451420>,
+        <http://soundcloud.com/18963388>,
+        <http://soundcloud.com/46797728>,
+        <http://soundcloud.com/56862133>,
+        <http://soundcloud.com/59523322>,
+        <http://soundcloud.com/66592581>,
+        <http://soundcloud.com/72804162>,
+        <http://soundcloud.com/93829619> ;
+    dbo:MusicGenre <http://dbpedia.org/resource/Alternative_rock>,
+        <http://dbpedia.org/resource/Art_rock>,
+        <http://dbpedia.org/resource/Baroque_pop>,
+        <http://dbpedia.org/resource/Experimental_rock>,
+        <http://dbpedia.org/resource/Progressive_rock> ;
+    dbo:thumbnail "http://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/KateBushComicRelief.png/200px-KateBushComicRelief.png" ;
+    rdfs:comment "Catherine \"Kate\" Bush (born 30 July 1958) is an English singer-songwriter, musician and record producer. Her eclectic musical style and idiosyncratic vocal style have made her one of the United Kingdom's most successful solo female performers of the past 30 years. In 1978, at the age of 19, Bush topped the UK Singles Chart for four weeks with her debut single \"Wuthering Heights\", becoming the first woman to have a UK number one with a self-written song." .
+
+<http://dbpedia.org/resource/Lead_Belly> a av:ArtistEntity ;
+    rdfs:label "Lead Belly" ;
+    av:hasTrack <http://soundcloud.com/119530917>,
+        <http://soundcloud.com/12213135>,
+        <http://soundcloud.com/15306895>,
+        <http://soundcloud.com/2197488>,
+        <http://soundcloud.com/3327520>,
+        <http://soundcloud.com/5761576>,
+        <http://soundcloud.com/62802966>,
+        <http://soundcloud.com/63526208>,
+        <http://soundcloud.com/7111633>,
+        <http://soundcloud.com/96740033> ;
+    dbo:MusicGenre <http://dbpedia.org/resource/Country_blues>,
+        <http://dbpedia.org/resource/Delta_blues>,
+        <http://dbpedia.org/resource/Folk>,
+        <http://dbpedia.org/resource/Songster> ;
+    dbo:thumbnail "http://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Leadbelly_with_Accordeon.jpg/200px-Leadbelly_with_Accordeon.jpg" ;
+    rdfs:comment "Huddie William Ledbetter (January 20, 1888 – December 6, 1949) was an iconic American folk and blues musician, and multi-instrumentalist, notable for his strong vocals, his virtuosity on the twelve-string guitar, and the songbook of folk standards he introduced. He is best known as Lead Belly. Though many releases list him as \"Leadbelly\", he himself spelled it \"Lead Belly\". This is also the usage on his tombstone, as well as of the Lead Belly Foundation." .
+
+<http://dbpedia.org/resource/Link_Wray> a av:ArtistEntity ;
+    rdfs:label "Link Wray" ;
+    av:hasTrack <http://soundcloud.com/10751340>,
+        <http://soundcloud.com/108940448>,
+        <http://soundcloud.com/119128166>,
+        <http://soundcloud.com/129725472>,
+        <http://soundcloud.com/20864282>,
+        <http://soundcloud.com/35725375>,
+        <http://soundcloud.com/38302770>,
+        <http://soundcloud.com/38570618>,
+        <http://soundcloud.com/73273992>,
+        <http://soundcloud.com/89452462> ;
+    dbo:MusicGenre <http://dbpedia.org/resource/Country_music>,
+        <http://dbpedia.org/resource/Instrumental_rock>,
+        <http://dbpedia.org/resource/Proto-punk>,
+        <http://dbpedia.org/resource/Protopunk>,
+        <http://dbpedia.org/resource/Rock_and_roll>,
+        <http://dbpedia.org/resource/Rockabilly>,
+        <http://dbpedia.org/resource/Roots_rock>,
+        <http://dbpedia.org/resource/Surf_music>,
+        <http://dbpedia.org/resource/Surf_rock> ;
+    dbo:thumbnail "http://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Link_Wray_-_3-8-03_Photo_by_Anthony_Pepitone.jpg/200px-Link_Wray_-_3-8-03_Photo_by_Anthony_Pepitone.jpg" ;
+    rdfs:comment "Fred Lincoln \"Link\" Wray Jr (May 2, 1929 – November 5, 2005) was an American rock and roll guitarist, songwriter and occasional singer. Wray was noted for pioneering a new sound for electric guitars, as exemplified in his 1958 instrumental hit \"Rumble\", by Link Wray and his Ray Men, which pioneered an overdriven, distorted electric guitar sound." .
+
+<http://dbpedia.org/resource/Maria_Mena> a av:ArtistEntity ;
+    rdfs:label "Maria Mena" ;
+    av:hasTrack <http://soundcloud.com/19613838>,
+        <http://soundcloud.com/30746395>,
+        <http://soundcloud.com/4880333>,
+        <http://soundcloud.com/5543518>,
+        <http://soundcloud.com/5782013>,
+        <http://soundcloud.com/72701705>,
+        <http://soundcloud.com/75062128>,
+        <http://soundcloud.com/82167699>,
+        <http://soundcloud.com/87134942>,
+        <http://soundcloud.com/90770086> ;
+    dbo:MusicGenre <http://dbpedia.org/resource/Alternative_country>,
+        <http://dbpedia.org/resource/Alternative_rock>,
+        <http://dbpedia.org/resource/Folk>,
+        <http://dbpedia.org/resource/Folk_music>,
+        <http://dbpedia.org/resource/Pop_music>,
+        <http://dbpedia.org/resource/Rock_music> ;
+    dbo:thumbnail "http://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Maria_Mena_BNN.jpg/200px-Maria_Mena_BNN.jpg" ;
+    rdfs:comment "Maria Viktoria Mena (born 19 February 1986) is a Norwegian pop artist." .
 
 <http://dbpedia.org/resource/Massive_Attack> a av:ArtistEntity ;
     rdfs:label "Massive Attack" ;
@@ -5950,120 +6535,780 @@ Vol = Vol""" ;
         <http://soundcloud.com/68896421>,
         <http://soundcloud.com/69319560>,
         <http://soundcloud.com/74514605> ;
-    dbo:MusicGenre "http://dbpedia.org/resource/Alternative_hip_hop",
-        "http://dbpedia.org/resource/Experimental_rock",
-        "http://dbpedia.org/resource/Trip_hop" ;
+    dbo:MusicGenre <http://dbpedia.org/resource/Alternative_dance>,
+        <http://dbpedia.org/resource/Alternative_hip_hop>,
+        <http://dbpedia.org/resource/Alternative_rock>,
+        <http://dbpedia.org/resource/Downtempo>,
+        <http://dbpedia.org/resource/Experimental_music>,
+        <http://dbpedia.org/resource/Experimental_rock>,
+        <http://dbpedia.org/resource/Trip_hop> ;
     dbo:thumbnail "http://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Massive_Attack_composite.jpg/200px-Massive_Attack_composite.jpg" ;
-    rdfs:comment "Massive Attack are an English musical group from Bristol, England consisting of Robert \"3D\" Del Naja and Grant \"Daddy G\" Marshall. Working with co-producers, as well as various musicians and guest vocalists, they make records and tour live. The duo are considered to be progenitors of the trip hop genre. Their début album, Blue Lines was released in 1991, with the single \"Unfinished Sympathy\" reaching the charts and later being voted the 10th greatest song of all time in a poll by The Guardian." .
+    rdfs:comment "Massive Attack are a British DJ and trip hop duo from Bristol, England consisting of Robert \"3D\" Del Naja and Grant \"Daddy G\" Marshall. Working with co-producers, as well as various session musicians and guest vocalists, they make records and tour live. The duo are considered to be progenitors of the trip hop genre." .
 
-<http://dbpedia.org/resource/Ti%C3%ABsto> a av:ArtistEntity ;
-    rdfs:label "Tiësto" ;
-    av:hasTrack <http://soundcloud.com/102875042>,
-        <http://soundcloud.com/113239469>,
-        <http://soundcloud.com/115972154>,
-        <http://soundcloud.com/122455506>,
-        <http://soundcloud.com/134079724>,
-        <http://soundcloud.com/39423822>,
-        <http://soundcloud.com/95445912>,
-        <http://soundcloud.com/95568398>,
-        <http://soundcloud.com/96410846>,
-        <http://soundcloud.com/98696242> ;
-    dbo:MusicGenre "http://dbpedia.org/resource/Electro_house",
-        "http://dbpedia.org/resource/Electronica",
-        "http://dbpedia.org/resource/House_music",
-        "http://dbpedia.org/resource/Progressive_house_music",
-        "http://dbpedia.org/resource/Trance_music" ;
-    dbo:thumbnail "http://upload.wikimedia.org/wikipedia/commons/thumb/8/89/DJ_Tiesto2005.jpg/200px-DJ_Tiesto2005.jpg" ;
-    rdfs:comment "Tijs Michiel Verwest,; born 17 January 1969), known as Tiësto, is a Dutch musician, DJ and record producer of electronic dance music. Although he has used many aliases in the past, he is best known for his work as DJ Tiësto. On his latest productions, however, he has dropped the \"DJ\" label and is now known simply as \"Tiësto\", an artist name which is a twist of his childhood nickname." .
+<http://dbpedia.org/resource/Michael_Jackson> a av:ArtistEntity ;
+    rdfs:label "Michael Jackson" ;
+    av:hasTrack <http://soundcloud.com/100767001>,
+        <http://soundcloud.com/13222222>,
+        <http://soundcloud.com/1558000>,
+        <http://soundcloud.com/2111715>,
+        <http://soundcloud.com/59312461>,
+        <http://soundcloud.com/72147272>,
+        <http://soundcloud.com/75234077>,
+        <http://soundcloud.com/77959663>,
+        <http://soundcloud.com/8390970>,
+        <http://soundcloud.com/88682812> ;
+    dbo:thumbnail "http://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Michael_Jackson_in_1988.jpg/200px-Michael_Jackson_in_1988.jpg" ;
+    rdfs:comment "" .
+
+<http://dbpedia.org/resource/Ocean_Colour_Scene> a av:ArtistEntity ;
+    rdfs:label "Ocean Colour Scene" ;
+    av:hasTrack <http://soundcloud.com/100159685>,
+        <http://soundcloud.com/1239677>,
+        <http://soundcloud.com/1242969>,
+        <http://soundcloud.com/19740377>,
+        <http://soundcloud.com/49382246>,
+        <http://soundcloud.com/524040>,
+        <http://soundcloud.com/55429404>,
+        <http://soundcloud.com/62314785>,
+        <http://soundcloud.com/74113662>,
+        <http://soundcloud.com/790354> ;
+    dbo:MusicGenre <http://dbpedia.org/resource/Alternative_rock>,
+        <http://dbpedia.org/resource/Blues_rock>,
+        <http://dbpedia.org/resource/Britpop>,
+        <http://dbpedia.org/resource/Indie_rock>,
+        <http://dbpedia.org/resource/Madchester> ;
+    dbo:thumbnail "http://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/OCSliveinleeds2005.jpg/200px-OCSliveinleeds2005.jpg" ;
+    rdfs:comment "Ocean Colour Scene (often abbreviated to OCS) are an English Britpop band formed in Moseley, Birmingham in 1989. They have had five Top 10 albums and six Top 10 singles to date." .
+
+<http://dbpedia.org/resource/Portishead_%28band%29> a av:ArtistEntity ;
+    rdfs:label "Portishead (band)" ;
+    av:hasTrack <http://soundcloud.com/15431411>,
+        <http://soundcloud.com/15432198>,
+        <http://soundcloud.com/19735815>,
+        <http://soundcloud.com/21107426>,
+        <http://soundcloud.com/252487>,
+        <http://soundcloud.com/26406734>,
+        <http://soundcloud.com/28177029>,
+        <http://soundcloud.com/29295656>,
+        <http://soundcloud.com/43446689>,
+        <http://soundcloud.com/8679566> ;
+    dbo:MusicGenre <http://dbpedia.org/resource/Alternative_rock>,
+        <http://dbpedia.org/resource/Downtempo>,
+        <http://dbpedia.org/resource/Electronic_music>,
+        <http://dbpedia.org/resource/Experimental_music>,
+        <http://dbpedia.org/resource/Trip_hop> ;
+    dbo:thumbnail "http://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Portishead_-_Roskilde_Festival_2011_-_Orange_Stage-cropped.jpg/200px-Portishead_-_Roskilde_Festival_2011_-_Orange_Stage-cropped.jpg" ;
+    rdfs:comment "Portishead are a band formed in 1991 in Bristol, England. The band is named after the nearby town of the same name, 8 miles west of Bristol. Portishead consists of Geoff Barrow, Beth Gibbons, and Adrian Utley, while sometimes citing a fourth member, Dave McDonald, an engineer on Dummy and Portishead." .
+
+<http://dbpedia.org/resource/System_of_a_Down> a av:ArtistEntity ;
+    rdfs:label "System of a Down" ;
+    av:hasTrack <http://soundcloud.com/107045932>,
+        <http://soundcloud.com/11786444>,
+        <http://soundcloud.com/2339953>,
+        <http://soundcloud.com/5980580>,
+        <http://soundcloud.com/60543947>,
+        <http://soundcloud.com/62528928>,
+        <http://soundcloud.com/66615976>,
+        <http://soundcloud.com/66722998>,
+        <http://soundcloud.com/70180698>,
+        <http://soundcloud.com/71353952> ;
+    dbo:MusicGenre <http://dbpedia.org/resource/Alternative_metal>,
+        <http://dbpedia.org/resource/Experimental_music>,
+        <http://dbpedia.org/resource/Progressive_rock> ;
+    rdfs:comment "System of a Down, also known by the acronym SOAD and often shortened to System, is an Armenian American rock band from Southern California, formed in 1994. It currently consists of Serj Tankian (lead vocals, occasional keyboards and rhythm guitar), Daron Malakian (vocals, guitar), Shavo Odadjian (bass, background vocals) and John Dolmayan (drums). The band achieved commercial success with the release of five studio albums, of which three debuted at number one on the Billboard 200." .
+
+<http://dbpedia.org/resource/The_Band> a av:ArtistEntity ;
+    rdfs:label "The Band" ;
+    av:hasTrack <http://soundcloud.com/125156905>,
+        <http://soundcloud.com/17651215>,
+        <http://soundcloud.com/19735815>,
+        <http://soundcloud.com/23581884>,
+        <http://soundcloud.com/77111897>,
+        <http://soundcloud.com/83782885>,
+        <http://soundcloud.com/84173975>,
+        <http://soundcloud.com/86054053>,
+        <http://soundcloud.com/88326338>,
+        <http://soundcloud.com/89138323> ;
+    dbo:MusicGenre <http://dbpedia.org/resource/Americana_(music)>,
+        <http://dbpedia.org/resource/Country_rock>,
+        <http://dbpedia.org/resource/Folk_rock>,
+        <http://dbpedia.org/resource/Roots_rock>,
+        <http://dbpedia.org/resource/Swamp_rock> ;
+    dbo:thumbnail "http://upload.wikimedia.org/wikipedia/commons/thumb/8/89/The_Band_(1969).png/200px-The_Band_(1969).png" ;
+    rdfs:comment "The Band was an acclaimed and influential roots rock group. The original group consisted of Rick Danko (bass guitar, double bass, fiddle, trombone, vocals), Levon Helm (drums, mandolin, guitar, vocals), Garth Hudson (keyboard instruments, saxophones, trumpet), Richard Manuel (piano, drums, baritone saxophone, vocals) and Robbie Robertson (guitar, vocals). All five members were notable musicians in their own right." .
+
+<http://dbpedia.org/resource/The_Doors> a av:ArtistEntity ;
+    rdfs:label "The Doors" ;
+    av:hasTrack <http://soundcloud.com/10150653>,
+        <http://soundcloud.com/17247083>,
+        <http://soundcloud.com/19359711>,
+        <http://soundcloud.com/2704579>,
+        <http://soundcloud.com/30105204>,
+        <http://soundcloud.com/307505>,
+        <http://soundcloud.com/35034503>,
+        <http://soundcloud.com/45719018>,
+        <http://soundcloud.com/57174686>,
+        <http://soundcloud.com/7228706> ;
+    dbo:MusicGenre <http://dbpedia.org/resource/Acid_rock>,
+        <http://dbpedia.org/resource/Blues_rock>,
+        <http://dbpedia.org/resource/Gothic_rock>,
+        <http://dbpedia.org/resource/Jazz_rock>,
+        <http://dbpedia.org/resource/Psychedelic_rock>,
+        <http://dbpedia.org/resource/Rock_and_roll> ;
+    dbo:thumbnail "http://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Doors_electra_publicity_photo.JPG/200px-Doors_electra_publicity_photo.JPG" ;
+    rdfs:comment "" .
+
+<http://dbpedia.org/resource/The_Feeling> a av:ArtistEntity ;
+    rdfs:label "The Feeling" ;
+    av:hasTrack <http://soundcloud.com/118073240>,
+        <http://soundcloud.com/34495319>,
+        <http://soundcloud.com/36473041>,
+        <http://soundcloud.com/36566034>,
+        <http://soundcloud.com/36679092>,
+        <http://soundcloud.com/36866524>,
+        <http://soundcloud.com/37219545>,
+        <http://soundcloud.com/41706463>,
+        <http://soundcloud.com/42156311>,
+        <http://soundcloud.com/951282> ;
+    dbo:MusicGenre <http://dbpedia.org/resource/Pop_rock>,
+        <http://dbpedia.org/resource/Power_pop>,
+        <http://dbpedia.org/resource/Soft_rock> ;
+    dbo:thumbnail "http://upload.wikimedia.org/wikipedia/commons/thumb/2/21/TheFeelingLive.jpg/200px-TheFeelingLive.jpg" ;
+    rdfs:comment "The Feeling are a BRIT award-nominated English pop band from West Sussex and London. The band categorise their music as \"pop\". Following a limited release of their first single \"Fill My Little World\" in late 2005, the band entered the UK Singles Chart at #7 with their first full release \"Sewn\" in February 2006. The single was one of the year's biggest radio hits, after being played first in the UK on the Dermot O'Leary Show on Radio 2, along with their first live radio session." .
+
+<http://dbpedia.org/resource/The_Frames> a av:ArtistEntity ;
+    rdfs:label "The Frames" ;
+    av:hasTrack <http://soundcloud.com/149732>,
+        <http://soundcloud.com/19181261>,
+        <http://soundcloud.com/19467115>,
+        <http://soundcloud.com/24542531>,
+        <http://soundcloud.com/26205087>,
+        <http://soundcloud.com/3253066>,
+        <http://soundcloud.com/3836678>,
+        <http://soundcloud.com/61154414>,
+        <http://soundcloud.com/669896>,
+        <http://soundcloud.com/9552456> ;
+    dbo:MusicGenre <http://dbpedia.org/resource/Folk_music>,
+        <http://dbpedia.org/resource/Indie_rock>,
+        <http://dbpedia.org/resource/Rock_music> ;
+    dbo:thumbnail "http://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/The_Frames,_cont.jpg/200px-The_Frames,_cont.jpg" ;
+    rdfs:comment "The Frames are an Irish band based in Dublin. Founded in 1990 by Glen Hansard, the band has been influential in the Dublin rock music scene. The group has released six albums. In addition to Hansard, the band's current lineup includes original member Colm Mac Con Iomaire, Joe Doyle, Rob Bochnik and Graham Hopkins." .
+
+<http://dbpedia.org/resource/The_Notwist> a av:ArtistEntity ;
+    rdfs:label "The Notwist" ;
+    av:hasTrack <http://soundcloud.com/120308792>,
+        <http://soundcloud.com/120704226>,
+        <http://soundcloud.com/130071149>,
+        <http://soundcloud.com/130455199>,
+        <http://soundcloud.com/135676118>,
+        <http://soundcloud.com/135676120>,
+        <http://soundcloud.com/1464329>,
+        <http://soundcloud.com/1737601>,
+        <http://soundcloud.com/32966537>,
+        <http://soundcloud.com/74238244> ;
+    dbo:MusicGenre <http://dbpedia.org/resource/Electronica>,
+        <http://dbpedia.org/resource/Indie_rock>,
+        <http://dbpedia.org/resource/Morr_Music>,
+        <http://dbpedia.org/resource/Post-Hardcore>,
+        <http://dbpedia.org/resource/Post-Rock>,
+        <http://dbpedia.org/resource/Post-hardcore>,
+        <http://dbpedia.org/resource/Post-rock> ;
+    dbo:thumbnail "http://upload.wikimedia.org/wikipedia/commons/thumb/6/60/The_Notwist_-_Zagreb.jpg/200px-The_Notwist_-_Zagreb.jpg" ;
+    rdfs:comment "" .
+
+<http://dbpedia.org/resource/The_Sounds> a av:ArtistEntity ;
+    rdfs:label "The Sounds" ;
+    av:hasTrack <http://soundcloud.com/109435749>,
+        <http://soundcloud.com/109760708>,
+        <http://soundcloud.com/118470088>,
+        <http://soundcloud.com/120100493>,
+        <http://soundcloud.com/120755613>,
+        <http://soundcloud.com/133981332>,
+        <http://soundcloud.com/16525105>,
+        <http://soundcloud.com/40251833>,
+        <http://soundcloud.com/53864978>,
+        <http://soundcloud.com/903830> ;
+    dbo:MusicGenre <http://dbpedia.org/resource/Indie_rock>,
+        <http://dbpedia.org/resource/New_wave_music>,
+        <http://dbpedia.org/resource/Post-punk_revival> ;
+    dbo:thumbnail "http://upload.wikimedia.org/wikipedia/commons/thumb/9/91/The_Sounds_2009.jpg/200px-The_Sounds_2009.jpg" ;
+    rdfs:comment "The Sounds are a Swedish indie rock band. Formed in Helsingborg in 1999, the group's musical style has been compared to New Wave acts such as Blondie, The Cars, the Epoxies and Missing Persons. Their debut album, Living in America, was released in 2002, with the follow-up Dying to Say This to You on 21 March 2006. Their third album, Crossing the Rubicon, was released on 2 June 2009, and their latest, Something to Die For, was released on 29 March 2011." .
+
+<http://dbpedia.org/resource/Twila_Paris> a av:ArtistEntity ;
+    rdfs:label "Twila Paris" ;
+    av:hasTrack <http://soundcloud.com/47217011>,
+        <http://soundcloud.com/47217014>,
+        <http://soundcloud.com/48263771>,
+        <http://soundcloud.com/66695859>,
+        <http://soundcloud.com/71529217>,
+        <http://soundcloud.com/77197856>,
+        <http://soundcloud.com/85655462>,
+        <http://soundcloud.com/89423751>,
+        <http://soundcloud.com/95336817>,
+        <http://soundcloud.com/98999337> ;
+    dbo:MusicGenre <http://dbpedia.org/resource/Contemporary_Christian_music> ;
+    rdfs:comment "Twila Paris Wright (born December 28, 1958 in Fort Worth, Texas) is a Contemporary Christian Music songwriter, author, vocalist and pianist." .
+
+<http://dbpedia.org/resource/Underworld_%28band%29> a av:ArtistEntity ;
+    rdfs:label "Underworld (band)" ;
+    av:hasTrack <http://soundcloud.com/106472393>,
+        <http://soundcloud.com/15431411>,
+        <http://soundcloud.com/15432198>,
+        <http://soundcloud.com/19735815>,
+        <http://soundcloud.com/252487>,
+        <http://soundcloud.com/26406734>,
+        <http://soundcloud.com/28177029>,
+        <http://soundcloud.com/29295656>,
+        <http://soundcloud.com/43446689>,
+        <http://soundcloud.com/75190816> ;
+    dbo:MusicGenre <http://dbpedia.org/resource/Progressive_house_music>,
+        <http://dbpedia.org/resource/Synthpop>,
+        <http://dbpedia.org/resource/Techno>,
+        <http://dbpedia.org/resource/Trance_music>,
+        <http://dbpedia.org/resource/Trip_hop> ;
+    dbo:thumbnail "http://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Underworldlivenewyork2007_crop.jpg/200px-Underworldlivenewyork2007_crop.jpg" ;
+    rdfs:comment "Underworld are a British electronic music group, and the principal name under which musicians Karl Hyde and Rick Smith have recorded together since 1980." .
+
+<http://dbpedia.org/resource/Woody_Guthrie> a av:ArtistEntity ;
+    rdfs:label "Woody Guthrie" ;
+    av:hasTrack <http://soundcloud.com/20920806>,
+        <http://soundcloud.com/338894>,
+        <http://soundcloud.com/3441116>,
+        <http://soundcloud.com/43542594>,
+        <http://soundcloud.com/52003763>,
+        <http://soundcloud.com/5206112>,
+        <http://soundcloud.com/5246649>,
+        <http://soundcloud.com/53077225>,
+        <http://soundcloud.com/747305>,
+        <http://soundcloud.com/84394300> ;
+    dbo:MusicGenre <http://dbpedia.org/resource/American_folk_music>,
+        <http://dbpedia.org/resource/Protest_music> ;
+    dbo:thumbnail "http://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Woody_Guthrie_2.jpg/200px-Woody_Guthrie_2.jpg" ;
+    rdfs:comment "" .
 
 <http://facebook.com/129786563758412> a fb:Venue ;
     rdfs:label "Bitterzoet" ;
     fb:id "129786563758412" ;
     fb:url "https://www.facebook.com/BitterzoetAmsterdam" .
 
-<http://soundcloud.com/102875042> a av:Track ;
-    av:id "102875042" .
+<http://soundcloud.com/100159685> a av:Track ;
+    av:id "100159685" .
 
-<http://soundcloud.com/103133374> a av:Track ;
-    av:id "103133374" .
+<http://soundcloud.com/100767001> a av:Track ;
+    av:id "100767001" .
 
-<http://soundcloud.com/110488161> a av:Track ;
-    av:id "110488161" .
+<http://soundcloud.com/101332183> a av:Track ;
+    av:id "101332183" .
 
-<http://soundcloud.com/113239469> a av:Track ;
-    av:id "113239469" .
+<http://soundcloud.com/10150653> a av:Track ;
+    av:id "10150653" .
 
-<http://soundcloud.com/1144340> a av:Track ;
-    av:id "1144340" .
+<http://soundcloud.com/101580966> a av:Track ;
+    av:id "101580966" .
 
-<http://soundcloud.com/115972154> a av:Track ;
-    av:id "115972154" .
+<http://soundcloud.com/10431842> a av:Track ;
+    av:id "10431842" .
 
-<http://soundcloud.com/122455506> a av:Track ;
-    av:id "122455506" .
+<http://soundcloud.com/104599475> a av:Track ;
+    av:id "104599475" .
+
+<http://soundcloud.com/106422728> a av:Track ;
+    av:id "106422728" .
+
+<http://soundcloud.com/106472393> a av:Track ;
+    av:id "106472393" .
+
+<http://soundcloud.com/106487488> a av:Track ;
+    av:id "106487488" .
+
+<http://soundcloud.com/107045932> a av:Track ;
+    av:id "107045932" .
+
+<http://soundcloud.com/10751340> a av:Track ;
+    av:id "10751340" .
+
+<http://soundcloud.com/108940448> a av:Track ;
+    av:id "108940448" .
+
+<http://soundcloud.com/109435749> a av:Track ;
+    av:id "109435749" .
+
+<http://soundcloud.com/109574357> a av:Track ;
+    av:id "109574357" .
+
+<http://soundcloud.com/109760708> a av:Track ;
+    av:id "109760708" .
+
+<http://soundcloud.com/110919040> a av:Track ;
+    av:id "110919040" .
+
+<http://soundcloud.com/110920646> a av:Track ;
+    av:id "110920646" .
+
+<http://soundcloud.com/11154177> a av:Track ;
+    av:id "11154177" .
+
+<http://soundcloud.com/113530872> a av:Track ;
+    av:id "113530872" .
+
+<http://soundcloud.com/114051043> a av:Track ;
+    av:id "114051043" .
+
+<http://soundcloud.com/114873430> a av:Track ;
+    av:id "114873430" .
+
+<http://soundcloud.com/116315445> a av:Track ;
+    av:id "116315445" .
+
+<http://soundcloud.com/116555902> a av:Track ;
+    av:id "116555902" .
+
+<http://soundcloud.com/116662153> a av:Track ;
+    av:id "116662153" .
+
+<http://soundcloud.com/117553449> a av:Track ;
+    av:id "117553449" .
+
+<http://soundcloud.com/11786444> a av:Track ;
+    av:id "11786444" .
+
+<http://soundcloud.com/117987403> a av:Track ;
+    av:id "117987403" .
+
+<http://soundcloud.com/118073240> a av:Track ;
+    av:id "118073240" .
+
+<http://soundcloud.com/118470088> a av:Track ;
+    av:id "118470088" .
+
+<http://soundcloud.com/119128166> a av:Track ;
+    av:id "119128166" .
+
+<http://soundcloud.com/119530917> a av:Track ;
+    av:id "119530917" .
+
+<http://soundcloud.com/119583305> a av:Track ;
+    av:id "119583305" .
+
+<http://soundcloud.com/120100493> a av:Track ;
+    av:id "120100493" .
+
+<http://soundcloud.com/120308792> a av:Track ;
+    av:id "120308792" .
+
+<http://soundcloud.com/120575620> a av:Track ;
+    av:id "120575620" .
+
+<http://soundcloud.com/120704226> a av:Track ;
+    av:id "120704226" .
+
+<http://soundcloud.com/120755613> a av:Track ;
+    av:id "120755613" .
+
+<http://soundcloud.com/120907554> a av:Track ;
+    av:id "120907554" .
+
+<http://soundcloud.com/12213135> a av:Track ;
+    av:id "12213135" .
+
+<http://soundcloud.com/122749680> a av:Track ;
+    av:id "122749680" .
+
+<http://soundcloud.com/123372249> a av:Track ;
+    av:id "123372249" .
+
+<http://soundcloud.com/1239677> a av:Track ;
+    av:id "1239677" .
+
+<http://soundcloud.com/1242969> a av:Track ;
+    av:id "1242969" .
+
+<http://soundcloud.com/125156905> a av:Track ;
+    av:id "125156905" .
 
 <http://soundcloud.com/127164225> a av:Track ;
     av:id "127164225" .
 
-<http://soundcloud.com/130325321> a av:Track ;
-    av:id "130325321" .
+<http://soundcloud.com/129725472> a av:Track ;
+    av:id "129725472" .
 
-<http://soundcloud.com/134079724> a av:Track ;
-    av:id "134079724" .
+<http://soundcloud.com/130071149> a av:Track ;
+    av:id "130071149" .
 
-<http://soundcloud.com/14671011> a av:Track ;
-    av:id "14671011" .
+<http://soundcloud.com/130455199> a av:Track ;
+    av:id "130455199" .
 
-<http://soundcloud.com/15964556> a av:Track ;
-    av:id "15964556" .
+<http://soundcloud.com/130796309> a av:Track ;
+    av:id "130796309" .
 
-<http://soundcloud.com/15964713> a av:Track ;
-    av:id "15964713" .
+<http://soundcloud.com/131780709> a av:Track ;
+    av:id "131780709" .
 
-<http://soundcloud.com/15964976> a av:Track ;
-    av:id "15964976" .
+<http://soundcloud.com/13222222> a av:Track ;
+    av:id "13222222" .
+
+<http://soundcloud.com/132237035> a av:Track ;
+    av:id "132237035" .
+
+<http://soundcloud.com/132616127> a av:Track ;
+    av:id "132616127" .
+
+<http://soundcloud.com/133254985> a av:Track ;
+    av:id "133254985" .
+
+<http://soundcloud.com/133981332> a av:Track ;
+    av:id "133981332" .
+
+<http://soundcloud.com/13523957> a av:Track ;
+    av:id "13523957" .
+
+<http://soundcloud.com/135676118> a av:Track ;
+    av:id "135676118" .
+
+<http://soundcloud.com/135676120> a av:Track ;
+    av:id "135676120" .
+
+<http://soundcloud.com/138011922> a av:Track ;
+    av:id "138011922" .
+
+<http://soundcloud.com/138071647> a av:Track ;
+    av:id "138071647" .
+
+<http://soundcloud.com/140830653> a av:Track ;
+    av:id "140830653" .
+
+<http://soundcloud.com/1451420> a av:Track ;
+    av:id "1451420" .
+
+<http://soundcloud.com/1464329> a av:Track ;
+    av:id "1464329" .
+
+<http://soundcloud.com/1480201> a av:Track ;
+    av:id "1480201" .
+
+<http://soundcloud.com/1497228> a av:Track ;
+    av:id "1497228" .
+
+<http://soundcloud.com/149732> a av:Track ;
+    av:id "149732" .
+
+<http://soundcloud.com/15306895> a av:Track ;
+    av:id "15306895" .
+
+<http://soundcloud.com/1558000> a av:Track ;
+    av:id "1558000" .
+
+<http://soundcloud.com/16525105> a av:Track ;
+    av:id "16525105" .
 
 <http://soundcloud.com/17100989> a av:Track ;
     av:id "17100989" .
 
-<http://soundcloud.com/20706241> a av:Track ;
-    av:id "20706241" .
+<http://soundcloud.com/17247083> a av:Track ;
+    av:id "17247083" .
 
-<http://soundcloud.com/21470458> a av:Track ;
-    av:id "21470458" .
+<http://soundcloud.com/1737601> a av:Track ;
+    av:id "1737601" .
 
-<http://soundcloud.com/29122197> a av:Track ;
-    av:id "29122197" .
+<http://soundcloud.com/17651215> a av:Track ;
+    av:id "17651215" .
 
-<http://soundcloud.com/29220956> a av:Track ;
-    av:id "29220956" .
+<http://soundcloud.com/18380326> a av:Track ;
+    av:id "18380326" .
+
+<http://soundcloud.com/18757977> a av:Track ;
+    av:id "18757977" .
+
+<http://soundcloud.com/18963388> a av:Track ;
+    av:id "18963388" .
+
+<http://soundcloud.com/19181261> a av:Track ;
+    av:id "19181261" .
+
+<http://soundcloud.com/19289209> a av:Track ;
+    av:id "19289209" .
+
+<http://soundcloud.com/19359711> a av:Track ;
+    av:id "19359711" .
+
+<http://soundcloud.com/19467115> a av:Track ;
+    av:id "19467115" .
+
+<http://soundcloud.com/19613838> a av:Track ;
+    av:id "19613838" .
+
+<http://soundcloud.com/19740377> a av:Track ;
+    av:id "19740377" .
+
+<http://soundcloud.com/20310908> a av:Track ;
+    av:id "20310908" .
+
+<http://soundcloud.com/20864282> a av:Track ;
+    av:id "20864282" .
+
+<http://soundcloud.com/20920806> a av:Track ;
+    av:id "20920806" .
+
+<http://soundcloud.com/21107426> a av:Track ;
+    av:id "21107426" .
+
+<http://soundcloud.com/2111715> a av:Track ;
+    av:id "2111715" .
+
+<http://soundcloud.com/2137100> a av:Track ;
+    av:id "2137100" .
+
+<http://soundcloud.com/2197488> a av:Track ;
+    av:id "2197488" .
+
+<http://soundcloud.com/22295583> a av:Track ;
+    av:id "22295583" .
+
+<http://soundcloud.com/2323542> a av:Track ;
+    av:id "2323542" .
+
+<http://soundcloud.com/2339953> a av:Track ;
+    av:id "2339953" .
+
+<http://soundcloud.com/23581884> a av:Track ;
+    av:id "23581884" .
+
+<http://soundcloud.com/2371054> a av:Track ;
+    av:id "2371054" .
+
+<http://soundcloud.com/23893766> a av:Track ;
+    av:id "23893766" .
+
+<http://soundcloud.com/23893767> a av:Track ;
+    av:id "23893767" .
+
+<http://soundcloud.com/23893768> a av:Track ;
+    av:id "23893768" .
+
+<http://soundcloud.com/2413075> a av:Track ;
+    av:id "2413075" .
+
+<http://soundcloud.com/2445272> a av:Track ;
+    av:id "2445272" .
+
+<http://soundcloud.com/24542531> a av:Track ;
+    av:id "24542531" .
+
+<http://soundcloud.com/26205087> a av:Track ;
+    av:id "26205087" .
+
+<http://soundcloud.com/26902260> a av:Track ;
+    av:id "26902260" .
+
+<http://soundcloud.com/2704579> a av:Track ;
+    av:id "2704579" .
+
+<http://soundcloud.com/2802614> a av:Track ;
+    av:id "2802614" .
+
+<http://soundcloud.com/28183492> a av:Track ;
+    av:id "28183492" .
+
+<http://soundcloud.com/30089006> a av:Track ;
+    av:id "30089006" .
+
+<http://soundcloud.com/30105204> a av:Track ;
+    av:id "30105204" .
+
+<http://soundcloud.com/30746395> a av:Track ;
+    av:id "30746395" .
+
+<http://soundcloud.com/307505> a av:Track ;
+    av:id "307505" .
+
+<http://soundcloud.com/31010852> a av:Track ;
+    av:id "31010852" .
+
+<http://soundcloud.com/31474777> a av:Track ;
+    av:id "31474777" .
+
+<http://soundcloud.com/32370577> a av:Track ;
+    av:id "32370577" .
+
+<http://soundcloud.com/3253066> a av:Track ;
+    av:id "3253066" .
 
 <http://soundcloud.com/32558829> a av:Track ;
     av:id "32558829" .
 
+<http://soundcloud.com/32742276> a av:Track ;
+    av:id "32742276" .
+
+<http://soundcloud.com/32966537> a av:Track ;
+    av:id "32966537" .
+
+<http://soundcloud.com/33031495> a av:Track ;
+    av:id "33031495" .
+
+<http://soundcloud.com/3327520> a av:Track ;
+    av:id "3327520" .
+
+<http://soundcloud.com/33569017> a av:Track ;
+    av:id "33569017" .
+
+<http://soundcloud.com/338894> a av:Track ;
+    av:id "338894" .
+
+<http://soundcloud.com/3441116> a av:Track ;
+    av:id "3441116" .
+
+<http://soundcloud.com/34495319> a av:Track ;
+    av:id "34495319" .
+
+<http://soundcloud.com/35034503> a av:Track ;
+    av:id "35034503" .
+
+<http://soundcloud.com/35444331> a av:Track ;
+    av:id "35444331" .
+
+<http://soundcloud.com/35725375> a av:Track ;
+    av:id "35725375" .
+
 <http://soundcloud.com/3576556> a av:Track ;
     av:id "3576556" .
 
-<http://soundcloud.com/360414> a av:Track ;
-    av:id "360414" .
+<http://soundcloud.com/36473041> a av:Track ;
+    av:id "36473041" .
 
-<http://soundcloud.com/36103768> a av:Track ;
-    av:id "36103768" .
+<http://soundcloud.com/36478305> a av:Track ;
+    av:id "36478305" .
 
-<http://soundcloud.com/3644700> a av:Track ;
-    av:id "3644700" .
+<http://soundcloud.com/36478314> a av:Track ;
+    av:id "36478314" .
 
-<http://soundcloud.com/39423822> a av:Track ;
-    av:id "39423822" .
+<http://soundcloud.com/36566034> a av:Track ;
+    av:id "36566034" .
 
-<http://soundcloud.com/41212379> a av:Track ;
-    av:id "41212379" .
+<http://soundcloud.com/36679092> a av:Track ;
+    av:id "36679092" .
 
-<http://soundcloud.com/47869409> a av:Track ;
-    av:id "47869409" .
+<http://soundcloud.com/36866524> a av:Track ;
+    av:id "36866524" .
+
+<http://soundcloud.com/37218701> a av:Track ;
+    av:id "37218701" .
+
+<http://soundcloud.com/37219545> a av:Track ;
+    av:id "37219545" .
+
+<http://soundcloud.com/37670321> a av:Track ;
+    av:id "37670321" .
+
+<http://soundcloud.com/38302770> a av:Track ;
+    av:id "38302770" .
+
+<http://soundcloud.com/3833745> a av:Track ;
+    av:id "3833745" .
+
+<http://soundcloud.com/3836678> a av:Track ;
+    av:id "3836678" .
+
+<http://soundcloud.com/38570618> a av:Track ;
+    av:id "38570618" .
+
+<http://soundcloud.com/40251833> a av:Track ;
+    av:id "40251833" .
+
+<http://soundcloud.com/40807623> a av:Track ;
+    av:id "40807623" .
+
+<http://soundcloud.com/41086181> a av:Track ;
+    av:id "41086181" .
+
+<http://soundcloud.com/41706463> a av:Track ;
+    av:id "41706463" .
+
+<http://soundcloud.com/42043385> a av:Track ;
+    av:id "42043385" .
+
+<http://soundcloud.com/42083691> a av:Track ;
+    av:id "42083691" .
+
+<http://soundcloud.com/42156311> a av:Track ;
+    av:id "42156311" .
+
+<http://soundcloud.com/4259171> a av:Track ;
+    av:id "4259171" .
+
+<http://soundcloud.com/42725822> a av:Track ;
+    av:id "42725822" .
+
+<http://soundcloud.com/42727378> a av:Track ;
+    av:id "42727378" .
+
+<http://soundcloud.com/42814595> a av:Track ;
+    av:id "42814595" .
+
+<http://soundcloud.com/43028302> a av:Track ;
+    av:id "43028302" .
+
+<http://soundcloud.com/43542594> a av:Track ;
+    av:id "43542594" .
+
+<http://soundcloud.com/43617350> a av:Track ;
+    av:id "43617350" .
+
+<http://soundcloud.com/44349593> a av:Track ;
+    av:id "44349593" .
+
+<http://soundcloud.com/4437784> a av:Track ;
+    av:id "4437784" .
+
+<http://soundcloud.com/45417891> a av:Track ;
+    av:id "45417891" .
+
+<http://soundcloud.com/45710769> a av:Track ;
+    av:id "45710769" .
+
+<http://soundcloud.com/45719018> a av:Track ;
+    av:id "45719018" .
+
+<http://soundcloud.com/46797728> a av:Track ;
+    av:id "46797728" .
+
+<http://soundcloud.com/47217011> a av:Track ;
+    av:id "47217011" .
+
+<http://soundcloud.com/47217014> a av:Track ;
+    av:id "47217014" .
+
+<http://soundcloud.com/47586077> a av:Track ;
+    av:id "47586077" .
+
+<http://soundcloud.com/47666927> a av:Track ;
+    av:id "47666927" .
+
+<http://soundcloud.com/47865042> a av:Track ;
+    av:id "47865042" .
+
+<http://soundcloud.com/48263771> a av:Track ;
+    av:id "48263771" .
+
+<http://soundcloud.com/4880333> a av:Track ;
+    av:id "4880333" .
+
+<http://soundcloud.com/48906313> a av:Track ;
+    av:id "48906313" .
 
 <http://soundcloud.com/49063944> a av:Track ;
     av:id "49063944" .
+
+<http://soundcloud.com/49154981> a av:Track ;
+    av:id "49154981" .
+
+<http://soundcloud.com/49382246> a av:Track ;
+    av:id "49382246" .
+
+<http://soundcloud.com/49465384> a av:Track ;
+    av:id "49465384" .
+
+<http://soundcloud.com/49748851> a av:Track ;
+    av:id "49748851" .
 
 <http://soundcloud.com/4994555> a av:Track ;
     av:id "4994555" .
@@ -6071,75 +7316,563 @@ Vol = Vol""" ;
 <http://soundcloud.com/50424553> a av:Track ;
     av:id "50424553" .
 
-<http://soundcloud.com/51948601> a av:Track ;
-    av:id "51948601" .
+<http://soundcloud.com/50594954> a av:Track ;
+    av:id "50594954" .
+
+<http://soundcloud.com/51153383> a av:Track ;
+    av:id "51153383" .
+
+<http://soundcloud.com/51219079> a av:Track ;
+    av:id "51219079" .
+
+<http://soundcloud.com/51244437> a av:Track ;
+    av:id "51244437" .
+
+<http://soundcloud.com/52003763> a av:Track ;
+    av:id "52003763" .
+
+<http://soundcloud.com/5206112> a av:Track ;
+    av:id "5206112" .
+
+<http://soundcloud.com/52394618> a av:Track ;
+    av:id "52394618" .
+
+<http://soundcloud.com/52394899> a av:Track ;
+    av:id "52394899" .
+
+<http://soundcloud.com/52394979> a av:Track ;
+    av:id "52394979" .
+
+<http://soundcloud.com/52395064> a av:Track ;
+    av:id "52395064" .
+
+<http://soundcloud.com/52395137> a av:Track ;
+    av:id "52395137" .
+
+<http://soundcloud.com/52395460> a av:Track ;
+    av:id "52395460" .
+
+<http://soundcloud.com/52395535> a av:Track ;
+    av:id "52395535" .
+
+<http://soundcloud.com/52395931> a av:Track ;
+    av:id "52395931" .
+
+<http://soundcloud.com/52397542> a av:Track ;
+    av:id "52397542" .
+
+<http://soundcloud.com/52397707> a av:Track ;
+    av:id "52397707" .
+
+<http://soundcloud.com/524040> a av:Track ;
+    av:id "524040" .
+
+<http://soundcloud.com/52419777> a av:Track ;
+    av:id "52419777" .
+
+<http://soundcloud.com/5246649> a av:Track ;
+    av:id "5246649" .
+
+<http://soundcloud.com/53077225> a av:Track ;
+    av:id "53077225" .
+
+<http://soundcloud.com/53864978> a av:Track ;
+    av:id "53864978" .
+
+<http://soundcloud.com/54098854> a av:Track ;
+    av:id "54098854" .
+
+<http://soundcloud.com/54579994> a av:Track ;
+    av:id "54579994" .
+
+<http://soundcloud.com/55429404> a av:Track ;
+    av:id "55429404" .
+
+<http://soundcloud.com/5543518> a av:Track ;
+    av:id "5543518" .
+
+<http://soundcloud.com/561982> a av:Track ;
+    av:id "561982" .
+
+<http://soundcloud.com/56862133> a av:Track ;
+    av:id "56862133" .
+
+<http://soundcloud.com/57174686> a av:Track ;
+    av:id "57174686" .
+
+<http://soundcloud.com/5722865> a av:Track ;
+    av:id "5722865" .
+
+<http://soundcloud.com/57460542> a av:Track ;
+    av:id "57460542" .
+
+<http://soundcloud.com/5761576> a av:Track ;
+    av:id "5761576" .
+
+<http://soundcloud.com/5782013> a av:Track ;
+    av:id "5782013" .
 
 <http://soundcloud.com/57839616> a av:Track ;
     av:id "57839616" .
 
-<http://soundcloud.com/61370186> a av:Track ;
-    av:id "61370186" .
+<http://soundcloud.com/5862171> a av:Track ;
+    av:id "5862171" .
 
-<http://soundcloud.com/62813332> a av:Track ;
-    av:id "62813332" .
+<http://soundcloud.com/59312461> a av:Track ;
+    av:id "59312461" .
 
-<http://soundcloud.com/67662416> a av:Track ;
-    av:id "67662416" .
+<http://soundcloud.com/59523322> a av:Track ;
+    av:id "59523322" .
+
+<http://soundcloud.com/5980580> a av:Track ;
+    av:id "5980580" .
+
+<http://soundcloud.com/60543947> a av:Track ;
+    av:id "60543947" .
+
+<http://soundcloud.com/61154414> a av:Track ;
+    av:id "61154414" .
+
+<http://soundcloud.com/618535> a av:Track ;
+    av:id "618535" .
+
+<http://soundcloud.com/62099013> a av:Track ;
+    av:id "62099013" .
+
+<http://soundcloud.com/62314785> a av:Track ;
+    av:id "62314785" .
+
+<http://soundcloud.com/6252465> a av:Track ;
+    av:id "6252465" .
+
+<http://soundcloud.com/62528928> a av:Track ;
+    av:id "62528928" .
+
+<http://soundcloud.com/62544095> a av:Track ;
+    av:id "62544095" .
+
+<http://soundcloud.com/62802966> a av:Track ;
+    av:id "62802966" .
+
+<http://soundcloud.com/62932138> a av:Track ;
+    av:id "62932138" .
+
+<http://soundcloud.com/62932139> a av:Track ;
+    av:id "62932139" .
+
+<http://soundcloud.com/63526208> a av:Track ;
+    av:id "63526208" .
+
+<http://soundcloud.com/64416574> a av:Track ;
+    av:id "64416574" .
+
+<http://soundcloud.com/6523272> a av:Track ;
+    av:id "6523272" .
+
+<http://soundcloud.com/6551561> a av:Track ;
+    av:id "6551561" .
+
+<http://soundcloud.com/65958081> a av:Track ;
+    av:id "65958081" .
+
+<http://soundcloud.com/66592581> a av:Track ;
+    av:id "66592581" .
+
+<http://soundcloud.com/66615976> a av:Track ;
+    av:id "66615976" .
+
+<http://soundcloud.com/66695859> a av:Track ;
+    av:id "66695859" .
+
+<http://soundcloud.com/66722998> a av:Track ;
+    av:id "66722998" .
+
+<http://soundcloud.com/669896> a av:Track ;
+    av:id "669896" .
+
+<http://soundcloud.com/6699522> a av:Track ;
+    av:id "6699522" .
+
+<http://soundcloud.com/67171930> a av:Track ;
+    av:id "67171930" .
+
+<http://soundcloud.com/67175458> a av:Track ;
+    av:id "67175458" .
+
+<http://soundcloud.com/67177384> a av:Track ;
+    av:id "67177384" .
+
+<http://soundcloud.com/67180693> a av:Track ;
+    av:id "67180693" .
+
+<http://soundcloud.com/67186999> a av:Track ;
+    av:id "67186999" .
+
+<http://soundcloud.com/67188214> a av:Track ;
+    av:id "67188214" .
+
+<http://soundcloud.com/67190092> a av:Track ;
+    av:id "67190092" .
+
+<http://soundcloud.com/67191498> a av:Track ;
+    av:id "67191498" .
+
+<http://soundcloud.com/68598908> a av:Track ;
+    av:id "68598908" .
+
+<http://soundcloud.com/6888720> a av:Track ;
+    av:id "6888720" .
+
+<http://soundcloud.com/6888781> a av:Track ;
+    av:id "6888781" .
+
+<http://soundcloud.com/6888882> a av:Track ;
+    av:id "6888882" .
+
+<http://soundcloud.com/6888978> a av:Track ;
+    av:id "6888978" .
 
 <http://soundcloud.com/68896421> a av:Track ;
     av:id "68896421" .
 
-<http://soundcloud.com/69170667> a av:Track ;
-    av:id "69170667" .
-
 <http://soundcloud.com/69319560> a av:Track ;
     av:id "69319560" .
 
-<http://soundcloud.com/70942569> a av:Track ;
-    av:id "70942569" .
+<http://soundcloud.com/6951158> a av:Track ;
+    av:id "6951158" .
+
+<http://soundcloud.com/6951382> a av:Track ;
+    av:id "6951382" .
+
+<http://soundcloud.com/6954108> a av:Track ;
+    av:id "6954108" .
+
+<http://soundcloud.com/69848697> a av:Track ;
+    av:id "69848697" .
+
+<http://soundcloud.com/70180698> a av:Track ;
+    av:id "70180698" .
+
+<http://soundcloud.com/7024601> a av:Track ;
+    av:id "7024601" .
+
+<http://soundcloud.com/7066308> a av:Track ;
+    av:id "7066308" .
+
+<http://soundcloud.com/7086625> a av:Track ;
+    av:id "7086625" .
+
+<http://soundcloud.com/7111633> a av:Track ;
+    av:id "7111633" .
+
+<http://soundcloud.com/71353952> a av:Track ;
+    av:id "71353952" .
+
+<http://soundcloud.com/71529217> a av:Track ;
+    av:id "71529217" .
+
+<http://soundcloud.com/72147272> a av:Track ;
+    av:id "72147272" .
+
+<http://soundcloud.com/7228706> a av:Track ;
+    av:id "7228706" .
+
+<http://soundcloud.com/72701705> a av:Track ;
+    av:id "72701705" .
+
+<http://soundcloud.com/72804162> a av:Track ;
+    av:id "72804162" .
+
+<http://soundcloud.com/73115695> a av:Track ;
+    av:id "73115695" .
+
+<http://soundcloud.com/73273992> a av:Track ;
+    av:id "73273992" .
+
+<http://soundcloud.com/74113662> a av:Track ;
+    av:id "74113662" .
+
+<http://soundcloud.com/74181388> a av:Track ;
+    av:id "74181388" .
+
+<http://soundcloud.com/74238244> a av:Track ;
+    av:id "74238244" .
 
 <http://soundcloud.com/74514605> a av:Track ;
     av:id "74514605" .
 
-<http://soundcloud.com/74993314> a av:Track ;
-    av:id "74993314" .
+<http://soundcloud.com/74573105> a av:Track ;
+    av:id "74573105" .
 
-<http://soundcloud.com/7817155> a av:Track ;
-    av:id "7817155" .
+<http://soundcloud.com/747305> a av:Track ;
+    av:id "747305" .
 
-<http://soundcloud.com/84611053> a av:Track ;
-    av:id "84611053" .
+<http://soundcloud.com/75062128> a av:Track ;
+    av:id "75062128" .
 
-<http://soundcloud.com/85220107> a av:Track ;
-    av:id "85220107" .
+<http://soundcloud.com/75190816> a av:Track ;
+    av:id "75190816" .
 
-<http://soundcloud.com/85362313> a av:Track ;
-    av:id "85362313" .
+<http://soundcloud.com/75234077> a av:Track ;
+    av:id "75234077" .
 
-<http://soundcloud.com/85362320> a av:Track ;
-    av:id "85362320" .
+<http://soundcloud.com/75246160> a av:Track ;
+    av:id "75246160" .
 
-<http://soundcloud.com/95445912> a av:Track ;
-    av:id "95445912" .
+<http://soundcloud.com/76550290> a av:Track ;
+    av:id "76550290" .
 
-<http://soundcloud.com/95568398> a av:Track ;
-    av:id "95568398" .
+<http://soundcloud.com/77111897> a av:Track ;
+    av:id "77111897" .
 
-<http://soundcloud.com/96410846> a av:Track ;
-    av:id "96410846" .
+<http://soundcloud.com/77197856> a av:Track ;
+    av:id "77197856" .
 
-<http://soundcloud.com/98696242> a av:Track ;
-    av:id "98696242" .
+<http://soundcloud.com/77959663> a av:Track ;
+    av:id "77959663" .
+
+<http://soundcloud.com/790354> a av:Track ;
+    av:id "790354" .
+
+<http://soundcloud.com/80905101> a av:Track ;
+    av:id "80905101" .
+
+<http://soundcloud.com/82167699> a av:Track ;
+    av:id "82167699" .
+
+<http://soundcloud.com/83226180> a av:Track ;
+    av:id "83226180" .
+
+<http://soundcloud.com/83782885> a av:Track ;
+    av:id "83782885" .
+
+<http://soundcloud.com/8390970> a av:Track ;
+    av:id "8390970" .
+
+<http://soundcloud.com/84173975> a av:Track ;
+    av:id "84173975" .
+
+<http://soundcloud.com/84394300> a av:Track ;
+    av:id "84394300" .
+
+<http://soundcloud.com/84780869> a av:Track ;
+    av:id "84780869" .
+
+<http://soundcloud.com/85205437> a av:Track ;
+    av:id "85205437" .
+
+<http://soundcloud.com/85655462> a av:Track ;
+    av:id "85655462" .
+
+<http://soundcloud.com/85950268> a av:Track ;
+    av:id "85950268" .
+
+<http://soundcloud.com/86054053> a av:Track ;
+    av:id "86054053" .
+
+<http://soundcloud.com/8679566> a av:Track ;
+    av:id "8679566" .
+
+<http://soundcloud.com/86886455> a av:Track ;
+    av:id "86886455" .
+
+<http://soundcloud.com/87134942> a av:Track ;
+    av:id "87134942" .
+
+<http://soundcloud.com/87673507> a av:Track ;
+    av:id "87673507" .
+
+<http://soundcloud.com/88326338> a av:Track ;
+    av:id "88326338" .
+
+<http://soundcloud.com/8846320> a av:Track ;
+    av:id "8846320" .
+
+<http://soundcloud.com/88534576> a av:Track ;
+    av:id "88534576" .
+
+<http://soundcloud.com/88623102> a av:Track ;
+    av:id "88623102" .
+
+<http://soundcloud.com/88682812> a av:Track ;
+    av:id "88682812" .
+
+<http://soundcloud.com/89138323> a av:Track ;
+    av:id "89138323" .
+
+<http://soundcloud.com/89423751> a av:Track ;
+    av:id "89423751" .
+
+<http://soundcloud.com/89452462> a av:Track ;
+    av:id "89452462" .
+
+<http://soundcloud.com/903830> a av:Track ;
+    av:id "903830" .
+
+<http://soundcloud.com/90770086> a av:Track ;
+    av:id "90770086" .
+
+<http://soundcloud.com/92350669> a av:Track ;
+    av:id "92350669" .
+
+<http://soundcloud.com/93829619> a av:Track ;
+    av:id "93829619" .
+
+<http://soundcloud.com/94292918> a av:Track ;
+    av:id "94292918" .
+
+<http://soundcloud.com/951282> a av:Track ;
+    av:id "951282" .
+
+<http://soundcloud.com/95336817> a av:Track ;
+    av:id "95336817" .
+
+<http://soundcloud.com/9552456> a av:Track ;
+    av:id "9552456" .
+
+<http://soundcloud.com/96740033> a av:Track ;
+    av:id "96740033" .
+
+<http://soundcloud.com/96862746> a av:Track ;
+    av:id "96862746" .
+
+<http://soundcloud.com/97410512> a av:Track ;
+    av:id "97410512" .
+
+<http://soundcloud.com/98579241> a av:Track ;
+    av:id "98579241" .
+
+<http://soundcloud.com/98579242> a av:Track ;
+    av:id "98579242" .
+
+<http://soundcloud.com/98579245> a av:Track ;
+    av:id "98579245" .
+
+<http://soundcloud.com/98579246> a av:Track ;
+    av:id "98579246" .
+
+<http://soundcloud.com/98579251> a av:Track ;
+    av:id "98579251" .
+
+<http://soundcloud.com/98579253> a av:Track ;
+    av:id "98579253" .
+
+<http://soundcloud.com/98579254> a av:Track ;
+    av:id "98579254" .
+
+<http://soundcloud.com/98999337> a av:Track ;
+    av:id "98999337" .
+
+<http://dbpedia.org/resource/Sublime_%28band%29> a av:ArtistEntity ;
+    rdfs:label "Sublime (band)" ;
+    av:hasTrack <http://soundcloud.com/123372249>,
+        <http://soundcloud.com/130796309>,
+        <http://soundcloud.com/1480201>,
+        <http://soundcloud.com/2371054>,
+        <http://soundcloud.com/26406734>,
+        <http://soundcloud.com/29295656>,
+        <http://soundcloud.com/31010852>,
+        <http://soundcloud.com/65958081>,
+        <http://soundcloud.com/7086625>,
+        <http://soundcloud.com/86886455> ;
+    dbo:MusicGenre <http://dbpedia.org/resource/Alternative_hip_hop>,
+        <http://dbpedia.org/resource/Alternative_rock>,
+        <http://dbpedia.org/resource/Dub_(music)>,
+        <http://dbpedia.org/resource/Reggae_rock>,
+        <http://dbpedia.org/resource/Ska_punk> ;
+    rdfs:comment "Sublime was an American rock band from Long Beach, California, formed in 1988. The band's line-up, unchanged until their breakup, consisted of Bradley Nowell, Eric Wilson and Bud Gaugh. Michael 'Miguel' Happoldt also contributed on a few Sublime songs, such as \"New Thrash. \" Lou Dog, Nowell's dalmatian, was the mascot of the band. Nowell died of a heroin overdose in 1996 and Sublime immediately split up." .
+
+<http://dbpedia.org/resource/The_Jimi_Hendrix_Experience> a av:ArtistEntity ;
+    rdfs:label "The Jimi Hendrix Experience" ;
+    av:hasTrack <http://soundcloud.com/52394618>,
+        <http://soundcloud.com/52394899>,
+        <http://soundcloud.com/52394979>,
+        <http://soundcloud.com/52395064>,
+        <http://soundcloud.com/52395137>,
+        <http://soundcloud.com/52395460>,
+        <http://soundcloud.com/52395535>,
+        <http://soundcloud.com/52395931>,
+        <http://soundcloud.com/52397542>,
+        <http://soundcloud.com/52397707> ;
+    dbo:MusicGenre <http://dbpedia.org/resource/Acid_rock>,
+        <http://dbpedia.org/resource/Blues_rock>,
+        <http://dbpedia.org/resource/Hard_rock>,
+        <http://dbpedia.org/resource/Psychedelic_rock> ;
+    dbo:thumbnail "http://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Jimi_Hendrix_Experience_in_Fenklup.png/200px-Jimi_Hendrix_Experience_in_Fenklup.png" ;
+    rdfs:comment "The Jimi Hendrix Experience was an English-American psychedelic rock band that formed in London in October 1966. Comprised of eponymous singer, songwriter, and guitarist Jimi Hendrix, bassist and backing vocalist Noel Redding, and drummer Mitch Mitchell, the band was active until June 1969. In this time the group released three successful studio albums. After Redding left the band, Hendrix and Mitchell stayed together through other projects." .
+
+<http://dbpedia.org/resource/The_Specials> a av:ArtistEntity ;
+    rdfs:label "The Specials" ;
+    av:hasTrack <http://soundcloud.com/132237035>,
+        <http://soundcloud.com/19289209>,
+        <http://soundcloud.com/20310908>,
+        <http://soundcloud.com/2137100>,
+        <http://soundcloud.com/2445272>,
+        <http://soundcloud.com/3833745>,
+        <http://soundcloud.com/42043385>,
+        <http://soundcloud.com/4259171>,
+        <http://soundcloud.com/561982>,
+        <http://soundcloud.com/73115695> ;
+    dbo:MusicGenre <http://dbpedia.org/resource/2_Tone>,
+        <http://dbpedia.org/resource/New_Wave_music>,
+        <http://dbpedia.org/resource/Reggae>,
+        <http://dbpedia.org/resource/Ska> ;
+    dbo:thumbnail "http://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/The_Specials.JPG/200px-The_Specials.JPG" ;
+    rdfs:comment "The Specials (sometimes called The Special AKA) are an English 2 Tone ska revival band formed in 1977 in Coventry, England. Their music combines a \"danceable ska and rocksteady beat with punk's energy and attitude\", and had a \"more focused and informed political and social stance\" than other ska groups. The group was formed by songwriter/keyboardist Jerry Dammers, with Terry Hall (vocals), Lynval Golding (guitar, vocals), Silverton Hutchinson (drums) and a rhythm section." .
+
+<http://soundcloud.com/125157723> a av:Track ;
+    av:id "125157723" .
+
+<http://dbpedia.org/resource/Free_%28band%29> a av:ArtistEntity ;
+    rdfs:label "Free (band)" ;
+    av:hasTrack <http://soundcloud.com/120575620>,
+        <http://soundcloud.com/49154981>,
+        <http://soundcloud.com/49465384>,
+        <http://soundcloud.com/50594954>,
+        <http://soundcloud.com/62932138>,
+        <http://soundcloud.com/62932139>,
+        <http://soundcloud.com/6523272>,
+        <http://soundcloud.com/84780869>,
+        <http://soundcloud.com/87673507>,
+        <http://soundcloud.com/92350669> ;
+    dbo:MusicGenre <http://dbpedia.org/resource/Blues-rock>,
+        <http://dbpedia.org/resource/Hard_rock>,
+        <http://dbpedia.org/resource/Rhythm_and_blues> ;
+    rdfs:comment "Free was an English rock band formed in London in 1968 best known for their 1970 signature song \"All Right Now\". They disbanded in 1973 and lead singer Paul Rodgers went on to become a frontman of the band Bad Company along with Simon Kirke on drums; lead guitarist Paul Kossoff formed Back Street Crawler and died from a drug-induced heart failure at the age of 25 in 1976. Bassist Andy Fraser formed Sharks. The band was famed for its sensational live shows and nonstop touring." .
 
 <http://facebook.com/105797235847> a fb:Venue ;
     rdfs:label "Supperclub" ;
     fb:id "105797235847" ;
     fb:url "https://www.facebook.com/amsterdamsupperclub" .
 
+<http://soundcloud.com/15431411> a av:Track ;
+    av:id "15431411" .
+
+<http://soundcloud.com/15432198> a av:Track ;
+    av:id "15432198" .
+
 <http://facebook.com/144839688861341> a fb:Venue ;
     rdfs:label "Odeon" ;
     fb:id "144839688861341" ;
     fb:url "https://www.facebook.com/odeonamsterdam" .
+
+<http://soundcloud.com/252487> a av:Track ;
+    av:id "252487" .
+
+<http://soundcloud.com/28177029> a av:Track ;
+    av:id "28177029" .
+
+<http://soundcloud.com/43446689> a av:Track ;
+    av:id "43446689" .
+
+<http://soundcloud.com/19735815> a av:Track ;
+    av:id "19735815" .
+
+<http://soundcloud.com/26406734> a av:Track ;
+    av:id "26406734" .
+
+<http://soundcloud.com/29295656> a av:Track ;
+    av:id "29295656" .
 
 <http://facebook.com/109020085791036> a fb:Venue ;
     rdfs:label "Air" ;

@@ -1,7 +1,9 @@
 import sparql
+import pprint
+import json
 
 amsterdamVibeUri =  "http://amsterdamvibe.nl/"
-dbpediaOntologyUri = "http://dbpedia.org/ontology/"
+dbpediaOntologyUri = "http://dbpedia.org/ontology#"
 facebookOntologyUri = "http://facebook.com/"
 soundcloudOntologyUri = "http://soundcloud.com/tracks/"
 
@@ -18,8 +20,7 @@ PREFIX xml:<http://www.w3.org/XML/1998/namespace>
 PREFIX av:<http://amsterdamvibe.nl#>
 PREFIX fb:<http://facebook.com#>
 PREFIX rdfs:<http://www.w3.org/2000/01/rdf-schema#>
-PREFIX ns1:<http://dbpedia.org/ontology/>
-PREFIX dbo:<http://dbpedia.org/ontology/>
+PREFIX dbo:<http://dbpedia.org/ontology#>
 PREFIX fs:<http://api.foursquare.com/v2/venues/>
 PREFIX xsd:<http://www.w3.org/2001/XMLSchema#>
 PREFIX owl:<http://www.w3.org/2002/07/owl#>
@@ -51,8 +52,9 @@ def getFutureEvents(repo_name):
 	BIND (now() AS ?crt_date)
 	?event fb:start_time ?date.
 	?event a fb:Event.
-	FILTER(xsd:dateTime(?date) >= xsd:dateTime(?crt_date))
-	}
+	?event fb:attending_total ?attending_total.
+	FILTER(xsd:dateTime(?date) >= xsd:dateTime(?crt_date)).
+	}ORDER BY DESC(?attending_total)
 	"""
 
 	allFutureEvents = []
@@ -63,7 +65,6 @@ def getFutureEvents(repo_name):
 			event = getEventInfo(repo_name,eventUri)
 			if repositoryEvent!=None:
 				allFutureEvents.append(event)
-		print allFutureEvents
 		return allFutureEvents
 	return None
 
@@ -78,6 +79,17 @@ def getEventInfo(repo_name,event_uri):
 	eventNames=getQueryResults(repo_name,queryName)
 	if(eventNames):
 		event["name"]=eventNames[0]["label"]
+	else:
+		return None
+
+	queryId=prefixes+"""
+	SELECT DISTINCT ?id WHERE{
+	%s fb:id ?id
+	}
+	"""%rdfUri
+	eventId=getQueryResults(repo_name,queryId)
+	if(eventId):
+		event["id"]=eventId[0]["id"]
 	else:
 		return None
 
@@ -113,7 +125,7 @@ def getEventInfo(repo_name,event_uri):
 
 	queryGenres=prefixes+"""
 	SELECT DISTINCT ?genre_name WHERE{
-	%s av:MusicGenre ?genre.
+	%s av:genre ?genre.
 	?genre rdfs:label ?genre_name.
 	}
 	"""%rdfUri
@@ -125,16 +137,16 @@ def getEventInfo(repo_name,event_uri):
 
 	queryArtists=prefixes+"""
 	SELECT DISTINCT ?artist WHERE{
-	%s av:related_artist ?artist
+	%s av:relatedArtist ?artist
 	}
 	"""%rdfUri
 	eventArtists=getQueryResults(repo_name,queryArtists)
 	if(eventArtists):
 		event["artists"]=[]
 		for eventArtist in eventArtists:
-			artist=getArtistInfo(repo_name,eventArtists["artist"])
+			artist=getArtistInfo(repo_name,eventArtist["artist"])
 			if artist!=None:
-				event["genres"].append(eventGenre["genre_name"])
+				event["artists"].append(artist)
 	return event
 
 def getArtistInfo(repo_name,artist_uri):
@@ -146,8 +158,8 @@ def getArtistInfo(repo_name,artist_uri):
 	}
 	"""%rdfUri
 	artistNames=getQueryResults(repo_name,queryName)
-	if(eventNames):
-		event["name"]=eventNames[0]["label"]
+	if(artistNames):
+		artist["name"]=artistNames[0]["label"]
 	else:
 		return None
 
@@ -158,7 +170,7 @@ def getArtistInfo(repo_name,artist_uri):
 	"""%rdfUri
 	artistComment=getQueryResults(repo_name,queryComment)
 	if(artistComment):
-		artist["comment"]=artistComment[0]["artistComment"]
+		artist["comment"]=artistComment[0]["comment"]
 
 	queryThumbnail=prefixes+"""
 	SELECT DISTINCT ?thumbnail WHERE{
@@ -184,11 +196,13 @@ def getArtistInfo(repo_name,artist_uri):
 			%s av:id ?track_id
 			}
 			"""%trackUriRef
-			artistTrackId=getQueryResults(queryTrackId)
+			artistTrackId=getQueryResults(repo_name,queryTrackId)
 			if(artistTrackId):
-				artist["soundcloud_track_ids"].append(artistTrackId["track_id"])
+				artist["soundcloud_track_ids"].append(artistTrackId[0]["track_id"])
 
 	return artist
 
 if __name__=="__main__":
-	getFutureEvents(repository_name)
+	result_json=getFutureEvents(repository_name)
+	with open("test_result.json","w") as f:
+		json.dump(result_json,f)

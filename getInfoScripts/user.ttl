@@ -7,391 +7,397 @@
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<http://facebook.com#12312341234> a av:user ;
+<http://facebook.com#12312341234> a av:User ;
     av:fbid "12312341234" ;
     av:likes <http://dbpedia.org/resource/Andrea_Bocelli>,
         <http://dbpedia.org/resource/Bobby_McFerrin>,
         <http://dbpedia.org/resource/Celine_Dion>,
         <http://dbpedia.org/resource/Eric_Whitacre>,
         <http://dbpedia.org/resource/King's_Singers> ;
-    av:was_at <http://facebook.com/107355589338388#>,
-        <http://facebook.com/121704884639171#>,
-        <http://facebook.com/1384937691726780#>,
-        <http://facebook.com/163271057031691#>,
-        <http://facebook.com/163560820466397#>,
-        <http://facebook.com/173809742802299#>,
-        <http://facebook.com/177418708985528#>,
-        <http://facebook.com/180685038803797#>,
-        <http://facebook.com/196715480488158#>,
-        <http://facebook.com/207682262585795#>,
-        <http://facebook.com/256717011045332#>,
-        <http://facebook.com/418379848307562#>,
-        <http://facebook.com/442476399112575#>,
-        <http://facebook.com/510233119011317#>,
-        <http://facebook.com/531070483616582#>,
-        <http://facebook.com/569732409735130#>,
-        <http://facebook.com/622062714535306#>,
-        <http://facebook.com/631165780278998#>,
-        <http://facebook.com/672201889489732#>,
-        <http://facebook.com/700017116716231#> .
+    av:was_at <http://facebook.com/107355589338388>,
+        <http://facebook.com/121704884639171>,
+        <http://facebook.com/1384937691726780>,
+        <http://facebook.com/163271057031691>,
+        <http://facebook.com/163560820466397>,
+        <http://facebook.com/173809742802299>,
+        <http://facebook.com/177418708985528>,
+        <http://facebook.com/180685038803797>,
+        <http://facebook.com/196715480488158>,
+        <http://facebook.com/207682262585795>,
+        <http://facebook.com/256717011045332>,
+        <http://facebook.com/418379848307562>,
+        <http://facebook.com/442476399112575>,
+        <http://facebook.com/510233119011317>,
+        <http://facebook.com/531070483616582>,
+        <http://facebook.com/569732409735130>,
+        <http://facebook.com/622062714535306>,
+        <http://facebook.com/631165780278998>,
+        <http://facebook.com/672201889489732>,
+        <http://facebook.com/700017116716231> .
 
 <http://dbpedia.org/resource/Andrea_Bocelli> a av:ArtistEntity ;
     rdfs:label "Andrea Bocelli" ;
-    av:hasTrack <http://soundcloud.com#1083578>,
-        <http://soundcloud.com#3051332>,
-        <http://soundcloud.com#31137466>,
-        <http://soundcloud.com#3245906>,
-        <http://soundcloud.com#3820088>,
-        <http://soundcloud.com#5681868>,
-        <http://soundcloud.com#64990510>,
-        <http://soundcloud.com#77255440>,
-        <http://soundcloud.com#89168007>,
-        <http://soundcloud.com#908839> ;
-    dbo:MusicGenre "http://dbpedia.org/resource/Adult_contemporary_music",
-        "http://dbpedia.org/resource/Classical_music",
-        "http://dbpedia.org/resource/Easy_listening",
-        "http://dbpedia.org/resource/Latin_pop",
-        "http://dbpedia.org/resource/Opera",
-        "http://dbpedia.org/resource/Operatic_pop",
-        "http://dbpedia.org/resource/Pop_music",
-        "http://dbpedia.org/resource/Vocal_music" ;
+    av:hasTrack <http://soundcloud.com/1083578>,
+        <http://soundcloud.com/3051332>,
+        <http://soundcloud.com/31137466>,
+        <http://soundcloud.com/3245906>,
+        <http://soundcloud.com/3820088>,
+        <http://soundcloud.com/5681868>,
+        <http://soundcloud.com/64990510>,
+        <http://soundcloud.com/77255440>,
+        <http://soundcloud.com/89168007>,
+        <http://soundcloud.com/908839> ;
+    dbo:MusicGenre <http://dbpedia.org/resource/Adult_contemporary>,
+        <http://dbpedia.org/resource/Adult_contemporary_music>,
+        <http://dbpedia.org/resource/Classical_music>,
+        <http://dbpedia.org/resource/Easy_listening>,
+        <http://dbpedia.org/resource/Latin_pop>,
+        <http://dbpedia.org/resource/Opera>,
+        <http://dbpedia.org/resource/Operatic_pop>,
+        <http://dbpedia.org/resource/Pop_music>,
+        <http://dbpedia.org/resource/Vocal_music> ;
     dbo:thumbnail "http://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Bocelli.jpg/200px-Bocelli.jpg" ;
     rdfs:comment "Andrea Angel Bocelli, (born 22 September 1958) is an Italian tenor, singer-songwriter, and multi-instrumentalist. Born with poor eyesight, he became blind at the age of twelve following a football accident. Since winning the Newcomers section of the Sanremo Music Festival in 1994, Bocelli has recorded fourteen solo studio albums, of both pop and classical music, three greatest hits albums, and nine complete operas, selling over 80 million records worldwide." .
 
 <http://dbpedia.org/resource/Bobby_McFerrin> a av:ArtistEntity ;
     rdfs:label "Bobby McFerrin" ;
-    av:hasTrack <http://soundcloud.com#130653160>,
-        <http://soundcloud.com#130653167>,
-        <http://soundcloud.com#136924191>,
-        <http://soundcloud.com#136924192>,
-        <http://soundcloud.com#136924193>,
-        <http://soundcloud.com#136924199>,
-        <http://soundcloud.com#15079036>,
-        <http://soundcloud.com#1770367>,
-        <http://soundcloud.com#28771016>,
-        <http://soundcloud.com#74476430> ;
-    dbo:MusicGenre "http://dbpedia.org/resource/Classical_music",
-        "http://dbpedia.org/resource/Jazz",
-        "http://dbpedia.org/resource/Reggae",
-        "http://dbpedia.org/resource/Smooth_jazz",
-        "http://dbpedia.org/resource/World_music" ;
+    av:hasTrack <http://soundcloud.com/130653160>,
+        <http://soundcloud.com/130653167>,
+        <http://soundcloud.com/136924191>,
+        <http://soundcloud.com/136924192>,
+        <http://soundcloud.com/136924193>,
+        <http://soundcloud.com/136924199>,
+        <http://soundcloud.com/15079036>,
+        <http://soundcloud.com/1770367>,
+        <http://soundcloud.com/28771016>,
+        <http://soundcloud.com/74476430> ;
+    dbo:MusicGenre <http://dbpedia.org/resource/A_cappella>,
+        <http://dbpedia.org/resource/Classical_music>,
+        <http://dbpedia.org/resource/Jazz>,
+        <http://dbpedia.org/resource/Reggae>,
+        <http://dbpedia.org/resource/Smooth_jazz>,
+        <http://dbpedia.org/resource/Vocal_music>,
+        <http://dbpedia.org/resource/World_music> ;
     dbo:thumbnail "http://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Bobby_McFerrin_2011.jpg/200px-Bobby_McFerrin_2011.jpg" ;
-    rdfs:comment "Robert \"Bobby\" McFerrin, Jr. (born March 11, 1950) is an American vocalist and conductor. He is best known for his 1988 hit song \"Don't Worry, Be Happy\". He is a ten-time Grammy Award winner. He is well known for his unique vocal techniques and singing styles." .
+    rdfs:comment "Robert \"Bobby\" McFerrin, Jr. (born March 11, 1950) is a virtuoso American vocalist and conductor. He is best known for his 1988 hit song \"Don't Worry, Be Happy\". He is a ten-time Grammy Award winner. He is well known for his unique vocal techniques and singing styles." .
 
 <http://dbpedia.org/resource/Celine_Dion> a av:ArtistEntity ;
     rdfs:label "Celine Dion" ;
-    av:hasTrack <http://soundcloud.com#10333233>,
-        <http://soundcloud.com#108469555>,
-        <http://soundcloud.com#1968327>,
-        <http://soundcloud.com#2808776>,
-        <http://soundcloud.com#3635871>,
-        <http://soundcloud.com#3820088>,
-        <http://soundcloud.com#49387359>,
-        <http://soundcloud.com#5464796>,
-        <http://soundcloud.com#60595232>,
-        <http://soundcloud.com#939637> ;
-    dbo:MusicGenre "http://dbpedia.org/resource/Adult_contemporary_music",
-        "http://dbpedia.org/resource/Dance_music",
-        "http://dbpedia.org/resource/Pop_music",
-        "http://dbpedia.org/resource/Rock_music" ;
+    av:hasTrack <http://soundcloud.com/10333233>,
+        <http://soundcloud.com/108469555>,
+        <http://soundcloud.com/1968327>,
+        <http://soundcloud.com/2808776>,
+        <http://soundcloud.com/3635871>,
+        <http://soundcloud.com/3820088>,
+        <http://soundcloud.com/49387359>,
+        <http://soundcloud.com/5464796>,
+        <http://soundcloud.com/60595232>,
+        <http://soundcloud.com/939637> ;
+    dbo:MusicGenre <http://dbpedia.org/resource/Adult_contemporary_music>,
+        <http://dbpedia.org/resource/Contemporary_R&B>,
+        <http://dbpedia.org/resource/Dance_music>,
+        <http://dbpedia.org/resource/Pop_music>,
+        <http://dbpedia.org/resource/Pop_rock>,
+        <http://dbpedia.org/resource/Rock_music>,
+        <http://dbpedia.org/resource/Soft_rock> ;
     dbo:thumbnail "http://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Céline_Dion_2012.jpg/200px-Céline_Dion_2012.jpg" ;
-    rdfs:comment "Céline Marie Claudette Dion, CC OQ is a Canadian singer. Born into a large family from Charlemagne, Quebec, Dion emerged as a teen star in the French-speaking world after her manager and future husband René Angélil mortgaged his home to finance her first record. In 1990, she released the English-language album Unison, establishing herself as a viable pop artist in North America and other English-speaking areas of the world." .
+    rdfs:comment "Céline Marie Claudette Dion, CC OQ,, is a Canadian singer. Born to a large family from Charlemagne, Quebec, Dion emerged as a teen star in the French-speaking world after her manager and future husband René Angélil mortgaged his home to finance her first record. In 1990, she released the English-language album Unison, establishing herself as a viable pop artist in North America and other English-speaking areas of the world." .
 
 <http://dbpedia.org/resource/Eric_Whitacre> a av:ArtistEntity ;
     rdfs:label "Eric Whitacre" ;
-    av:hasTrack <http://soundcloud.com#11278770>,
-        <http://soundcloud.com#114695868>,
-        <http://soundcloud.com#127714526>,
-        <http://soundcloud.com#132213625>,
-        <http://soundcloud.com#24371689>,
-        <http://soundcloud.com#24374372>,
-        <http://soundcloud.com#24374464>,
-        <http://soundcloud.com#24374740>,
-        <http://soundcloud.com#48211756>,
-        <http://soundcloud.com#8048539> ;
+    av:hasTrack <http://soundcloud.com/11278770>,
+        <http://soundcloud.com/114695868>,
+        <http://soundcloud.com/127714526>,
+        <http://soundcloud.com/132213625>,
+        <http://soundcloud.com/24371689>,
+        <http://soundcloud.com/24374372>,
+        <http://soundcloud.com/24374464>,
+        <http://soundcloud.com/24374740>,
+        <http://soundcloud.com/48211756>,
+        <http://soundcloud.com/8048539> ;
     dbo:thumbnail "http://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Ewcolor.jpg/200px-Ewcolor.jpg" ;
-    rdfs:comment "Eric Whitacre (born January 2, 1970 in Reno, Nevada) is an American Grammy Award-winning composer and conductor. He is one of the most popular and performed composers of his generation. In 2008, the all-Whitacre choral CD Cloudburst (released by the British ensemble Polyphony on Hyperion Records) became an international best-seller, topping the classical charts and earning a Grammy nomination." .
+    rdfs:comment "Eric Whitacre (born January 2, 1970) is an American Grammy Award-winning composer and conductor. In 2008, the all-Whitacre choral CD Cloudburst (released by the British ensemble Polyphony on Hyperion Records) became an international best-seller, topping the classical charts and earning a Grammy nomination." .
 
 <http://dbpedia.org/resource/King's_Singers> a av:ArtistEntity ;
     rdfs:label "King's Singers" ;
-    av:hasTrack <http://soundcloud.com#117369167>,
-        <http://soundcloud.com#120957316>,
-        <http://soundcloud.com#122142829>,
-        <http://soundcloud.com#122142833>,
-        <http://soundcloud.com#122142836>,
-        <http://soundcloud.com#24260536>,
-        <http://soundcloud.com#45008043>,
-        <http://soundcloud.com#59621970>,
-        <http://soundcloud.com#62811799>,
-        <http://soundcloud.com#79440836> ;
-    dbo:MusicGenre "http://dbpedia.org/resource/Classical_music",
-        "http://dbpedia.org/resource/Pop_music" ;
-    rdfs:comment "The King's Singers are a British a cappella, two-time Grammy Award-winning vocal ensemble who celebrated their 40th anniversary in 2008. Their name recalls King's College in Cambridge, England, where the group was formed by six choral scholars in 1968. In the United Kingdom, their popularity peaked in the 1970s and early 1980s. Thereafter they began to reach a wider international audience, appearing frequently on The Tonight Show Starring Johnny Carson in the U.S." .
+    av:hasTrack <http://soundcloud.com/117369167>,
+        <http://soundcloud.com/120957316>,
+        <http://soundcloud.com/122142829>,
+        <http://soundcloud.com/122142833>,
+        <http://soundcloud.com/122142836>,
+        <http://soundcloud.com/24260536>,
+        <http://soundcloud.com/45008043>,
+        <http://soundcloud.com/59621970>,
+        <http://soundcloud.com/62811799>,
+        <http://soundcloud.com/79440836> ;
+    dbo:MusicGenre <http://dbpedia.org/resource/Classical_music>,
+        <http://dbpedia.org/resource/Pop_music> ;
+    rdfs:comment "The King's Singers are a British a cappella, two-time Grammy Award-winning vocal ensemble who celebrated their 40th anniversary in 2008. Their name recalls King's College in Cambridge, England, where the group was formed by six choral scholars in 1968. In the United Kingdom, their popularity peaked in the 1970s and early 1980s. Thereafter they began to reach a wider international audience, appearing frequently on The Johnny Carson Show in the U.S." .
 
-<http://facebook.com/107355589338388#> a fb:event ;
+<http://facebook.com/107355589338388> a fb:Event ;
     rdfs:label "Club de escaladă cu întâlniri săptămânale – un nou proiect TAB" ;
     fb:id "107355589338388" ;
     fb:location "Sala Galactic Gym, lângă stația de metrou Crângași," ;
     fb:start_time "2010-12-05T11:00:00"^^xsd:dateTime .
 
-<http://facebook.com/121704884639171#> a fb:event ;
+<http://facebook.com/121704884639171> a fb:Event ;
     rdfs:label "(Prima si ultima) bienala de rezultate. Vernisaj 12 iulie 19.00 h." ;
     fb:id "121704884639171" ;
     fb:location "Platforma" ;
     fb:start_time "2012-07-12T19:00:00"^^xsd:dateTime .
 
-<http://facebook.com/1384937691726780#> a fb:event ;
+<http://facebook.com/1384937691726780> a fb:Event ;
     rdfs:label "Concert" ;
     fb:id "1384937691726780" ;
     fb:location "Dominicuskerk" ;
     fb:start_time "2014-02-01T20:15:00"^^xsd:dateTime .
 
-<http://facebook.com/163271057031691#> a fb:event ;
+<http://facebook.com/163271057031691> a fb:Event ;
     rdfs:label "ALTER (teatru, muzică, live painting)" ;
     fb:id "163271057031691" ;
     fb:location "Studioul de Opera al Universităţii Naţionale de Muzică Bucureşti" ;
     fb:start_time "2010-10-20T19:00:00"^^xsd:dateTime .
 
-<http://facebook.com/163560820466397#> a fb:event ;
+<http://facebook.com/163560820466397> a fb:Event ;
     rdfs:label "Weekend God Something 4 Me!?" ;
     fb:id "163560820466397" ;
     fb:location "De Mineursberg kamplaan1, 5375KP Reek" ;
     fb:start_time "2013-04-19T20:00:00"^^xsd:dateTime .
 
-<http://facebook.com/173809742802299#> a fb:event ;
+<http://facebook.com/173809742802299> a fb:Event ;
     rdfs:label "EvangeLiving IV: Lightened by His Glory" ;
     fb:id "173809742802299" ;
     fb:location "De Hoof 8 5712 LM Someren" ;
     fb:start_time "2014-06-06"^^xsd:date .
 
-<http://facebook.com/177418708985528#> a fb:event ;
+<http://facebook.com/177418708985528> a fb:Event ;
     rdfs:label "Concert Simfonic al Clasei de Compozitie (promotia 2011) - INTRAREA LIBERA" ;
     fb:id "177418708985528" ;
     fb:location "Universitatea Nationala de Muzica Bucuresti, Sala George Enescu" ;
     fb:start_time "2011-06-30T19:00:00"^^xsd:dateTime .
 
-<http://facebook.com/180685038803797#> a fb:event ;
+<http://facebook.com/180685038803797> a fb:Event ;
     rdfs:label "Sinterklaas" ;
     fb:id "180685038803797" ;
     fb:location "Het huisje van Jan Jelle (zie zijn berichtje)" ;
     fb:start_time "2013-12-05T20:00:00"^^xsd:dateTime .
 
-<http://facebook.com/196715480488158#> a fb:event ;
+<http://facebook.com/196715480488158> a fb:Event ;
     rdfs:label "TABĂRA AMiCUS CONSTRUIEȘTE-ȚI PROFILUL" ;
     fb:id "196715480488158" ;
     fb:location "Porumbacu de Sus, Romania" ;
     fb:start_time "2013-08-27T00:00:00"^^xsd:dateTime .
 
-<http://facebook.com/207682262585795#> a fb:event ;
+<http://facebook.com/207682262585795> a fb:Event ;
     rdfs:label "Lacrima Ingerului (concert - grupul vocal mixt HEART-CORE)" ;
     fb:id "207682262585795" ;
     fb:location "Biserica Italiana" ;
     fb:start_time "2011-05-16T19:00:00"^^xsd:dateTime .
 
-<http://facebook.com/256717011045332#> a fb:event ;
+<http://facebook.com/256717011045332> a fb:Event ;
     rdfs:label "Ziua mea" ;
     fb:id "256717011045332" ;
     fb:location "Str Liviu Rebreanu, nr 13, bl n2, et 6, ap 172 " ;
     fb:start_time "2011-11-13T17:00:00"^^xsd:dateTime .
 
-<http://facebook.com/418379848307562#> a fb:event ;
+<http://facebook.com/418379848307562> a fb:Event ;
     rdfs:label "Hangout evening" ;
     fb:id "418379848307562" ;
     fb:location "Uilenstede 40, room 240" ;
     fb:start_time "2014-02-19T20:00:00"^^xsd:dateTime .
 
-<http://facebook.com/442476399112575#> a fb:event ;
+<http://facebook.com/442476399112575> a fb:Event ;
     rdfs:label "7.05" ;
     fb:id "442476399112575" ;
     fb:location "Centrul Cultural al Ungariei Bucuresti" ;
     fb:start_time "2012-05-07T18:00:00"^^xsd:dateTime .
 
-<http://facebook.com/510233119011317#> a fb:event ;
+<http://facebook.com/510233119011317> a fb:Event ;
     rdfs:label "YWOP Amsterdam Zuidoost (Youth Week of Prayer)" ;
     fb:id "510233119011317" ;
     fb:location "Amsterdam Zuidoost" ;
     fb:start_time "2013-02-09T10:00:00"^^xsd:dateTime .
 
-<http://facebook.com/531070483616582#> a fb:event ;
+<http://facebook.com/531070483616582> a fb:Event ;
     rdfs:label "Randy Skeete" ;
     fb:id "531070483616582" ;
     fb:location "Kerkcentrum De Drie Stromen Renswoudstraat 75 1106 BJ Amsterdamzuidoost" ;
     fb:start_time "2013-05-11T10:00:00"^^xsd:dateTime .
 
-<http://facebook.com/569732409735130#> a fb:event ;
+<http://facebook.com/569732409735130> a fb:Event ;
     rdfs:label "Muzica noastra cea de toate zilele. Gand(esti) ce asculti?" ;
     fb:id "569732409735130" ;
     fb:location "Biserica Adventista Pargaresti" ;
     fb:start_time "2013-08-03T19:00:00"^^xsd:dateTime .
 
-<http://facebook.com/622062714535306#> a fb:event ;
+<http://facebook.com/622062714535306> a fb:Event ;
     rdfs:label "VU skooren" ;
     fb:id "622062714535306" ;
     fb:location "Knijn Bowling en Restaurant" ;
     fb:start_time "2014-02-26T20:00:00"^^xsd:dateTime .
 
-<http://facebook.com/631165780278998#> a fb:event ;
+<http://facebook.com/631165780278998> a fb:Event ;
     rdfs:label "Open Repetitie 2" ;
     fb:id "631165780278998" ;
     fb:location "Cultuurcentrum VU Griffioen" ;
     fb:start_time "2014-02-10T19:30:00"^^xsd:dateTime .
 
-<http://facebook.com/672201889489732#> a fb:event ;
+<http://facebook.com/672201889489732> a fb:Event ;
     rdfs:label "Open podium" ;
     fb:id "672201889489732" ;
     fb:location "CREA Klassiek" ;
     fb:start_time "2014-03-20T20:00:00"^^xsd:dateTime .
 
-<http://facebook.com/700017116716231#> a fb:event ;
+<http://facebook.com/700017116716231> a fb:Event ;
     rdfs:label "My Birthday Afternoon Party" ;
     fb:id "700017116716231" ;
     fb:location "Conscious Hotels" ;
     fb:start_time "2014-03-30T15:00:00"^^xsd:dateTime .
 
-<http://soundcloud.com#10333233> a sc:track ;
-    sc:id "10333233" .
+<http://soundcloud.com/10333233> a av:Track ;
+    av:id "10333233" .
 
-<http://soundcloud.com#1083578> a sc:track ;
-    sc:id "1083578" .
+<http://soundcloud.com/1083578> a av:Track ;
+    av:id "1083578" .
 
-<http://soundcloud.com#108469555> a sc:track ;
-    sc:id "108469555" .
+<http://soundcloud.com/108469555> a av:Track ;
+    av:id "108469555" .
 
-<http://soundcloud.com#11278770> a sc:track ;
-    sc:id "11278770" .
+<http://soundcloud.com/11278770> a av:Track ;
+    av:id "11278770" .
 
-<http://soundcloud.com#114695868> a sc:track ;
-    sc:id "114695868" .
+<http://soundcloud.com/114695868> a av:Track ;
+    av:id "114695868" .
 
-<http://soundcloud.com#117369167> a sc:track ;
-    sc:id "117369167" .
+<http://soundcloud.com/117369167> a av:Track ;
+    av:id "117369167" .
 
-<http://soundcloud.com#120957316> a sc:track ;
-    sc:id "120957316" .
+<http://soundcloud.com/120957316> a av:Track ;
+    av:id "120957316" .
 
-<http://soundcloud.com#122142829> a sc:track ;
-    sc:id "122142829" .
+<http://soundcloud.com/122142829> a av:Track ;
+    av:id "122142829" .
 
-<http://soundcloud.com#122142833> a sc:track ;
-    sc:id "122142833" .
+<http://soundcloud.com/122142833> a av:Track ;
+    av:id "122142833" .
 
-<http://soundcloud.com#122142836> a sc:track ;
-    sc:id "122142836" .
+<http://soundcloud.com/122142836> a av:Track ;
+    av:id "122142836" .
 
-<http://soundcloud.com#127714526> a sc:track ;
-    sc:id "127714526" .
+<http://soundcloud.com/127714526> a av:Track ;
+    av:id "127714526" .
 
-<http://soundcloud.com#130653160> a sc:track ;
-    sc:id "130653160" .
+<http://soundcloud.com/130653160> a av:Track ;
+    av:id "130653160" .
 
-<http://soundcloud.com#130653167> a sc:track ;
-    sc:id "130653167" .
+<http://soundcloud.com/130653167> a av:Track ;
+    av:id "130653167" .
 
-<http://soundcloud.com#132213625> a sc:track ;
-    sc:id "132213625" .
+<http://soundcloud.com/132213625> a av:Track ;
+    av:id "132213625" .
 
-<http://soundcloud.com#136924191> a sc:track ;
-    sc:id "136924191" .
+<http://soundcloud.com/136924191> a av:Track ;
+    av:id "136924191" .
 
-<http://soundcloud.com#136924192> a sc:track ;
-    sc:id "136924192" .
+<http://soundcloud.com/136924192> a av:Track ;
+    av:id "136924192" .
 
-<http://soundcloud.com#136924193> a sc:track ;
-    sc:id "136924193" .
+<http://soundcloud.com/136924193> a av:Track ;
+    av:id "136924193" .
 
-<http://soundcloud.com#136924199> a sc:track ;
-    sc:id "136924199" .
+<http://soundcloud.com/136924199> a av:Track ;
+    av:id "136924199" .
 
-<http://soundcloud.com#15079036> a sc:track ;
-    sc:id "15079036" .
+<http://soundcloud.com/15079036> a av:Track ;
+    av:id "15079036" .
 
-<http://soundcloud.com#1770367> a sc:track ;
-    sc:id "1770367" .
+<http://soundcloud.com/1770367> a av:Track ;
+    av:id "1770367" .
 
-<http://soundcloud.com#1968327> a sc:track ;
-    sc:id "1968327" .
+<http://soundcloud.com/1968327> a av:Track ;
+    av:id "1968327" .
 
-<http://soundcloud.com#24260536> a sc:track ;
-    sc:id "24260536" .
+<http://soundcloud.com/24260536> a av:Track ;
+    av:id "24260536" .
 
-<http://soundcloud.com#24371689> a sc:track ;
-    sc:id "24371689" .
+<http://soundcloud.com/24371689> a av:Track ;
+    av:id "24371689" .
 
-<http://soundcloud.com#24374372> a sc:track ;
-    sc:id "24374372" .
+<http://soundcloud.com/24374372> a av:Track ;
+    av:id "24374372" .
 
-<http://soundcloud.com#24374464> a sc:track ;
-    sc:id "24374464" .
+<http://soundcloud.com/24374464> a av:Track ;
+    av:id "24374464" .
 
-<http://soundcloud.com#24374740> a sc:track ;
-    sc:id "24374740" .
+<http://soundcloud.com/24374740> a av:Track ;
+    av:id "24374740" .
 
-<http://soundcloud.com#2808776> a sc:track ;
-    sc:id "2808776" .
+<http://soundcloud.com/2808776> a av:Track ;
+    av:id "2808776" .
 
-<http://soundcloud.com#28771016> a sc:track ;
-    sc:id "28771016" .
+<http://soundcloud.com/28771016> a av:Track ;
+    av:id "28771016" .
 
-<http://soundcloud.com#3051332> a sc:track ;
-    sc:id "3051332" .
+<http://soundcloud.com/3051332> a av:Track ;
+    av:id "3051332" .
 
-<http://soundcloud.com#31137466> a sc:track ;
-    sc:id "31137466" .
+<http://soundcloud.com/31137466> a av:Track ;
+    av:id "31137466" .
 
-<http://soundcloud.com#3245906> a sc:track ;
-    sc:id "3245906" .
+<http://soundcloud.com/3245906> a av:Track ;
+    av:id "3245906" .
 
-<http://soundcloud.com#3635871> a sc:track ;
-    sc:id "3635871" .
+<http://soundcloud.com/3635871> a av:Track ;
+    av:id "3635871" .
 
-<http://soundcloud.com#45008043> a sc:track ;
-    sc:id "45008043" .
+<http://soundcloud.com/45008043> a av:Track ;
+    av:id "45008043" .
 
-<http://soundcloud.com#48211756> a sc:track ;
-    sc:id "48211756" .
+<http://soundcloud.com/48211756> a av:Track ;
+    av:id "48211756" .
 
-<http://soundcloud.com#49387359> a sc:track ;
-    sc:id "49387359" .
+<http://soundcloud.com/49387359> a av:Track ;
+    av:id "49387359" .
 
-<http://soundcloud.com#5464796> a sc:track ;
-    sc:id "5464796" .
+<http://soundcloud.com/5464796> a av:Track ;
+    av:id "5464796" .
 
-<http://soundcloud.com#5681868> a sc:track ;
-    sc:id "5681868" .
+<http://soundcloud.com/5681868> a av:Track ;
+    av:id "5681868" .
 
-<http://soundcloud.com#59621970> a sc:track ;
-    sc:id "59621970" .
+<http://soundcloud.com/59621970> a av:Track ;
+    av:id "59621970" .
 
-<http://soundcloud.com#60595232> a sc:track ;
-    sc:id "60595232" .
+<http://soundcloud.com/60595232> a av:Track ;
+    av:id "60595232" .
 
-<http://soundcloud.com#62811799> a sc:track ;
-    sc:id "62811799" .
+<http://soundcloud.com/62811799> a av:Track ;
+    av:id "62811799" .
 
-<http://soundcloud.com#64990510> a sc:track ;
-    sc:id "64990510" .
+<http://soundcloud.com/64990510> a av:Track ;
+    av:id "64990510" .
 
-<http://soundcloud.com#74476430> a sc:track ;
-    sc:id "74476430" .
+<http://soundcloud.com/74476430> a av:Track ;
+    av:id "74476430" .
 
-<http://soundcloud.com#77255440> a sc:track ;
-    sc:id "77255440" .
+<http://soundcloud.com/77255440> a av:Track ;
+    av:id "77255440" .
 
-<http://soundcloud.com#79440836> a sc:track ;
-    sc:id "79440836" .
+<http://soundcloud.com/79440836> a av:Track ;
+    av:id "79440836" .
 
-<http://soundcloud.com#8048539> a sc:track ;
-    sc:id "8048539" .
+<http://soundcloud.com/8048539> a av:Track ;
+    av:id "8048539" .
 
-<http://soundcloud.com#89168007> a sc:track ;
-    sc:id "89168007" .
+<http://soundcloud.com/89168007> a av:Track ;
+    av:id "89168007" .
 
-<http://soundcloud.com#908839> a sc:track ;
-    sc:id "908839" .
+<http://soundcloud.com/908839> a av:Track ;
+    av:id "908839" .
 
-<http://soundcloud.com#939637> a sc:track ;
-    sc:id "939637" .
+<http://soundcloud.com/939637> a av:Track ;
+    av:id "939637" .
 
-<http://soundcloud.com#3820088> a sc:track ;
-    sc:id "3820088" .
+<http://soundcloud.com/3820088> a av:Track ;
+    av:id "3820088" .
 

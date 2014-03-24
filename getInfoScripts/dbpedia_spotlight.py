@@ -9,7 +9,7 @@ def getArtistEntities(text):
 	get_params={
 		"text":text,
 		"types":"MusicalArtist,Band",
-		"confidence":0.2
+		"confidence":0.3
 	}
 	res=requests.get(dbpedia_spotlight_url,params=get_params,headers=headers)
 	#res=requests.get(dbpedia_spotlight_url,params=get_params,headers=headers)

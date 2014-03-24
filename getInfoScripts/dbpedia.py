@@ -1,12 +1,13 @@
 from SPARQLWrapper import SPARQLWrapper, JSON
 import re
-import simplejson as json
+import json
 import string
 import rdflib
-from urllib import quote_plus
 import dbpedia_spotlight
 
-dbpediaSPARQLWrapper = SPARQLWrapper("http://dbpedia.org/sparql")
+#alternate link: http://dbpedia-live.openlinksw.com/sparql
+#alternate link: http://dbpedia.org/sparql
+dbpediaSPARQLWrapper = SPARQLWrapper("http://dbpedia-live.openlinksw.com/sparql")
 
 def is_uppercase(word):
 	if word[0] in string.ascii_uppercase:
@@ -52,11 +53,9 @@ def getJsonDBpediaResults(query):
 		dbpediaSPARQLWrapper.setQuery(query)
 		dbpediaSPARQLWrapper.setReturnFormat(JSON)
 		results = dbpediaSPARQLWrapper.query().convert()
-
 		return results["results"]["bindings"]
 	except Exception as e:
 		print e
-		print query
 		return None
 
 def getRdfUri(uri):
@@ -88,7 +87,8 @@ def getDbpediaMusicGenres():
 	    SELECT DISTINCT ?genre ?genre_name
 	    WHERE { 
 	    ?genre a dbo:MusicGenre.
-	  	?genre rdfs:label ?genre_name
+	  	?genre rdfs:label ?genre_name.
+	  	FILTER langMatches(lang(?genre_name),"EN").
 	    }
 	"""
 	return getJsonDBpediaResults(query)

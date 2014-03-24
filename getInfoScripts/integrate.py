@@ -8,7 +8,7 @@ import dbpedia
 import dbpedia_spotlight
 import soundcloud_get_tracks
 import fbdata
-import simplejson as json
+import json
 import sesame
 
 amsterdamVibeUri =  "http://amsterdamvibe.nl#"
@@ -125,8 +125,8 @@ def createGraphForEventArtistsAndGenres(store,events):
 		
 		count = count+1
 
-		if count==15:
-			break
+		# if count==15:
+		# 	break
 
 		print "processed artists for "+str(count)+" out of "+str(len(events))+" events"
 	# if count==2:
@@ -162,7 +162,7 @@ def extractArtistInfoAndAddToGraph(store,artistUri,soundcloudClient):
 
 		genresDbpediaData = dbpedia.getArtistGenres(artistUri)
 		for genre in genresDbpediaData:
-			gartist.add((artistUriRef,dbo["MusicGenre"],Literal(genre["genre"]["value"])))
+			gartist.add((artistUriRef,dbo["MusicGenre"],URIRef(genre["genre"]["value"])))
 
 		#attach soundcloud data
 		trackIds = soundcloud_get_tracks.getSoundCloudTracksIdsForArtist(soundcloudClient,artistName)
@@ -283,6 +283,6 @@ if __name__=="__main__":
 	#gatherAndExportGenreData(repo_name)
 	gatherAndExportGlobalData(repo_name)
 
-	fbuser_TOKEN = 'CAACEdEose0cBAF9DcZC3ofCZBQsMjUpEiguQAODaPbHa2OZAVEAeYCf4Is9k4lXP4lwBqQBZAAXd9nlZBJPVf2qYT7YvLozDWN0K10Yy67jZC62tZB4W7CIapxAVjJxpxRAU1JuN292plYCauyPEHtefGUeAQsVeTPoiGO6XX2ZAUI1pxS0zFRbsADejcSAiAzIZD'
+	fbuser_TOKEN = 'CAACEdEose0cBANoC58ZBDmOqeM4wV4MpyWeLMIbJyrKSLM2TlxYcZBMFH4YaPMPcg3h32gXBHQQ42QYn1qAozHF1ftmDnF1cOhLZA8DfZAAlkkUuHEZADAIUZC4d0Dqa0AgZAlU7fOw340tgeklqIjFnjFKGM8pQrlRlUuZAg3E3Nffd8rjyhekmEHbI1HavES2NHrFZAc0fJWQZDZD'
 	userId = "12312341234"
 	#gatherAndExportUserData(repo_name,userId,fbuser_TOKEN)
