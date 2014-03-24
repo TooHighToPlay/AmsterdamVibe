@@ -216,6 +216,14 @@ Working example of the application can be found on the following link:
 
 Besides the services, we performed site scraping to get more event data and genres. We scraped the partyflock site for genres and artists (they have a an index of artists). For every artist we found the genres (matched with DBPedia) and artist URL, and we stored this data in the RDF datastore. This approach also had some trouble because the partyflock website throttled our requests.
 
+\subsection{Tech stack}
+
+For the user interface, we made a web application. The backend uses Django and the frontend uses jQuery and Bootstrap, plus some extra libraries like leaflet for maps and masonry for irregular grid layouts. The Django app lets the user log in with Facebook, and after login, the user can import their Facebook data. This downloads their likes (artist/bands) and events participation and stores it into the RDF store. This, together with the inferences, helps the app suggest personalized events that the user might like more than just the popular events in Amsterdam.
+
+When viewing details for an event, the app also provides the user with a sample of soundcloud recordings for the participating artists. This way, the user can check beforehand some music of the artists and decide if he wants to attend the event or not.
+
+The user can also judge the event’s popularity by looking at the number of people that will be attending the event.
+
 \subsection{Inferencing}
 
 Inferencing was used to suggest users events depending on their past likes and events, in which they participated. In addition to this, we make use of the information from dbpedia regarding the relationships between genres. We abstract from the details of these relationships (isDerivativeOf, isFusionGenreOf,isSubGenreOf etc), and consider that 2 genres are similar if such a direct relationship exists between them. We did not make similarity a transitive property. This is to take into account the fact that if genre 1 is directly related to genre 2, genre 2 directly related to genre 3, and genre 1 and 3 are not directly related, 1 and 3 are less similar than 1 and 2 for example. 
