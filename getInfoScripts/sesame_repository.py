@@ -140,6 +140,16 @@ def getEventInfo(repo_name,event_uri):
 	if(eventDescription):
 		event["description"]=eventDescription[0]["description"]
 
+	queryVenueName=prefixes+"""
+	SELECT DISTINCT ?venue_name WHERE{
+	%s fb:at_venue ?venue.
+	?venue rdfs:label ?venue_name
+	}
+	"""%rdfUri
+	eventVenueName=getQueryResults(repo_name,queryVenueName)
+	if(eventVenueName):
+		event["venue"]=eventVenueName[0]["venue_name"]
+
 
 	queryGenres=prefixes+"""
 	SELECT DISTINCT ?genre_name WHERE{
