@@ -238,43 +238,43 @@ Besides the services, we performed site scraping to get more event data and genr
 
 \subsection{Inferencing}
 
-Inferencing was used to suggest users events depending on their past likes and events, in which they participated. Here are some rules, which was used in Amsterdam Vibe application:
+Inferencing was used to suggest users events depending on their past likes and events, in which they participated. In addition to this, we make use of the information from dbpedia regarding the relationships between genres. We abstract from the details of these relationships (isDerivativeOf, isFusionGenreOf,isSubGenreOf etc), and consider that 2 genres are similar if such a direct relationship exists between them. We did not make similarity a transitive property. This is to take into account the fact that if genre 1 is directly related to genre 2, genre 2 directly related to genre 3, and genre 1 and 3 are not directly related, 1 and 3 are less similar than 1 and 2 for example. 
+
+In the following is a formalization of the rules, as we have them in Amsterdam Vibe
 
 \begin{itemize}
   
-    \item IF user at event X AND event X has genre G than user may like X.
+    \item IF user likes or may like artist X AND artist X has genre G than user may like genre G
 
-    \item IF user at event X AND event X has artist A and NOT(user dislike A)  than user may like A.
+    \item IF user likes or may like genre G1 AND genre G1 is related to genre G2 than user may like genre G2
 
-    \item IF user (likes or may like) genre G1 and genre G2 related to genre G1 than user may like G2.
+    \item IF user likes or may like genre G AND artist X has genre G than user may like artist X
 
-    \item IF user (likes or may like) genre G AND artist A has genre G AND NOT (user dislike A) than user may like A.
+    \item IF user was at event E and event E has artist A than user may like artist A
+ 
+    \item IF user was at event E and event E has genre G than user may like artist G
 
-    \item IF future event F has artist A and user may like artist A than user suggested event F.
+    \item IF user likes or may like genre G AND event E has genre G than user may like event E
 
-    \item IF future event F has artist A and user likes artist A user suggested event F.
+    \item IF user likes or may like artist A AND event E has artist A than user may like event E
 
-    \item IF future event F has genre G AND user may like genre G than user suggested event F.
-  
-    \item IF future event F has genre G AND user likes genre G than user suggested event F.
-
-    \item IF suggested event F AND F has artist A AND user likes A then reason for suggestion A.
-
-    \item IF suggested event F AND F has genre G AND user likes A then reason for suggestion G.
-
-    \item If an event is suggested, and its genre is related to the one of a past event at which the user was present,  than reason for suggestion is (past event, past event genre).
 
 \end{itemize}
 
 \subsection{Challenges}
 
   There was some challenges making this application and some cool features was dismissed because lack of information and time. First of all, Amsterdam Vibe application was intended to distinguish events, focus to local people from more internationally oriented events. But there was obstacle, because Facebook API does not let to take information about user, specifically where he lives and where he is from, if retriever is not friend with that person. Web Scraper was written with Watir/Selenium to login and fetch information about users, but it's too slow for the first release of Amsterdam Vibe.
-  Secondly, there was not enough information about music artists sometimes. Idea to fetch that information from site mentioned earlier, partyflock.nl, was proposed. Proof of concept was tested by writing a web scraper, but that was also dismissed due to lack of time.
+  Secondly, there was not enough information about music artists sometimes. Idea to fetch that information from site mentioned earlier, partyflock.nl, was proposed. The data would have been easy to integrate with dbpedia, as the only common information, genres could be aligned by matching the genre labels. We wrote the scripts to scrap the data, but we were banned a accessing the website after a couple of thousands of pages scrapped. The owners of the website pointed us to another rich source of information about artists, the discogc API. However, discogc does not have any service for extracting artist names from text. We tried to write our own extractor for named entity recognition, but it gave too many false positives, as the artist names found in discogc often are made up of commonly used words. 
+ On the other side, dbpedia spotlight detects only artists in dbpedia. As such, many of the artists present at the facebook events were not identified by dbpedia spotlight.
 
 \subsection{Future work}
 
   For the next release of Amsterdam Vibe, it would be awesome to implement features, which was dismissed due to lack of time. It should be possible to maintain information locally about artists and people attending to events, and casually run scraper jobs to get the latest information. So Amsterdam Vibe application could provide even more comprehensive data about events.
 
   In addition, it could be possible to analyze countries, from where people come to the event. It is possible that it would factor some people's decision of attending to specific events.
+
+  Because dbpedia spotlight does not identify all the new, less popular artists and bands, and we could not build a proper artist extractor for discogc, we could rely on the user to extract this information and add it to the events. The incentive for the user to do this is that he immediately receives integrated information about the artist, and some links for soundcloud tracks. 
+
+  Currently, we make inferences about what the user may like or not, in lack of exact information from Facebook. We could add a button on each genre and artist that we infer that the user may like, and allow him to confirm whether he likes or dislikes the artist/genre. This would allow us to build more exact suggestions, as well as adapt to changes in user preferences.
 
 \end{document}
