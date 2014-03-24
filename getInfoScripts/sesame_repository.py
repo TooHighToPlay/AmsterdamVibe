@@ -45,7 +45,7 @@ def getQueryResults(repo_name,query):
 def getUserSuggestedEvents(repo_name,user_id):
 	print "to complete query here"
 
-def getFutureEvents(repo_name):
+def getFutureEvents(repo_name, limit=10):
 	
 	query = prefixes+"""
 	SELECT DISTINCT ?event WHERE{
@@ -55,7 +55,8 @@ def getFutureEvents(repo_name):
 	?event fb:attending_total ?attending_total.
 	FILTER(xsd:dateTime(?date) >= xsd:dateTime(?crt_date)).
 	}ORDER BY DESC(?attending_total)
-	"""
+	LIMIT %d
+	""" % limit
 
 	allFutureEvents = []
 	repositoryEvents = getQueryResults(repo_name,query)
