@@ -1,10 +1,10 @@
 {
  "paging": {
   "cursors": {
-   "after": "NTIyMTUxNDMxMjM0OTIy", 
+   "after": "MjA5Mjk1MjA5MjYzNDA5", 
    "before": "MjQ5Njk3Mjc1MjExMDQw"
   }, 
-  "next": "https://graph.facebook.com/130350927079784/events?access_token=CAACEdEose0cBADZC2BqWfioOt5tuTihjtSBXb01vGSzScGuKvGevBuk1T7wZAPlTwdjZBBBL9b0db3xQvjRSmAoKUIZBPcwe7Env6l20MvrePfzRQuZCIyygZCdAM8wZBfSvlqo168rYQepONRFfQGKXVHbKtoWsOtqEmnuq4fuupKKsRfcd8sShc1qtUKZA5edEp4hCHkdZCNQZDZD&limit=25&after=NTIyMTUxNDMxMjM0OTIy"
+  "next": "https://graph.facebook.com/130350927079784/events?access_token=CAACEdEose0cBAOet2VJez2nkH6dHSPT7QaJv0s5Ifvg5hZAYvPSb9ntWmmgwMNFHifLUSZB6c6ujGXeq9KW6svaWZAt8VpUxKyOohLinEfMFEohVn55rtVzZCOMpY7ZCFAZCxdgLI2l8X8e8ZBLpBUtwwkpXzVIAIRTRVJwMOFsZCb57sFAANNtIZAJnXKuEYfM0iHev4Ine30AZDZD&limit=25&after=MjA5Mjk1MjA5MjYzNDA5"
  }, 
  "data": [
   {
@@ -12,10 +12,10 @@
    "name": "Alpha Wave", 
    "start_time": "2014-09-09T20:30:00+0200", 
    "image_url": {
-    "source": "https:\\/\\/fbcdn-sphotos-c-a.akamaihd.net\\/hphotos-ak-ash3\\/t1.0-9\\/s720x720\\/1897829_263544077141567_916345290_n.jpg", 
-    "cover_id": 263544077141567, 
+    "source": "https:\\/\\/fbcdn-sphotos-c-a.akamaihd.net\\/hphotos-ak-frc1\\/t1.0-9\\/1891023_605319919522796_976620362_n.jpg", 
+    "cover_id": 605319919522796, 
     "offset_x": 0, 
-    "offset_y": 29
+    "offset_y": 61
    }, 
    "location": "Sugarfactory", 
    "eventdata": {
@@ -47,14 +47,96 @@
    "id": "249697275211040"
   }, 
   {
-   "attending_total": 135, 
+   "attending_total": 586, 
+   "name": "Terug naar Toen - 80s 90's", 
+   "start_time": "2014-05-23T23:55:00+0200", 
+   "image_url": {
+    "source": "https:\\/\\/scontent-a.xx.fbcdn.net\\/hphotos-ash3\\/t1.0-9\\/s720x720\\/1925090_10152279239332179_1946690504_n.jpg", 
+    "cover_id": "10152279239332179", 
+    "offset_x": 0, 
+    "offset_y": 48
+   }, 
+   "location": "Sugarfactory", 
+   "eventdata": {
+    "description": "Meer info volgt... \nMaar nu eerst.... Terug naar Toen || Koninginnedag || Le Patron!!!!\n\n\n\n----------------------------------------------------------------------------------\nTerug Naar Toen\nDatum: Vrijdag 23 mei\nTijd: 00:00 - 05.00 uur\nDJs: Gino Christiano ft Melly Belly\n\nVoorverkoop maar \u20ac7,5!!\nEntree: 13,- deur, \nLocatie: Sugar Factory \nWebsite: https://www.facebook.com/terugnaartoen?ref=ts&fref=ts\n\n----------------------------------------------\n\nWil je niet in de rij staan? Haal dan nu je kaartje voor maar \u20ac7,5", 
+    "privacy": "OPEN", 
+    "start_time": "2014-05-23T23:55:00+0200", 
+    "venue": {
+     "city": "Amsterdam", 
+     "zip": "1017PH", 
+     "country": "Netherlands", 
+     "longitude": 4.8818250924953, 
+     "street": "Lijnbaansgracht 238", 
+     "latitude": 52.364727942013, 
+     "id": "130350927079784"
+    }, 
+    "updated_time": "2014-03-22T13:43:44+0000", 
+    "is_date_only": false, 
+    "end_time": "2014-05-24T05:00:00+0200", 
+    "location": "Sugarfactory", 
+    "owner": {
+     "category": "Company", 
+     "name": "Terug Naar Toen", 
+     "id": "247222652178"
+    }, 
+    "timezone": "Europe/Amsterdam", 
+    "id": "535782226487873", 
+    "name": "Terug naar Toen - 80s 90's"
+   }, 
+   "timezone": "Europe/Amsterdam", 
+   "id": "535782226487873", 
+   "end_time": "2014-05-24T05:00:00+0200"
+  }, 
+  {
+   "attending_total": 72, 
+   "name": "BOM VOYAGE INDOORS", 
+   "start_time": "2014-05-17T23:00:00+0200", 
+   "image_url": {
+    "source": "https:\\/\\/scontent-b.xx.fbcdn.net\\/hphotos-prn1\\/t1.0-9\\/s720x720\\/1939551_419816161487414_1998923046_n.jpg", 
+    "cover_id": 419816161487414, 
+    "offset_x": 0, 
+    "offset_y": 0
+   }, 
+   "location": "Sugarfactory", 
+   "eventdata": {
+    "description": "Bom Voyage is proud to present its second indoor event at the SugarFactory! \n\nDATE: 17 May 2014\n\nPRE-SALE starts Tuesday 25 March 2014!\n\n\nLINE UP:\n\nPETRAN live act (Parvati rec./Sonic Loom) GR\nhttps://soundcloud.com/petran-music\n\nKASADELICA live act (Uroboros rec.) ISR\nhttps://soundcloud.com/kasadelica\n\nRUDEGIRL (DINGer) DE\nhttps://soundcloud.com/rudegirl007\n\nBACK TO MARS (Bom Voyage, EPP, Sangoma, Indali rec.) BR/ NL\nhttps://soundcloud.com/backtomars\n\nSATYR (Forest of Eleusis) NL\nhttp://www.mixcloud.com/Satyr_Barbarossa\n\n\n\nDECO:\nLOCUS POCUS DECO Ibiza / Amsterdam\nhttps://www.facebook.com/deco.locuspocus\n\nVISUALS:\nNUNS WITH GUNS\nhttp://www.youtube.com/watch?v=57YwoNIwRpY\n\nANALOG PROJECTIONS:\nRandR\nhttps://www.facebook.com/randr.projections\n\nLASER PROJECTIONS: \nBOAZ CONSTRUCTIES\nhttps://www.facebook.com/boazconstructies\nhttp://boazconstructies.nl/\n\nCHAISHOP:\nKAPOENTJE\nhttps://www.facebook.com/ChaishopKapoentje\n\nLOCATION: \nSugarFactory\nAddress: Lijnbaansgracht 238, Amsterdam\nhttp://www.sugarfactory.nl/\n\nTICKETS:\nEarly bird: \u20ac 6 (ex fee) \nPresale: \u20ac 9 (ex fee)\nDoor: \u20ac 13\n\nKeep an eye on  https://www.facebook.com/events/245432165616192/ for updates and cool news!", 
+    "privacy": "OPEN", 
+    "start_time": "2014-05-17T23:00:00+0200", 
+    "venue": {
+     "city": "Amsterdam", 
+     "zip": "1017PH", 
+     "country": "Netherlands", 
+     "longitude": 4.8818250924953, 
+     "street": "Lijnbaansgracht 238", 
+     "latitude": 52.364727942013, 
+     "id": "130350927079784"
+    }, 
+    "updated_time": "2014-03-24T08:35:09+0000", 
+    "is_date_only": false, 
+    "end_time": "2014-05-18T05:00:00+0200", 
+    "location": "Sugarfactory", 
+    "owner": {
+     "category": "Event planning/event services", 
+     "name": "Bom Voyage", 
+     "id": "374052319397132"
+    }, 
+    "timezone": "Europe/Amsterdam", 
+    "id": "603558846393761", 
+    "name": "BOM VOYAGE INDOORS"
+   }, 
+   "timezone": "Europe/Amsterdam", 
+   "id": "603558846393761", 
+   "end_time": "2014-05-18T05:00:00+0200"
+  }, 
+  {
+   "attending_total": 141, 
    "name": "AMSTERDAM METALFEST", 
    "start_time": "2014-05-10T17:30:00+0200", 
    "image_url": {
-    "source": "https:\\/\\/fbcdn-sphotos-c-a.akamaihd.net\\/hphotos-ak-ash3\\/t1.0-9\\/s720x720\\/1897829_263544077141567_916345290_n.jpg", 
-    "cover_id": 263544077141567, 
+    "source": "https:\\/\\/fbcdn-sphotos-d-a.akamaihd.net\\/hphotos-ak-ash3\\/t1.0-9\\/s720x720\\/1897669_252504648265268_1347784094_n.jpg", 
+    "cover_id": 252504648265268, 
     "offset_x": 0, 
-    "offset_y": 29
+    "offset_y": 0
    }, 
    "location": "Sugarfactory", 
    "eventdata": {
@@ -90,10 +172,10 @@
    "name": "Live: Atlanter", 
    "start_time": "2014-04-14T20:30:00+0200", 
    "image_url": {
-    "source": "https:\\/\\/fbcdn-sphotos-c-a.akamaihd.net\\/hphotos-ak-ash3\\/t1.0-9\\/s720x720\\/1897829_263544077141567_916345290_n.jpg", 
-    "cover_id": 263544077141567, 
+    "source": "https:\\/\\/fbcdn-sphotos-b-a.akamaihd.net\\/hphotos-ak-prn2\\/t1.0-9\\/s720x720\\/1621698_534442276670645_1461642215_n.jpg", 
+    "cover_id": 534442276670645, 
     "offset_x": 0, 
-    "offset_y": 29
+    "offset_y": 0
    }, 
    "location": "Sugarfactory", 
    "eventdata": {
@@ -141,14 +223,14 @@
    "end_time": "2014-04-14T23:30:00+0200"
   }, 
   {
-   "attending_total": 27, 
+   "attending_total": 28, 
    "name": "MEET ME AT JUNCTION w/ Kevin Arnemann, Paul Cairo, Drum Tone", 
    "start_time": "2014-04-10T23:55:00+0200", 
    "image_url": {
-    "source": "https:\\/\\/fbcdn-sphotos-c-a.akamaihd.net\\/hphotos-ak-ash3\\/t1.0-9\\/s720x720\\/1897829_263544077141567_916345290_n.jpg", 
-    "cover_id": 263544077141567, 
+    "source": "https:\\/\\/fbcdn-sphotos-h-a.akamaihd.net\\/hphotos-ak-ash3\\/t1.0-9\\/s720x720\\/1780746_779318018747587_805451256_n.jpg", 
+    "cover_id": 779318018747587, 
     "offset_x": 0, 
-    "offset_y": 29
+    "offset_y": 0
    }, 
    "location": "Sugarfactory", 
    "eventdata": {
@@ -182,45 +264,49 @@
    "end_time": "2014-04-11T05:00:00+0200"
   }, 
   {
-   "attending_total": 11, 
-   "name": "Black Light District invites Pitto", 
-   "start_time": "2014-04-05", 
+   "attending_total": 74, 
+   "name": "Black Light District w/ Pitto, Jesse Green, Dobble, David Granaada", 
+   "start_time": "2014-04-05T23:55:00+0200", 
    "image_url": {
-    "source": "https:\\/\\/fbcdn-sphotos-c-a.akamaihd.net\\/hphotos-ak-ash3\\/t1.0-9\\/s720x720\\/1897829_263544077141567_916345290_n.jpg", 
-    "cover_id": 263544077141567, 
+    "source": "https:\\/\\/scontent-a.xx.fbcdn.net\\/hphotos-frc3\\/t1.0-9\\/s720x720\\/10151945_598675513548524_2072905510_n.jpg", 
+    "cover_id": 598675513548524, 
     "offset_x": 0, 
-    "offset_y": 29
+    "offset_y": 0
    }, 
    "location": "Amsterdam", 
    "eventdata": {
-    "description": "David Granaada (Geheime Muziekjes)\nhttps://soundcloud.com/david-granaada\n\nDobble (Steffi Ditzel & Mispoes)\nhttps://soundcloud.com/dobble-1\n\nPitto (Remote Area, Rejected, Wolfskuil)\nhttp://www.justpitto.com/\nhttps://soundcloud.com/justpitto", 
+    "description": "BLD is terug, en hoe. Verwacht een overvloed aan blacklight, neon-schmink, rondvliegende decorstukken en een lineup die met uiterste precisie is uitgezocht om 5 april wederom memorabel te maken.\n\nDeze BLD editie zal vakkundig geopend worden door een talent dat zijn Detroit Swindle-achtige sound snel aan het verspreiden is over de dansvloeren van menig vunzig feestje: David Granaada! \n\u266b https://soundcloud.com/david-granaada/all-i-can-say-original-mix\n\nWanneer de voetjes der aanwezigen de benodigde voorverwarmde temperatuur bereikt hebben, zal David het stokje overdragen aan Steffie Ditzel & Mispoes. Zij zullen hun recent begonnen alias \u2018Dobble\u2019 komen presenteren.\n\u266b https://soundcloud.com/dobble-1/dobble-promomix-2014\n\nDobble maakt plaats voor de man om wie we sinds 2009 niet meer heen kunnen. Met zijn kraker Feelin\u2019 liet Pitto zien dat hij alles in huis heeft om een meeslepende hit te produceren waar je in kunt verdwalen door \u2018de kracht van de hypnotiserende herhaling (Resident Advisor)\u2019. Iedereen kijkt dan ook uit naar een nieuw album van the big man himself. Na een jaar in de studio te bivakkeren is Pitto terug als nooit te voren! Om die aankomende release kracht bij te zetten, zal hij onder meer op 26 maart in het voorprogramma staan van niemand minder dan Booka Shade. BLD mag zich dus verheugen op een dynamische wervelwind van energieke, hypnotiserende deep- en tech-house. Expect the unexpected! \n\u266b https://soundcloud.com/justpitto\n\nEen feestje zonder Jesse Green is als een avond zonder Tunemelt. Bij deze editie van BLD zijn ze er allebei! Green kan veel kanten op maar 1 ding is zeker: het dak gaat eraf tijdens het laatste uurtje van de avond.\n\u266b https://soundcloud.com/jessegreen\n\nSpeciaal voor de vroege vogels die hun kaarten kopen in de voorverkoop verloten we een aantal mooie prijzen! \n\nTot de 5e!\n\nX BLD Crew\n\n\u272a Pitto (Rejected, Wolfskuil, Remote Area)\n\u272a Jesse Green (TUNEMELT)\n\u272a Dobble (Steffie Ditzel & Mispoes) \n\u272a David Granaada (Geheime Muziekjes)\n\u272a BLD DJ Team (Dansor, The Anthony Bros (TAB), Boj Tieman (DJ Page))", 
     "privacy": "OPEN", 
-    "start_time": "2014-04-05", 
+    "start_time": "2014-04-05T23:55:00+0200", 
     "venue": {
      "name": "Amsterdam"
     }, 
-    "updated_time": "2014-03-17T15:06:42+0000", 
-    "is_date_only": true, 
+    "updated_time": "2014-03-23T23:37:25+0000", 
+    "is_date_only": false, 
+    "end_time": "2014-04-06T05:00:00+0200", 
     "location": "Amsterdam", 
     "owner": {
      "category": "Event planning/event services", 
      "name": "BLD Events", 
      "id": "369031883179556"
     }, 
+    "timezone": "Europe/Amsterdam", 
     "id": "287854011368872", 
-    "name": "Black Light District invites Pitto"
+    "name": "Black Light District w/ Pitto, Jesse Green, Dobble, David Granaada"
    }, 
-   "id": "287854011368872"
+   "timezone": "Europe/Amsterdam", 
+   "id": "287854011368872", 
+   "end_time": "2014-04-06T05:00:00+0200"
   }, 
   {
-   "attending_total": 267, 
+   "attending_total": 303, 
    "name": "Het Partyfeest 2 jaar!", 
    "start_time": "2014-04-04T23:00:00+0200", 
    "image_url": {
-    "source": "https:\\/\\/fbcdn-sphotos-c-a.akamaihd.net\\/hphotos-ak-ash3\\/t1.0-9\\/s720x720\\/1897829_263544077141567_916345290_n.jpg", 
-    "cover_id": 263544077141567, 
+    "source": "https:\\/\\/fbcdn-sphotos-c-a.akamaihd.net\\/hphotos-ak-prn1\\/t1.0-9\\/s720x720\\/10013042_587504567998813_1229083230_n.jpg", 
+    "cover_id": 587504567998813, 
     "offset_x": 0, 
-    "offset_y": 29
+    "offset_y": 0
    }, 
    "location": "Sugarfactory", 
    "eventdata": {
@@ -254,18 +340,104 @@
    "end_time": "2014-04-05T05:00:00+0200"
   }, 
   {
-   "attending_total": 134, 
-   "name": "Bunga 327 - The Final After", 
-   "start_time": "2014-03-29T23:00:00+0100", 
+   "attending_total": 4, 
+   "name": "Mijke & Co Live! @Sugarfactory gratis met o.a. Grainne Duffy, Samba Tour\u00e9, Shai Maestro & The Ob6sions", 
+   "start_time": "2014-04-02T22:00:00+0200", 
    "image_url": {
-    "source": "https:\\/\\/fbcdn-sphotos-c-a.akamaihd.net\\/hphotos-ak-ash3\\/t1.0-9\\/s720x720\\/1897829_263544077141567_916345290_n.jpg", 
-    "cover_id": 263544077141567, 
+    "source": "https:\\/\\/fbcdn-sphotos-f-a.akamaihd.net\\/hphotos-ak-frc3\\/t1.0-9\\/s720x720\\/1920283_1432989703608490_50349242_n.jpg", 
+    "cover_id": 1432989703608490, 
     "offset_x": 0, 
-    "offset_y": 29
+    "offset_y": 7
    }, 
    "location": "Sugarfactory", 
    "eventdata": {
-    "description": "Net als voorgaande jaren blijkt het niet voor iedereen mogelijk om na het te gekke weekend op de Eemhof weer terug te keren in de maatschappij. Mede voor deze groep mensen is het van groot belang om op korte termijn weer eens helemaal los te kunnen gaan in hun meest gestoorde outfits. Daarnaast vinden wij het TE GEK dat ons huisje 327 wederom zonder boetes 3 nachten dikke after parties heeft doorstaan. Feestjes waarbij de sfeer super was en het dak eraf ging. Dan zijn er ook nog de partygangersss die binnenkort naar Bungalente gaan en op deze manier alvast wat van de sfeer kunnen proeven. \n\nLeek ons in elk geval een ENORM goed idee om er weer een after-after tegenaan te knallen. Hierbij is het uiteraard de bedoeling zoveel mogelijk bungaluppers en feest beesten te verzamelen om het gevoel van de legendarische after avonden nogmaals te beleven. \n\nHet THEMA...Trek dat aan waarin jouw onwaarschijnlijk spectaculaire dansmoves het best tot zijn recht komen. Is het je bikini tijdens Aqua Mundo...geen probleem...is het je roze berenpak waarvan je de helft bent kwijt geraakt...gewoon doen... Kom maar op met die outfits!!  \n\nDe line up: zal er zeker niet om liegen...more info soon...expect some deep en techhouse, live optredens, etc..\n\n\u2605-\u2605 \u266b\u266b LINE-UP \u266b\u266b \u2605-\u2605\n\n2 Man en 1 Paardenkop (NL)\nhttps://www.facebook.com/2man1paardenkop\nhttps://soundcloud.com/2man1paardenkop\n\nDe La Montagne (NL)\nhttps://soundcloud.com/denniz911/bungalup-327-rammer-na-rammer\n\nSheila Hill (NL)\nhttps://soundcloud.com/sheilahill/disclaimer\n\n.........\n\n\n\u2605-\u2605 TICKETS \u2605-\u2605\n\nhttp://bit.ly/P58bdq\n\nEarly bird 10,-\nRegular 15,-", 
+    "description": "OP DE HOOGTE BLIJVEN VAN DE PROGRAMMERING, MELD JE AAN VOOR DE NIEUWSBRIEF: http://bit.ly/1js5sqA\n\nGrainne Duffy, Samba Tour\u00e9, Shai Maestro & The Ob6sions spelen woensdag 2 april bij Mijke & Co Live van de NTR op Radio 6 Soul & Jazz. Het wekelijkse live muziekprogramma vanuit de Sugarfactory bij het leidseplein in Amsterdam is gratis bij te wonen voor publiek. Presentator is deze week Mijke van Wijk. \n\nGrainny Duffy\nIerse singer-songwriter Grainne Duffy gaat opnieuw op tour door Europa met haar band. Binnen deze tour zal ze nieuw materiaal laten horen en uitbrengen. Grainne\u2019s stem wordt vaak vergeleken met die van Bonnie Raitt, zij en ook Fleetwood Mac, Keith Richards, Peter Green en Bob Dylan gebruikt zij als inspiratie voor haar muziek. \n\nSamba Tour\u00e9\nVorig jaar bracht Samba Tour\u00e9 zijn derde album Albala uit. Toen dit album gemaakt werd woedde er een burgeroorlog in zijn thuisland Mali. Dit is terug te horen, het album is enerzijds duister en politiek gericht maar er is ook ruimte voor hoop en liefde. Samba Tour\u00e9 begon zijn carri\u00e8re als gitarist in de band van Ali Farka Tour\u00e9. Samba Tour\u00e9 wordt nu gezien als de beste gitarist van Mali. \n\nShai Maestro\nThe Road to Ithaca is het nieuwe album van Shai Maestro\u2019s trio. De Isra\u00eblische Pianist Shai Maestro is pas 27 en heeft de wereld al gezien met zijn muziek. Hij studeerde klassieke, jazz en Indiase muziek in de VS. Shai Maestro is de vaste pianist van Avishai Cohen en speelde  met grote artiesten zoals  Jimmy Green, Jorge Rossy en Scott Colley. In het voorjaar van 2014 tourt het trio door Europa en zij slaan Mijke & Co Live @ Sugarfactory  niet over. \n\nHuisband The Ob6sions\nWekelijks in het programma hoor je huisband The Ob6sions. De band bestaande uit Victor de Boo \u2013 drums; Sven Schuster \u2013 bas; Jeroen van Helsdingen \u2013 keys; Efraim Trujillo \u2013 sax speelt eigen stukken en jamt met de gasten in het programma.", 
+    "privacy": "OPEN", 
+    "start_time": "2014-04-02T22:00:00+0200", 
+    "venue": {
+     "city": "Amsterdam", 
+     "zip": "1017PH", 
+     "country": "Netherlands", 
+     "longitude": 4.8818250924953, 
+     "street": "Lijnbaansgracht 238", 
+     "latitude": 52.364727942013, 
+     "id": "130350927079784"
+    }, 
+    "updated_time": "2014-03-21T15:43:42+0000", 
+    "is_date_only": false, 
+    "location": "Sugarfactory", 
+    "owner": {
+     "category": "Radio station", 
+     "name": "Mijke & Co Live", 
+     "id": "1404970213077106"
+    }, 
+    "timezone": "Europe/Amsterdam", 
+    "id": "755232751168710", 
+    "name": "Mijke & Co Live! @Sugarfactory gratis met o.a. Grainne Duffy, Samba Tour\u00e9, Shai Maestro & The Ob6sions"
+   }, 
+   "timezone": "Europe/Amsterdam", 
+   "id": "755232751168710"
+  }, 
+  {
+   "attending_total": 153, 
+   "name": "EVERY SUNDAY: Wicked Jazz Sounds Clubnight @ Sugarfactory Amsterdam", 
+   "start_time": "2014-03-30T23:00:00+0200", 
+   "image_url": {
+    "source": "https:\\/\\/fbcdn-sphotos-h-a.akamaihd.net\\/hphotos-ak-frc3\\/t1.0-9\\/s720x720\\/1900072_10152456602585312_1974770821_n.jpg", 
+    "cover_id": "10152456602585312", 
+    "offset_x": 0, 
+    "offset_y": 50
+   }, 
+   "location": "Sugarfactory", 
+   "eventdata": {
+    "description": "Wicked Jazz Sounds Clubnight - Every Sunday night at Sugar Factory- DJs and musicians play together on a danceable mix of jazz, hip hop, soul, funk, house, drum & bass. Making you dance with a Smile! (since 2002)\n\nEvery Sunday: 23:00 - 05:00 CET\nDamage: \u20ac9,50\nMore info: http://wickedjazzsounds.com", 
+    "privacy": "OPEN", 
+    "start_time": "2014-03-30T23:00:00+0200", 
+    "venue": {
+     "city": "Amsterdam", 
+     "zip": "1017PH", 
+     "country": "Netherlands", 
+     "longitude": 4.8818250924953, 
+     "street": "Lijnbaansgracht 238", 
+     "latitude": 52.364727942013, 
+     "id": "130350927079784"
+    }, 
+    "updated_time": "2014-03-24T10:08:07+0000", 
+    "is_date_only": false, 
+    "end_time": "2014-05-17T05:00:00+0200", 
+    "location": "Sugarfactory", 
+    "owner": {
+     "category": "Musician/band", 
+     "name": "Wicked Jazz Sounds Band", 
+     "category_list": [
+      {
+       "id": "180164648685982", 
+       "name": "Bands & Musicians"
+      }
+     ], 
+     "id": "40813875311"
+    }, 
+    "timezone": "Europe/Amsterdam", 
+    "id": "339864646122329", 
+    "name": "EVERY SUNDAY: Wicked Jazz Sounds Clubnight @ Sugarfactory Amsterdam"
+   }, 
+   "timezone": "Europe/Amsterdam", 
+   "id": "339864646122329", 
+   "end_time": "2014-05-17T05:00:00+0200"
+  }, 
+  {
+   "attending_total": 151, 
+   "name": "Bunga 327 - The Final After", 
+   "start_time": "2014-03-29T23:00:00+0100", 
+   "image_url": {
+    "source": "https:\\/\\/scontent-b.xx.fbcdn.net\\/hphotos-prn2\\/t1.0-9\\/s720x720\\/10013647_615697095165703_1940815102_n.jpg", 
+    "cover_id": 615697095165703, 
+    "offset_x": 0, 
+    "offset_y": 0
+   }, 
+   "location": "Sugarfactory", 
+   "eventdata": {
+    "description": "Net als voorgaande jaren blijkt het niet voor iedereen mogelijk om na het te gekke weekend op de Eemhof weer terug te keren in de maatschappij. Mede voor deze groep mensen is het van groot belang om op korte termijn weer eens helemaal los te kunnen gaan in hun meest gestoorde outfits. Daarnaast vinden wij het TE GEK dat ons huisje 327 wederom zonder boetes 3 nachten dikke after parties heeft doorstaan. Feestjes waarbij de sfeer super was en het dak eraf ging. Dan zijn er ook nog de partygangersss die binnenkort naar Bungalente gaan en op deze manier alvast wat van de sfeer kunnen proeven. \n\nLeek ons in elk geval een ENORM goed idee om er weer een after-after tegenaan te knallen. Hierbij is het uiteraard de bedoeling zoveel mogelijk bungaluppers en feest beesten te verzamelen om het gevoel van de legendarische after avonden nogmaals te beleven. \n\nHet THEMA...Trek dat aan waarin jouw onwaarschijnlijk spectaculaire dansmoves het best tot zijn recht komen. Is het je bikini tijdens Aqua Mundo...geen probleem...is het je roze berenpak waarvan je de helft bent kwijt geraakt...gewoon doen... Kom maar op met die outfits!!  \n\nDe line up: zal er zeker niet om liegen...more info soon...expect some deep en techhouse, live optredens, etc..\n\n\u2605-\u2605 \u266b\u266b LINE-UP \u266b\u266b \u2605-\u2605\n\n2 Man en 1 Paardenkop (NL)\nhttps://www.facebook.com/2man1paardenkop\nhttps://soundcloud.com/2man1paardenkop\n\nDe La Montagne (NL)\nhttps://soundcloud.com/denniz911/bungalup-327-rammer-na-rammer\n\nSheila Hill (NL)\nhttps://soundcloud.com/sheilahill/disclaimer\n\nMen & Cherry (NL)\nhttps://www.facebook.com/pages/MenCherry/1422160381335107?fref=ts\n.........\n\n\n\u2605-\u2605 TICKETS \u2605-\u2605\n\nhttp://bit.ly/P58bdq\n\nEarly bird 10,-\nRegular 15,-", 
     "privacy": "OPEN", 
     "start_time": "2014-03-29T23:00:00+0100", 
     "venue": {
@@ -277,7 +449,7 @@
      "latitude": 52.364727942013, 
      "id": "130350927079784"
     }, 
-    "updated_time": "2014-03-10T17:39:50+0000", 
+    "updated_time": "2014-03-20T11:11:44+0000", 
     "is_date_only": false, 
     "end_time": "2014-03-30T05:00:00+0200", 
     "location": "Sugarfactory", 
@@ -295,18 +467,18 @@
    "end_time": "2014-03-30T05:00:00+0200"
   }, 
   {
-   "attending_total": 212, 
+   "attending_total": 268, 
    "name": "LOBI 21+ | De beste late 90's & early 00's hits | Elke laatste vrijdag van de maand", 
    "start_time": "2014-03-28T23:00:00+0100", 
    "image_url": {
-    "source": "https:\\/\\/fbcdn-sphotos-c-a.akamaihd.net\\/hphotos-ak-ash3\\/t1.0-9\\/s720x720\\/1897829_263544077141567_916345290_n.jpg", 
-    "cover_id": 263544077141567, 
+    "source": "https:\\/\\/scontent-a.xx.fbcdn.net\\/hphotos-frc1\\/t1.0-9\\/s720x720\\/1904231_246760422162529_1395999658_n.jpg", 
+    "cover_id": 246760422162529, 
     "offset_x": 0, 
-    "offset_y": 29
+    "offset_y": 0
    }, 
    "location": "Sugarfactory", 
    "eventdata": {
-    "description": "Tickets voorverkoop 9 euro (300 stuks)\nTicketlink: http://bit.ly/1jMiEEQ\nDeur 14 euro\n\n\u25a9 \u25a9 LOBI \u25a9 \u25a9\n\nLOBI denkt met heimwee terug naar de tijden waarin Ja Rule, Sean Paul en Missy Elliot de hitlijsten beheersten. Heb jij dat ook? \n\nDan is LOBI het feestje waar jij je kont heen moet slepen. Bekende hitjes staan voor gegarandeerde dansjes. Geen popie jopie gedoe maar gewoon lekkere hitjes uit de tijd dat we nog beugels droegen. Van P.Diddy tot Missy Elliot, van Ja Rule tot de Backstreet Boys. LOBI trekt je in \u00e9\u00e9n nacht terug naar de tijd waarin je Smirnoff Ice stond te hakken in de plaatselijke dorpsdisco.\n\nTongen, schuren en schuifelen wordt aangemoedigd. En broertjes en zusjes onder de 21 mogen thuis blijven.\n\n\u25a9 \u25a9 MUSIC \u25a9 \u25a9\n\nDe beste late 90\u2019s & early 00\u2019s hits.\n\n\u2718 Walter Looks - Lobi \n\u2718 Danny Schriek - Lobi \n\n\u25a9 \u25a9 INFO \u25a9 \u25a9\n\nwww.lobi.nu\n23.00 - 05.00\n21+\nSugarfactory\nLijnbaansgracht 238 \n1017 RC Amsterdam", 
+    "description": "Tickets voorverkoop 9 euro (300 stuks)\nTicketlink: https://frontoffice.paylogic.nl/?event_id=91830&point_of_sale_id=3162\nDeur 14 euro\n\n\u25a9 \u25a9 LOBI \u25a9 \u25a9\n\nLOBI denkt met heimwee terug naar de tijden waarin Ja Rule, Sean Paul en Missy Elliot de hitlijsten beheersten. Heb jij dat ook? \n\nDan is LOBI het feestje waar jij je kont heen moet slepen. Bekende hitjes staan voor gegarandeerde dansjes. Geen popie jopie gedoe maar gewoon lekkere hitjes uit de tijd dat we nog beugels droegen. Van P.Diddy tot Missy Elliot, van Ja Rule tot de Backstreet Boys. LOBI trekt je in \u00e9\u00e9n nacht terug naar de tijd waarin je Smirnoff Ice stond te hakken in de plaatselijke dorpsdisco.\n\nTongen, schuren en schuifelen wordt aangemoedigd. En broertjes en zusjes onder de 21 mogen thuis blijven.\n\n\u25a9 \u25a9 MUSIC \u25a9 \u25a9\n\nDe beste late 90\u2019s & early 00\u2019s hits.\n\n\u2718 Walter Looks - Lobi \n\u2718 Danny Schriek - Lobi \n\n\u25a9 \u25a9 INFO \u25a9 \u25a9\n\nwww.lobi.nu\n23.00 - 05.00\n21+\nSugarfactory\nLijnbaansgracht 238 \n1017 RC Amsterdam", 
     "privacy": "OPEN", 
     "start_time": "2014-03-28T23:00:00+0100", 
     "venue": {
@@ -318,7 +490,7 @@
      "latitude": 52.364727942013, 
      "id": "130350927079784"
     }, 
-    "updated_time": "2014-03-08T13:13:25+0000", 
+    "updated_time": "2014-03-24T15:28:06+0000", 
     "is_date_only": false, 
     "end_time": "2014-03-29T05:00:00+0100", 
     "location": "Sugarfactory", 
@@ -336,14 +508,14 @@
    "end_time": "2014-03-29T05:00:00+0100"
   }, 
   {
-   "attending_total": 58, 
+   "attending_total": 63, 
    "name": "Project Sugar 27th March - ANONYM, Stefan Kuipers, Thara Bergen & Ceze", 
    "start_time": "2014-03-27T23:55:00+0100", 
    "image_url": {
-    "source": "https:\\/\\/fbcdn-sphotos-c-a.akamaihd.net\\/hphotos-ak-ash3\\/t1.0-9\\/s720x720\\/1897829_263544077141567_916345290_n.jpg", 
-    "cover_id": 263544077141567, 
+    "source": "https:\\/\\/fbcdn-sphotos-b-a.akamaihd.net\\/hphotos-ak-prn2\\/t1.0-9\\/s720x720\\/1625639_614845228568747_1817630629_n.jpg", 
+    "cover_id": 614845228568747, 
     "offset_x": 0, 
-    "offset_y": 29
+    "offset_y": 0
    }, 
    "location": "Sugarfactory", 
    "eventdata": {
@@ -377,14 +549,155 @@
    "end_time": "2014-03-28T05:00:00+0100"
   }, 
   {
-   "attending_total": 66, 
+   "attending_total": 0, 
+   "name": "Six Million Dollar Men (NL), Doodskop (NL), U.S.P.", 
+   "start_time": "2014-03-27T21:00:00+0100", 
+   "image_url": {
+    "source": "https:\\/\\/fbcdn-sphotos-e-a.akamaihd.net\\/hphotos-ak-prn1\\/t1.0-9\\/s720x720\\/1959941_556685764446296_1687070751_n.jpg", 
+    "cover_id": 556685764446296, 
+    "offset_x": 0, 
+    "offset_y": 9
+   }, 
+   "location": "Sugarfactory", 
+   "eventdata": {
+    "description": "Six Million Dollar Men bestaat uit Arjen van der Vet (Gitaar), Jasper van den Broeke (Drums), Jasper van der Wolde (Bas) en Ricardo Wijngaarde (Strot); SMDM stond in oude bezetting in voorprogramma\u2019s van o.a. TOOL, Beastie Boys en Henry Rollins in o.a. Paradiso, Melkweg en Effenaar. De eerste single \u2018Tuna Melt\u2019 was geproduceerd en gemixed door Mario Caldato Jr. de man achter het unieke geluid van de Beastie Boys en SMDM fan van het eerste uur.\n\nDoodskop\nEen nieuwe band uit Hoofddorp. Deze mannen mixen hardcore, punk en metal tot een rauwe muur van geluid.\n\nU.S.P.\nDeze vaste gasten van de Magneetbar en het Magneetfestival zijn Amsterdamsch cultureel erfgoed pur sang! Jonge creatieve ouderen met eeuwige esprit! RooknRiool met Rok Aan!\n\nEntree: \u20ac5", 
+    "privacy": "OPEN", 
+    "start_time": "2014-03-27T21:00:00+0100", 
+    "venue": {
+     "city": "Amsterdam", 
+     "zip": "1017PH", 
+     "country": "Netherlands", 
+     "longitude": 4.8818250924953, 
+     "street": "Lijnbaansgracht 238", 
+     "latitude": 52.364727942013, 
+     "id": "130350927079784"
+    }, 
+    "updated_time": "2014-03-24T10:16:16+0000", 
+    "is_date_only": false, 
+    "end_time": "2014-03-27T23:55:00+0100", 
+    "location": "Sugarfactory", 
+    "owner": {
+     "category": "Local business", 
+     "name": "Sugarfactory", 
+     "category_list": [
+      {
+       "id": "176139629103647", 
+       "name": "Dance Club"
+      }, 
+      {
+       "id": "179943432047564", 
+       "name": "Concert Venue"
+      }, 
+      {
+       "id": "173883042668223", 
+       "name": "Theatre"
+      }
+     ], 
+     "id": "130350927079784"
+    }, 
+    "timezone": "Europe/Amsterdam", 
+    "id": "297190163771587", 
+    "name": "Six Million Dollar Men (NL), Doodskop (NL), U.S.P."
+   }, 
+   "timezone": "Europe/Amsterdam", 
+   "id": "297190163771587", 
+   "end_time": "2014-03-27T23:55:00+0100"
+  }, 
+  {
+   "attending_total": 41, 
+   "name": "De Direktie: Meer Feest, Minder Wilders; Dat gaan we regelen!", 
+   "start_time": "2014-03-26T23:00:00+0100", 
+   "image_url": {
+    "source": "https:\\/\\/fbcdn-sphotos-h-a.akamaihd.net\\/hphotos-ak-prn2\\/t1.0-9\\/s720x720\\/1238886_301244460022886_2140043412_n.jpg", 
+    "cover_id": 301244460022886, 
+    "offset_x": 0, 
+    "offset_y": 46
+   }, 
+   "location": "Sugarfactory", 
+   "eventdata": {
+    "description": "Line-up: Terrible Friend / Pat / Jules R\u00eaver / Duke John \n\nNaar aanleiding van de uitspraken van Wilders, wilden wij van De Direktie en Weerloos Producties op een vrolijke manier afstand maar ook afscheid nemen van zijn politiek. Nederland heeft duidelijk laten merken dat zijn uitspraken te ver gaan en wij vinden het tijd om dit te vieren. \n\nNederland is mooier vanwege haar diversiteit en daar mag best een dansje op worden gedaan. Dus dat gaan we regelen! \n\nWij verzorgen lekkernijen uit alle windstreken en draaien de lekkerste platen tot diep in de nacht. \n\nWij hopen jullie te verwelkomen in de Sugarfactory! \n\nBij ons is namelijk iedereen welkom (ja, ook Geert mag komen)!", 
+    "privacy": "OPEN", 
+    "start_time": "2014-03-26T23:00:00+0100", 
+    "venue": {
+     "city": "Amsterdam", 
+     "zip": "1017PH", 
+     "country": "Netherlands", 
+     "longitude": 4.8818250924953, 
+     "street": "Lijnbaansgracht 238", 
+     "latitude": 52.364727942013, 
+     "id": "130350927079784"
+    }, 
+    "updated_time": "2014-03-24T16:07:56+0000", 
+    "is_date_only": false, 
+    "end_time": "2014-03-27T05:00:00+0100", 
+    "location": "Sugarfactory", 
+    "owner": {
+     "category": "Arts/entertainment/nightlife", 
+     "name": "Weerloos", 
+     "id": "112917718855562"
+    }, 
+    "timezone": "Europe/Amsterdam", 
+    "id": "1477471202465474", 
+    "name": "De Direktie: Meer Feest, Minder Wilders; Dat gaan we regelen!"
+   }, 
+   "timezone": "Europe/Amsterdam", 
+   "id": "1477471202465474", 
+   "end_time": "2014-03-27T05:00:00+0100"
+  }, 
+  {
+   "attending_total": 5, 
+   "name": "Klonckenstein | 25th of March @ Sugarfactory | Dim Browski\ufeff", 
+   "start_time": "2014-03-25T23:30:00+0100", 
+   "image_url": {
+    "source": "https:\\/\\/fbcdn-sphotos-g-a.akamaihd.net\\/hphotos-ak-prn2\\/t1.0-9\\/s720x720\\/1977155_220310974834911_1226469130_n.jpg", 
+    "cover_id": 220310974834911, 
+    "offset_x": 0, 
+    "offset_y": 2
+   }, 
+   "location": "Sugarfactory", 
+   "eventdata": {
+    "description": "Op de dinsdagavonden in Sugarfactory organiseert Kiss Escort een soulvolle dansavond genaamd Klonckenstein voor de ware muziekliefhebbers. House, boogie en disco grooves uit New York, Chicago en Detroit vormen de basis voor deze nieuwe doordeweekse clubavond. \n\nDinsdag 25 maart: \n\nLINE UP:\nDim Browski\n\nDinsdag 1 april:\nMr. Gibbs\n\nDinsdag 8 april: \nGuess Beats & Kid Malone\n\n-------------------------\nLocatie Sugarfactory \nDatum: 18/3/14\nTijd: 23:30 t/m 05:00\nEntree: \u20ac3.- \nGenre: House", 
+    "privacy": "OPEN", 
+    "start_time": "2014-03-25T23:30:00+0100", 
+    "venue": {
+     "city": "Amsterdam", 
+     "zip": "1017PH", 
+     "country": "Netherlands", 
+     "longitude": 4.8818250924953, 
+     "street": "Lijnbaansgracht 238", 
+     "latitude": 52.364727942013, 
+     "id": "130350927079784"
+    }, 
+    "updated_time": "2014-03-24T10:11:23+0000", 
+    "is_date_only": false, 
+    "location": "Sugarfactory", 
+    "owner": {
+     "category": "Event planning/event services", 
+     "name": "Klonckenstein", 
+     "category_list": [
+      {
+       "id": "194267960602473", 
+       "name": "Warehouse"
+      }
+     ], 
+     "id": "137689653097044"
+    }, 
+    "timezone": "Europe/Amsterdam", 
+    "id": "393125600828946", 
+    "name": "Klonckenstein | 25th of March @ Sugarfactory | Dim Browski\ufeff"
+   }, 
+   "timezone": "Europe/Amsterdam", 
+   "id": "393125600828946"
+  }, 
+  {
+   "attending_total": 86, 
    "name": "Live: BOWRAIN \u2013 Far Out debut album release", 
    "start_time": "2014-03-25T21:00:00+0100", 
    "image_url": {
-    "source": "https:\\/\\/fbcdn-sphotos-c-a.akamaihd.net\\/hphotos-ak-ash3\\/t1.0-9\\/s720x720\\/1897829_263544077141567_916345290_n.jpg", 
-    "cover_id": 263544077141567, 
+    "source": "https:\\/\\/scontent-a.xx.fbcdn.net\\/hphotos-ash3\\/t1.0-9\\/s720x720\\/1970861_539607922820747_1307430053_n.jpg", 
+    "cover_id": 539607922820747, 
     "offset_x": 0, 
-    "offset_y": 29
+    "offset_y": 0
    }, 
    "location": "Sugarfactory", 
    "eventdata": {
@@ -432,61 +745,59 @@
    "end_time": "2014-03-25T23:30:00+0100"
   }, 
   {
-   "attending_total": 148, 
-   "name": "EVERY SUNDAY: Wicked Jazz Sounds Clubnight @ Sugarfactory Amsterdam", 
-   "start_time": "2014-03-23T23:00:00+0100", 
+   "attending_total": 0, 
+   "name": "First Of The Week", 
+   "start_time": "2014-03-24T23:30:00+0100", 
    "image_url": {
-    "source": "https:\\/\\/fbcdn-sphotos-c-a.akamaihd.net\\/hphotos-ak-ash3\\/t1.0-9\\/s720x720\\/1897829_263544077141567_916345290_n.jpg", 
-    "cover_id": 263544077141567, 
+    "source": "https:\\/\\/fbcdn-sphotos-b-a.akamaihd.net\\/hphotos-ak-frc3\\/t1.0-9\\/1463020_709084815809630_868022250_n.jpg", 
+    "cover_id": 709084815809630, 
     "offset_x": 0, 
-    "offset_y": 29
+    "offset_y": 30
    }, 
-   "location": "Sugarfactory", 
+   "location": "First Of The Week", 
    "eventdata": {
-    "description": "Wicked Jazz Sounds Clubnight - Every Sunday night at Sugar Factory- DJs and musicians play together on a danceable mix of jazz, hip hop, soul, funk, house, drum & bass. Making you dance with a Smile! (since 2002)\n\nEvery Sunday: 23:00 - 05:00 CET\nDamage: \u20ac9,50\nMore info: http://wickedjazzsounds.com", 
+    "description": "Every Monday in Sugarfactory: Your first Beer, your first Dance and maybe even your first Kiss of this week. \n\n\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac Line Up \u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\n\nHardtog (Fantastic)\nMr. Wonder (Classroom)\nRico Suave (Vunzige Deuntjes)\nMonsieur Le Vur (Backyard)\n\n\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac Ticket & Info \u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\n\nEntree // 3 euro\nTijd // 23.30 - Late \nMusic // R&B - Hip Hop - Future - House - Garage", 
     "privacy": "OPEN", 
-    "start_time": "2014-03-23T23:00:00+0100", 
+    "start_time": "2014-03-24T23:30:00+0100", 
     "venue": {
      "city": "Amsterdam", 
-     "zip": "1017PH", 
+     "zip": "1017 PH", 
      "country": "Netherlands", 
-     "longitude": 4.8818250924953, 
+     "longitude": 4.8814262381744, 
      "street": "Lijnbaansgracht 238", 
-     "latitude": 52.364727942013, 
-     "id": "130350927079784"
+     "latitude": 52.365126640677, 
+     "id": "672014002850045"
     }, 
-    "updated_time": "2014-03-19T15:18:47+0000", 
+    "updated_time": "2014-03-24T15:23:55+0000", 
     "is_date_only": false, 
-    "end_time": "2014-05-17T05:00:00+0200", 
-    "location": "Sugarfactory", 
+    "location": "First Of The Week", 
     "owner": {
-     "category": "Musician/band", 
-     "name": "Wicked Jazz Sounds Band", 
+     "category": "Arts/entertainment/nightlife", 
+     "name": "First Of The Week", 
      "category_list": [
       {
-       "id": "180164648685982", 
-       "name": "Bands & Musicians"
+       "id": "354275401259620", 
+       "name": "Nightlife"
       }
      ], 
-     "id": "40813875311"
+     "id": "672014002850045"
     }, 
     "timezone": "Europe/Amsterdam", 
-    "id": "339864646122329", 
-    "name": "EVERY SUNDAY: Wicked Jazz Sounds Clubnight @ Sugarfactory Amsterdam"
+    "id": "831609330188657", 
+    "name": "First Of The Week"
    }, 
    "timezone": "Europe/Amsterdam", 
-   "id": "339864646122329", 
-   "end_time": "2014-05-17T05:00:00+0200"
+   "id": "831609330188657"
   }, 
   {
    "attending_total": 0, 
    "name": "KRAFT - by InDeep'n'Dance Records", 
    "start_time": "2014-03-22T23:55:00+0100", 
    "image_url": {
-    "source": "https:\\/\\/fbcdn-sphotos-c-a.akamaihd.net\\/hphotos-ak-ash3\\/t1.0-9\\/s720x720\\/1897829_263544077141567_916345290_n.jpg", 
-    "cover_id": 263544077141567, 
+    "source": "https:\\/\\/scontent-a.xx.fbcdn.net\\/hphotos-frc3\\/t1.0-9\\/s720x720\\/397515_553208401460699_886383335_n.jpg", 
+    "cover_id": 553208401460699, 
     "offset_x": 0, 
-    "offset_y": 29
+    "offset_y": 0
    }, 
    "location": "Sugarfactory", 
    "eventdata": {
@@ -534,55 +845,14 @@
    "end_time": "2014-03-23T05:00:00+0100"
   }, 
   {
-   "attending_total": 561, 
-   "name": "Terug naar Toen - 80s 90's", 
-   "start_time": "2014-03-21T23:55:00+0100", 
-   "image_url": {
-    "source": "https:\\/\\/fbcdn-sphotos-c-a.akamaihd.net\\/hphotos-ak-ash3\\/t1.0-9\\/s720x720\\/1897829_263544077141567_916345290_n.jpg", 
-    "cover_id": 263544077141567, 
-    "offset_x": 0, 
-    "offset_y": 29
-   }, 
-   "location": "Sugarfactory", 
-   "eventdata": {
-    "description": "Terug Naar Toen\n\nOp 21 maart is het feestje waar we terug in de tijd gaan met de beste muziek van de 80\u2019s en 90\u2019s. De tijd waarin we gek waren van Boybands, we geen genoeg konden krijgen van Bassie & Adriaan, en we chips aten om de flippo\u2019s. \n\nTerug Naar Toen \nDatum: Vrijdag 21 Maart \nTijd: 00:00 - 05.00 uur\nDJs: Gino Christiano ft Melly Belly, Magic Mitch, B100\n\nVoorverkoop maar \u20ac7,5!!\nEntree: 13,- deur, \nLocatie: Sugar Factory \nWebsite: https://www.facebook.com/terugnaartoen?ref=ts&fref=ts\n\n----------------------------------------------\n\nWil je niet in de rij staan? Haal dan nu je kaartje voor maar \u20ac7,5 \nhttps://frontoffice.paylogic.nl/?event_id=92212&point_of_sale_id=3162", 
-    "privacy": "OPEN", 
-    "start_time": "2014-03-21T23:55:00+0100", 
-    "venue": {
-     "city": "Amsterdam", 
-     "zip": "1017PH", 
-     "country": "Netherlands", 
-     "longitude": 4.8818250924953, 
-     "street": "Lijnbaansgracht 238", 
-     "latitude": 52.364727942013, 
-     "id": "130350927079784"
-    }, 
-    "updated_time": "2014-03-12T11:26:21+0000", 
-    "is_date_only": false, 
-    "end_time": "2014-03-22T05:00:00+0100", 
-    "location": "Sugarfactory", 
-    "owner": {
-     "category": "Company", 
-     "name": "Terug Naar Toen", 
-     "id": "247222652178"
-    }, 
-    "timezone": "Europe/Amsterdam", 
-    "id": "535782226487873", 
-    "name": "Terug naar Toen - 80s 90's"
-   }, 
-   "timezone": "Europe/Amsterdam", 
-   "id": "535782226487873", 
-   "end_time": "2014-03-22T05:00:00+0100"
-  }, 
-  {
    "attending_total": 0, 
    "name": "ARTHOUSE", 
    "start_time": "2014-03-20T23:55:00+0100", 
    "image_url": {
-    "source": "https:\\/\\/fbcdn-sphotos-c-a.akamaihd.net\\/hphotos-ak-ash3\\/t1.0-9\\/s720x720\\/1897829_263544077141567_916345290_n.jpg", 
-    "cover_id": 263544077141567, 
+    "source": "https:\\/\\/scontent-b.xx.fbcdn.net\\/hphotos-prn1\\/t1.0-9\\/s720x720\\/1922348_764314206921624_2129165106_n.jpg", 
+    "cover_id": 764314206921624, 
     "offset_x": 0, 
-    "offset_y": 29
+    "offset_y": 0
    }, 
    "location": "Sugarfactory", 
    "eventdata": {
@@ -630,18 +900,18 @@
    "end_time": "2014-03-21T05:00:00+0100"
   }, 
   {
-   "attending_total": 68, 
+   "attending_total": 72, 
    "name": "Radio Mortale Live met The Silverfaces, Novack en Ode To The Quiet", 
    "start_time": "2014-03-20T20:00:00+0100", 
    "image_url": {
-    "source": "https:\\/\\/fbcdn-sphotos-c-a.akamaihd.net\\/hphotos-ak-ash3\\/t1.0-9\\/s720x720\\/1897829_263544077141567_916345290_n.jpg", 
-    "cover_id": 263544077141567, 
+    "source": "https:\\/\\/fbcdn-sphotos-b-a.akamaihd.net\\/hphotos-ak-ash3\\/t1.0-9\\/s720x720\\/549086_710824115605184_28186520_n.jpg", 
+    "cover_id": 710824115605184, 
     "offset_x": 0, 
-    "offset_y": 29
+    "offset_y": 25
    }, 
    "location": "Sugarfactory", 
    "eventdata": {
-    "description": "Donderdag 20 maart is het weer tijd voor een nieuwe editie van Radio Mortale Live! In de Sugarfactory te Amsterdam spelen drie te gekke Nederlandse bands, te weten:\n\nThe Silverfaces\nExplosieve bluesrock \u00e1 la Led Zeppelin\n\nNovack\nTry-out voor nieuw album Arrivals\n\nOde to the Quiet\n\"Cinematic stargaze\" indiepop\n\nAanvang: 20.00\nEntree: \u20ac6,-\nKaarten te koop via: http://bit.ly/1bPsaH4", 
+    "description": "Donderdag 20 maart is het weer tijd voor een nieuwe editie van Radio Mortale Live! In de Sugarfactory te Amsterdam spelen drie te gekke Nederlandse bands, te weten:\n\nThe Silverfaces\nExplosieve bluesrock \u00e1 la Led Zeppelin\n\nNovack\nTry-out voor nieuw album Arrivals\n\nOde to the Quiet\n\"Cinematic stargaze\" indiepop\n\n20:30 - 21:10 Ode To The Quiet\n21:30 - 22:10 Novack\n22:30 - 23:10 The Silverfaces\n\nAanvang: 20.00\nEntree: \u20ac6,-\nKaarten te koop via: http://bit.ly/1bPsaH4", 
     "privacy": "OPEN", 
     "start_time": "2014-03-20T20:00:00+0100", 
     "venue": {
@@ -653,7 +923,7 @@
      "latitude": 52.364727942013, 
      "id": "130350927079784"
     }, 
-    "updated_time": "2014-03-02T19:48:01+0000", 
+    "updated_time": "2014-03-20T11:26:33+0000", 
     "is_date_only": false, 
     "end_time": "2014-03-20T23:30:00+0100", 
     "location": "Sugarfactory", 
@@ -671,14 +941,14 @@
    "end_time": "2014-03-20T23:30:00+0100"
   }, 
   {
-   "attending_total": 42, 
+   "attending_total": 43, 
    "name": "Mijke & Co Live @sugarfactory gratis met o.a. Sven Hammond Soul, Nishe, Maite Hontel\u00e9 en The Ob6sions", 
    "start_time": "2014-03-19T22:00:00+0100", 
    "image_url": {
-    "source": "https:\\/\\/fbcdn-sphotos-c-a.akamaihd.net\\/hphotos-ak-ash3\\/t1.0-9\\/s720x720\\/1897829_263544077141567_916345290_n.jpg", 
-    "cover_id": 263544077141567, 
+    "source": "https:\\/\\/scontent-a.xx.fbcdn.net\\/hphotos-ash3\\/t1.0-9\\/s720x720\\/1920628_1430659900508137_833578231_n.jpg", 
+    "cover_id": 1430659900508137, 
     "offset_x": 0, 
-    "offset_y": 29
+    "offset_y": 20
    }, 
    "location": "Sugarfactory", 
    "eventdata": {
@@ -708,10 +978,10 @@
    "name": "Klonckenstein - elke dinsdag", 
    "start_time": "2014-03-18T23:30:00+0100", 
    "image_url": {
-    "source": "https:\\/\\/fbcdn-sphotos-c-a.akamaihd.net\\/hphotos-ak-ash3\\/t1.0-9\\/s720x720\\/1897829_263544077141567_916345290_n.jpg", 
-    "cover_id": 263544077141567, 
+    "source": "https:\\/\\/scontent-b.xx.fbcdn.net\\/hphotos-prn2\\/t1.0-9\\/s720x720\\/1925069_553116098136596_10041078_n.jpg", 
+    "cover_id": 553116098136596, 
     "offset_x": 0, 
-    "offset_y": 29
+    "offset_y": 34
    }, 
    "location": "Sugarfactory", 
    "eventdata": {
@@ -763,10 +1033,10 @@
    "name": "Subbacultcha presents: Helfer", 
    "start_time": "2014-03-18T21:00:00+0100", 
    "image_url": {
-    "source": "https:\\/\\/fbcdn-sphotos-c-a.akamaihd.net\\/hphotos-ak-ash3\\/t1.0-9\\/s720x720\\/1897829_263544077141567_916345290_n.jpg", 
-    "cover_id": 263544077141567, 
+    "source": "https:\\/\\/fbcdn-sphotos-d-a.akamaihd.net\\/hphotos-ak-ash4\\/t1.0-9\\/s720x720\\/1902986_537525783028961_1049859639_n.jpg", 
+    "cover_id": 537525783028961, 
     "offset_x": 0, 
-    "offset_y": 29
+    "offset_y": 28
    }, 
    "location": "Sugarfactory", 
    "eventdata": {
@@ -814,14 +1084,14 @@
    "end_time": "2014-03-18T23:30:00+0100"
   }, 
   {
-   "attending_total": 129, 
+   "attending_total": 128, 
    "name": "Madnutz - Episode Two - Techno Nutrition", 
    "start_time": "2014-03-15T23:55:00+0100", 
    "image_url": {
-    "source": "https:\\/\\/fbcdn-sphotos-c-a.akamaihd.net\\/hphotos-ak-ash3\\/t1.0-9\\/s720x720\\/1897829_263544077141567_916345290_n.jpg", 
-    "cover_id": 263544077141567, 
+    "source": "https:\\/\\/scontent-b.xx.fbcdn.net\\/hphotos-prn2\\/t1.0-9\\/1601598_477973132306740_719830541_n.jpg", 
+    "cover_id": 477973132306740, 
     "offset_x": 0, 
-    "offset_y": 29
+    "offset_y": 0
    }, 
    "location": "Sugarfactory", 
    "eventdata": {
@@ -853,265 +1123,6 @@
    "timezone": "Europe/Amsterdam", 
    "id": "209295209263409", 
    "end_time": "2014-03-16T05:00:00+0100"
-  }, 
-  {
-   "attending_total": 118, 
-   "name": "DOORGESJEESD #5 IN SUGARFACTORY", 
-   "start_time": "2014-03-14T23:55:00+0100", 
-   "image_url": {
-    "source": "https:\\/\\/fbcdn-sphotos-c-a.akamaihd.net\\/hphotos-ak-ash3\\/t1.0-9\\/s720x720\\/1897829_263544077141567_916345290_n.jpg", 
-    "cover_id": 263544077141567, 
-    "offset_x": 0, 
-    "offset_y": 29
-   }, 
-   "location": "Sugarfactory", 
-   "eventdata": {
-    "description": "DOORGESJEESD brengt je wrede hits van verschillende genres met een vleugje herkenbaarheid. Van hip hop tot (happy)hardcore en een hoop daar tussenin. Dit allemaal zonder te plat te worden in een ambiance royale with cheese. Das Frans voor lekker gaan.\n\nEen feestje zonder extra\u2019s is geen feestje. Daarom hebben wij o.a.\n\n+ De Donkere Kamer: maak je geen optische illusies.\n+ De Biechtstoel wordt de peeskamer. Latin Jezus wordt Don Whowon.\n+ Hollah at ya pollah. Instant foto's van je giechel.\n\nLine up:\n\n+ Guerilla Speakerz \n\nTEAM Solo:\n+ DJ Johnny Mosterd alias Sjon Beton alias Johnny Concrete alias Saul Good\n\nTEAM HBO:\n+ Shoq Du Mel\n+ Le Bas Qui Rit\n\nTEAM ORGANIC:\n+ Jules de la Courgettel\n+ Phacts\n\nTEAM VJ:\n+ VJ Basil\n\nTickets:\nVVK 8,50,-\nDEUR: 10,-\n\nVVK kan hier:\nhttps://frontoffice.paylogic.nl/?event_id=91955&point_of_sale_id=3162", 
-    "privacy": "OPEN", 
-    "start_time": "2014-03-14T23:55:00+0100", 
-    "venue": {
-     "city": "Amsterdam", 
-     "zip": "1017PH", 
-     "country": "Netherlands", 
-     "longitude": 4.8818250924953, 
-     "street": "Lijnbaansgracht 238", 
-     "latitude": 52.364727942013, 
-     "id": "130350927079784"
-    }, 
-    "updated_time": "2014-03-14T10:16:14+0000", 
-    "is_date_only": false, 
-    "end_time": "2014-03-15T05:00:00+0100", 
-    "location": "Sugarfactory", 
-    "owner": {
-     "category": "Event planning/event services", 
-     "name": "DOORGESJEESD", 
-     "id": "436931119719309"
-    }, 
-    "timezone": "Europe/Amsterdam", 
-    "id": "1419742204939445", 
-    "name": "DOORGESJEESD #5 IN SUGARFACTORY"
-   }, 
-   "timezone": "Europe/Amsterdam", 
-   "id": "1419742204939445", 
-   "end_time": "2014-03-15T05:00:00+0100"
-  }, 
-  {
-   "attending_total": 19, 
-   "name": "Weerloos", 
-   "start_time": "2014-03-13T23:55:00+0100", 
-   "image_url": {
-    "source": "https:\\/\\/fbcdn-sphotos-c-a.akamaihd.net\\/hphotos-ak-ash3\\/t1.0-9\\/s720x720\\/1897829_263544077141567_916345290_n.jpg", 
-    "cover_id": 263544077141567, 
-    "offset_x": 0, 
-    "offset_y": 29
-   }, 
-   "location": "Sugarfactory", 
-   "eventdata": {
-    "description": "Deze keer voor 1 keertje op de 2e donderdag van de maand: Weerloos in de Sugarfactory!\n\nBij Weerloos draait het om de sfeer dus komen wij met een  heerlijke mix van electronische stijlen, van (deep)house, nu-disco tot een vleugje hiphop. Als het maar lekker en funky is. \n\nWe beloven je aan het dansen te houden tot in de vroege uurtjes!\n\nDJ's:\n\n00.00 - 01.00 Pat\n01.00 - 01.30 Duke John\n01.30 - 02.00 Jules\n02.00 - 03.00 Pat\n03.00 - 03.30 Duke John\n03.30 - 04.00 Jules\n04.00 - 04.30 Pat\n04.30 - 05.00 Backtobackmadness\n \n\nTickets: LENTEKORTING!!! \u20ac3,00 voor iedereen!", 
-    "privacy": "OPEN", 
-    "start_time": "2014-03-13T23:55:00+0100", 
-    "venue": {
-     "city": "Amsterdam", 
-     "zip": "1017PH", 
-     "country": "Netherlands", 
-     "longitude": 4.8818250924953, 
-     "street": "Lijnbaansgracht 238", 
-     "latitude": 52.364727942013, 
-     "id": "130350927079784"
-    }, 
-    "updated_time": "2014-03-13T16:19:17+0000", 
-    "is_date_only": false, 
-    "end_time": "2014-03-14T05:00:00+0100", 
-    "location": "Sugarfactory", 
-    "owner": {
-     "category": "Arts/entertainment/nightlife", 
-     "name": "Weerloos", 
-     "id": "112917718855562"
-    }, 
-    "timezone": "Europe/Amsterdam", 
-    "id": "749859111692223", 
-    "name": "Weerloos"
-   }, 
-   "timezone": "Europe/Amsterdam", 
-   "id": "749859111692223", 
-   "end_time": "2014-03-14T05:00:00+0100"
-  }, 
-  {
-   "attending_total": 111, 
-   "name": "Kid Harlequin EP Release  Sugarfactory     + support Amikdla en CUT_", 
-   "start_time": "2014-03-13T21:00:00+0100", 
-   "image_url": {
-    "source": "https:\\/\\/fbcdn-sphotos-c-a.akamaihd.net\\/hphotos-ak-ash3\\/t1.0-9\\/s720x720\\/1897829_263544077141567_916345290_n.jpg", 
-    "cover_id": 263544077141567, 
-    "offset_x": 0, 
-    "offset_y": 29
-   }, 
-   "location": "Sugarfactory", 
-   "eventdata": {
-    "description": "Met trots presenteren wij 13 maart in de Sugarfactory te Amsterdam onze debuut EP !!\n\nAanvang: 21:00 uur\n\nEerste band: 21:30 uur :)\n\nDe support word verzorgd door Amikdla en CUT_ \n\nEntree prijs: 5 euro \n\nKaarten verkrijgbaar in de voorverkoop\n\n\nTot dan :) !!!", 
-    "privacy": "OPEN", 
-    "start_time": "2014-03-13T21:00:00+0100", 
-    "venue": {
-     "city": "Amsterdam", 
-     "zip": "1017PH", 
-     "country": "Netherlands", 
-     "longitude": 4.8818250924953, 
-     "street": "Lijnbaansgracht 238", 
-     "latitude": 52.364727942013, 
-     "id": "130350927079784"
-    }, 
-    "updated_time": "2014-03-06T13:43:51+0000", 
-    "is_date_only": false, 
-    "location": "Sugarfactory", 
-    "owner": {
-     "category": "Musician/band", 
-     "name": "Kid Harlequin", 
-     "id": "485354671538357"
-    }, 
-    "timezone": "Europe/Amsterdam", 
-    "id": "595083617240513", 
-    "name": "Kid Harlequin EP Release  Sugarfactory     + support Amikdla en CUT_"
-   }, 
-   "timezone": "Europe/Amsterdam", 
-   "id": "595083617240513"
-  }, 
-  {
-   "attending_total": 22, 
-   "name": "Mijke & Co Live @Sugarfactory gratis met o.a. Kapok, Clazz Ensemble, Equinox feat Marjorie Barnes en The Ob6sions ft. Michael Moore", 
-   "start_time": "2014-03-12T22:00:00+0100", 
-   "image_url": {
-    "source": "https:\\/\\/fbcdn-sphotos-c-a.akamaihd.net\\/hphotos-ak-ash3\\/t1.0-9\\/s720x720\\/1897829_263544077141567_916345290_n.jpg", 
-    "cover_id": 263544077141567, 
-    "offset_x": 0, 
-    "offset_y": 29
-   }, 
-   "location": "Sugarfactory", 
-   "eventdata": {
-    "description": "OP DE HOOGTE BLIJVEN VAN DE PROGRAMMERING, MELD JE AAN VOOR DE NIEUWSBRIEF: http://bit.ly/1js5sqA\n\nKapok, het Clazz Ensemble, Marjorie Barnes & Equinox en The Ob6sions featuring Michael Moore spelen woensdag 12 maart bij Mijke & Co Live van de NTR op Radio 6 Soul & Jazz. Het wekelijkse live muziekprogramma vanuit de Sugarfactory bij het leidseplein in Amsterdam is gratis bij te wonen voor publiek. Presentator is deze week Mijke van Wijk. \n\nKapok\nVorige maand bracht Kapok het nieuwe album Kapok uit. Het Utrechtse trio combineert jazz, pop, funk en rootsmuziek. Na hun eerste album Flatlands ging het al super met het trio, ze wonnen de prijs voor beste groep in the Dutch Jazz Competition. Ook het album Kapok werd goed ontvangen. Ze kregen er 4 sterren van de volkskrant voor en gaan nu op een internationale tour. \n\nClazz Ensemble\nDe groep Clazz Ensemble heeft een nieuw project: Monk Inside Out. Ze spelen nieuw werk van meerdere componisten die zich hebben laten inspireren door de invloedrijke jazzpianist Thelonious  Monk. De twaalf muzikanten tellende groep staat bekend om de bijzondere manier van het mengen van klassieke en jazzmuziek.  \n\nMarjorie Barnes speelt samen met Equinox\nDe Amerikaanse zangeres Marjorie Barnes speelde in de jaren 70 in de groep The 5th Dimension. Hierdoor stond ze op het podium met Frank Sinatra, Sammy Davis Jr en Billy Eckstein. Ook speelde ze diverse rollen op Broadway. Bij Mijke & Co Live@Sugarfactory speelt ze samen met de band Equinox. De groep bestaat uit allemaal internationaal bekende jazzmuzikanten die in Den Haag wonen waaronder saxofonist Sjoerd Dijkhuizen en drummer Marcel Serierse. \n\nHuisband The Ob6sions met Michael Moore\nWekelijks in het programma hoor je huisband The Ob6sions. De band bestaande uit Victor de Boo \u2013 drums; Sven Schuster \u2013 bas; Jeroen van Helsdingen \u2013 keys heeft deze week saxofonist Michael Moore als gast. Hij won de VPRO/Boy Edgarprijs en speelt onder meer in het ICP Orchestra.", 
-    "privacy": "OPEN", 
-    "start_time": "2014-03-12T22:00:00+0100", 
-    "venue": {
-     "city": "Amsterdam", 
-     "zip": "1017PH", 
-     "country": "Netherlands", 
-     "longitude": 4.8818250924953, 
-     "street": "Lijnbaansgracht 238", 
-     "latitude": 52.364727942013, 
-     "id": "130350927079784"
-    }, 
-    "updated_time": "2014-03-10T14:46:25+0000", 
-    "is_date_only": false, 
-    "location": "Sugarfactory", 
-    "owner": {
-     "category": "Radio station", 
-     "name": "Mijke & Co Live", 
-     "id": "1404970213077106"
-    }, 
-    "timezone": "Europe/Amsterdam", 
-    "id": "227060224153341", 
-    "name": "Mijke & Co Live @Sugarfactory gratis met o.a. Kapok, Clazz Ensemble, Equinox feat Marjorie Barnes en The Ob6sions ft. Michael Moore"
-   }, 
-   "timezone": "Europe/Amsterdam", 
-   "id": "227060224153341"
-  }, 
-  {
-   "attending_total": 41, 
-   "name": "Klonckenstein | Tuesday 11th of March @ Sugarfactory | GUESSBEATS & KIDMALONE ALL NIGHT LONG", 
-   "start_time": "2014-03-11T23:30:00+0100", 
-   "image_url": {
-    "source": "https:\\/\\/fbcdn-sphotos-c-a.akamaihd.net\\/hphotos-ak-ash3\\/t1.0-9\\/s720x720\\/1897829_263544077141567_916345290_n.jpg", 
-    "cover_id": 263544077141567, 
-    "offset_x": 0, 
-    "offset_y": 29
-   }, 
-   "location": "Klonckenstein", 
-   "eventdata": {
-    "description": "Op de dinsdagavonden in Sugarfactory organiseert Kiss Escort een soulvolle dansavond genaamd Klonckenstein voor de ware muziekliefhebbers. House, boogie en disco grooves uit New York, Chicago en Detroit vormen de basis voor deze nieuwe doordeweekse clubavond. \n\nDinsdag 11 Maart: \n\nLine up: \nGUESSBEATS & KIDMALONE\nMR. GIBBS\n--------------------------\nLocatie Sugarfactory \nDatum: 11/3/14\nTijd: 23:30 t/m 05:00\nEntree: \u20ac3.- \nGenre: House", 
-    "privacy": "OPEN", 
-    "start_time": "2014-03-11T23:30:00+0100", 
-    "venue": {
-     "city": "Amsterdam", 
-     "country": "Netherlands", 
-     "longitude": 4.63316, 
-     "latitude": 52.3072133, 
-     "id": "137689653097044", 
-     "located_in": 130350927079784
-    }, 
-    "updated_time": "2014-03-11T19:33:00+0000", 
-    "is_date_only": false, 
-    "location": "Klonckenstein", 
-    "owner": {
-     "category": "Event planning/event services", 
-     "name": "Klonckenstein", 
-     "category_list": [
-      {
-       "id": "194267960602473", 
-       "name": "Warehouse"
-      }
-     ], 
-     "id": "137689653097044"
-    }, 
-    "timezone": "Europe/Amsterdam", 
-    "id": "229327567247295", 
-    "name": "Klonckenstein | Tuesday 11th of March @ Sugarfactory | GUESSBEATS & KIDMALONE ALL NIGHT LONG"
-   }, 
-   "timezone": "Europe/Amsterdam", 
-   "id": "229327567247295"
-  }, 
-  {
-   "attending_total": 0, 
-   "name": "Live: I Am Aisha Showcase", 
-   "start_time": "2014-03-10T20:00:00+0100", 
-   "image_url": {
-    "source": "https:\\/\\/fbcdn-sphotos-c-a.akamaihd.net\\/hphotos-ak-ash3\\/t1.0-9\\/s720x720\\/1897829_263544077141567_916345290_n.jpg", 
-    "cover_id": 263544077141567, 
-    "offset_x": 0, 
-    "offset_y": 29
-   }, 
-   "location": "Sugarfactory", 
-   "eventdata": {
-    "description": "10 Maart geeft I am Aisha een showcase in Sugarfactory. Zij zal een hele toffe show neerzetten met o.a. nummers van haar EP Hey Boy. In het voorprogramma staat Michael Bryan. Ook zullen DJ Jane Doe en Mr Wonder heerlijke plaatjes draaien.\n\nEntree: \u20ac7\nDeur open: 20:00\nStart show: 21:00 BE ON TIME!\n\nKijk hier voor meer info in het offici\u00eble event: https://www.facebook.com/events/1382196488714885/?fref=ts", 
-    "privacy": "OPEN", 
-    "start_time": "2014-03-10T20:00:00+0100", 
-    "venue": {
-     "city": "Amsterdam", 
-     "zip": "1017PH", 
-     "country": "Netherlands", 
-     "longitude": 4.8818250924953, 
-     "street": "Lijnbaansgracht 238", 
-     "latitude": 52.364727942013, 
-     "id": "130350927079784"
-    }, 
-    "updated_time": "2014-03-10T11:50:07+0000", 
-    "is_date_only": false, 
-    "end_time": "2014-03-10T23:30:00+0100", 
-    "location": "Sugarfactory", 
-    "owner": {
-     "category": "Local business", 
-     "name": "Sugarfactory", 
-     "category_list": [
-      {
-       "id": "176139629103647", 
-       "name": "Dance Club"
-      }, 
-      {
-       "id": "179943432047564", 
-       "name": "Concert Venue"
-      }, 
-      {
-       "id": "173883042668223", 
-       "name": "Theatre"
-      }
-     ], 
-     "id": "130350927079784"
-    }, 
-    "timezone": "Europe/Amsterdam", 
-    "id": "522151431234922", 
-    "name": "Live: I Am Aisha Showcase"
-   }, 
-   "timezone": "Europe/Amsterdam", 
-   "id": "522151431234922", 
-   "end_time": "2014-03-10T23:30:00+0100"
   }
  ]
 }

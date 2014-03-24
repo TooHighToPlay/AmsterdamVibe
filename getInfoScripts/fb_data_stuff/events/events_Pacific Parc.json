@@ -4,7 +4,7 @@
    "after": "MTQ2Njk5NzQ1MDE5NTYzMg==", 
    "before": "MTQ2Njk5NzQ1MDE5NTYzMg=="
   }, 
-  "next": "https://graph.facebook.com/624990837560284/events?access_token=CAACEdEose0cBADZC2BqWfioOt5tuTihjtSBXb01vGSzScGuKvGevBuk1T7wZAPlTwdjZBBBL9b0db3xQvjRSmAoKUIZBPcwe7Env6l20MvrePfzRQuZCIyygZCdAM8wZBfSvlqo168rYQepONRFfQGKXVHbKtoWsOtqEmnuq4fuupKKsRfcd8sShc1qtUKZA5edEp4hCHkdZCNQZDZD&limit=25&after=MTQ2Njk5NzQ1MDE5NTYzMg%3D%3D"
+  "next": "https://graph.facebook.com/624990837560284/events?access_token=CAACEdEose0cBAOet2VJez2nkH6dHSPT7QaJv0s5Ifvg5hZAYvPSb9ntWmmgwMNFHifLUSZB6c6ujGXeq9KW6svaWZAt8VpUxKyOohLinEfMFEohVn55rtVzZCOMpY7ZCFAZCxdgLI2l8X8e8ZBLpBUtwwkpXzVIAIRTRVJwMOFsZCb57sFAANNtIZAJnXKuEYfM0iHev4Ine30AZDZD&limit=25&after=MTQ2Njk5NzQ1MDE5NTYzMg%3D%3D"
  }, 
  "data": [
   {
@@ -12,10 +12,10 @@
    "name": "Pacific Parc Kermis Rock 'n Roll Treffen: 13, 14, 15 Maart!", 
    "start_time": "2014-03-13", 
    "image_url": {
-    "source": "https:\\/\\/fbcdn-sphotos-c-a.akamaihd.net\\/hphotos-ak-ash3\\/t1.0-9\\/s720x720\\/1897829_263544077141567_916345290_n.jpg", 
-    "cover_id": 263544077141567, 
+    "source": "https:\\/\\/scontent-b.xx.fbcdn.net\\/hphotos-frc1\\/t1.0-9\\/s720x720\\/1912346_10152253172673256_266366586_n.jpg", 
+    "cover_id": "10152253172673256", 
     "offset_x": 0, 
-    "offset_y": 29
+    "offset_y": 27
    }, 
    "location": "Polonceaukade 23, 1014DA Amsterdam", 
    "eventdata": {

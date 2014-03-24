@@ -1,6 +1,6 @@
 {
  "website": "www.canvas7.nl", 
- "talking_about_count": 32, 
+ "talking_about_count": 29, 
  "category_list": [
   {
    "id": "197871390225897", 
@@ -15,7 +15,7 @@
    "name": "Event Planning"
   }
  ], 
- "likes": 6549, 
+ "likes": 6571, 
  "parking": {
   "street": 1, 
   "lot": 0, 
@@ -51,7 +51,7 @@
  "phone": "020-7163817", 
  "link": "https://www.facebook.com/Canvasopde7e", 
  "price_range": "$$ (10-30)", 
- "checkins": 5043, 
+ "checkins": 5042, 
  "about": "Dinner, lunch, cocktails, expositions, clubnights and much more on the top floor of the old Volkskrantbuilding. Open daily!", 
  "name": "Canvasopde7e", 
  "restaurant_services": {
@@ -72,6 +72,6 @@
   "offset_y": 0
  }, 
  "public_transit": "Tram:\nTram 3 stops at the corner of Wibautstraat/ Ruyschstraat. Walk in southern direction and find at your right hand the former Volkskrant building.\n\nSubway:\n# 51, 53 and 54 stop in front the door at the stop Wibautstraat. Take the exit Grensstraat. The last stop is at 0.39 AM.\n\nTrain:\nCanvasopde7e is at 10 minutes from the Amstel Station. The last train stops here at 1:01 AM. Walk from the station to the Prins Berhardsquare (roundabout). Take the the third exit: the Wibautstraat. Canvasopde7e will be found after the viaduct at your left side.\n\nNightbus:\nBus 355 goes from Central Station to the Bijlmermeer and stops at the corner of Wibautstraat/Ruyschstraat. Walk from the stop Wibautstraat in southern direction. On your rightside after \u00b1300mtrs you find Canvasopde7e.", 
- "were_here_count": 5043, 
+ "were_here_count": 5042, 
  "is_published": true
 }

@@ -1,21 +1,21 @@
 {
  "paging": {
   "cursors": {
-   "after": "MTQxMTg2MzcyMjM5OTEzNg==", 
+   "after": "MjIwNzM4MTAxNDUxMzk3", 
    "before": "MTUzMDc5NDM5MDQ3OTAwNw=="
   }, 
-  "next": "https://graph.facebook.com/199623270044/events?access_token=CAACEdEose0cBADZC2BqWfioOt5tuTihjtSBXb01vGSzScGuKvGevBuk1T7wZAPlTwdjZBBBL9b0db3xQvjRSmAoKUIZBPcwe7Env6l20MvrePfzRQuZCIyygZCdAM8wZBfSvlqo168rYQepONRFfQGKXVHbKtoWsOtqEmnuq4fuupKKsRfcd8sShc1qtUKZA5edEp4hCHkdZCNQZDZD&limit=25&after=MTQxMTg2MzcyMjM5OTEzNg%3D%3D"
+  "next": "https://graph.facebook.com/199623270044/events?access_token=CAACEdEose0cBAOet2VJez2nkH6dHSPT7QaJv0s5Ifvg5hZAYvPSb9ntWmmgwMNFHifLUSZB6c6ujGXeq9KW6svaWZAt8VpUxKyOohLinEfMFEohVn55rtVzZCOMpY7ZCFAZCxdgLI2l8X8e8ZBLpBUtwwkpXzVIAIRTRVJwMOFsZCb57sFAANNtIZAJnXKuEYfM0iHev4Ine30AZDZD&limit=25&after=MjIwNzM4MTAxNDUxMzk3"
  }, 
  "data": [
   {
-   "attending_total": 291, 
+   "attending_total": 293, 
    "name": "STUDIO 80 STAGE @ WELCOME TO THE FUTURE FESTIVAL 2014 w/ RICARDO VILLALOBOS, MATHIAS KADEN, MATHEW JONSON LIVE, SONJA MOONEAR, WILLIAM KOUAM DJOKO LIVE, SERGE & DORINE DORADO", 
    "start_time": "2014-07-26T12:00:00+0200", 
    "image_url": {
-    "source": "https:\\/\\/fbcdn-sphotos-c-a.akamaihd.net\\/hphotos-ak-ash3\\/t1.0-9\\/s720x720\\/1897829_263544077141567_916345290_n.jpg", 
-    "cover_id": 263544077141567, 
+    "source": "https:\\/\\/scontent-b.xx.fbcdn.net\\/hphotos-frc3\\/t1.0-9\\/s720x720\\/1660609_10153888868350045_1775049716_n.jpg", 
+    "cover_id": "10153888868350045", 
     "offset_x": 0, 
-    "offset_y": 29
+    "offset_y": 0
    }, 
    "location": "Studio 80", 
    "eventdata": {
@@ -63,18 +63,18 @@
    "end_time": "2014-07-26T23:55:00+0200"
   }, 
   {
-   "attending_total": 200, 
+   "attending_total": 205, 
    "name": "MA220 IS BACK!", 
    "start_time": "2014-05-16T23:00:00+0200", 
    "image_url": {
-    "source": "https:\\/\\/fbcdn-sphotos-c-a.akamaihd.net\\/hphotos-ak-ash3\\/t1.0-9\\/s720x720\\/1897829_263544077141567_916345290_n.jpg", 
-    "cover_id": 263544077141567, 
+    "source": "https:\\/\\/scontent-b.xx.fbcdn.net\\/hphotos-frc3\\/t1.0-9\\/s720x720\\/1460311_10152361318463690_560454523_n.jpg", 
+    "cover_id": "10152361318463690", 
     "offset_x": 0, 
-    "offset_y": 29
+    "offset_y": 0
    }, 
    "location": "Studio 80", 
    "eventdata": {
-    "description": "Third edition of Mazzo is back at Studio 80 and it\u2019s going to be a blast! Expect a killer line up and feel the vibe of the legendary Mazzo Club.\n\nThe first DJ to be announced is DJ PER // He rocked Mazzo many times on the UPFRONT and PER's PARADISE nights // On one of those nights not only the roof was on fire... ;-) // Check out his full story on the Event Timeline...\n\nAnother DJ on the line up is AMBIENT DAAN // He started at Mazzo many years ago with his \"Ambient Corner\" in the back of the club // Check out the full story... :-)\n\nSun is shining... great moment to intruduce BART SKILS // Read his full story below... and enjoy the great weather while it lasts!\n\nMark the date and stay tuned\u2026 more info will follow soon.", 
+    "description": "Third edition of Mazzo is back at Studio 80 and it\u2019s going to be a blast! Expect a killer line up and feel the vibe of the legendary Mazzo Club.\n\nThe first DJ to be announced is DJ PER // He rocked Mazzo many times on the UPFRONT and PER's PARADISE nights // On one of those nights not only the roof was on fire... ;-) // Check out his full story on the Event Timeline...\n\nAnother DJ on the line up is AMBIENT DAAN // He started at Mazzo many years ago with his \"Ambient Corner\" in the back of the club // Check out the full story... :-)\n\nSun is shining... great moment to intruduce BART SKILS // Read his full story below... and enjoy the great weather while it lasts!\n\nBAM! One of the pioneer of the dance scene in the Netherlands is back on the wheelz of steel... touching it down... PAUL JAY :-)\n\nMark the date and stay tuned\u2026 more info will follow soon.", 
     "privacy": "OPEN", 
     "start_time": "2014-05-16T23:00:00+0200", 
     "venue": {
@@ -86,7 +86,7 @@
      "latitude": 52.367207836396, 
      "id": "199623270044"
     }, 
-    "updated_time": "2014-03-10T14:00:12+0000", 
+    "updated_time": "2014-03-23T11:17:35+0000", 
     "is_date_only": false, 
     "end_time": "2014-05-17T05:00:00+0200", 
     "location": "Studio 80", 
@@ -118,7 +118,7 @@
    "end_time": "2014-05-17T05:00:00+0200"
   }, 
   {
-   "attending_total": 133, 
+   "attending_total": 141, 
    "name": "CARTEL KINGSDAY AFTER PARTY w/ DJ TLR & INNERSHADES", 
    "start_time": "2014-04-26T20:00:00+0200", 
    "image_url": {
@@ -165,14 +165,61 @@
    "end_time": "2014-04-27T05:00:00+0200"
   }, 
   {
-   "attending_total": 85, 
+   "attending_total": 76, 
+   "name": "24 HOUR PARTY PEOPLE - EASTER WEEKEND", 
+   "start_time": "2014-04-19T23:00:00+0200", 
+   "image_url": {
+    "source": "https:\\/\\/fbcdn-sphotos-f-a.akamaihd.net\\/hphotos-ak-ash3\\/t1.0-9\\/s720x720\\/1525084_676862249019560_447184960_n.jpg", 
+    "cover_id": 676862249019560, 
+    "offset_x": 0, 
+    "offset_y": 78
+   }, 
+   "location": "24 Hour Party People - Studio 80", 
+   "eventdata": {
+    "description": "Oh oh, here we go again... \nEarlybird tickets: \u20ac7,50", 
+    "privacy": "OPEN", 
+    "start_time": "2014-04-19T23:00:00+0200", 
+    "venue": {
+     "city": "Amsterdam", 
+     "zip": "1017 CT", 
+     "country": "Netherlands", 
+     "longitude": 4.89670200901, 
+     "street": "Rembrandplein 17", 
+     "latitude": 52.3664102265, 
+     "id": "285187701520352"
+    }, 
+    "updated_time": "2014-03-21T10:56:29+0000", 
+    "is_date_only": false, 
+    "end_time": "2014-04-20T09:00:00+0200", 
+    "location": "24 Hour Party People - Studio 80", 
+    "owner": {
+     "category": "Local business", 
+     "name": "24 Hour Party People - Studio 80", 
+     "category_list": [
+      {
+       "id": "192119584190796", 
+       "name": "Event"
+      }
+     ], 
+     "id": "285187701520352"
+    }, 
+    "timezone": "Europe/Amsterdam", 
+    "id": "453656058098044", 
+    "name": "24 HOUR PARTY PEOPLE - EASTER WEEKEND"
+   }, 
+   "timezone": "Europe/Amsterdam", 
+   "id": "453656058098044", 
+   "end_time": "2014-04-20T09:00:00+0200"
+  }, 
+  {
+   "attending_total": 91, 
    "name": "BREAK NEW SOIL w/ GREGOR TRESHER & PETAR DUNDOV", 
    "start_time": "2014-04-18T23:00:00+0200", 
    "image_url": {
-    "source": "https:\\/\\/fbcdn-sphotos-c-a.akamaihd.net\\/hphotos-ak-ash3\\/t1.0-9\\/s720x720\\/1897829_263544077141567_916345290_n.jpg", 
-    "cover_id": 263544077141567, 
+    "source": "https:\\/\\/scontent-b.xx.fbcdn.net\\/hphotos-prn2\\/t1.0-9\\/s720x720\\/1795650_698475516841881_555654526_n.jpg", 
+    "cover_id": 698475516841881, 
     "offset_x": 0, 
-    "offset_y": 29
+    "offset_y": 0
    }, 
    "location": "Studio 80", 
    "eventdata": {
@@ -220,14 +267,14 @@
    "end_time": "2014-04-19T05:00:00+0200"
   }, 
   {
-   "attending_total": 251, 
+   "attending_total": 265, 
    "name": "WELCOME TO THE FUTURE w/ GEORGE FITZGERALD (UK) & CINNAMAN", 
    "start_time": "2014-04-12T23:00:00+0200", 
    "image_url": {
-    "source": "https:\\/\\/fbcdn-sphotos-c-a.akamaihd.net\\/hphotos-ak-ash3\\/t1.0-9\\/s720x720\\/1897829_263544077141567_916345290_n.jpg", 
-    "cover_id": 263544077141567, 
+    "source": "https:\\/\\/fbcdn-sphotos-a-a.akamaihd.net\\/hphotos-ak-frc3\\/t1.0-9\\/1656035_10153930528135045_682368064_n.jpg", 
+    "cover_id": "10153930528135045", 
     "offset_x": 0, 
-    "offset_y": 29
+    "offset_y": 47
    }, 
    "location": "Studio 80", 
    "eventdata": {
@@ -275,14 +322,14 @@
    "end_time": "2014-04-13T05:00:00+0200"
   }, 
   {
-   "attending_total": 204, 
+   "attending_total": 213, 
    "name": "PRISMA w/ ATOMNATION & MANUAL MUSIC ft. APPLESCAL, WEVAL, MATTHEIS & MORE", 
    "start_time": "2014-04-11T23:00:00+0200", 
    "image_url": {
-    "source": "https:\\/\\/fbcdn-sphotos-c-a.akamaihd.net\\/hphotos-ak-ash3\\/t1.0-9\\/s720x720\\/1897829_263544077141567_916345290_n.jpg", 
-    "cover_id": 263544077141567, 
+    "source": "https:\\/\\/fbcdn-sphotos-a-a.akamaihd.net\\/hphotos-ak-ash3\\/t1.0-9\\/s720x720\\/1900006_10153972550080045_2013447631_n.jpg", 
+    "cover_id": "10153972550080045", 
     "offset_x": 0, 
-    "offset_y": 29
+    "offset_y": 0
    }, 
    "location": "Studio 80", 
    "eventdata": {
@@ -330,14 +377,14 @@
    "end_time": "2014-04-12T05:00:00+0200"
   }, 
   {
-   "attending_total": 17, 
+   "attending_total": 18, 
    "name": "TWSTd DJ CONTEST - Maandfinale april", 
    "start_time": "2014-04-11T19:45:00+0200", 
    "image_url": {
-    "source": "https:\\/\\/fbcdn-sphotos-c-a.akamaihd.net\\/hphotos-ak-ash3\\/t1.0-9\\/s720x720\\/1897829_263544077141567_916345290_n.jpg", 
-    "cover_id": 263544077141567, 
+    "source": "https:\\/\\/fbcdn-sphotos-e-a.akamaihd.net\\/hphotos-ak-frc3\\/t1.0-9\\/1497088_585011248253184_452230894_n.jpg", 
+    "cover_id": 585011248253184, 
     "offset_x": 0, 
-    "offset_y": 29
+    "offset_y": 0
    }, 
    "location": "Studio 80", 
    "eventdata": {
@@ -371,14 +418,14 @@
    "end_time": "2014-04-12T00:00:00+0200"
   }, 
   {
-   "attending_total": 32, 
+   "attending_total": 47, 
    "name": "DISCOTEKA | ROG\u00c9R (DEATHMETALDISCOCLUB) & CELESTIAL TERRESTRIAL (CLUB VON WESTEN)", 
    "start_time": "2014-04-06T01:00:00+0200", 
    "image_url": {
-    "source": "https:\\/\\/fbcdn-sphotos-c-a.akamaihd.net\\/hphotos-ak-ash3\\/t1.0-9\\/s720x720\\/1897829_263544077141567_916345290_n.jpg", 
-    "cover_id": 263544077141567, 
+    "source": "https:\\/\\/fbcdn-sphotos-g-a.akamaihd.net\\/hphotos-ak-ash3\\/t1.0-9\\/s720x720\\/1477425_1408620452732289_1642648631_n.jpg", 
+    "cover_id": 1408620452732289, 
     "offset_x": 0, 
-    "offset_y": 29
+    "offset_y": 16
    }, 
    "location": "STUDIO 80 (STUDIO 2) ", 
    "eventdata": {
@@ -404,18 +451,18 @@
    "id": "1484808598408811"
   }, 
   {
-   "attending_total": 253, 
-   "name": "OUTSIDERS - TREVINO, TASKER, VONDER, ROGER, MINDSTER", 
+   "attending_total": 360, 
+   "name": "OUTSIDERS - TREVINO (UK), TASKER (UK), VONDER, ROGER, MINDSTER", 
    "start_time": "2014-04-05T23:00:00+0200", 
    "image_url": {
-    "source": "https:\\/\\/fbcdn-sphotos-c-a.akamaihd.net\\/hphotos-ak-ash3\\/t1.0-9\\/s720x720\\/1897829_263544077141567_916345290_n.jpg", 
-    "cover_id": 263544077141567, 
+    "source": "https:\\/\\/scontent-b.xx.fbcdn.net\\/hphotos-frc1\\/t1.0-9\\/998427_744853032215815_971975566_n.jpg", 
+    "cover_id": 744853032215815, 
     "offset_x": 0, 
-    "offset_y": 29
+    "offset_y": 0
    }, 
    "location": "Studio 80", 
    "eventdata": {
-    "description": "Room 1: \n\u2022\tTrevino \u2013 Klockworks, NakedLunch Original\n\u2022\tTasker \u2013 Boiler Room, Outsiders \n\u2022\tVonder \u2013 Outsiders\n\nRoom 2: Discoteka \n\u2022\tRog\u00e9r - Deathmetaldiscoclub\n\u2022\tMindster (Celestial Terrestrial) - Club von Westen", 
+    "description": "Studio 1: \n\u2022\tTrevino \u2013 Klockworks, NakedLunch Original\n\u2022\tTasker \u2013 Boiler Room, Outsiders \n\u2022\tVonder \u2013 Outsiders\n\nStudio 2: Discoteka (http://tiny.cc/fu34cx)\n\u2022\tRog\u00e9r - Deathmetaldiscoclub\n\u2022\tMindster (Celestial Terrestrial) - Club von Westen", 
     "privacy": "OPEN", 
     "start_time": "2014-04-05T23:00:00+0200", 
     "venue": {
@@ -427,7 +474,7 @@
      "latitude": 52.367207836396, 
      "id": "199623270044"
     }, 
-    "updated_time": "2014-03-02T18:56:12+0000", 
+    "updated_time": "2014-03-22T20:22:26+0000", 
     "is_date_only": false, 
     "end_time": "2014-04-06T05:00:00+0200", 
     "location": "Studio 80", 
@@ -438,21 +485,21 @@
     }, 
     "timezone": "Europe/Amsterdam", 
     "id": "1436401639928974", 
-    "name": "OUTSIDERS - TREVINO, TASKER, VONDER, ROGER, MINDSTER"
+    "name": "OUTSIDERS - TREVINO (UK), TASKER (UK), VONDER, ROGER, MINDSTER"
    }, 
    "timezone": "Europe/Amsterdam", 
    "id": "1436401639928974", 
    "end_time": "2014-04-06T05:00:00+0200"
   }, 
   {
-   "attending_total": 122, 
+   "attending_total": 149, 
    "name": "I amtechno w/ FRANCOIS X (FR)", 
    "start_time": "2014-04-04T23:00:00+0200", 
    "image_url": {
-    "source": "https:\\/\\/fbcdn-sphotos-c-a.akamaihd.net\\/hphotos-ak-ash3\\/t1.0-9\\/s720x720\\/1897829_263544077141567_916345290_n.jpg", 
-    "cover_id": 263544077141567, 
+    "source": "https:\\/\\/fbcdn-sphotos-d-a.akamaihd.net\\/hphotos-ak-prn1\\/t1.0-9\\/s720x720\\/1978743_10153997994205045_1075141988_n.jpg", 
+    "cover_id": "10153997994205045", 
     "offset_x": 0, 
-    "offset_y": 29
+    "offset_y": 0
    }, 
    "location": "Studio 80", 
    "eventdata": {
@@ -500,14 +547,61 @@
    "end_time": "2014-04-05T05:00:00+0200"
   }, 
   {
-   "attending_total": 288, 
+   "attending_total": 72, 
+   "name": "WKND - ANONYM ALL NIGHT + PAUL CAIRO & ROY HABETS", 
+   "start_time": "2014-04-03T23:00:00+0200", 
+   "image_url": {
+    "source": "https:\\/\\/scontent-b.xx.fbcdn.net\\/hphotos-frc1\\/t1.0-9\\/10013946_633714493348260_2109066601_n.jpg", 
+    "cover_id": 633714493348260, 
+    "offset_x": 0, 
+    "offset_y": 61
+   }, 
+   "location": "Your WKND starts here", 
+   "eventdata": {
+    "description": "\u266b \u266a \u266b Iedere donderdag in Studio 80: WKND! \u266b \u266a \u266b\n\nOok deze donderdag is het weer \u00e9\u00e9n groot feest bij WKND. In Studio 1 draait Anonym all night long. Deze producer uit Detroit zal ons heel de nacht voorzien van de beste house en techno uit zijn hometown en daarbuiten. In Studio 2 is het de eer aan onze kersverse resident Paul Cairo en Roy Habets. We zien jullie op de dansvloer!  \n\nStudio 1:\n\u261e Anonym \u2013 all night long!\n\nStudio 2:\n\u261e Paul Cairo\n\u261e Roy Habets\n\nEntree is \u20ac6, maar voor middernacht gratis!\n\nYOUR WKND STARTS HERE!\nwww.soundcloud.com/studio80wknd", 
+    "privacy": "OPEN", 
+    "start_time": "2014-04-03T23:00:00+0200", 
+    "venue": {
+     "city": "Amsterdam", 
+     "zip": "1017 CT", 
+     "country": "Netherlands", 
+     "longitude": 4.8967403715, 
+     "street": "Studio 80, Rembrandtplein 17", 
+     "latitude": 52.3664726659, 
+     "id": "159974397388941"
+    }, 
+    "updated_time": "2014-03-21T11:29:11+0000", 
+    "is_date_only": false, 
+    "end_time": "2014-04-04T03:45:00+0200", 
+    "location": "Your WKND starts here", 
+    "owner": {
+     "category": "Organization", 
+     "name": "Your WKND starts here", 
+     "category_list": [
+      {
+       "id": "198503866828628", 
+       "name": "Organization"
+      }
+     ], 
+     "id": "159974397388941"
+    }, 
+    "timezone": "Europe/Amsterdam", 
+    "id": "796805847013788", 
+    "name": "WKND - ANONYM ALL NIGHT + PAUL CAIRO & ROY HABETS"
+   }, 
+   "timezone": "Europe/Amsterdam", 
+   "id": "796805847013788", 
+   "end_time": "2014-04-04T03:45:00+0200"
+  }, 
+  {
+   "attending_total": 309, 
    "name": "THE GREAT ESCAPE - DETROIT SWINDLE ALBUM RELEASE", 
    "start_time": "2014-03-29T23:00:00+0100", 
    "image_url": {
-    "source": "https:\\/\\/fbcdn-sphotos-c-a.akamaihd.net\\/hphotos-ak-ash3\\/t1.0-9\\/s720x720\\/1897829_263544077141567_916345290_n.jpg", 
-    "cover_id": 263544077141567, 
+    "source": "https:\\/\\/fbcdn-sphotos-c-a.akamaihd.net\\/hphotos-ak-frc1\\/t1.0-9\\/s720x720\\/1901599_519292361525131_2082789072_n.jpg", 
+    "cover_id": 519292361525131, 
     "offset_x": 0, 
-    "offset_y": 29
+    "offset_y": 0
    }, 
    "location": "The Great Escape", 
    "eventdata": {
@@ -523,7 +617,7 @@
      "latitude": 52.3663314737, 
      "id": "498414740279560"
     }, 
-    "updated_time": "2014-03-12T16:04:04+0000", 
+    "updated_time": "2014-03-20T11:09:47+0000", 
     "is_date_only": false, 
     "location": "The Great Escape", 
     "owner": {
@@ -545,14 +639,14 @@
    "id": "772496869444668"
   }, 
   {
-   "attending_total": 96, 
+   "attending_total": 104, 
    "name": "THE SHELL XIII w/ SEVERINO (UK)", 
    "start_time": "2014-03-28T23:00:00+0100", 
    "image_url": {
-    "source": "https:\\/\\/fbcdn-sphotos-c-a.akamaihd.net\\/hphotos-ak-ash3\\/t1.0-9\\/s720x720\\/1897829_263544077141567_916345290_n.jpg", 
-    "cover_id": 263544077141567, 
+    "source": "https:\\/\\/fbcdn-sphotos-d-a.akamaihd.net\\/hphotos-ak-frc1\\/t1.0-9\\/s720x720\\/1972520_10153969406535045_367707776_n.jpg", 
+    "cover_id": "10153969406535045", 
     "offset_x": 0, 
-    "offset_y": 29
+    "offset_y": 8
    }, 
    "location": "Studio 80", 
    "eventdata": {
@@ -600,14 +694,14 @@
    "end_time": "2014-03-29T05:00:00+0100"
   }, 
   {
-   "attending_total": 87, 
+   "attending_total": 139, 
    "name": "WKND - SAMUEL DEEP, ILLE BITCH, MULLA, GRYTHM", 
    "start_time": "2014-03-27T23:00:00+0100", 
    "image_url": {
-    "source": "https:\\/\\/fbcdn-sphotos-c-a.akamaihd.net\\/hphotos-ak-ash3\\/t1.0-9\\/s720x720\\/1897829_263544077141567_916345290_n.jpg", 
-    "cover_id": 263544077141567, 
+    "source": "https:\\/\\/fbcdn-sphotos-c-a.akamaihd.net\\/hphotos-ak-prn1\\/t1.0-9\\/1975156_632370450149331_1606820975_n.jpg", 
+    "cover_id": 632370450149331, 
     "offset_x": 0, 
-    "offset_y": 29
+    "offset_y": 47
    }, 
    "location": "Your WKND starts here", 
    "eventdata": {
@@ -647,20 +741,20 @@
    "end_time": "2014-03-28T03:45:00+0100"
   }, 
   {
-   "attending_total": 298, 
+   "attending_total": 347, 
    "name": "ANIMO X WOLF MUSIC RECORDINGS w/ MEDLAR, GREYMATTER, KRL, MATT & STU", 
-   "start_time": "2014-03-22T22:00:00+0100", 
+   "start_time": "2014-03-22T23:00:00+0100", 
    "image_url": {
-    "source": "https:\\/\\/fbcdn-sphotos-c-a.akamaihd.net\\/hphotos-ak-ash3\\/t1.0-9\\/s720x720\\/1897829_263544077141567_916345290_n.jpg", 
-    "cover_id": 263544077141567, 
-    "offset_x": 0, 
-    "offset_y": 29
+    "source": "https:\\/\\/scontent-a.xx.fbcdn.net\\/hphotos-prn1\\/t1.0-9\\/1554538_280854682066281_1450540360_n.jpg", 
+    "cover_id": 280854682066281, 
+    "offset_x": 200, 
+    "offset_y": 0
    }, 
    "location": "Studio 80", 
    "eventdata": {
-    "description": "It's time for something new and something fresh. 'Animo' brings you the most upcoming record labels in electronic dance music. \n\nAfter our first night in Utrecht, we'll be taking over the Studio 80 for the very first time, inviting Wolf Music Recordings with Medlar (UK), Greymatter (UK), KRL (UK) and Matt & Stu (UK).\n\nhttp://wolfmusicrecords.com/\n\n\u2022________________________Line up____________________________\u2022\n\n\u2022 STUDIO 1\nMedlar (UK)\nGreymatter (UK)\nKRL (UK)\nMatt & Stu (UK)\n\n\u2022 STUDIO 2\nOsman Beats   \nSombro \n\n\u2022________________________Tickets____________________________\u2022\n\nEarlybirds: \u20ac10,- [SOLD OUT]\nRegular: \u20ac12,50\n\nTicketlink: http://bit.ly/1mFa13m\n\n\u2022___________________________________________________________\u2022\n\nDon't forget to like our page:\nhttps://www.facebook.com/pages/Animo/124067487745002 \n\nDit is een concept van Jongens v/d Wereld\n\nhttp://www.jongensvdwereld.nl/", 
+    "description": "It's time for something new and something fresh. 'Animo' brings you the most upcoming record labels in electronic dance music. \n\nAfter our first night in Utrecht, we'll be taking over the Studio 80 for the very first time, inviting Wolf Music Recordings with Medlar (UK), Greymatter (UK), KRL (UK) and Matt & Stu (UK).\n\nhttp://wolfmusicrecords.com/\n\n\u2022________________________Line up____________________________\u2022\n\n\u2022 STUDIO 1\nMedlar (UK)\nGreymatter (UK)\nKRL (UK)\nMatt & Stu (UK)\n\n\u2022 STUDIO 2\nOsman Beats   \nSombro \nLocklead\n\n\u2022________________________Tickets____________________________\u2022\n\nEarlybirds: \u20ac10,- [SOLD OUT]\nRegular: \u20ac12,50\n\nTicketlink: http://bit.ly/1mFa13m\n\n\u2022___________________________________________________________\u2022\n\nDon't forget to like our page:\nhttps://www.facebook.com/pages/Animo/124067487745002 \n\nDit is een concept van Jongens v/d Wereld\n\nhttp://www.jongensvdwereld.nl/", 
     "privacy": "OPEN", 
-    "start_time": "2014-03-22T22:00:00+0100", 
+    "start_time": "2014-03-22T23:00:00+0100", 
     "venue": {
      "city": "Amsterdam", 
      "zip": "1017 CT", 
@@ -670,7 +764,7 @@
      "latitude": 52.367207836396, 
      "id": "199623270044"
     }, 
-    "updated_time": "2014-03-13T17:12:55+0000", 
+    "updated_time": "2014-03-21T11:57:31+0000", 
     "is_date_only": false, 
     "location": "Studio 80", 
     "owner": {
@@ -692,18 +786,18 @@
    "id": "486026734841589"
   }, 
   {
-   "attending_total": 124, 
+   "attending_total": 157, 
    "name": "SECRETSUNDAZE w/ NICK HOPPNER (DE), GILES SMITH (UK) & ROBERT BERGMAN", 
    "start_time": "2014-03-21T23:00:00+0100", 
    "image_url": {
-    "source": "https:\\/\\/fbcdn-sphotos-c-a.akamaihd.net\\/hphotos-ak-ash3\\/t1.0-9\\/s720x720\\/1897829_263544077141567_916345290_n.jpg", 
-    "cover_id": 263544077141567, 
+    "source": "https:\\/\\/scontent-b.xx.fbcdn.net\\/hphotos-frc3\\/t1.0-9\\/1621879_10154002357875045_91885793_n.jpg", 
+    "cover_id": "10154002357875045", 
     "offset_x": 0, 
-    "offset_y": 29
+    "offset_y": 0
    }, 
    "location": "Studio 80", 
    "eventdata": {
-    "description": "secretsundaze returns to their Amsterdam homebase with two very special guests: Panoramabar resident and Ostgut Ton manager Nick H\u00f6ppner, and Amsterdam's talent Robert Bergman - hosted by secretsundaze very own Giles Smith. \n\nStudio 1:\nNick H\u00f6ppner (Ostgut Ton, DE)\nGiles Smith (secretsundaze, UK)\n\nStudio 2:\nRobert Bergman (Rush Hour, NL) \n\nFriday March 21st, 23:00-05:00\nInfo & tickets: www.studio-80.nl", 
+    "description": "secretsundaze returns to their Amsterdam homebase with two very special guests: Panoramabar resident and Ostgut Ton manager Nick H\u00f6ppner, and Amsterdam's talent Robert Bergman - hosted by secretsundaze very own Giles Smith. \n\nStudio 1:\nNick H\u00f6ppner (Ostgut Ton, DE)\nGiles Smith (secretsundaze, UK)\nZoran Pillay (NL) \n\nStudio 2:\nRobert Bergman (Rush Hour, NL) \n\nFriday March 21st, 23:00-05:00\nInfo & tickets: www.studio-80.nl", 
     "privacy": "OPEN", 
     "start_time": "2014-03-21T23:00:00+0100", 
     "venue": {
@@ -715,7 +809,7 @@
      "latitude": 52.367207836396, 
      "id": "199623270044"
     }, 
-    "updated_time": "2014-03-11T21:15:40+0000", 
+    "updated_time": "2014-03-21T13:57:33+0000", 
     "is_date_only": false, 
     "end_time": "2014-03-22T05:00:00+0100", 
     "location": "Studio 80", 
@@ -747,14 +841,14 @@
    "end_time": "2014-03-22T05:00:00+0100"
   }, 
   {
-   "attending_total": 195, 
+   "attending_total": 213, 
    "name": "WKND - MAXI MILL, BEESMUNT SOUNDSYSTEM, TIM HOEBEN & DAVID CORNELISSEN", 
    "start_time": "2014-03-20T23:00:00+0100", 
    "image_url": {
-    "source": "https:\\/\\/fbcdn-sphotos-c-a.akamaihd.net\\/hphotos-ak-ash3\\/t1.0-9\\/s720x720\\/1897829_263544077141567_916345290_n.jpg", 
-    "cover_id": 263544077141567, 
+    "source": "https:\\/\\/scontent-b.xx.fbcdn.net\\/hphotos-prn2\\/t1.0-9\\/1618628_625020944217615_469660959_n.jpg", 
+    "cover_id": 625020944217615, 
     "offset_x": 0, 
-    "offset_y": 29
+    "offset_y": 35
    }, 
    "location": "Your WKND starts here", 
    "eventdata": {
@@ -794,14 +888,14 @@
    "end_time": "2014-03-21T03:45:00+0100"
   }, 
   {
-   "attending_total": 536, 
+   "attending_total": 535, 
    "name": "BORIS 'WIPWAP' WERNER SHOW - EXTRA LONG MARATHON SET", 
    "start_time": "2014-03-15T21:00:00+0100", 
    "image_url": {
-    "source": "https:\\/\\/fbcdn-sphotos-c-a.akamaihd.net\\/hphotos-ak-ash3\\/t1.0-9\\/s720x720\\/1897829_263544077141567_916345290_n.jpg", 
-    "cover_id": 263544077141567, 
+    "source": "https:\\/\\/fbcdn-sphotos-a-a.akamaihd.net\\/hphotos-ak-ash3\\/t1.0-9\\/s720x720\\/1796435_10153881999995045_453060118_n.jpg", 
+    "cover_id": "10153881999995045", 
     "offset_x": 0, 
-    "offset_y": 29
+    "offset_y": 0
    }, 
    "location": "Studio 80", 
    "eventdata": {
@@ -851,10 +945,10 @@
    "name": "TOMORROW IS NOW, KID! w/ JOVONN (USA)", 
    "start_time": "2014-03-14T23:00:00+0100", 
    "image_url": {
-    "source": "https:\\/\\/fbcdn-sphotos-c-a.akamaihd.net\\/hphotos-ak-ash3\\/t1.0-9\\/s720x720\\/1897829_263544077141567_916345290_n.jpg", 
-    "cover_id": 263544077141567, 
+    "source": "https:\\/\\/fbcdn-sphotos-d-a.akamaihd.net\\/hphotos-ak-frc1\\/t1.0-9\\/s720x720\\/1888629_10202396158818076_1212034668_n.jpg", 
+    "cover_id": "10202396158818076", 
     "offset_x": 0, 
-    "offset_y": 29
+    "offset_y": 0
    }, 
    "location": "Studio 80", 
    "eventdata": {
@@ -904,10 +998,10 @@
    "name": "TWSTd DJ CONTEST - Maandfinale maart", 
    "start_time": "2014-03-14T19:45:00+0100", 
    "image_url": {
-    "source": "https:\\/\\/fbcdn-sphotos-c-a.akamaihd.net\\/hphotos-ak-ash3\\/t1.0-9\\/s720x720\\/1897829_263544077141567_916345290_n.jpg", 
-    "cover_id": 263544077141567, 
+    "source": "https:\\/\\/scontent-b.xx.fbcdn.net\\/hphotos-ash3\\/t1.0-9\\/1555350_585010351586607_1612477414_n.jpg", 
+    "cover_id": 585010351586607, 
     "offset_x": 0, 
-    "offset_y": 29
+    "offset_y": 0
    }, 
    "location": "Studio 80", 
    "eventdata": {
@@ -941,14 +1035,14 @@
    "end_time": "2014-03-15T00:00:00+0100"
   }, 
   {
-   "attending_total": 189, 
+   "attending_total": 188, 
    "name": "WKND - AWANTO3, BOB NAGEL & MICHAEL JACQUES, PAUL CAIRO, ROMAN COSKUN", 
    "start_time": "2014-03-13T23:00:00+0100", 
    "image_url": {
-    "source": "https:\\/\\/fbcdn-sphotos-c-a.akamaihd.net\\/hphotos-ak-ash3\\/t1.0-9\\/s720x720\\/1897829_263544077141567_916345290_n.jpg", 
-    "cover_id": 263544077141567, 
+    "source": "https:\\/\\/fbcdn-sphotos-h-a.akamaihd.net\\/hphotos-ak-prn2\\/t1.0-9\\/s720x720\\/1977134_627045430681833_419331668_n.jpg", 
+    "cover_id": 627045430681833, 
     "offset_x": 0, 
-    "offset_y": 29
+    "offset_y": 53
    }, 
    "location": "Your WKND starts here", 
    "eventdata": {
@@ -986,163 +1080,6 @@
    "timezone": "Europe/Amsterdam", 
    "id": "220738101451397", 
    "end_time": "2014-03-14T03:45:00+0100"
-  }, 
-  {
-   "attending_total": 194, 
-   "name": "CLAUDE VONSTROKE w/ CLAUDE VONSTROKE (USA), J.PHLIP (USA), PRESK, KNOW V.A. & DJ+", 
-   "start_time": "2014-03-08T23:00:00+0100", 
-   "image_url": {
-    "source": "https:\\/\\/fbcdn-sphotos-c-a.akamaihd.net\\/hphotos-ak-ash3\\/t1.0-9\\/s720x720\\/1897829_263544077141567_916345290_n.jpg", 
-    "cover_id": 263544077141567, 
-    "offset_x": 0, 
-    "offset_y": 29
-   }, 
-   "location": "Studio 80", 
-   "eventdata": {
-    "description": "Dirtybird labelboss Claude VonStroke returned to the nest in September with his third full-length album. Over its eight years of activity, house imprint Dirtybird has provided a platform for breakout stars like Eats Everything and Julio Bashmore, popular regulars like The Martin Brothers and French Fries, and the occasional legend (Cajmere). With the mark of Dirtybird's 100th release - Urban Animal - VonStroke tours Europe this winter, accompanied by his proteg\u00e9, the talented J. Phlip. \n\nStudio 1:\n\u2726 Claude VonStroke (Dirtybird, USA)\n\u2726 J. Phlip (Dirtybird, USA)\n\u2726 Presk (Ten Thousand Yen, NL)\n\nStudio 2: \n\u2726 Know V.A. & DJ+ (Hoax, NL)\n\nPresale \u20ac13 | Doorsale \u20ac15\nMore info: www.studio-80.nl", 
-    "privacy": "OPEN", 
-    "start_time": "2014-03-08T23:00:00+0100", 
-    "venue": {
-     "city": "Amsterdam", 
-     "zip": "1017 CT", 
-     "country": "Netherlands", 
-     "longitude": 4.8963926228847, 
-     "street": "Rembrandtplein 17", 
-     "latitude": 52.367207836396, 
-     "id": "199623270044"
-    }, 
-    "updated_time": "2014-03-08T14:48:23+0000", 
-    "is_date_only": false, 
-    "end_time": "2014-03-09T05:00:00+0100", 
-    "location": "Studio 80", 
-    "owner": {
-     "category": "Club", 
-     "name": "Studio 80", 
-     "category_list": [
-      {
-       "id": "191478144212980", 
-       "name": "Night Club"
-      }, 
-      {
-       "id": "176139629103647", 
-       "name": "Dance Club"
-      }, 
-      {
-       "id": "133436743388217", 
-       "name": "Arts & Entertainment"
-      }
-     ], 
-     "id": "199623270044"
-    }, 
-    "timezone": "Europe/Amsterdam", 
-    "id": "1400336693559734", 
-    "name": "CLAUDE VONSTROKE w/ CLAUDE VONSTROKE (USA), J.PHLIP (USA), PRESK, KNOW V.A. & DJ+"
-   }, 
-   "timezone": "Europe/Amsterdam", 
-   "id": "1400336693559734", 
-   "end_time": "2014-03-09T05:00:00+0100"
-  }, 
-  {
-   "attending_total": 240, 
-   "name": "2000 AND ONE'S BIRTHDAY w/ RIVA STARR (UK)", 
-   "start_time": "2014-03-07T23:00:00+0100", 
-   "image_url": {
-    "source": "https:\\/\\/fbcdn-sphotos-c-a.akamaihd.net\\/hphotos-ak-ash3\\/t1.0-9\\/s720x720\\/1897829_263544077141567_916345290_n.jpg", 
-    "cover_id": 263544077141567, 
-    "offset_x": 0, 
-    "offset_y": 29
-   }, 
-   "location": "Studio 80", 
-   "eventdata": {
-    "description": "Celebrating 2000 and One's birthday! \n\nRiva Starr (UK)\nhttps://soundcloud.com/rivastarr\n\n2000 and One \nhttps://soundcloud.com/2000andone\n\nJoey Daniel \nhttps://soundcloud.com/joey-daniel\n\nIci Sans Merci \nhttps://soundcloud.com/ici-sans-merci\n\nPresale \u20ac13 | Doorsale \u20ac15\nMore info: www.studio-80.nl", 
-    "privacy": "OPEN", 
-    "start_time": "2014-03-07T23:00:00+0100", 
-    "venue": {
-     "city": "Amsterdam", 
-     "zip": "1017 CT", 
-     "country": "Netherlands", 
-     "longitude": 4.8963926228847, 
-     "street": "Rembrandtplein 17", 
-     "latitude": 52.367207836396, 
-     "id": "199623270044"
-    }, 
-    "updated_time": "2014-02-26T00:36:37+0000", 
-    "is_date_only": false, 
-    "end_time": "2014-03-08T05:00:00+0100", 
-    "location": "Studio 80", 
-    "owner": {
-     "category": "Club", 
-     "name": "Studio 80", 
-     "category_list": [
-      {
-       "id": "191478144212980", 
-       "name": "Night Club"
-      }, 
-      {
-       "id": "176139629103647", 
-       "name": "Dance Club"
-      }, 
-      {
-       "id": "133436743388217", 
-       "name": "Arts & Entertainment"
-      }
-     ], 
-     "id": "199623270044"
-    }, 
-    "timezone": "Europe/Amsterdam", 
-    "id": "574950262595899", 
-    "name": "2000 AND ONE'S BIRTHDAY w/ RIVA STARR (UK)"
-   }, 
-   "timezone": "Europe/Amsterdam", 
-   "id": "574950262595899", 
-   "end_time": "2014-03-08T05:00:00+0100"
-  }, 
-  {
-   "attending_total": 186, 
-   "name": "WKND - KID SUBLIME, PETE BANDIT & JASON SHAE, TIJN BENEDEK, LEYO", 
-   "start_time": "2014-03-06T23:00:00+0100", 
-   "image_url": {
-    "source": "https:\\/\\/fbcdn-sphotos-c-a.akamaihd.net\\/hphotos-ak-ash3\\/t1.0-9\\/s720x720\\/1897829_263544077141567_916345290_n.jpg", 
-    "cover_id": 263544077141567, 
-    "offset_x": 0, 
-    "offset_y": 29
-   }, 
-   "location": "Your WKND starts here", 
-   "eventdata": {
-    "description": "\u266b \u266a \u266b Iedere donderdag in Studio 80: WKND! \u266b \u266a \u266b\n\nStudio 1:\n\u261e Kid Sublime\n\u261e Pete Bandit & Jason Shae\n\nStudio 2:\n\u261e Tijn Benedek\t\n\u261e Leyo\n\nEntree is \u20ac6, maar voor middernacht gratis!\n \nYOUR WKND STARTS HERE!\nwww.soundcloud.com/studio80wknd", 
-    "privacy": "OPEN", 
-    "start_time": "2014-03-06T23:00:00+0100", 
-    "venue": {
-     "city": "Amsterdam", 
-     "zip": "1017 CT", 
-     "country": "Netherlands", 
-     "longitude": 4.8967403715, 
-     "street": "Studio 80, Rembrandtplein 17", 
-     "latitude": 52.3664726659, 
-     "id": "159974397388941"
-    }, 
-    "updated_time": "2014-02-25T10:21:26+0000", 
-    "is_date_only": false, 
-    "end_time": "2014-03-07T03:45:00+0100", 
-    "location": "Your WKND starts here", 
-    "owner": {
-     "category": "Organization", 
-     "name": "Your WKND starts here", 
-     "category_list": [
-      {
-       "id": "198503866828628", 
-       "name": "Organization"
-      }
-     ], 
-     "id": "159974397388941"
-    }, 
-    "timezone": "Europe/Amsterdam", 
-    "id": "1411863722399136", 
-    "name": "WKND - KID SUBLIME, PETE BANDIT & JASON SHAE, TIJN BENEDEK, LEYO"
-   }, 
-   "timezone": "Europe/Amsterdam", 
-   "id": "1411863722399136", 
-   "end_time": "2014-03-07T03:45:00+0100"
   }
  ]
 }

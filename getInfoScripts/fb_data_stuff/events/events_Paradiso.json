@@ -1,21 +1,21 @@
 {
  "paging": {
   "cursors": {
-   "after": "NzczMDg2NjIyNzE3NTk1", 
+   "after": "MjA1MTMzMTQ5Njk3MTcw", 
    "before": "MjU3MTc5NDMxMTI3MTEy"
   }, 
-  "next": "https://graph.facebook.com/42503443337/events?access_token=CAACEdEose0cBADZC2BqWfioOt5tuTihjtSBXb01vGSzScGuKvGevBuk1T7wZAPlTwdjZBBBL9b0db3xQvjRSmAoKUIZBPcwe7Env6l20MvrePfzRQuZCIyygZCdAM8wZBfSvlqo168rYQepONRFfQGKXVHbKtoWsOtqEmnuq4fuupKKsRfcd8sShc1qtUKZA5edEp4hCHkdZCNQZDZD&limit=25&after=NzczMDg2NjIyNzE3NTk1"
+  "next": "https://graph.facebook.com/42503443337/events?access_token=CAACEdEose0cBAOet2VJez2nkH6dHSPT7QaJv0s5Ifvg5hZAYvPSb9ntWmmgwMNFHifLUSZB6c6ujGXeq9KW6svaWZAt8VpUxKyOohLinEfMFEohVn55rtVzZCOMpY7ZCFAZCxdgLI2l8X8e8ZBLpBUtwwkpXzVIAIRTRVJwMOFsZCb57sFAANNtIZAJnXKuEYfM0iHev4Ine30AZDZD&limit=25&after=MjA1MTMzMTQ5Njk3MTcw"
  }, 
  "data": [
   {
-   "attending_total": 39, 
+   "attending_total": 45, 
    "name": "Vanessa Paradis @ Paradiso", 
    "start_time": "2014-06-19T19:30:00+0200", 
    "image_url": {
-    "source": "https:\\/\\/fbcdn-sphotos-c-a.akamaihd.net\\/hphotos-ak-ash3\\/t1.0-9\\/s720x720\\/1897829_263544077141567_916345290_n.jpg", 
-    "cover_id": 263544077141567, 
+    "source": "https:\\/\\/scontent-b.xx.fbcdn.net\\/hphotos-prn2\\/t1.0-9\\/s720x720\\/1618582_10152294248768338_340081943_n.jpg", 
+    "cover_id": "10152294248768338", 
     "offset_x": 0, 
-    "offset_y": 29
+    "offset_y": 0
    }, 
    "location": "Paradiso Amsterdam", 
    "eventdata": {
@@ -26,9 +26,9 @@
      "city": "Amsterdam", 
      "zip": "1017SG", 
      "country": "Netherlands", 
-     "longitude": 4.8838521975652, 
+     "longitude": 4.8838489790415, 
      "street": "Weteringschans 6-8", 
-     "latitude": 52.362207802394, 
+     "latitude": 52.362204699876, 
      "id": "42503443337"
     }, 
     "updated_time": "2014-02-20T15:02:30+0000", 
@@ -57,14 +57,14 @@
    "id": "257179431127112"
   }, 
   {
-   "attending_total": 52, 
+   "attending_total": 53, 
    "name": "Chromeo @ Paradiso", 
    "start_time": "2014-06-04T19:30:00+0200", 
    "image_url": {
-    "source": "https:\\/\\/fbcdn-sphotos-c-a.akamaihd.net\\/hphotos-ak-ash3\\/t1.0-9\\/s720x720\\/1897829_263544077141567_916345290_n.jpg", 
-    "cover_id": 263544077141567, 
+    "source": "https:\\/\\/fbcdn-sphotos-a-a.akamaihd.net\\/hphotos-ak-prn2\\/t1.0-9\\/s720x720\\/1558435_10152196517018338_324033441_n.jpg", 
+    "cover_id": "10152196517018338", 
     "offset_x": 0, 
-    "offset_y": 29
+    "offset_y": 37
    }, 
    "location": "Paradiso Amsterdam", 
    "eventdata": {
@@ -75,9 +75,9 @@
      "city": "Amsterdam", 
      "zip": "1017SG", 
      "country": "Netherlands", 
-     "longitude": 4.8838521975652, 
+     "longitude": 4.8838489790415, 
      "street": "Weteringschans 6-8", 
-     "latitude": 52.362207802394, 
+     "latitude": 52.362204699876, 
      "id": "42503443337"
     }, 
     "updated_time": "2014-01-07T10:59:08+0000", 
@@ -106,14 +106,14 @@
    "id": "1409903185920969"
   }, 
   {
-   "attending_total": 62, 
+   "attending_total": 125, 
    "name": "Brainfeeder presents: Flying Lotus, Captain Murphy & Thundercat | 03.06.2014 | Paradiso", 
    "start_time": "2014-06-03T20:30:00+0200", 
    "image_url": {
-    "source": "https:\\/\\/fbcdn-sphotos-c-a.akamaihd.net\\/hphotos-ak-ash3\\/t1.0-9\\/s720x720\\/1897829_263544077141567_916345290_n.jpg", 
-    "cover_id": 263544077141567, 
+    "source": "https:\\/\\/fbcdn-sphotos-e-a.akamaihd.net\\/hphotos-ak-ash3\\/t1.0-9\\/s720x720\\/3866_10152340674353338_1653911162_n.jpg", 
+    "cover_id": "10152340674353338", 
     "offset_x": 0, 
-    "offset_y": 29
+    "offset_y": 23
    }, 
    "location": "Paradiso Amsterdam", 
    "eventdata": {
@@ -124,9 +124,9 @@
      "city": "Amsterdam", 
      "zip": "1017SG", 
      "country": "Netherlands", 
-     "longitude": 4.8838521975652, 
+     "longitude": 4.8838489790415, 
      "street": "Weteringschans 6-8", 
-     "latitude": 52.362207802394, 
+     "latitude": 52.362204699876, 
      "id": "42503443337"
     }, 
     "updated_time": "2014-03-19T11:04:53+0000", 
@@ -159,10 +159,10 @@
    "name": "Giuda @ Paradiso Kleine Zaal", 
    "start_time": "2014-06-02T22:00:00+0200", 
    "image_url": {
-    "source": "https:\\/\\/fbcdn-sphotos-c-a.akamaihd.net\\/hphotos-ak-ash3\\/t1.0-9\\/s720x720\\/1897829_263544077141567_916345290_n.jpg", 
-    "cover_id": 263544077141567, 
+    "source": "https:\\/\\/scontent-b.xx.fbcdn.net\\/hphotos-ash3\\/t1.0-9\\/s720x720\\/1016281_10152213259158338_710600090_n.jpg", 
+    "cover_id": "10152213259158338", 
     "offset_x": 0, 
-    "offset_y": 29
+    "offset_y": 0
    }, 
    "location": "Paradiso Amsterdam", 
    "eventdata": {
@@ -173,9 +173,9 @@
      "city": "Amsterdam", 
      "zip": "1017SG", 
      "country": "Netherlands", 
-     "longitude": 4.8838521975652, 
+     "longitude": 4.8838489790415, 
      "street": "Weteringschans 6-8", 
-     "latitude": 52.362207802394, 
+     "latitude": 52.362204699876, 
      "id": "42503443337"
     }, 
     "updated_time": "2014-01-15T10:11:40+0000", 
@@ -204,14 +204,14 @@
    "id": "570282936392299"
   }, 
   {
-   "attending_total": 21, 
+   "attending_total": 24, 
    "name": "Domino & Ribbon Music present: Hamilton Leithauser, The Amazing Snakeheads, Francois & The Atlas Mountains, gepresenteerd door Paradiso", 
    "start_time": "2014-05-21T19:30:00+0200", 
    "image_url": {
-    "source": "https:\\/\\/fbcdn-sphotos-c-a.akamaihd.net\\/hphotos-ak-ash3\\/t1.0-9\\/s720x720\\/1897829_263544077141567_916345290_n.jpg", 
-    "cover_id": 263544077141567, 
+    "source": "https:\\/\\/fbcdn-sphotos-d-a.akamaihd.net\\/hphotos-ak-frc1\\/t1.0-9\\/1926851_10152347204908338_29805030_n.jpg", 
+    "cover_id": "10152347204908338", 
     "offset_x": 0, 
-    "offset_y": 29
+    "offset_y": 5
    }, 
    "location": "Tolhuistuin", 
    "eventdata": {
@@ -222,9 +222,9 @@
      "city": "Amsterdam", 
      "zip": "1031 CL", 
      "country": "Netherlands", 
-     "longitude": 4.9054238146802, 
+     "longitude": 4.9028975984293, 
      "street": "Tolhuisweg 5", 
-     "latitude": 52.383669139932, 
+     "latitude": 52.382914463521, 
      "id": "116954721702118"
     }, 
     "updated_time": "2014-03-17T15:55:16+0000", 
@@ -253,14 +253,14 @@
    "id": "1462947863922015"
   }, 
   {
-   "attending_total": 9, 
+   "attending_total": 15, 
    "name": "Teho Teardo & Blixa Bargeld in Paradiso", 
    "start_time": "2014-05-12T20:00:00+0200", 
    "image_url": {
-    "source": "https:\\/\\/fbcdn-sphotos-c-a.akamaihd.net\\/hphotos-ak-ash3\\/t1.0-9\\/s720x720\\/1897829_263544077141567_916345290_n.jpg", 
-    "cover_id": 263544077141567, 
+    "source": "https:\\/\\/scontent-a.xx.fbcdn.net\\/hphotos-frc3\\/t1.0-9\\/s720x720\\/1471735_10152278993818338_452964627_n.jpg", 
+    "cover_id": "10152278993818338", 
     "offset_x": 0, 
-    "offset_y": 29
+    "offset_y": 23
    }, 
    "location": "Paradiso Amsterdam", 
    "eventdata": {
@@ -271,9 +271,9 @@
      "city": "Amsterdam", 
      "zip": "1017SG", 
      "country": "Netherlands", 
-     "longitude": 4.8838521975652, 
+     "longitude": 4.8838489790415, 
      "street": "Weteringschans 6-8", 
-     "latitude": 52.362207802394, 
+     "latitude": 52.362204699876, 
      "id": "42503443337"
     }, 
     "updated_time": "2014-02-13T15:08:11+0000", 
@@ -302,14 +302,14 @@
    "id": "1424265161147621"
   }, 
   {
-   "attending_total": 113, 
+   "attending_total": 127, 
    "name": "Chet Faker, vrijdag 2 mei @ Bitterzoet", 
    "start_time": "2014-05-02T21:00:00+0200", 
    "image_url": {
-    "source": "https:\\/\\/fbcdn-sphotos-c-a.akamaihd.net\\/hphotos-ak-ash3\\/t1.0-9\\/s720x720\\/1897829_263544077141567_916345290_n.jpg", 
-    "cover_id": 263544077141567, 
+    "source": "https:\\/\\/fbcdn-sphotos-f-a.akamaihd.net\\/hphotos-ak-frc3\\/t1.0-9\\/s720x720\\/1525453_10152281336858338_1810512747_n.jpg", 
+    "cover_id": "10152281336858338", 
     "offset_x": 0, 
-    "offset_y": 29
+    "offset_y": 36
    }, 
    "location": "Paradiso Amsterdam", 
    "eventdata": {
@@ -320,9 +320,9 @@
      "city": "Amsterdam", 
      "zip": "1017SG", 
      "country": "Netherlands", 
-     "longitude": 4.8838521975652, 
+     "longitude": 4.8838489790415, 
      "street": "Weteringschans 6-8", 
-     "latitude": 52.362207802394, 
+     "latitude": 52.362204699876, 
      "id": "42503443337"
     }, 
     "updated_time": "2014-02-14T15:04:42+0000", 
@@ -351,14 +351,63 @@
    "id": "447794138683007"
   }, 
   {
-   "attending_total": 29, 
+   "attending_total": 15, 
+   "name": "Cris Cab @ Paradiso", 
+   "start_time": "2014-05-01T19:30:00+0200", 
+   "image_url": {
+    "source": "https:\\/\\/fbcdn-sphotos-d-a.akamaihd.net\\/hphotos-ak-ash3\\/t1.0-9\\/s720x720\\/1897827_10152354439598338_639569768_n.jpg", 
+    "cover_id": "10152354439598338", 
+    "offset_x": 0, 
+    "offset_y": 14
+   }, 
+   "location": "Paradiso Amsterdam", 
+   "eventdata": {
+    "description": "Onder de vleugels van Pharell heeft de jonge Amerikaanse zanger Cris Cab een grote hit met 'Liar Liar'. In januari konden we kennis met hem maken bij zijn eerste Europese concert in een razendsnel uitverkochte Bitterzoet. Op donderdag 1 mei is het tijd voor de grote zaal van Paradiso! \n\nVoor die tijd, begin april, zal Cris Cab zijn album \u2018Where I Belong\u2019 uitbrengen. Na de hit \u201cLiar Liar\u201d met Pharrell wordt zijn nieuwe single \u2018Loves Me Not\u2019. \n\nCRIS CAB\ndonderdag 1 mei 2014 in Paradiso\nhoofdprogramma Cris Cab: 20.30 uur \nvoorprogramma (nog onbekend): 19.30 uur \nzaal open: 19.00 uur \nentree: \u20ac 15,00 excl. lidmaatschap (3,50 p.m. / 25,- p.j.)\nVoorverkoop vanaf zaterdag 22 maart via Ticketmaster en Paradiso: \nhttp://www.paradiso.nl/web/Agenda-Item/Cris-Cab-Locatie-Bitterzoet.htm", 
+    "privacy": "OPEN", 
+    "start_time": "2014-05-01T19:30:00+0200", 
+    "venue": {
+     "city": "Amsterdam", 
+     "zip": "1017SG", 
+     "country": "Netherlands", 
+     "longitude": 4.8838489790415, 
+     "street": "Weteringschans 6-8", 
+     "latitude": 52.362204699876, 
+     "id": "42503443337"
+    }, 
+    "updated_time": "2014-03-20T16:58:39+0000", 
+    "is_date_only": false, 
+    "location": "Paradiso Amsterdam", 
+    "owner": {
+     "category": "Arts/entertainment/nightlife", 
+     "name": "Paradiso Amsterdam", 
+     "category_list": [
+      {
+       "id": "191478144212980", 
+       "name": "Night Club"
+      }, 
+      {
+       "id": "179943432047564", 
+       "name": "Concert Venue"
+      }
+     ], 
+     "id": "42503443337"
+    }, 
+    "timezone": "Europe/Amsterdam", 
+    "id": "665333400193534", 
+    "name": "Cris Cab @ Paradiso"
+   }, 
+   "timezone": "Europe/Amsterdam", 
+   "id": "665333400193534"
+  }, 
+  {
+   "attending_total": 35, 
    "name": "Nielson @ Paradiso, 18 april 2014", 
    "start_time": "2014-04-18T19:30:00+0200", 
    "image_url": {
-    "source": "https:\\/\\/fbcdn-sphotos-c-a.akamaihd.net\\/hphotos-ak-ash3\\/t1.0-9\\/s720x720\\/1897829_263544077141567_916345290_n.jpg", 
-    "cover_id": 263544077141567, 
+    "source": "https:\\/\\/scontent-b.xx.fbcdn.net\\/hphotos-prn2\\/t1.0-9\\/s720x720\\/10007422_10152321443148338_1341380235_n.jpg", 
+    "cover_id": "10152321443148338", 
     "offset_x": 0, 
-    "offset_y": 29
+    "offset_y": 9
    }, 
    "location": "Paradiso Amsterdam", 
    "eventdata": {
@@ -369,9 +418,9 @@
      "city": "Amsterdam", 
      "zip": "1017SG", 
      "country": "Netherlands", 
-     "longitude": 4.8838521975652, 
+     "longitude": 4.8838489790415, 
      "street": "Weteringschans 6-8", 
-     "latitude": 52.362207802394, 
+     "latitude": 52.362204699876, 
      "id": "42503443337"
     }, 
     "updated_time": "2014-03-05T15:55:26+0000", 
@@ -400,18 +449,18 @@
    "id": "542100555904721"
   }, 
   {
-   "attending_total": 128, 
+   "attending_total": 151, 
    "name": "M\u00d8 @ People's Place", 
    "start_time": "2014-03-26T21:00:00+0100", 
    "image_url": {
-    "source": "https:\\/\\/fbcdn-sphotos-c-a.akamaihd.net\\/hphotos-ak-ash3\\/t1.0-9\\/s720x720\\/1897829_263544077141567_916345290_n.jpg", 
-    "cover_id": 263544077141567, 
+    "source": "https:\\/\\/fbcdn-sphotos-b-a.akamaihd.net\\/hphotos-ak-prn2\\/t1.0-9\\/1455089_10152122007553338_1491733320_n.jpg", 
+    "cover_id": "10152122007553338", 
     "offset_x": 0, 
-    "offset_y": 29
+    "offset_y": 2
    }, 
    "location": "People's Place", 
    "eventdata": {
-    "description": "Paradiso presenteert:\nM\u00d8\nLocatie: People's Place (Stadhouderskade 5, Amsterdam)\n\nDe Deense electropopzangeres M\u00d8 (Karen Marie \u00d8rsted) + band is na overtuigende optredens op PITCH Festival en London Calling terug in Amsterdam voor haar eerste Nederlandse headline concert. Het langverwachte debuutalbum van M\u00d8 heet No Mythologies To Follow en komt uit op 24 februari 2014. Tot die tijd heeft ze ons via de blogosphere al warm kunnen maken via de singles Pilgrim, Waste of Time en  XXX 88 feat. Diplo. Na tournees met Aluna George en Major Lazor is het nu aan  M\u00d8 zelf om te schitteren!\n\naanvang 21.00 uur | zaal open 20.00 uur | entree \u20ac 13,- incl. daglidmaatschap", 
+    "description": "Paradiso presenteert:\nM\u00d8\nLocatie: People's Place (Stadhouderskade 5, Amsterdam)\n\nDe Deense electropopzangeres M\u00d8 (Karen Marie \u00d8rsted) + band is na overtuigende optredens op PITCH Festival en London Calling terug in Amsterdam voor haar eerste Nederlandse headline concert. Het langverwachte debuutalbum van M\u00d8 heet No Mythologies To Follow en komt uit op 24 februari 2014. Tot die tijd heeft ze ons via de blogosphere al warm kunnen maken via de singles Pilgrim, Waste of Time en  XXX 88 feat. Diplo. Na tournees met Aluna George en Major Lazor is het nu aan  M\u00d8 zelf om te schitteren!\n\nzaal open 20.00 uur | aanvang voorprogramma Cosmo V 20.30 uur | aanvang M\u00d8 21.15 uur | entree \u20ac 13,- incl. daglidmaatschap - UITVERKOCHT", 
     "privacy": "OPEN", 
     "start_time": "2014-03-26T21:00:00+0100", 
     "venue": {
@@ -423,7 +472,7 @@
      "latitude": 52.36329078943, 
      "id": "168613903156500"
     }, 
-    "updated_time": "2013-12-04T17:38:26+0000", 
+    "updated_time": "2014-03-24T13:19:52+0000", 
     "is_date_only": false, 
     "location": "People's Place", 
     "owner": {
@@ -449,14 +498,14 @@
    "id": "332963893508357"
   }, 
   {
-   "attending_total": 14, 
+   "attending_total": 25, 
    "name": "Anna Calvi @ Paradiso Amsterdam", 
    "start_time": "2014-03-23T20:30:00+0100", 
    "image_url": {
-    "source": "https:\\/\\/fbcdn-sphotos-c-a.akamaihd.net\\/hphotos-ak-ash3\\/t1.0-9\\/s720x720\\/1897829_263544077141567_916345290_n.jpg", 
-    "cover_id": 263544077141567, 
+    "source": "https:\\/\\/scontent-b.xx.fbcdn.net\\/hphotos-prn2\\/t1.0-9\\/1505273_10152149122158338_1734355786_n.jpg", 
+    "cover_id": "10152149122158338", 
     "offset_x": 0, 
-    "offset_y": 29
+    "offset_y": 36
    }, 
    "location": "Paradiso Amsterdam", 
    "eventdata": {
@@ -467,9 +516,9 @@
      "city": "Amsterdam", 
      "zip": "1017SG", 
      "country": "Netherlands", 
-     "longitude": 4.8838521975652, 
+     "longitude": 4.8838489790415, 
      "street": "Weteringschans 6-8", 
-     "latitude": 52.362207802394, 
+     "latitude": 52.362204699876, 
      "id": "42503443337"
     }, 
     "updated_time": "2013-12-16T16:23:25+0000", 
@@ -498,30 +547,30 @@
    "id": "548415688587210"
   }, 
   {
-   "attending_total": 63, 
+   "attending_total": 70, 
    "name": "Paradisolo - Shinedoe - Zaterdag 22 maart - Paradiso", 
    "start_time": "2014-03-22T23:30:00+0100", 
    "image_url": {
-    "source": "https:\\/\\/fbcdn-sphotos-c-a.akamaihd.net\\/hphotos-ak-ash3\\/t1.0-9\\/s720x720\\/1897829_263544077141567_916345290_n.jpg", 
-    "cover_id": 263544077141567, 
+    "source": "https:\\/\\/scontent-a.xx.fbcdn.net\\/hphotos-frc3\\/t1.0-9\\/s720x720\\/1514290_10152213311413338_1528099835_n.jpg", 
+    "cover_id": "10152213311413338", 
     "offset_x": 0, 
-    "offset_y": 29
+    "offset_y": 22
    }, 
    "location": "Paradiso Amsterdam", 
    "eventdata": {
-    "description": "ZAAL OPEN 23.30 - 05.00 UUR\nENTREE 15,- incl. daglidmaatschap \nTICKETS VIA: http://www.ticketmaster.nl/event/123733?brand=nl_paradiso&camefrom=paradiso\n\nEen nieuwe maandelijkse clubavond waarin \u00e9\u00e9n dj centraal staat. Tijdens Paradisolo draait de hele avond om \u00e9\u00e9n dj die zijn of haar muziek, sfeer en favoriete dj\u00b4s meebrengt. Het komende jaar gaan onder andere Michel de Hey, Melon, Steve Rachmad & Benny Rodrigues solo in Paradiso. De tweede dj in deze nieuwe reeks is Shinedoe, met support van Tom Ruijg en VJ Pablo Dias.\n\nShinedoe is de Amsterdamse dj die internationaal furore maakte en oprichtster is van het label Intacto Records. Haar unieke visie op elektronische dansmuziek, haar talent als dj en haar ondernemende geest hebben Shinedoe vooruit doen schieten als boegbeeld van de house en techno-scenes wereldwijd.", 
+    "description": "ZAAL OPEN 23.30 - 05.00 UUR\r\nENTREE 15,- incl. daglidmaatschap \r\nTICKETS VIA: http://www.ticketmaster.nl/event/123733?brand=nl_paradiso&camefrom=paradiso\r\n\r\nEen nieuwe maandelijkse clubavond waarin \u00e9\u00e9n dj centraal staat. Tijdens Paradisolo draait de hele avond om \u00e9\u00e9n dj die zijn of haar muziek, sfeer en favoriete dj\u00b4s meebrengt. Het komende jaar gaan onder andere Michel de Hey, Melon & Steve Rachmad solo in Paradiso. De tweede dj in deze nieuwe reeks is Shinedoe, met support van Tom Ruijg en VJ Morris Mor. \r\n\r\nShinedoe is de Amsterdamse dj die internationaal furore maakte en oprichtster is van het label Intacto Records. Haar unieke visie op elektronische dansmuziek, haar talent als dj en haar ondernemende geest hebben Shinedoe vooruit doen schieten als boegbeeld van de house en techno-scenes wereldwijd.", 
     "privacy": "OPEN", 
     "start_time": "2014-03-22T23:30:00+0100", 
     "venue": {
      "city": "Amsterdam", 
      "zip": "1017SG", 
      "country": "Netherlands", 
-     "longitude": 4.8838521975652, 
+     "longitude": 4.8838489790415, 
      "street": "Weteringschans 6-8", 
-     "latitude": 52.362207802394, 
+     "latitude": 52.362204699876, 
      "id": "42503443337"
     }, 
-    "updated_time": "2014-01-15T11:09:43+0000", 
+    "updated_time": "2014-03-21T13:14:45+0000", 
     "is_date_only": false, 
     "end_time": "2014-03-24T05:00:00+0100", 
     "location": "Paradiso Amsterdam", 
@@ -553,10 +602,10 @@
    "name": "Elbow @ Paradiso", 
    "start_time": "2014-03-18T21:30:00+0100", 
    "image_url": {
-    "source": "https:\\/\\/fbcdn-sphotos-c-a.akamaihd.net\\/hphotos-ak-ash3\\/t1.0-9\\/s720x720\\/1897829_263544077141567_916345290_n.jpg", 
-    "cover_id": 263544077141567, 
+    "source": "https:\\/\\/fbcdn-sphotos-c-a.akamaihd.net\\/hphotos-ak-frc3\\/t1.0-9\\/s720x720\\/1978663_10152310618933338_1576024181_n.jpg", 
+    "cover_id": "10152310618933338", 
     "offset_x": 0, 
-    "offset_y": 29
+    "offset_y": 67
    }, 
    "location": "Paradiso Amsterdam", 
    "eventdata": {
@@ -567,9 +616,9 @@
      "city": "Amsterdam", 
      "zip": "1017SG", 
      "country": "Netherlands", 
-     "longitude": 4.8838521975652, 
+     "longitude": 4.8838489790415, 
      "street": "Weteringschans 6-8", 
-     "latitude": 52.362207802394, 
+     "latitude": 52.362204699876, 
      "id": "42503443337"
     }, 
     "updated_time": "2014-02-28T09:49:13+0000", 
@@ -596,192 +645,6 @@
    }, 
    "timezone": "Europe/Amsterdam", 
    "id": "205133149697170"
-  }, 
-  {
-   "attending_total": 39, 
-   "name": "TRAUMAHELIKOPTER & WHITE SLICE @ Bitterzoet, 8 maart", 
-   "start_time": "2014-03-08T20:00:00+0100", 
-   "image_url": {
-    "source": "https:\\/\\/fbcdn-sphotos-c-a.akamaihd.net\\/hphotos-ak-ash3\\/t1.0-9\\/s720x720\\/1897829_263544077141567_916345290_n.jpg", 
-    "cover_id": 263544077141567, 
-    "offset_x": 0, 
-    "offset_y": 29
-   }, 
-   "location": "Paradiso Amsterdam", 
-   "eventdata": {
-    "description": "Paradiso presenteert traumahelikopter & white slice in Bitterzoet. Adres: Spuistraat 2, Amsterdam.\n\nPrecies een jaar na het uitbrengen van hun titelloze debuut wordt \u201cde tweede traumahelikopter\u201d aangekondigd, getiteld: \u2018I Don\u2019t Understand Them At All\u2019. Op dit tweede album kruipen we in het hoofd van frontman Mark Lada. Hij schrijft over vervreemding, eenzaamheid en wanhoop. Lada komt met ijzersterke melodie\u00ebn en vakkundig geschreven liedjes, terwijl de minimale set-up van de band  ervoor zorgt dat er niet teveel van de essentie, rock \u2018n roll, wordt afgeweken. Teksten laten de band\u2019s liefde voor ironie blijken, met een nummer als \u2018Last Night I Dreamed I Killed Myself\u2019 als de ultieme sing-a-long. \u201cMensen maken me bang\u201d, en \u201cde wereld is lelijk\u201d, zegt Lada, maar hij had zijn outsider feelings niet op een catchier wijze kunnen vatten.\n\nZATERDAG 8 MAART 2014 \nTRAUMAHELIKOPTER - LOCATIE: BITTERZOET\nVOORPROGRAMMA: WHITE SLICE\n\nVOORVERKOOP VANAF 18 JANUARI\nBITTERZOET, HOOFDPROGRAMMA 21.00 UUR \nVOORPROGRAMMA 20.00 UUR \nZAAL OPEN 19.30 UUR \n\nENTREE 10,- INCL. DAGLIDMAATSCHAP\nInfo: http://www.paradiso.nl/web/Agenda-Item/Traumahelikopter-Locatie-Bitterzoet.htm", 
-    "privacy": "OPEN", 
-    "start_time": "2014-03-08T20:00:00+0100", 
-    "venue": {
-     "city": "Amsterdam", 
-     "zip": "1017SG", 
-     "country": "Netherlands", 
-     "longitude": 4.8838521975652, 
-     "street": "Weteringschans 6-8", 
-     "latitude": 52.362207802394, 
-     "id": "42503443337"
-    }, 
-    "updated_time": "2014-03-04T09:49:57+0000", 
-    "is_date_only": false, 
-    "location": "Paradiso Amsterdam", 
-    "owner": {
-     "category": "Arts/entertainment/nightlife", 
-     "name": "Paradiso Amsterdam", 
-     "category_list": [
-      {
-       "id": "191478144212980", 
-       "name": "Night Club"
-      }, 
-      {
-       "id": "179943432047564", 
-       "name": "Concert Venue"
-      }
-     ], 
-     "id": "42503443337"
-    }, 
-    "timezone": "Europe/Amsterdam", 
-    "id": "614188895318405", 
-    "name": "TRAUMAHELIKOPTER & WHITE SLICE @ Bitterzoet, 8 maart"
-   }, 
-   "timezone": "Europe/Amsterdam", 
-   "id": "614188895318405"
-  }, 
-  {
-   "attending_total": 426, 
-   "name": "5 Days Off | Day 4 Paradiso: NILS FRAHM", 
-   "start_time": "2014-03-08T20:00:00+0100", 
-   "image_url": {
-    "source": "https:\\/\\/fbcdn-sphotos-c-a.akamaihd.net\\/hphotos-ak-ash3\\/t1.0-9\\/s720x720\\/1897829_263544077141567_916345290_n.jpg", 
-    "cover_id": 263544077141567, 
-    "offset_x": 0, 
-    "offset_y": 29
-   }, 
-   "location": "Paradiso", 
-   "eventdata": {
-    "description": "De Berlijnse neoklassieke componist Nils Frahm is van origine een pianist. De afgelopen jaren heeft hij vooral naam gemaakt met zijn unieke mix van electronica en klassieke muziek. Op de zaterdag komt hij naar Paradiso met een compleet nieuwe elektronische en meer club geori\u00ebnteerde show.\n\nTickets: http://bit.ly/18AH0df\n\nwww.5daysoff.nl", 
-    "privacy": "OPEN", 
-    "start_time": "2014-03-08T20:00:00+0100", 
-    "venue": {
-     "city": "Amsterdam", 
-     "zip": "1017 SG", 
-     "country": "Netherlands", 
-     "longitude": 4.8838688074048, 
-     "street": "Weteringschans 6-8", 
-     "latitude": 52.362168131611, 
-     "id": "164594723599029"
-    }, 
-    "updated_time": "2013-11-15T17:12:22+0000", 
-    "is_date_only": false, 
-    "location": "Paradiso", 
-    "owner": {
-     "category": "Concert tour", 
-     "name": "5 Days Off", 
-     "id": "126063560788156"
-    }, 
-    "timezone": "Europe/Amsterdam", 
-    "id": "1474530959439720", 
-    "name": "5 Days Off | Day 4 Paradiso: NILS FRAHM"
-   }, 
-   "timezone": "Europe/Amsterdam", 
-   "id": "1474530959439720"
-  }, 
-  {
-   "attending_total": 17, 
-   "name": "Rokia Traor\u00e9 @ Paradiso", 
-   "start_time": "2014-03-06T20:00:00+0100", 
-   "image_url": {
-    "source": "https:\\/\\/fbcdn-sphotos-c-a.akamaihd.net\\/hphotos-ak-ash3\\/t1.0-9\\/s720x720\\/1897829_263544077141567_916345290_n.jpg", 
-    "cover_id": 263544077141567, 
-    "offset_x": 0, 
-    "offset_y": 29
-   }, 
-   "location": "Paradiso Amsterdam", 
-   "eventdata": {
-    "description": "Rokia Traor\u00e9 is een singer-songwriter uit Mali, die op haar onlangs verschenen album \u2018Beautiful Africa\u2019 Malinese muziek maakt met een universele aantrekkingskracht. Ze verweeft Malinese ritmes en instrumenten, blues, het rockabillygeluid van haar elektrische Gretsch-gitaar en haar fantastische stem tot een avontuurlijke sound. Als dochter van een Malinese diplomaat groeide de jonge Rokia op in Europa, het Midden-Oosten en de Verenigde Staten. Zo ontwikkelde ze een kosmopolitische muzikale visie, die later in Mali vorm kreeg. \n\nMet dj Mombasa.\n\nRokia Traore\ndonderdag 6 maart 2014\nParadiso, Amsterdam\naanvang: 20.00 uur \nzaal open: 19.00 uur \nentree: \u20ac 22,50 excl. lidmaatschap (3,50 p.m. / 25,- p.j.)\nhttp://www.paradiso.nl/web/Agenda-Item/Rokia-Traore.htm", 
-    "privacy": "OPEN", 
-    "start_time": "2014-03-06T20:00:00+0100", 
-    "venue": {
-     "city": "Amsterdam", 
-     "zip": "1017SG", 
-     "country": "Netherlands", 
-     "longitude": 4.8838521975652, 
-     "street": "Weteringschans 6-8", 
-     "latitude": 52.362207802394, 
-     "id": "42503443337"
-    }, 
-    "updated_time": "2014-02-17T17:24:17+0000", 
-    "is_date_only": false, 
-    "location": "Paradiso Amsterdam", 
-    "owner": {
-     "category": "Arts/entertainment/nightlife", 
-     "name": "Paradiso Amsterdam", 
-     "category_list": [
-      {
-       "id": "191478144212980", 
-       "name": "Night Club"
-      }, 
-      {
-       "id": "179943432047564", 
-       "name": "Concert Venue"
-      }
-     ], 
-     "id": "42503443337"
-    }, 
-    "timezone": "Europe/Amsterdam", 
-    "id": "1463584613860717", 
-    "name": "Rokia Traor\u00e9 @ Paradiso"
-   }, 
-   "timezone": "Europe/Amsterdam", 
-   "id": "1463584613860717"
-  }, 
-  {
-   "attending_total": 109, 
-   "name": "Sam Smith @ People's Place", 
-   "start_time": "2014-03-05T21:00:00+0100", 
-   "image_url": {
-    "source": "https:\\/\\/fbcdn-sphotos-c-a.akamaihd.net\\/hphotos-ak-ash3\\/t1.0-9\\/s720x720\\/1897829_263544077141567_916345290_n.jpg", 
-    "cover_id": 263544077141567, 
-    "offset_x": 0, 
-    "offset_y": 29
-   }, 
-   "location": "People's Place", 
-   "eventdata": {
-    "description": "Paradiso presenteert:\nSam Smith \n\nSam Smith is bekend geworden als gastzanger op Disclosure\u2019s single \u2018Latch\u2019 en Naughty Boy\u2019s hit \u2018La La La\u2019. Deze jonge Britse zanger met indrukwekkend flexibele stem geeft op 5 maart zijn eerste Nederlandse optreden in People\u2019s Place. Zijn Nirvana EP is nu uit; zijn debuutalbum volgt volgend jaar. Hou hem in de gaten!\n\nlocatie: PEOPLE'S PLACE\naanvang: 21.00 uur | zaal open: 20.00 uur\nentree: \u20ac 13,- (incl. daglidm.)\nhttp://www.paradiso.nl/web/Agenda-Item/Sam-Smith-Locatie-Peoples-Place.htm", 
-    "privacy": "OPEN", 
-    "start_time": "2014-03-05T21:00:00+0100", 
-    "venue": {
-     "city": "Amsterdam", 
-     "zip": "1054 ES ", 
-     "country": "Netherlands", 
-     "longitude": 4.8795480866025, 
-     "street": "Stadhouderskade 5", 
-     "latitude": 52.36329078943, 
-     "id": "168613903156500"
-    }, 
-    "updated_time": "2013-10-08T15:10:49+0000", 
-    "is_date_only": false, 
-    "location": "People's Place", 
-    "owner": {
-     "category": "Arts/entertainment/nightlife", 
-     "name": "Paradiso Amsterdam", 
-     "category_list": [
-      {
-       "id": "191478144212980", 
-       "name": "Night Club"
-      }, 
-      {
-       "id": "179943432047564", 
-       "name": "Concert Venue"
-      }
-     ], 
-     "id": "42503443337"
-    }, 
-    "timezone": "Europe/Amsterdam", 
-    "id": "773086622717595", 
-    "name": "Sam Smith @ People's Place"
-   }, 
-   "timezone": "Europe/Amsterdam", 
-   "id": "773086622717595"
   }
  ]
 }

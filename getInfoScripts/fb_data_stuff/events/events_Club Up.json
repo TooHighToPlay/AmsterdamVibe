@@ -1,21 +1,21 @@
 {
  "paging": {
   "cursors": {
-   "after": "NjYwMjQ4Mjg3MzY1Mjc4", 
+   "after": "ODIwMzgyOTcxMzIyMjEz", 
    "before": "NjA1NzkzNzg5NTA5MDU0"
   }, 
-  "next": "https://graph.facebook.com/117962971613608/events?access_token=CAACEdEose0cBADZC2BqWfioOt5tuTihjtSBXb01vGSzScGuKvGevBuk1T7wZAPlTwdjZBBBL9b0db3xQvjRSmAoKUIZBPcwe7Env6l20MvrePfzRQuZCIyygZCdAM8wZBfSvlqo168rYQepONRFfQGKXVHbKtoWsOtqEmnuq4fuupKKsRfcd8sShc1qtUKZA5edEp4hCHkdZCNQZDZD&limit=25&after=NjYwMjQ4Mjg3MzY1Mjc4"
+  "next": "https://graph.facebook.com/117962971613608/events?access_token=CAACEdEose0cBAOet2VJez2nkH6dHSPT7QaJv0s5Ifvg5hZAYvPSb9ntWmmgwMNFHifLUSZB6c6ujGXeq9KW6svaWZAt8VpUxKyOohLinEfMFEohVn55rtVzZCOMpY7ZCFAZCxdgLI2l8X8e8ZBLpBUtwwkpXzVIAIRTRVJwMOFsZCb57sFAANNtIZAJnXKuEYfM0iHev4Ine30AZDZD&limit=25&after=ODIwMzgyOTcxMzIyMjEz"
  }, 
  "data": [
   {
-   "attending_total": 112, 
+   "attending_total": 135, 
    "name": "PLAK presents: WILLY'S (CRAZY) AFTER", 
    "start_time": "2014-04-26T20:00:00+0200", 
    "image_url": {
-    "source": "https:\\/\\/fbcdn-sphotos-c-a.akamaihd.net\\/hphotos-ak-ash3\\/t1.0-9\\/s720x720\\/1897829_263544077141567_916345290_n.jpg", 
-    "cover_id": 263544077141567, 
-    "offset_x": 0, 
-    "offset_y": 29
+    "source": "https:\\/\\/scontent-a.xx.fbcdn.net\\/hphotos-frc1\\/t1.0-9\\/s720x720\\/1620944_648233555214447_544868921_n.jpg", 
+    "cover_id": 648233555214447, 
+    "offset_x": 33, 
+    "offset_y": 0
    }, 
    "location": "De ClubUp", 
    "eventdata": {
@@ -55,14 +55,14 @@
    "end_time": "2014-04-27T05:00:00+0200"
   }, 
   {
-   "attending_total": 130, 
+   "attending_total": 162, 
    "name": "Klapstuk! - 1ste Paasdag - Kring & Club Up!", 
    "start_time": "2014-04-20T23:00:00+0200", 
    "image_url": {
-    "source": "https:\\/\\/fbcdn-sphotos-c-a.akamaihd.net\\/hphotos-ak-ash3\\/t1.0-9\\/s720x720\\/1897829_263544077141567_916345290_n.jpg", 
-    "cover_id": 263544077141567, 
+    "source": "https:\\/\\/fbcdn-sphotos-g-a.akamaihd.net\\/hphotos-ak-frc1\\/t1.0-9\\/s720x720\\/1621855_758793450800073_1294387826_n.jpg", 
+    "cover_id": 758793450800073, 
     "offset_x": 0, 
-    "offset_y": 29
+    "offset_y": 74
    }, 
    "location": "De Kring", 
    "eventdata": {
@@ -102,18 +102,18 @@
    "end_time": "2014-04-21T04:00:00+0200"
   }, 
   {
-   "attending_total": 69, 
+   "attending_total": 92, 
    "name": "CROSSOVERS @ Club Up/De Kring 19.04.14", 
    "start_time": "2014-04-19T23:00:00+0200", 
    "image_url": {
-    "source": "https:\\/\\/fbcdn-sphotos-c-a.akamaihd.net\\/hphotos-ak-ash3\\/t1.0-9\\/s720x720\\/1897829_263544077141567_916345290_n.jpg", 
-    "cover_id": 263544077141567, 
-    "offset_x": 0, 
-    "offset_y": 29
+    "source": "https:\\/\\/scontent-b.xx.fbcdn.net\\/hphotos-prn2\\/t1.0-9\\/s720x720\\/1896855_639054699482761_123362426_n.jpg", 
+    "cover_id": 639054699482761, 
+    "offset_x": 100, 
+    "offset_y": 0
    }, 
    "location": "De ClubUp", 
    "eventdata": {
-    "description": "ZA 19APRIL \nCROSSOVERS @ CLUB UP & De kring \nDEEPHOUSE/TECHHOUSE/TECHNO\n \n!!!GUEST DJ'S WORDEN SOON TOEGEVOEGD!!!\nGuessbeats & Kidmalone (CROSSOVERS)\nAsintho - Assie(CROSSOVERS)\nMurQ (CROSSOVERS)\n\nDE KRING\nR&B/HIPHOP\nRico Suave &FRIENDS\n \nEARLY BIRD \u20ac5 // PRESALE \u20ac10 // \u20ac7,50 VOOR MIDDERNACHT (00:00) // ENTREE \u20ac12,50", 
+    "description": "ZA 19APRIL \nCROSSOVERS @ CLUB UP & De kring \nDEEPHOUSE/TECHHOUSE/TECHNO\n \nTom Ruijg (Soweso, BANGBANG)\nMr.Gibbs (ROCKNROLLA)\nGuessbeats & Kidmalone (CROSSOVERS)\nAsintho - Assie(CROSSOVERS)\nMurQ (CROSSOVERS)\n\nDE KRING\nR&B/HIPHOP\nRico Suave &FRIENDS\n \nEARLY BIRD \u20ac5 // PRESALE \u20ac10 // \u20ac7,50 VOOR MIDDERNACHT (00:00) // ENTREE \u20ac12,50", 
     "privacy": "OPEN", 
     "start_time": "2014-04-19T23:00:00+0200", 
     "venue": {
@@ -125,7 +125,7 @@
      "latitude": 52.363578947487, 
      "id": "117962971613608"
     }, 
-    "updated_time": "2014-03-18T14:42:02+0000", 
+    "updated_time": "2014-03-23T12:26:42+0000", 
     "is_date_only": false, 
     "end_time": "2014-04-20T05:00:00+0200", 
     "location": "De ClubUp", 
@@ -143,14 +143,14 @@
    "end_time": "2014-04-20T05:00:00+0200"
   }, 
   {
-   "attending_total": 37, 
+   "attending_total": 41, 
    "name": "ARCADE w/ TIMES ARE RUFF, MAX ABYSMAL, ARCADE SOUNDSYSTEM", 
    "start_time": "2014-04-18T23:00:00+0200", 
    "image_url": {
-    "source": "https:\\/\\/fbcdn-sphotos-c-a.akamaihd.net\\/hphotos-ak-ash3\\/t1.0-9\\/s720x720\\/1897829_263544077141567_916345290_n.jpg", 
-    "cover_id": 263544077141567, 
+    "source": "https:\\/\\/scontent-a.xx.fbcdn.net\\/hphotos-prn2\\/t1.0-9\\/s720x720\\/1393835_703884382987641_663221373_n.jpg", 
+    "cover_id": 703884382987641, 
     "offset_x": 0, 
-    "offset_y": 29
+    "offset_y": 0
    }, 
    "location": "De ClubUp", 
    "eventdata": {
@@ -184,14 +184,14 @@
    "end_time": "2014-04-19T05:00:00+0200"
   }, 
   {
-   "attending_total": 25, 
+   "attending_total": 27, 
    "name": "White Rabbit @ Club Up w/ La Vond\u00e8l & Huminal", 
    "start_time": "2014-04-17T23:00:00+0200", 
    "image_url": {
-    "source": "https:\\/\\/fbcdn-sphotos-c-a.akamaihd.net\\/hphotos-ak-ash3\\/t1.0-9\\/s720x720\\/1897829_263544077141567_916345290_n.jpg", 
-    "cover_id": 263544077141567, 
+    "source": "https:\\/\\/fbcdn-sphotos-g-a.akamaihd.net\\/hphotos-ak-prn2\\/t1.0-9\\/s720x720\\/1958370_681245548583395_1041397732_n.jpg", 
+    "cover_id": 681245548583395, 
     "offset_x": 0, 
-    "offset_y": 29
+    "offset_y": 0
    }, 
    "location": "De ClubUp", 
    "eventdata": {
@@ -225,18 +225,18 @@
    "end_time": "2014-04-18T04:00:00+0200"
   }, 
   {
-   "attending_total": 27, 
+   "attending_total": 32, 
    "name": "MIDNIGHT CITY, Invites ART OF TONES", 
    "start_time": "2014-04-11T23:00:00+0200", 
    "image_url": {
-    "source": "https:\\/\\/fbcdn-sphotos-c-a.akamaihd.net\\/hphotos-ak-ash3\\/t1.0-9\\/s720x720\\/1897829_263544077141567_916345290_n.jpg", 
-    "cover_id": 263544077141567, 
+    "source": "https:\\/\\/fbcdn-sphotos-b-a.akamaihd.net\\/hphotos-ak-prn1\\/t1.0-9\\/s720x720\\/1920620_634519929935608_345725387_n.jpg", 
+    "cover_id": 634519929935608, 
     "offset_x": 0, 
-    "offset_y": 29
+    "offset_y": 0
    }, 
    "location": "De ClubUp", 
    "eventdata": {
-    "description": "Get yo\u2019 freak on\n\n\u2022\tArt Of Tones (FR)\n\u2022\tHellie Berry\n\u2022\tReach\n\u2022\tJois\n\nFor the second edition of this not so New Year we have invited Art Of Tones. This funky gentleman has made quite a name for himself with releases on >insert ultra cool labels here< and with his years of experience he\u2019s sure to rock our dance floor. In the past Art Of Tones made music under the name of Llorca.\n\nWe\u2019re happy to see Hellie Berry again. Instead of lipstick she carries funk in her purse... nuff said.\n\nThese two will be supported by our residents. Closing the evening is our own dj Reach. He will have you begging for more once he is through with our dance floor.\nAnd we\u2019ll be starting the night with Jois. Don\u2019t let her sweet personality fool you cause she has some hard hitting 12's in her bag.\n\nAnd you better put your game face on cause Carlijn Jacobs is walking around with the Camera.\n\n(End of bad sales pitch) :)\n\n\nLong Story Short:\n.......................................................................................\n\nART OF TONES ( 20:20 Vision / Defected )\n(https://soundcloud.com/llorca)\n\nHELLIE BERRY ( Tomorrow is now, Kid! )\n(https://soundcloud.com/hellie-berry)\n\nJOIS (Midnight city)\n(https://soundcloud.com/jo1s)\n\nREACH (Midnight city)\n(https://soundcloud.com/reach)\n\nPictures by CARLIJN JACOBS\n(http://www.carlijnjacobs.com/)\n\n\n11 April\nTime: 23:00 - 05:00\nDamage: \u20ac10 Door / \u20ac8 presale\n\n\nStay tuned with Midnight City at:\nwww.soundcloud.com/midnightcityamsterdam\nwww.youtube.com/midnightcitynl", 
+    "description": "Get yo\u2019 freak on\n\n\u2022\tArt Of Tones (FR)\n\u2022\tHellie Berry\n\u2022\tReach\n\u2022\tJois\n\nFor the second edition of this not so New Year Art Of Tones is coming to Club Up. This funky gentleman has made a name for himself with releases on (insert ultra cool labels here) and with his years of experience he\u2019s sure to rock the dance floor. In the past Art Of Tones made music under the name of Llorca.\n\nAnd Hellie Berry is back; BAM! Instead of lipstick she carries funk in her purse... nuff said.\n\nThese two will be supported by Midnight City residents. Closing the evening is dj Reach. He will have you begging for more once he is through with the dance floor.\nAnd the night will start with Jois. Don\u2019t let her sweet personality fool you cause she has some hard hitting 12's in her bag!\n\nAnd better put your game face on cause Carlijn Jacobs will be walking around with the Camera.\n\n(End of bad sales pitch) :)\n\n\nLong Story Short:\n.......................................................................................\n\nART OF TONES ( 20:20 Vision / Defected )\n(https://soundcloud.com/llorca)\n\nHELLIE BERRY ( Tomorrow is now, Kid! )\n(https://soundcloud.com/hellie-berry)\n\nJOIS (Midnight city)\n(https://soundcloud.com/jo1s)\n\nREACH (Midnight city)\n(https://soundcloud.com/reach)\n\nPictures by CARLIJN JACOBS\n(http://www.carlijnjacobs.com/)\n\n\n11 April\nTime: 23:00 - 05:00\nDamage: \u20ac10 Door / \u20ac8 presale\n\n\nStay tuned with Midnight City at:\nwww.soundcloud.com/midnightcityamsterdam\nwww.youtube.com/midnightcitynl", 
     "privacy": "OPEN", 
     "start_time": "2014-04-11T23:00:00+0200", 
     "venue": {
@@ -248,7 +248,7 @@
      "latitude": 52.363578947487, 
      "id": "117962971613608"
     }, 
-    "updated_time": "2014-03-18T16:48:07+0000", 
+    "updated_time": "2014-03-21T09:31:11+0000", 
     "is_date_only": false, 
     "end_time": "2014-04-12T05:00:00+0200", 
     "location": "De ClubUp", 
@@ -266,18 +266,18 @@
    "end_time": "2014-04-12T05:00:00+0200"
   }, 
   {
-   "attending_total": 331, 
+   "attending_total": 369, 
    "name": "HET GROTE CLUBUP LENTEFEEST / ZATERDAG 5 APRIL / 23h-07h", 
    "start_time": "2014-04-05T23:00:00+0200", 
    "image_url": {
-    "source": "https:\\/\\/fbcdn-sphotos-c-a.akamaihd.net\\/hphotos-ak-ash3\\/t1.0-9\\/s720x720\\/1897829_263544077141567_916345290_n.jpg", 
-    "cover_id": 263544077141567, 
+    "source": "https:\\/\\/fbcdn-sphotos-d-a.akamaihd.net\\/hphotos-ak-prn2\\/t1.0-9\\/s720x720\\/1779238_591250800951487_1844674192_n.jpg", 
+    "cover_id": 591250800951487, 
     "offset_x": 0, 
-    "offset_y": 29
+    "offset_y": 0
    }, 
    "location": "De ClubUp", 
    "eventdata": {
-    "description": "\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac \u2191\u2191\u2191 Het grote ClubUp lentefeest \u2191\u2191\u2191 \u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\n\nMet 24 medailles op Sochi en medio februari alweer de eerste korte rokjes in het straatbeeld, hebben wij de winter  wel overwonnen dit jaar. Vriezen gaat het niet meer. Dus vergeet de Elfstedentocht en zeg ja tegen de lente, want de lente komt vroeg dit jaar! \n\nZaterdag 5 april vieren wij samen met jullie \u2018Het grote ClubUp lentefeest\u2019. De Kring en de ClubUp gaan all-in en toveren drie zalen om tot een groot lentefestijn. Melk zelf je drankje uit een \u2018echte koe\u2019, schop je schoenen uit voor onze silent-disco-blotevoetenweide en kus je lenteschatje in ons liefdesnest. \nIn de ClubUp dansen we op deephouse en disco en de Kring staat in het teken van maffe lentehits.\n\nDus hang die handschoenen in de wilgen en trek je panty uit, want 5 april is het tijd voor een hoop gekkigheid!\n\n\n\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac \u2193\u2193\u2193 LINE-UP \u2191\u2191\u2191 \u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\n\nQUINTEN 909 (Blockparty)\nDJ D-ROK (Zwarte Koffie)\nMOOSE (Pierre August & Faze) (Klamme Handjes)\nPRIMO DISCO \nGUESSBEATS & KIDMALONE (Crossovers)\nMIKEYNICE \nJOIS (Midnight City)\nCEVIN\nSIMON PLAYS\nBOLICIOUS\nMENEER DE VRIES\n\n\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac \u2191\u2191\u2191 EXTRA \u2193\u2193\u2193 \u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\n\n\u27b2 Radioshow van OPKOMENDESTORM\n\u27b2 Blote voeten weide\n\u27b2 Silent disco\n\u27b2 + nog veel meer..\n\n\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac TICKETS \u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\n\nPRESALE: \u20ac25,- (5 person group ticket) (op=op)\nPRESALE: \u20ac7,50\n\n\n-\n| ART BY JESSE SEP VAN AALDEREN |", 
+    "description": "\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac \u2191\u2191\u2191 Het grote ClubUp lentefeest \u2191\u2191\u2191 \u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\n\nMet 24 medailles op Sochi en medio februari alweer de eerste korte rokjes in het straatbeeld, hebben wij de winter  wel overwonnen dit jaar. Vriezen gaat het niet meer. Dus vergeet de Elfstedentocht en zeg ja tegen de lente, want de lente komt vroeg dit jaar! \n\nZaterdag 5 april vieren wij samen met jullie \u2018Het grote ClubUp lentefeest\u2019. De Kring en de ClubUp gaan all-in en toveren drie zalen om tot een groot lentefestijn. Melk zelf je drankje uit een \u2018echte koe\u2019, schop je schoenen uit voor onze silent-disco-blotevoetenweide en kus je lenteschatje in ons liefdesnest. \nIn de ClubUp dansen we op deephouse en disco en de Kring staat in het teken van maffe lentehits.\n\nDus hang die handschoenen in de wilgen en trek je panty uit, want 5 april is het tijd voor een hoop gekkigheid!\n\n\n\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac \u2193\u2193\u2193 LINE-UP \u2191\u2191\u2191 \u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\n\nQUINTEN 909 (Blockparty)\nDJ D-ROK (Zwarte Koffie)\nMOOSE (Pierre August & Faze) (Klamme Handjes)\nPRIMO DISCO \nGUESSBEATS & KIDMALONE (Crossovers)\nMIKEYNICE \nJOIS (Midnight City)\nCEVIN\nSIMON PLAYS\nBOLICIOUS\nMENEER DE VRIES\n\n\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac \u2191\u2191\u2191 EXTRA \u2193\u2193\u2193 \u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\n\n\u27b2 Radioshow van OPKOMENDESTORM\n\u27b2 Blote voeten weide\n\u27b2 Silent disco\n\u27b2 + nog veel meer..\n\n\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac TICKETS \u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\n\nPRESALE: \u20ac25,- (5 person group ticket) (op=op)\nPRESALE: \u20ac7,50\n\n\n-\n| ART BY JESSE SEP VAN AALDEREN |\n\n\nSaturday on the 5th of april Club Up is celebrating the spring with their own party: \u2018Het grote ClubUp lentefeest\u2019.\n\nDe Kring and Club Up are going all-in with three halls with different kinds of music.  There is also a cow you can milk, a silent disco and they have their own meadow!", 
     "privacy": "OPEN", 
     "start_time": "2014-04-05T23:00:00+0200", 
     "venue": {
@@ -289,7 +289,7 @@
      "latitude": 52.363578947487, 
      "id": "117962971613608"
     }, 
-    "updated_time": "2014-02-26T12:55:56+0000", 
+    "updated_time": "2014-03-24T16:11:29+0000", 
     "is_date_only": false, 
     "end_time": "2014-04-06T07:00:00+0200", 
     "location": "De ClubUp", 
@@ -321,14 +321,14 @@
    "end_time": "2014-04-06T07:00:00+0200"
   }, 
   {
-   "attending_total": 57, 
+   "attending_total": 71, 
    "name": "Springplank", 
    "start_time": "2014-04-04T23:00:00+0200", 
    "image_url": {
-    "source": "https:\\/\\/fbcdn-sphotos-c-a.akamaihd.net\\/hphotos-ak-ash3\\/t1.0-9\\/s720x720\\/1897829_263544077141567_916345290_n.jpg", 
-    "cover_id": 263544077141567, 
+    "source": "https:\\/\\/fbcdn-sphotos-h-a.akamaihd.net\\/hphotos-ak-frc1\\/t1.0-9\\/s720x720\\/1891140_590872044336364_456033239_n.jpg", 
+    "cover_id": 590872044336364, 
     "offset_x": 0, 
-    "offset_y": 29
+    "offset_y": 0
    }, 
    "location": "De ClubUp", 
    "eventdata": {
@@ -362,14 +362,14 @@
    "end_time": "2014-04-05T05:00:00+0200"
   }, 
   {
-   "attending_total": 98, 
+   "attending_total": 136, 
    "name": "WAVEFILES INVITES DUBBEL DUTCH (US) & LEE ANY / DONDERDAG 3 APRIL @ CLUB UP", 
    "start_time": "2014-04-03T22:00:00+0200", 
    "image_url": {
-    "source": "https:\\/\\/fbcdn-sphotos-c-a.akamaihd.net\\/hphotos-ak-ash3\\/t1.0-9\\/s720x720\\/1897829_263544077141567_916345290_n.jpg", 
-    "cover_id": 263544077141567, 
+    "source": "https:\\/\\/fbcdn-sphotos-g-a.akamaihd.net\\/hphotos-ak-prn2\\/t1.0-9\\/s720x720\\/1962782_724270657613922_287584629_n.jpg", 
+    "cover_id": 724270657613922, 
     "offset_x": 0, 
-    "offset_y": 29
+    "offset_y": 0
    }, 
    "location": "De ClubUp", 
    "eventdata": {
@@ -385,9 +385,9 @@
      "latitude": 52.363578947487, 
      "id": "117962971613608"
     }, 
-    "updated_time": "2014-03-09T20:04:26+0000", 
+    "updated_time": "2014-03-21T12:02:52+0000", 
     "is_date_only": false, 
-    "end_time": "2014-04-04T03:00:00+0200", 
+    "end_time": "2014-04-04T04:00:00+0200", 
     "location": "De ClubUp", 
     "owner": {
      "category": "Arts/entertainment/nightlife", 
@@ -410,17 +410,17 @@
    }, 
    "timezone": "Europe/Amsterdam", 
    "id": "578829098880370", 
-   "end_time": "2014-04-04T03:00:00+0200"
+   "end_time": "2014-04-04T04:00:00+0200"
   }, 
   {
-   "attending_total": 360, 
+   "attending_total": 382, 
    "name": "Modern Movement. Zaterdag 29 maart in De Club Up en De Kring", 
    "start_time": "2014-03-29T23:00:00+0100", 
    "image_url": {
-    "source": "https:\\/\\/fbcdn-sphotos-c-a.akamaihd.net\\/hphotos-ak-ash3\\/t1.0-9\\/s720x720\\/1897829_263544077141567_916345290_n.jpg", 
-    "cover_id": 263544077141567, 
+    "source": "https:\\/\\/fbcdn-sphotos-f-a.akamaihd.net\\/hphotos-ak-frc3\\/t1.0-9\\/s720x720\\/1978719_727937743903919_28474784_n.jpg", 
+    "cover_id": 727937743903919, 
     "offset_x": 0, 
-    "offset_y": 29
+    "offset_y": 100
    }, 
    "location": "De ClubUp", 
    "eventdata": {
@@ -458,10 +458,10 @@
    "name": "PLAK AFTERHOUR / CLUBUP", 
    "start_time": "2014-03-29T05:00:00+0100", 
    "image_url": {
-    "source": "https:\\/\\/fbcdn-sphotos-c-a.akamaihd.net\\/hphotos-ak-ash3\\/t1.0-9\\/s720x720\\/1897829_263544077141567_916345290_n.jpg", 
-    "cover_id": 263544077141567, 
+    "source": "https:\\/\\/scontent-b.xx.fbcdn.net\\/hphotos-prn2\\/t1.0-9\\/s720x720\\/1743549_584663301610237_1607764490_n.jpg", 
+    "cover_id": 584663301610237, 
     "offset_x": 0, 
-    "offset_y": 29
+    "offset_y": 92
    }, 
    "location": "De ClubUp", 
    "eventdata": {
@@ -507,14 +507,14 @@
    "id": "620296124692532"
   }, 
   {
-   "attending_total": 140, 
+   "attending_total": 156, 
    "name": "DE KLAMME DONDERDAG | JORDAN PEAK (UK)", 
    "start_time": "2014-03-27T23:00:00+0100", 
    "image_url": {
-    "source": "https:\\/\\/fbcdn-sphotos-c-a.akamaihd.net\\/hphotos-ak-ash3\\/t1.0-9\\/s720x720\\/1897829_263544077141567_916345290_n.jpg", 
-    "cover_id": 263544077141567, 
+    "source": "https:\\/\\/scontent-b.xx.fbcdn.net\\/hphotos-ash3\\/t1.0-9\\/s720x720\\/1623612_288430401281850_1694087524_n.jpg", 
+    "cover_id": 288430401281850, 
     "offset_x": 0, 
-    "offset_y": 29
+    "offset_y": 0
    }, 
    "location": "De ClubUp", 
    "eventdata": {
@@ -552,14 +552,14 @@
    "id": "1429409167298447"
   }, 
   {
-   "attending_total": 54, 
+   "attending_total": 67, 
    "name": "NACHTVLINDERS (by SFFRMKRS)", 
    "start_time": "2014-03-22T23:00:00+0100", 
    "image_url": {
-    "source": "https:\\/\\/fbcdn-sphotos-c-a.akamaihd.net\\/hphotos-ak-ash3\\/t1.0-9\\/s720x720\\/1897829_263544077141567_916345290_n.jpg", 
-    "cover_id": 263544077141567, 
+    "source": "https:\\/\\/scontent-a.xx.fbcdn.net\\/hphotos-frc3\\/t1.0-9\\/s720x720\\/1920629_10151951623301759_763387584_n.jpg", 
+    "cover_id": "10151951623301759", 
     "offset_x": 0, 
-    "offset_y": 29
+    "offset_y": 58
    }, 
    "location": "De Kring", 
    "eventdata": {
@@ -593,14 +593,14 @@
    "end_time": "2014-03-23T04:00:00+0100"
   }, 
   {
-   "attending_total": 49, 
+   "attending_total": 70, 
    "name": "LANDED (by SFFRMKRS)", 
    "start_time": "2014-03-22T23:00:00+0100", 
    "image_url": {
-    "source": "https:\\/\\/fbcdn-sphotos-c-a.akamaihd.net\\/hphotos-ak-ash3\\/t1.0-9\\/s720x720\\/1897829_263544077141567_916345290_n.jpg", 
-    "cover_id": 263544077141567, 
+    "source": "https:\\/\\/scontent-b.xx.fbcdn.net\\/hphotos-prn2\\/t1.0-9\\/s720x720\\/1970676_10151885210997735_19210770_n.jpg", 
+    "cover_id": "10151885210997735", 
     "offset_x": 0, 
-    "offset_y": 29
+    "offset_y": 0
    }, 
    "location": "De ClubUp", 
    "eventdata": {
@@ -644,14 +644,14 @@
    "end_time": "2014-03-23T05:00:00+0100"
   }, 
   {
-   "attending_total": 79, 
+   "attending_total": 100, 
    "name": "CULT WAVE", 
    "start_time": "2014-03-21T23:00:00+0100", 
    "image_url": {
-    "source": "https:\\/\\/fbcdn-sphotos-c-a.akamaihd.net\\/hphotos-ak-ash3\\/t1.0-9\\/s720x720\\/1897829_263544077141567_916345290_n.jpg", 
-    "cover_id": 263544077141567, 
+    "source": "https:\\/\\/scontent-a.xx.fbcdn.net\\/hphotos-frc1\\/t1.0-9\\/s720x720\\/1901472_377604182380734_1140369729_n.jpg", 
+    "cover_id": 377604182380734, 
     "offset_x": 0, 
-    "offset_y": 29
+    "offset_y": 0
    }, 
    "location": "De ClubUp", 
    "eventdata": {
@@ -685,14 +685,14 @@
    "end_time": "2014-03-22T05:00:00+0100"
   }, 
   {
-   "attending_total": 52, 
+   "attending_total": 58, 
    "name": "Koffie Verkeerd", 
    "start_time": "2014-03-20T23:00:00+0100", 
    "image_url": {
-    "source": "https:\\/\\/fbcdn-sphotos-c-a.akamaihd.net\\/hphotos-ak-ash3\\/t1.0-9\\/s720x720\\/1897829_263544077141567_916345290_n.jpg", 
-    "cover_id": 263544077141567, 
+    "source": "https:\\/\\/scontent-a.xx.fbcdn.net\\/hphotos-prn2\\/t1.0-9\\/s720x720\\/1975241_365136103628522_929558561_n.jpg", 
+    "cover_id": 365136103628522, 
     "offset_x": 0, 
-    "offset_y": 29
+    "offset_y": 0
    }, 
    "location": "De ClubUp", 
    "eventdata": {
@@ -726,14 +726,14 @@
    "end_time": "2014-03-21T04:00:00+0100"
   }, 
   {
-   "attending_total": 980, 
+   "attending_total": 979, 
    "name": "KRIS KROSS PART 9 | CLUB UP & DE KRING | Sold Out!", 
    "start_time": "2014-03-15T23:00:00+0100", 
    "image_url": {
-    "source": "https:\\/\\/fbcdn-sphotos-c-a.akamaihd.net\\/hphotos-ak-ash3\\/t1.0-9\\/s720x720\\/1897829_263544077141567_916345290_n.jpg", 
-    "cover_id": 263544077141567, 
+    "source": "https:\\/\\/scontent-a.xx.fbcdn.net\\/hphotos-prn1\\/t1.0-9\\/s720x720\\/1521439_584539731622859_674007883_n.jpg", 
+    "cover_id": 584539731622859, 
     "offset_x": 0, 
-    "offset_y": 29
+    "offset_y": 0
    }, 
    "location": "De ClubUp", 
    "eventdata": {
@@ -773,14 +773,14 @@
    "end_time": "2014-03-16T06:00:00+0100"
   }, 
   {
-   "attending_total": 406, 
+   "attending_total": 407, 
    "name": "ONGPST maarwel LKKR #2 // Donderdag 13 Maart", 
    "start_time": "2014-03-13T23:00:00+0100", 
    "image_url": {
-    "source": "https:\\/\\/fbcdn-sphotos-c-a.akamaihd.net\\/hphotos-ak-ash3\\/t1.0-9\\/s720x720\\/1897829_263544077141567_916345290_n.jpg", 
-    "cover_id": 263544077141567, 
+    "source": "https:\\/\\/scontent-a.xx.fbcdn.net\\/hphotos-prn1\\/t1.0-9\\/s720x720\\/1780733_10203408587481076_311344628_n.jpg", 
+    "cover_id": "10203408587481076", 
     "offset_x": 0, 
-    "offset_y": 29
+    "offset_y": 0
    }, 
    "location": "De ClubUp", 
    "eventdata": {
@@ -812,139 +812,6 @@
    "timezone": "Europe/Amsterdam", 
    "id": "820382971322213", 
    "end_time": "2014-03-14T04:00:00+0100"
-  }, 
-  {
-   "attending_total": 81, 
-   "name": "KISS Escort presents: \" Smierige Beisten Festijn\"", 
-   "start_time": "2014-03-08T23:00:00+0100", 
-   "image_url": {
-    "source": "https:\\/\\/fbcdn-sphotos-c-a.akamaihd.net\\/hphotos-ak-ash3\\/t1.0-9\\/s720x720\\/1897829_263544077141567_916345290_n.jpg", 
-    "cover_id": 263544077141567, 
-    "offset_x": 0, 
-    "offset_y": 29
-   }, 
-   "location": "De ClubUp", 
-   "eventdata": {
-    "description": "Every 2nd Saturday of the month KISS Escort presents - Smierige Beisten Festijn!\n\n                     MARCH 2014\n                       \n                   Dim Browski (KISS)\n                          invites\n      Gurney-Champion (Orthogon Wolf)\n                            and\n                           J.A.N.\n              playing their personal fav's\n                    kickin' it from \n             hip-hop to BIGI POKU\n                           from\n                     rock to soul\n       and dance hall back to the future   \n                 in the CLUB UP\n       \n                  hosting DE KRING\n                    \n    our Uncle Clyde (KISS) with this month\n                    Julien Simmons\n                       on his side\n            creator of Het Partyfeest\n      will be playing a whole different set\n                   than you used to\n         \n                   meet at the door\n      Don Gianni Suave from 2300 to 0200\n                 at de Kring entrance\n             for the list and a quick hi\n                     Tickets 10 EU", 
-    "privacy": "OPEN", 
-    "start_time": "2014-03-08T23:00:00+0100", 
-    "venue": {
-     "city": "Amsterdam", 
-     "zip": "1017 RC", 
-     "country": "Netherlands", 
-     "longitude": 4.8833823641746, 
-     "street": "Korte Leidsedwarsstraat 26 - I", 
-     "latitude": 52.363578947487, 
-     "id": "117962971613608"
-    }, 
-    "updated_time": "2014-02-28T11:27:12+0000", 
-    "is_date_only": false, 
-    "end_time": "2014-03-09T04:00:00+0100", 
-    "location": "De ClubUp", 
-    "owner": {
-     "category": "Musician/band", 
-     "name": "Kiss Escort", 
-     "id": "59140777510"
-    }, 
-    "timezone": "Europe/Amsterdam", 
-    "id": "281715021985547", 
-    "name": "KISS Escort presents: \" Smierige Beisten Festijn\""
-   }, 
-   "timezone": "Europe/Amsterdam", 
-   "id": "281715021985547", 
-   "end_time": "2014-03-09T04:00:00+0100"
-  }, 
-  {
-   "attending_total": 195, 
-   "name": "Ad Infinitum @ Club Up // Anil Aras - Larry de Kat - Danny Woof", 
-   "start_time": "2014-03-07T23:00:00+0100", 
-   "image_url": {
-    "source": "https:\\/\\/fbcdn-sphotos-c-a.akamaihd.net\\/hphotos-ak-ash3\\/t1.0-9\\/s720x720\\/1897829_263544077141567_916345290_n.jpg", 
-    "cover_id": 263544077141567, 
-    "offset_x": 0, 
-    "offset_y": 29
-   }, 
-   "location": "De ClubUp", 
-   "eventdata": {
-    "description": "\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac | Ad Infinitum | \u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac \n\nNa het succes in de Beatclub 31 januari trekken we hem gewoon door! We hebben geen zin om stil te zitten en daarom doen we 7 maart een ekt Ad Infinitum avondje in De ClubUp. Dit keer hebben we de mannen van Slapfunk Anil Aras en Larry de Kat uitgenodigd om te komen housen. \n\n\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac | Line up | \u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac \n\n\n\u2605\u2605\u2605 Anil Aras \u2605\u2605\u2605\n\nAnil en Ad Infinitum bleken een perfecte combi, wie herinnert zich zijn set niet tijdens het magneet festival in de Ad Infinitum tent!? Wat ging het toen los en daarom weten wij zeker dat deze baas de Club Up deze avond ook weer gaat afbreken!\n\n\u2601 https://soundcloud.com/anilaras\n\n\n\u2605\u2605\u2605 Larry de Kat \u2605\u2605\u2605\n\nLarry staat bekend om zijn dikke en energieke producties. Met releases op SlapFunk Records en Lazare Hoche Records bewijst hij dat eens te meer. Hij staat garant voor een set vol met house zoals jullie dat van een Utrechter mogen verwachten.\n\n\u2601 https://soundcloud.com/larrydekat\n\n\n\u2605\u2605\u2605 Danny Woof \u2605\u2605\u2605\n\nDeze avond zal het debuut zijn van onze nieuwe resident Danny Woof! Deze Harderwijker geniet met zijn tracks de support van o.a. DJ Caspa en De Sluwe Vos. Jullie zullen nog veel van Danny gaan horen de komende tijd!\n\n\u2601 https://soundcloud.com/dannywoof\n\n\n\nTickets:\nhttps://shop.ticketscript.com/channel/web2/start-order/rid/YZB5QSH5/language/nl\n\n\u221e AI", 
-    "privacy": "OPEN", 
-    "start_time": "2014-03-07T23:00:00+0100", 
-    "venue": {
-     "city": "Amsterdam", 
-     "zip": "1017 RC", 
-     "country": "Netherlands", 
-     "longitude": 4.8833823641746, 
-     "street": "Korte Leidsedwarsstraat 26 - I", 
-     "latitude": 52.363578947487, 
-     "id": "117962971613608"
-    }, 
-    "updated_time": "2014-03-07T19:03:02+0000", 
-    "is_date_only": false, 
-    "end_time": "2014-03-08T05:00:00+0100", 
-    "location": "De ClubUp", 
-    "owner": {
-     "category": "Event planning/event services", 
-     "name": "Ad Infinitum", 
-     "id": "365501036875806"
-    }, 
-    "timezone": "Europe/Amsterdam", 
-    "id": "1422535414653991", 
-    "name": "Ad Infinitum @ Club Up // Anil Aras - Larry de Kat - Danny Woof"
-   }, 
-   "timezone": "Europe/Amsterdam", 
-   "id": "1422535414653991", 
-   "end_time": "2014-03-08T05:00:00+0100"
-  }, 
-  {
-   "attending_total": 346, 
-   "name": "WAVEFILES INVITES DJ PAYPAL & 813 / DONDERDAG 6 MAART @ CLUB UP", 
-   "start_time": "2014-03-06T23:00:00+0100", 
-   "image_url": {
-    "source": "https:\\/\\/fbcdn-sphotos-c-a.akamaihd.net\\/hphotos-ak-ash3\\/t1.0-9\\/s720x720\\/1897829_263544077141567_916345290_n.jpg", 
-    "cover_id": 263544077141567, 
-    "offset_x": 0, 
-    "offset_y": 29
-   }, 
-   "location": "De ClubUp", 
-   "eventdata": {
-    "description": "Na een zeer geslaagde eerste editie van 2014 zijn we alweer op weg naar de tweede editie van het jaar. Voor deze editie hebben we 2 hele interessante opkomende artiesten uitgenodigd om de zaal weer op zijn kop te zetten.\n\n\u00c9\u00e9n daarvan is DJ PAYPAL. Met een Boiler Room sessie op zijn naam en een grootse release die eraan komt zijn we trots dat we deze \"anonieme\" DJ te gast hebben tijdens onze aankomende editie.\n\nDe andere artiest is er \u00e9\u00e9n waar je de komende tijd nog veel over zult horen, namelijk \"813\". All the way from Moskou met warme blazende beats komt hij jullie zegenen met een frisse sound die je nog niet eerder heb gehoord!\n\nLine up:\n\nDJ PAYPAL (DE)\n813 (RUS)\nJarreau Vandal\nVincent-Paolo\nBlaxton\n\n\nGenre: Bass, Ghetto House, Beats, Electronica & other future sounds...\nDatum: Donderdag 6 maart\nTijd: 23:00 - 04:00\nEntree: \u20ac6,-\nLocatie: Club Up, Amsterdam\nAdres: Korte Leidsedwarsstraat 26-1", 
-    "privacy": "OPEN", 
-    "start_time": "2014-03-06T23:00:00+0100", 
-    "venue": {
-     "city": "Amsterdam", 
-     "zip": "1017 RC", 
-     "country": "Netherlands", 
-     "longitude": 4.8833823641746, 
-     "street": "Korte Leidsedwarsstraat 26 - I", 
-     "latitude": 52.363578947487, 
-     "id": "117962971613608"
-    }, 
-    "updated_time": "2014-02-09T12:51:39+0000", 
-    "is_date_only": false, 
-    "end_time": "2014-03-07T04:00:00+0100", 
-    "location": "De ClubUp", 
-    "owner": {
-     "category": "Arts/entertainment/nightlife", 
-     "name": "Wavefiles", 
-     "category_list": [
-      {
-       "id": "192119584190796", 
-       "name": "Event"
-      }, 
-      {
-       "id": "133436743388217", 
-       "name": "Arts & Entertainment"
-      }
-     ], 
-     "id": "434863536554637"
-    }, 
-    "timezone": "Europe/Amsterdam", 
-    "id": "660248287365278", 
-    "name": "WAVEFILES INVITES DJ PAYPAL & 813 / DONDERDAG 6 MAART @ CLUB UP"
-   }, 
-   "timezone": "Europe/Amsterdam", 
-   "id": "660248287365278", 
-   "end_time": "2014-03-07T04:00:00+0100"
   }
  ]
 }

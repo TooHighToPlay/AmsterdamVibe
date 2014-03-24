@@ -2,8 +2,8 @@
  "category": "Food/beverages", 
  "username": "odeonamsterdam", 
  "about": "Concertzaal, meetingvenue, restaurant", 
- "talking_about_count": 367, 
- "likes": 2637, 
+ "talking_about_count": 447, 
+ "likes": 2671, 
  "description": "Op 21 februari is de heropening van Odeon.\n\nOp dit moment wordt er keihard gewerkt aan het vernieuwen van de club, het nieuwe geluidssysteem en een programmering om je vingers bij af te likken.\n\nzet het in je agenda en Hou ons in de gaten.\nx\nOdeon", 
  "category_list": [
   {
@@ -21,10 +21,10 @@
  ], 
  "can_post": true, 
  "cover": {
-  "source": "https://scontent-a.xx.fbcdn.net/hphotos-frc3/t1.0-9/s720x720/1499582_773488869329750_1305832389_n.jpg", 
-  "cover_id": 773488869329750, 
+  "source": "https://scontent-b.xx.fbcdn.net/hphotos-prn1/t1.0-9/s720x720/1976918_776364752375495_110678796_n.jpg", 
+  "cover_id": 776364752375495, 
   "offset_x": 0, 
-  "offset_y": 100
+  "offset_y": 25
  }, 
  "name": "Odeon", 
  "website": "www.odeonamsterdam.nl", 
@@ -39,8 +39,8 @@
   "street": "Singel 460", 
   "latitude": 52.367580559576
  }, 
- "were_here_count": 11325, 
- "checkins": 11325, 
+ "were_here_count": 11503, 
+ "checkins": 11503, 
  "id": "144839688861341", 
  "is_published": true
 }
