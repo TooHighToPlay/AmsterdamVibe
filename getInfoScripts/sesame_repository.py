@@ -43,7 +43,47 @@ def getQueryResults(repo_name,query):
 	return data
 
 def getUserSuggestedEvents(repo_name,user_id):
-	print "to complete query here"
+	
+	#for test
+	query = prefixes+"""
+	SELECT DISTINCT ?event WHERE{
+	BIND (now() AS ?crt_date)
+	?user av:fbid "%s".
+	?user av:likes ?artist.
+	?artist dbo:MusicGenre ?genre.
+	?event a fb:Event.
+	?event av:genre ?genre.
+	?event fb:start_time ?date.
+	?event fb:attending_total ?attending_total.
+	FILTER(xsd:dateTime(?date) >= xsd:dateTime(?crt_date)).
+	}ORDER BY DESC(?attending_total)
+	"""%user_id
+
+	# # actual query
+	# query = prefixes+"""
+	# SELECT DISTINCT ?event WHERE{
+	# BIND (now() AS ?crt_date)
+	# ?user av:fbid "%s".
+	# ?user av:likesOrMayLike ?event.
+	# ?event fb:start_time ?date.
+	# ?event a fb:Event.
+	# ?event fb:attending_total ?attending_total.
+	# FILTER(xsd:dateTime(?date) >= xsd:dateTime(?crt_date)).
+	# }ORDER BY DESC(?attending_total)
+	# """%user_id
+
+	allFutureEvents = []
+	repositoryEvents = getQueryResults(repo_name,query)
+	if repositoryEvents:
+		for repositoryEvent in repositoryEvents:
+			eventUri=repositoryEvent["event"]
+			event = getEventInfo(repo_name,eventUri)
+			if repositoryEvent!=None:
+				allFutureEvents.append(event)
+		return allFutureEvents
+	return None
+
+
 
 def getFutureEvents(repo_name):
 	
@@ -244,6 +284,9 @@ def getArtistInfo(repo_name,artist_uri):
 	return artist
 
 if __name__=="__main__":
-	result_json=getFutureEvents(repository_name)
-	with open("test_result.json","w") as f:
-		json.dump(result_json,f)
+
+	#result_json=getFutureEvents(repository_name)
+	result_user=getUserSuggestedEvents(repository_name,"12312341234")	
+	print result_user
+	# with open("test_result.json","w") as f:
+	# 	json.dump(result_json,f)
