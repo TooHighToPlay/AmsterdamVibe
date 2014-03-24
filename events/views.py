@@ -11,7 +11,7 @@ import sparql
 
 
 def home(request):
-    return render_to_response('home.html', context_instance=RequestContext(request))
+    return redirect(reverse('event_list'))
 
 
 def parse_rdf_event(event):
