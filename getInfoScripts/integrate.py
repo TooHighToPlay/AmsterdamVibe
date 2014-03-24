@@ -269,7 +269,7 @@ def gatherAndExportUserData(repo_name,userId,userToken):
 	g.bind("dbo",dbo)
 	g.bind("fb",fb)
 
-	createGraphForFBUser(store,userId,fbuser_TOKEN)
+	createGraphForFBUser(store,userId,userToken)
 
 	graphString = g.serialize(format="n3")
 	with open("user.ttl","w") as f:

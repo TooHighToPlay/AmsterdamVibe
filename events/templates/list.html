@@ -4,6 +4,7 @@
 {% load socialaccount %}
 
 {% block scripts %}
+    <script src="{% static 'js/masonry.pkgd.min.js' %}"></script>
     <script src="{% static 'js/list.js' %}"></script>
 {% endblock %}
 
@@ -12,6 +13,7 @@
     <div class="container-fluid text-center">
 
     <h2>Suggested Events</h2>
+    <div id="suggested">
     {% for event in suggested_events %}
 
         <article class="event-card panel panel-primary" data-details-url="{% url 'event_details' event.id %}">
@@ -23,7 +25,7 @@
 
 
             <div class="card-body">
-                <img class="img-rounded img-responsive" src="{{ event.img_url }}" alt=""/>
+                <img class="img-rounded img-responsive" src="{{ event.image_url }}" alt=""/>
 
                 <ul class="text-center">
                     {% for genre in event.genres %}
@@ -33,14 +35,16 @@
 
                 <div class="venue-textbox text-center">
                     <p>
-                        <a href={{ event.venue.url }}>{{ event.venue.name }}</a>
-                        {{ event.venue.address }}
+                        @ {{ event.venue }}
                     </p>
                 </div>
             </div>
         </article>
 
     {% endfor %}
+    </div>
+    </div>
+    <div class="container-fluid text-center">
     {% if not suggested_events %}
         <p>You have to
             <a title="Facebook" class="socialaccount_provider facebook"
@@ -51,6 +55,7 @@
     {% endif %}
 
     <h2>Top Events</h2>
+    <div id="top">
     {% for event in top_events %}
 
         <article class="event-card panel panel-primary" data-details-url="{% url 'event_details' event.id %}">
@@ -62,7 +67,7 @@
 
 
             <div class="card-body">
-                <img class="img-rounded img-responsive" src="{{ event.img_url }}" alt=""/>
+                <img class="img-rounded img-responsive" src="{{ event.image_url }}" alt=""/>
 
                 <ul class="text-center">
                     {% for genre in event.genres %}
@@ -72,15 +77,14 @@
 
                 <div class="venue-textbox text-center">
                     <p>
-                        <a href={{ event.venue.url }}>{{ event.venue.name }}</a>
-                        {{ event.venue.address }}
+                        @ {{ event.venue }}
                     </p>
                 </div>
             </div>
         </article>
 
     {% endfor %}
-
+    </div>
     </div>
 
 {% endblock %}

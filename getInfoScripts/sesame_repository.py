@@ -85,7 +85,7 @@ def getUserSuggestedEvents(repo_name,user_id):
 
 
 
-def getFutureEvents(repo_name):
+def getFutureEvents(repo_name, limit=10):
 	
 	query = prefixes+"""
 	SELECT DISTINCT ?event WHERE{
@@ -95,7 +95,8 @@ def getFutureEvents(repo_name):
 	?event fb:attending_total ?attending_total.
 	FILTER(xsd:dateTime(?date) >= xsd:dateTime(?crt_date)).
 	}ORDER BY DESC(?attending_total)
-	"""
+	LIMIT %d
+	""" % limit
 
 	allFutureEvents = []
 	repositoryEvents = getQueryResults(repo_name,query)
@@ -117,7 +118,7 @@ def getEventInfoForId(repo_name,event_id):
 	"""%event_id
 	event = getQueryResults(repo_name,query)
 	if(event):
-		return getEventInfo(event[0]["event"])
+		return getEventInfo(repo_name, event[0]["event"])
 	else:
 		return None
 
@@ -284,9 +285,15 @@ def getArtistInfo(repo_name,artist_uri):
 	return artist
 
 if __name__=="__main__":
+<<<<<<< HEAD
 
 	#result_json=getFutureEvents(repository_name)
 	result_user=getUserSuggestedEvents(repository_name,"12312341234")	
 	print result_user
 	# with open("test_result.json","w") as f:
 	# 	json.dump(result_json,f)
+=======
+	result_json=getFutureEvents(repository_name)
+	with open("test_result.json","w") as f:
+		json.dump(result_json,f)
+>>>>>>> 166ab760dd9453a927eae4e5a1327389b432d8a8

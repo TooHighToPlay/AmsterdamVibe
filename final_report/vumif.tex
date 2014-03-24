@@ -226,6 +226,8 @@ Working example of the application can be found on the following link:
 
 \end{itemize}
 
+Besides the services, we performed site scraping to get more event data and genres. We scraped the partyflock site for genres and artists (they have a an index of artists). For every artist we found the genres (matched with DBPedia) and artist URL, and we stored this data in the RDF datastore. This approach also had some trouble because the partyflock website throttled our requests.
+
 \subsection{Inferencing}
 
 Inferencing was used to suggest users events depending on their past likes and events, in which they participated. Here are some rules, which was used in Amsterdam Vibe application:
