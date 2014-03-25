@@ -9,7 +9,7 @@
 
 <http://facebook.com#12312341234> a av:User ;
     av:fbid "12312341234" ;
-    av:likes <http://dbpedia.org/resource/Andrea_Bocelli>,
+    av:likesArtist <http://dbpedia.org/resource/Andrea_Bocelli>,
         <http://dbpedia.org/resource/Bobby_McFerrin>,
         <http://dbpedia.org/resource/Celine_Dion>,
         <http://dbpedia.org/resource/Eric_Whitacre>,

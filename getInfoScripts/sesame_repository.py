@@ -42,35 +42,48 @@ def getQueryResults(repo_name,query):
 		data.append(d)
 	return data
 
+def doesEventWithIdExist(repo_name,eventId):
+	query = prefixes+"""
+	SELECT distinct ?event WHERE{
+	?event a fb:Event;
+		   fb:id "%s"
+	}
+	"""%eventId
+	event = getQueryResults(repo_name,query)
+	if event:
+		return True
+	return False
+
+
 def getUserSuggestedEvents(repo_name,user_id):
 	
 	#for test
-	query = prefixes+"""
-	SELECT DISTINCT ?event WHERE{
-	BIND (now() AS ?crt_date)
-	?user av:fbid "%s".
-	?user av:likes ?artist.
-	?artist dbo:MusicGenre ?genre.
-	?event a fb:Event.
-	?event av:genre ?genre.
-	?event fb:start_time ?date.
-	?event fb:attending_total ?attending_total.
-	FILTER(xsd:dateTime(?date) >= xsd:dateTime(?crt_date)).
-	}ORDER BY DESC(?attending_total)
-	"""%user_id
-
-	# # actual query
 	# query = prefixes+"""
 	# SELECT DISTINCT ?event WHERE{
 	# BIND (now() AS ?crt_date)
 	# ?user av:fbid "%s".
-	# ?user av:likesOrMayLike ?event.
-	# ?event fb:start_time ?date.
+	# ?user av:likes ?artist.
+	# ?artist dbo:MusicGenre ?genre.
 	# ?event a fb:Event.
+	# ?event av:genre ?genre.
+	# ?event fb:start_time ?date.
 	# ?event fb:attending_total ?attending_total.
 	# FILTER(xsd:dateTime(?date) >= xsd:dateTime(?crt_date)).
 	# }ORDER BY DESC(?attending_total)
 	# """%user_id
+
+	# actual query
+	query = prefixes+"""
+	SELECT DISTINCT ?event WHERE{
+	BIND (now() AS ?crt_date)
+	?user av:fbid "%s".
+	?user av:mayLikeEvent ?event.
+	?event fb:start_time ?date.
+	?event a fb:Event.
+	?event fb:attending_total ?attending_total.
+	FILTER(xsd:dateTime(?date) >= xsd:dateTime(?crt_date)).
+	}ORDER BY DESC(?attending_total)
+	"""%user_id
 
 	allFutureEvents = []
 	repositoryEvents = getQueryResults(repo_name,query)
@@ -284,16 +297,16 @@ def getArtistInfo(repo_name,artist_uri):
 
 	return artist
 
-if __name__=="__main__":
-<<<<<<< HEAD
+# if __name__=="__main__":
+# <<<<<<< HEAD
 
-	#result_json=getFutureEvents(repository_name)
-	result_user=getUserSuggestedEvents(repository_name,"12312341234")	
-	print result_user
-	# with open("test_result.json","w") as f:
-	# 	json.dump(result_json,f)
-=======
-	result_json=getFutureEvents(repository_name)
-	with open("test_result.json","w") as f:
-		json.dump(result_json,f)
->>>>>>> 166ab760dd9453a927eae4e5a1327389b432d8a8
+# 	#result_json=getFutureEvents(repository_name)
+# 	result_user=getUserSuggestedEvents(repository_name,"12312341234")	
+# 	print result_user
+# 	# with open("test_result.json","w") as f:
+# 	# 	json.dump(result_json,f)
+# =======
+# 	result_json=getFutureEvents(repository_name)
+# 	with open("test_result.json","w") as f:
+# 		json.dump(result_json,f)
+# >>>>>>> 166ab760dd9453a927eae4e5a1327389b432d8a8

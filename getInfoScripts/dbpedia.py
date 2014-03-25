@@ -120,7 +120,7 @@ def getAndSaveAllDbpediaData():
 	f.close()
 
 def loadGenres():
-	f=open("getInfoScripts/dbpediaGenres.json","r")
+	f=open("dbpediaGenres.json","r")
 	dbpediaGenres = json.load(f)
 	f.close()
 	return dbpediaGenres

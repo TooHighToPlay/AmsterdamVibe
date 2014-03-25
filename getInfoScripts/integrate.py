@@ -10,6 +10,7 @@ import soundcloud_get_tracks
 import fbdata
 import json
 import sesame
+import sesame_repository
 
 amsterdamVibeUri =  "http://amsterdamvibe.nl#"
 dbpediaOntologyUri = "http://dbpedia.org/ontology#"
@@ -36,7 +37,7 @@ def importVenuesFromFile(file_path):
 
 def importEventsFromDirectory(directory_path):
 	eventsToReturn=[]
-	onlyfiles = [ join(directory_path,f) for f in listdir(directory_path) if isfile(join(directory_path,f)) ]
+	onlyfiles = [ join(directory_path,f) for f in listdir(directory_path) if (isfile(join(directory_path,f)) and "events" in f) ]
 	for file_path in onlyfiles:
 		with open(file_path,"r") as f:
 			allEventsJson = json.load(f)
@@ -55,7 +56,7 @@ def createGraphForVenues(store,venues):
 		gvenue.add((venueUriRef,fb["id"],Literal(venue["id"])))
 		gvenue.add((venueUriRef,fb["url"],Literal(venue["url"])))
 
-def createGraphForEvents(store,events,gfacebook_user=None,gfacebook_user_uriref=None):
+def createGraphForEvents(store,repo_name,events,gfacebook_user=None,gfacebook_user_uriref=None):
 	for event in events:
 		eventUriRef = URIRef("http://facebook.com/"+event["id"])
 
@@ -64,64 +65,69 @@ def createGraphForEvents(store,events,gfacebook_user=None,gfacebook_user_uriref=
 		gevent.add((eventUriRef,RDFS.label,Literal(event["name"])))
 		gevent.add((eventUriRef,fb["id"],Literal(event["id"])))
 
-		if "image_url" in event.keys():
-			gevent.add((eventUriRef,fb["image_url"],Literal(event["image_url"]["source"])))
-
-		start_time_string = event["start_time"]
-		start_time_string_without_timezone = start_time_string.split("+")[0]
-
-		date_added=False
-		#try to add date
-		try:
-			start_time_date = datetime.strptime(start_time_string_without_timezone,'%Y-%m-%dT%H:%M:%S')
-			gevent.add((eventUriRef,fb["start_time"],Literal(start_time_string_without_timezone,datatype=XSD.dateTime)))
-			date_added=True
-		except:
-			print "could not process datetime, try date instead"
-
-		if not date_added:
-			try:
-				start_time_date = datetime.strptime(start_time_string_without_timezone,'%Y-%m-%d')
-				gevent.add((eventUriRef,fb["start_time"],Literal(start_time_string_without_timezone,datatype=XSD.date)))
-			except:
-				print "could not even add event date, something wrong"
-
-		gevent.add((eventUriRef,fb["location"],Literal(event["location"])))
-		
-		if "eventdata" in event.keys():
-			if("description" in event["eventdata"].keys()):
-				gevent.add((eventUriRef,fb["description"],Literal(event["eventdata"]["description"])))
-			if("venue" in event["eventdata"].keys() and "id" in event["eventdata"]["venue"].keys()):
-				gevent.add((eventUriRef,fb["at_venue"],URIRef("http://facebook.com/"+event["eventdata"]["venue"]["id"])))
-				if "latitude" in event["eventdata"]["venue"].keys() and "longitude" in event["eventdata"]["venue"].keys():
-					gevent.add((eventUriRef,ns["latitude"],Literal(event["eventdata"]["venue"]["latitude"])))
-					gevent.add((eventUriRef,ns["longitude"],Literal(event["eventdata"]["venue"]["longitude"])))
-		
 		if "attending_total" in event.keys():
 			gevent.add((eventUriRef,fb["attending_total"],Literal(event["attending_total"])))
 
 		if(gfacebook_user!=None and gfacebook_user_uriref!=None):
 			gfacebook_user.add((gfacebook_user_uriref,ns["was_at"],eventUriRef))
 
-def createGraphForEventArtistsAndGenres(store,events):
+		#add the rest of information
+		eventAlreadyExists = sesame_repository.doesEventWithIdExist(repo_name,event["id"])
+		if not eventAlreadyExists:
+			if "image_url" in event.keys() and event["image_url"]!=None:
+				gevent.add((eventUriRef,fb["image_url"],Literal(event["image_url"]["source"])))
+
+			start_time_string = event["start_time"]
+			start_time_string_without_timezone = start_time_string.split("+")[0]
+
+			date_added=False
+			#try to add date
+			try:
+				start_time_date = datetime.strptime(start_time_string_without_timezone,'%Y-%m-%dT%H:%M:%S')
+				gevent.add((eventUriRef,fb["start_time"],Literal(start_time_string_without_timezone,datatype=XSD.dateTime)))
+				date_added=True
+			except:
+				print "could not process datetime, try date instead"
+
+			if not date_added:
+				try:
+					start_time_date = datetime.strptime(start_time_string_without_timezone,'%Y-%m-%d')
+					gevent.add((eventUriRef,fb["start_time"],Literal(start_time_string_without_timezone,datatype=XSD.date)))
+				except:
+					print "could not even add event date, something wrong"
+
+			gevent.add((eventUriRef,fb["location"],Literal(event["location"])))
+			
+			if "eventdata" in event.keys():
+				if("description" in event["eventdata"].keys()):
+					gevent.add((eventUriRef,fb["description"],Literal(event["eventdata"]["description"])))
+				if("venue" in event["eventdata"].keys() and "id" in event["eventdata"]["venue"].keys()):
+					gevent.add((eventUriRef,fb["at_venue"],URIRef("http://facebook.com/"+event["eventdata"]["venue"]["id"])))
+					if "latitude" in event["eventdata"]["venue"].keys() and "longitude" in event["eventdata"]["venue"].keys():
+						gevent.add((eventUriRef,ns["latitude"],Literal(event["eventdata"]["venue"]["latitude"])))
+						gevent.add((eventUriRef,ns["longitude"],Literal(event["eventdata"]["venue"]["longitude"])))
+
+def createGraphForEventArtistsAndGenres(store,repo_name,events):
 	count =0 
 	allArtistUris = []
 	for event in events:
-		eventUriRef = URIRef("http://facebook.com/"+event["id"])
+		eventAlreadyExists = sesame_repository.doesEventWithIdExist(repo_name,event["id"])
+		if not eventAlreadyExists:
+			eventUriRef = URIRef("http://facebook.com/"+event["id"])
 
-		gevent = Graph(store=store,identifier=eventUriRef)
-		
-		if "eventdata" in event.keys():
-			if("description" in event["eventdata"].keys()):
-				description = event["eventdata"]["description"]
-				genres = dbpedia.extractMusicGenreNamesFromText(description)
-				for dbpediaGenreUri in genres:
-					gevent.add((eventUriRef,ns["genre"],URIRef(dbpediaGenreUri)))
-				artists = dbpedia_spotlight.getArtistEntities(description)
-				for artistUri in artists:
-					gevent.add((eventUriRef,ns["relatedArtist"],URIRef(artistUri)))
-					if artistUri not in allArtistUris:
-						allArtistUris.append(artistUri)
+			gevent = Graph(store=store,identifier=eventUriRef)
+			
+			if "eventdata" in event.keys():
+				if("description" in event["eventdata"].keys()):
+					description = event["eventdata"]["description"]
+					genres = dbpedia.extractMusicGenreNamesFromText(description)
+					for dbpediaGenreUri in genres:
+						gevent.add((eventUriRef,ns["genre"],URIRef(dbpediaGenreUri)))
+					artists = dbpedia_spotlight.getArtistEntities(description)
+					for artistUri in artists:
+						gevent.add((eventUriRef,ns["relatedArtist"],URIRef(artistUri)))
+						if artistUri not in allArtistUris:
+							allArtistUris.append(artistUri)
 		
 		count = count+1
 
@@ -206,14 +212,19 @@ def createGraphForFBUser(store,userId,userToken):
 			artistURIRef = URIRef(artistUri)
 			extractArtistInfoAndAddToGraph(store,artistUri,soundcloud_client)
 
-			gfacebook_user.add((userUri,ns["likes"],artistURIRef))
+			gfacebook_user.add((userUri,ns["likesArtist"],artistURIRef))
 
 	for genre in genres:
 		genreName = genre["name"]
 		dbpediaGenresWithName = dbpedia.getGenreWithName(genre)
+		if(dbpediaGenresWithName):
+			genreUri = dbpediaArtistsWithName[0]["genre"]["value"]
+			genreURIRef = URIRef(genreUri)
 
-	createGraphForEvents(store,userEventsInfo,gfacebook_user,userUri)
-	createGraphForEventArtistsAndGenres(store,userEventsInfo)
+			gfacebook_user.add((userUri,ns["likesGenre"],genreURIRef))
+
+	createGraphForEvents(store,repo_name,userEventsInfo,gfacebook_user,userUri)
+	createGraphForEventArtistsAndGenres(store,repo_name,userEventsInfo)
 
 def gatherAndExportGenreData(repo_name):
 	store = IOMemory()
@@ -249,16 +260,16 @@ def gatherAndExportGlobalData(repo_name):
 	events = importEventsFromDirectory("fb_data_stuff/events/")
 	
 
-	createGraphForEvents(store,events)
+	createGraphForEvents(store,repo_name,events)
 	createGraphForVenues(store,venues)
-	createGraphForEventArtistsAndGenres(store,events)
+	createGraphForEventArtistsAndGenres(store,repo_name,events)
 
 	graphString = g.serialize(format="n3")
 
 	with open("global.ttl","w") as f:
 		f.write(graphString)
 
-	response = sesame.import_content(repo_name,graphString)
+	#response = sesame.import_content(repo_name,graphString)
 
 def gatherAndExportUserData(repo_name,userId,userToken):
 	store = IOMemory()
@@ -281,8 +292,8 @@ if __name__=="__main__":
 	repo_name="iwaf1"
 
 	#gatherAndExportGenreData(repo_name)
-	gatherAndExportGlobalData(repo_name)
+	#gatherAndExportGlobalData(repo_name)
 
-	fbuser_TOKEN = 'CAACEdEose0cBANoC58ZBDmOqeM4wV4MpyWeLMIbJyrKSLM2TlxYcZBMFH4YaPMPcg3h32gXBHQQ42QYn1qAozHF1ftmDnF1cOhLZA8DfZAAlkkUuHEZADAIUZC4d0Dqa0AgZAlU7fOw340tgeklqIjFnjFKGM8pQrlRlUuZAg3E3Nffd8rjyhekmEHbI1HavES2NHrFZAc0fJWQZDZD'
+	fbuser_TOKEN = 'CAACEdEose0cBAIjGwoBZB4OsX1p83DJrL05gK89yuWr4PCDA6uO9dA60AzhDoV7ANF5cz1XCTZAGxPVC8U780vA5ygJZAPzzzqYf5EbqLOtpr4fVY3M1dLh1VfC2l7GbgXGdN2icTk9fXFZBU2UVvyJaKNZB4ucyOWMABDgRPw0OMIVeJTnNCNv9JaSh5sM3J8k7B8ZCTt8AZDZD'
 	userId = "12312341234"
-	#gatherAndExportUserData(repo_name,userId,fbuser_TOKEN)
+	gatherAndExportUserData(repo_name,userId,fbuser_TOKEN)

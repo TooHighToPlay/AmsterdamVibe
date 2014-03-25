@@ -28,77 +28,42 @@ dbo:musicSubgenre rdfs:subPropertyOf :genreRelated .
 :genreOfArtist owl:inverseOf dbo:MusicGenre.
 
 :artistAtEvent owl:inverseOf av:relatedArtist.
-:genreOfEvent owl:inverseOf av:genre.               
+:genreOfEvent owl:inverseOf av:genre.
 
-:genre a owl:ObjectProperty ;
-            rdfs:range :MusicGenre ;
-            rdfs:domain :MusicGenre . 
+:mayLike rdfs:subPropertyOf :likeOrMayLike.
+:likes rdfs:subPropertyOf :likeOrMayLike.
 
-:was_at a owl:ObjectProperty ;
-            rdfs:range :user ;
-            rdfs:domain fb:Event . 
-
-:hasGenreDueToArtist a owl:ObjectProperty ;
-            owl:propertyChainAxiom ( :relatedArtist
-                                     dbo:MusicGenre
-                                   ) ;
-            rdfs:range fb:Event ;
-            rdfs:domain av:MusicGenre ;
-            rdfs:subPropertyOf :genre .
-
-:likeOrMayLikeArtist a owl:ObjectProperty ;
-            rdfs:range :user ;
-            rdfs:domain :ArtisticEntity . 
-
-:likeOrMayLikeGenre a owl:ObjectProperty ;
-            rdfs:range :user ;
-            rdfs:domain av:MusicGenre .
-
-:likeOrMayLikeEvent a owl:ObjectProperty ;
-            rdfs:range :user ;
-            rdfs:domain fb:Event .
-
-:mayLikeArtist rdfs:subPropertyOf :likeOrMayLikeArtist.
-:likesArtist rdfs:subPropertyOf :likeOrMayLikeArtist.
-
-:mayLikeGenre rdfs:subPropertyOf :likeOrMayLikeGenre.
-:likesGenre rdfs:subPropertyOf :likeOrMayLikeGenre.
-
-:mayLikeEvent rdfs:subPropertyOf :likeOrMayLikeEvent.
-
-:mayLikeGenreDueToArtist rdfs:subPropertyOf :mayLikeGenre.
-:mayLikeGenreDueToGenre rdfs:subPropertyOf :mayLikeGenre.
-:mayLikeGenreDueToEventGenre rdfs:subPropertyOf :mayLikeGenre.
-
-:mayLikeArtistDueToGenre rdfs:subPropertyOf :mayLikeArtist.
-:mayLikeArtistDueToEventArtist rdfs:subPropertyOf :mayLikeArtist.
-
-:mayLikeEventDueToGenre rdfs:subPropertyOf :mayLikeEvent.
-:mayLikeEventDueToArtist rdfs:subPropertyOf :mayLikeEvent.
+:mayLikeGenreDueToArtist rdfs:subPropertyOf :mayLike.
+:mayLikeGenreDueToGenre rdfs:subPropertyOf :mayLike.
+:mayLikeEventDueToGenre rdfs:subPropertyOf :mayLike.
+:mayLikeArtistDueToGenre rdfs:subPropertyOf :mayLike.
+:mayLikeGenreDueToEventGenre rdfs:subPropertyOf :mayLike.
+:mayLikeArtistDueToEventArtist rdfs:subPropertyOf :mayLike.
+:mayLikeEventDueToArtist rdfs:subPropertyOf :mayLike.
 
 :mayLikeGenreDueToArtist a owl:ObjectPropety ;
-            owl:propertyChainAxiom ( :likeOrMayLikeArtist
+            owl:propertyChainAxiom ( :likeOrMayLike
                                      dbo:MusicGenre
                                    ) ;
             rdfs:range :user ;
             rdfs:domain av:MusicGenre .
 
 :mayLikeGenreDueToGenre a owl:ObjectPropety ;
-            owl:propertyChainAxiom ( :likeOrMayLikeGenre
+            owl:propertyChainAxiom ( :likeOrMayLike
                                      :genreRelated
                                    ) ;
             rdfs:range :user ;
             rdfs:domain av:MusicGenre . 
 
 :mayLikeEventDueToGenre a owl:ObjectProperty ;
-            owl:propertyChainAxiom ( :likeOrMayLikeGenre
+            owl:propertyChainAxiom ( :likeOrMayLike
                                      :genreOfEvent
                                    ) ;
             rdfs:range :user ;
             rdfs:domain :event .
 
 :mayLikeArtistDueToGenre a owl:ObjectProperty ;
-            owl:propertyChainAxiom ( :likeOrMayLikeGenre
+            owl:propertyChainAxiom ( :likeOrMayLike
                                      :genreOfArtist
                                    ) ;
             rdfs:range :user ;
@@ -121,7 +86,7 @@ dbo:musicSubgenre rdfs:subPropertyOf :genreRelated .
 
 
 :mayLikeEventDueToArtist a owl:ObjectProperty ;
-            owl:propertyChainAxiom ( :likeOrMayLikeArtist
+            owl:propertyChainAxiom ( :mayLike
                                      :artistAtEvent
                                    ) ;
             rdfs:range :user ;

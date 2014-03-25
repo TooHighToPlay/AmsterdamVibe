@@ -11,14 +11,18 @@ def getArtistEntities(text):
 		"types":"MusicalArtist,Band",
 		"confidence":0.3
 	}
-	res=requests.get(dbpedia_spotlight_url,params=get_params,headers=headers)
-	#res=requests.get(dbpedia_spotlight_url,params=get_params,headers=headers)
-	spotlight_json=res.json()
-	entities_uris=[]
-	if spotlight_json and "Resources" in spotlight_json.keys():
-		for entity in spotlight_json["Resources"]:
-			entities_uris.append(entity["@URI"])
-	return entities_uris
+	try:	
+		res=requests.get(dbpedia_spotlight_url,params=get_params,headers=headers)
+		#res=requests.get(dbpedia_spotlight_url,params=get_params,headers=headers)
+		spotlight_json=res.json()
+		entities_uris=[]
+		if spotlight_json and "Resources" in spotlight_json.keys():
+			for entity in spotlight_json["Resources"]:
+				entities_uris.append(entity["@URI"])
+		return entities_uris
+	except Exception as e:
+		print e
+		return []
 
 if __name__=="__main__":
 	entitiesURIs = getArtistEntities(text)
