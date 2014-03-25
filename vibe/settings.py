@@ -62,7 +62,7 @@ INSTALLED_APPS = (
     'gunicorn',
 )
 
-SITE_ID = 2
+SITE_ID = 1
 
 SOCIALACCOUNT_PROVIDERS = {
     'facebook': {

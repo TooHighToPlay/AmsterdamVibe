@@ -195,7 +195,7 @@ def createGraphForGenres(store,genreNames,genreRelations):
 		ggenre = Graph(store=store,identifier=genre1UriRef)
 		ggenre.add((genre1UriRef,relationUriRef,genre2UriRef))
 
-def createGraphForFBUser(store,userId,userToken):
+def createGraphForFBUser(store,repo_name,userId,userToken):
 	[genres,artists,userEventsInfo] = fbdata.get_fbuser_data(userToken)
 
 	userUri = URIRef(facebookOntologyUri+str(userId))
@@ -280,7 +280,7 @@ def gatherAndExportUserData(repo_name,userId,userToken):
 	g.bind("dbo",dbo)
 	g.bind("fb",fb)
 
-	createGraphForFBUser(store,userId,userToken)
+	createGraphForFBUser(store,repo_name,userId,userToken)
 
 	graphString = g.serialize(format="n3")
 	with open("user.ttl","w") as f:
