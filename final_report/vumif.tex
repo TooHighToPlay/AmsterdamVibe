@@ -136,24 +136,6 @@ Working example of the application can be found on the following link:
 
 \section{Report}
 
-\subsection{Questions to cover}
-
-\begin{itemize}
-  
-    \item the goal of the application (what does it aim to do, and why is this useful?).
-
-    \item the datasets and services used by the application
-
-    \item the functionality of the application (what things does the application do, what is a typical workflow)
-
-    \item the inferencing used by the application (it helps if you give a concrete example).
-
-    \item any other considerations you had during the design and implementation (what worked, what didn't work, what motivated your decision to go for a particular solution)
-
-    \item any future plans you may have (what would you like to add if you had the time?)
-
-\end{itemize}
-
 \subsection{Idea}
 
   Amsterdam is famous not only for its architecture, history or beautiful sights, but also for it's vibrant nightlife. It has more than 4 million tourists coming over during the year, it also has a lot of youth people from all over the world living here. Amsterdam can offer a lot of electronic music events for such diverse mix of people. 
@@ -233,6 +215,14 @@ Working example of the application can be found on the following link:
 \end{itemize}
 
 Besides the services, we performed site scraping to get more event data and genres. We scraped the partyflock site for genres and artists (they have a an index of artists). For every artist we found the genres (matched with DBPedia) and artist URL, and we stored this data in the RDF datastore. This approach also had some trouble because the partyflock website throttled our requests.
+
+\subsection{Tech stack}
+
+For the user interface, we made a web application. The backend uses Django and the frontend uses jQuery and Bootstrap, plus some extra libraries like leaflet for maps and masonry for irregular grid layouts. The Django app lets the user log in with Facebook, and after login, the user can import their Facebook data. This downloads their likes (artist/bands) and events participation and stores it into the RDF store. This, together with the inferences, helps the app suggest personalized events that the user might like more than just the popular events in Amsterdam.
+
+When viewing details for an event, the app also provides the user with a sample of soundcloud recordings for the participating artists. This way, the user can check beforehand some music of the artists and decide if he wants to attend the event or not.
+
+The user can also judge the event’s popularity by looking at the number of people that will be attending the event.
 
 \subsection{Inferencing}
 
