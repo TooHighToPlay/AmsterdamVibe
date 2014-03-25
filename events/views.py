@@ -16,11 +16,15 @@ def home(request):
 
 
 def parse_rdf_event(event):
-    dt = datetime.datetime.strptime(event['date'],'%Y-%m-%dT%H:%M:%S')
-    time = dt.strftime('%H:%M')
-    date = dt.strftime('%d %B %Y')
-    event['time'] = time
-    event['date'] = date
+    try:
+        dt = datetime.datetime.strptime(event['date'],'%Y-%m-%dT%H:%M:%S')
+        time = dt.strftime('%H:%M')
+        date = dt.strftime('%d %B %Y')
+        event['time'] = time
+        event['date'] = date
+    except:
+        event['time'] = ''
+        event['date'] = ''
 
     event['image_url'] = event['image_url'].replace('\\', '')
 
