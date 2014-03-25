@@ -59,6 +59,7 @@ INSTALLED_APPS = (
     'allauth.account',
     'allauth.socialaccount',
     'allauth.socialaccount.providers.facebook',
+    'gunicorn',
 )
 
 SITE_ID = 2

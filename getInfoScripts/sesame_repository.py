@@ -93,8 +93,7 @@ def getUserSuggestedEvents(repo_name,user_id):
 			event = getEventInfo(repo_name,eventUri)
 			if repositoryEvent!=None:
 				allFutureEvents.append(event)
-		return allFutureEvents
-	return None
+	return allFutureEvents
 
 
 
@@ -119,8 +118,7 @@ def getFutureEvents(repo_name, limit=10):
 			event = getEventInfo(repo_name,eventUri)
 			if repositoryEvent!=None:
 				allFutureEvents.append(event)
-		return allFutureEvents
-	return None
+	return allFutureEvents
 
 def getEventInfoForId(repo_name,event_id):
 	query = prefixes+"""
