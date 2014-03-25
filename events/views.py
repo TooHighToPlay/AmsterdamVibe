@@ -35,7 +35,7 @@ def parse_rdf_event(event):
 def list(request):
     # we should query the local datastore via sparql here and get
     # the events
-    top_events = [parse_rdf_event(e) for e in getFutureEvents('vibe', limit=20)]
+    top_events = [parse_rdf_event(e) for e in getFutureEvents('vibe', limit=50)]
 
     suggested_events = None
     if request.user.is_authenticated():
