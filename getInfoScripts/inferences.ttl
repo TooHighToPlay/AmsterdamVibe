@@ -12,16 +12,13 @@
 @prefix :<http://amsterdamvibe.nl#> .
 
 :derivatedBy owl:inverseOf dbo:derivative .
-:stylisticOriginOf owl:inverseOf dbo:stylisticOrigin .
 :musicFusionGenreOf owl:inverseOf dbo:musicFusionGenre .
 :musicSupergenreOf owl:inverseOf dbo:musicSubgenre .
 
 :derivatedBy rdfs:subPropertyOf :genreRelated .
-:stylisticOriginOf rdfs:subPropertyOf :genreRelated .
 :musicFusionGenreOf rdfs:subPropertyOf :genreRelated .
 :musicSupergenreOf rdfs:subPropertyOf :genreRelated .
 dbo:derivative rdfs:subPropertyOf :genreRelated .
-dbo:stylisticOrigin rdfs:subPropertyOf :genreRelated .
 dbo:musicFusionGenre rdfs:subPropertyOf :genreRelated .
 dbo:musicSubgenre rdfs:subPropertyOf :genreRelated .
 
@@ -58,37 +55,42 @@ dbo:musicSubgenre rdfs:subPropertyOf :genreRelated .
             rdfs:range :user ;
             rdfs:domain fb:Event .
 
+:mayLikeGenreInferred rdfs:subPropertyOf :likeOrMayLikeGenreInferred.
+:likesGenre rdfs:subPropertyOf :likeOrMayLikeGenreInferred.
+:likeOrMayLikeGenreInferred rdfs:subPropertyOf :likeOrMayLikeGenre.
+
+:mayLikeGenreDueToArtist rdfs:subPropertyOf :mayLikeGenreInferred.
+:mayLikeGenreDueToEventGenre rdfs:subPropertyOf :mayLikeGenreInferred.
+:mayLikeGenreDueToGenre rdfs:subPropertyOf :likeOrMayLikeGenre.
+
+
 :mayLikeArtist rdfs:subPropertyOf :likeOrMayLikeArtist.
 :likesArtist rdfs:subPropertyOf :likeOrMayLikeArtist.
-
-:mayLikeGenre rdfs:subPropertyOf :likeOrMayLikeGenre.
-:likesGenre rdfs:subPropertyOf :likeOrMayLikeGenre.
-
-:mayLikeEvent rdfs:subPropertyOf :likeOrMayLikeEvent.
-
-:mayLikeGenreDueToArtist rdfs:subPropertyOf :mayLikeGenre.
-:mayLikeGenreDueToGenre rdfs:subPropertyOf :mayLikeGenre.
-:mayLikeGenreDueToEventGenre rdfs:subPropertyOf :mayLikeGenre.
 
 :mayLikeArtistDueToGenre rdfs:subPropertyOf :mayLikeArtist.
 :mayLikeArtistDueToEventArtist rdfs:subPropertyOf :mayLikeArtist.
 
+
+:mayLikeEvent rdfs:subPropertyOf :likeOrMayLikeEvent.
+
 :mayLikeEventDueToGenre rdfs:subPropertyOf :mayLikeEvent.
 :mayLikeEventDueToArtist rdfs:subPropertyOf :mayLikeEvent.
 
+
 :mayLikeGenreDueToArtist a owl:ObjectPropety ;
-            owl:propertyChainAxiom ( :likeOrMayLikeArtist
+            owl:propertyChainAxiom ( :likesArtist
                                      dbo:MusicGenre
                                    ) ;
             rdfs:range :user ;
             rdfs:domain av:MusicGenre .
 
 :mayLikeGenreDueToGenre a owl:ObjectPropety ;
-            owl:propertyChainAxiom ( :likeOrMayLikeGenre
+            owl:propertyChainAxiom ( :likeOrMayLikeGenreInferred
                                      :genreRelated
                                    ) ;
             rdfs:range :user ;
             rdfs:domain av:MusicGenre . 
+
 
 :mayLikeEventDueToGenre a owl:ObjectProperty ;
             owl:propertyChainAxiom ( :likeOrMayLikeGenre
