@@ -22,6 +22,8 @@ def parse_rdf_event(event):
     event['time'] = time
     event['date'] = date
 
+    event['image_url'] = event['image_url'].replace('\\', '')
+
     if 'artists' in event:
         for i in range(len(event['artists'])):
             artist = event['artists'][i]
