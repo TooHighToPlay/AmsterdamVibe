@@ -4,7 +4,7 @@ from django.shortcuts import render_to_response, redirect
 from django.template import RequestContext
 from getInfoScripts import integrate, soundcloud_get_tracks
 
-from getInfoScripts.sesame_repository import getFutureEvents, getEventInfoForId
+from getInfoScripts.sesame_repository import getFutureEvents, getEventInfoForId, getUserSuggestedEvents
 
 import facebook
 import requests
@@ -43,7 +43,8 @@ def list(request):
 
     suggested_events = None
     if request.user.is_authenticated():
-        suggested_events = top_events[:3]
+        suggested_events = getUserSuggestedEvents('vibe', request.user.socialaccount_set.all()[0].extra_data['id'])
+        suggested_events = [parse_rdf_event(e) for e in suggested_events[:9]]
 
     return render_to_response('list.html', {
             'top_events': top_events,
