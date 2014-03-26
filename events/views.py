@@ -42,7 +42,7 @@ def list(request):
     top_events = [parse_rdf_event(e) for e in getFutureEvents('vibe', limit=50)]
 
     suggested_events = None
-    if request.user.is_authenticated():
+    if request.user.is_authenticated() and request.user.socialaccount_set.all():
         suggested_events = getUserSuggestedEvents('vibe', request.user.socialaccount_set.all()[0].extra_data['id'])
         suggested_events = [parse_rdf_event(e) for e in suggested_events[:9]]
 
