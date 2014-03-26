@@ -61,26 +61,11 @@ def details(request, id):
 
 
 def import_fb_data(request):
-    def get_all_data(url):
-        data = []
-        response = g.get_object(url)
-        data.extend(response['data'])
-
-        while 'paging' in response and 'next' in response['paging']:
-            response = requests.get(response['paging']['next']).json()
-            data.extend(response['data'])
-
-        return data
-
-    TOKEN = request.user.socialaccount_set.all()[0].socialtoken_set.all()[0].token
-    g = facebook.GraphAPI(TOKEN)
-
-    events = get_all_data('/me/events')
-    likes = get_all_data('/me/likes')
-    artists = [l for l in likes if l['category'] == 'Musician/band']
-    genres = [l for l in likes if l['category'] == 'Musical genre']
-
-    integrate.gatherAndExportUserData('vibe', request.user.socialaccount_set.all()[0].extra_data['id'], TOKEN)
+    try:
+        TOKEN = request.user.socialaccount_set.all()[0].socialtoken_set.all()[0].token
+        integrate.gatherAndExportUserData('vibe', request.user.socialaccount_set.all()[0].extra_data['id'], TOKEN)
+    except:
+        pass
 
     return redirect(reverse('event_list'))
 
