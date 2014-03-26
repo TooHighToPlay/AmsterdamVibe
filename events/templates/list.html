@@ -16,7 +16,7 @@
     <div id="suggested">
     {% for event in suggested_events %}
 
-        <article class="event-card panel panel-primary" data-details-url="{% url 'event_details' event.id %}">
+        <article class="event-card panel panel-info" data-details-url="{% url 'event_details' event.id %}">
             <header class="panel-heading">
                 <h1 class="panel-title text-center">{{ event.name }}</h1>
                 <br/>
@@ -63,7 +63,7 @@
     <div id="top">
     {% for event in top_events %}
 
-        <article class="event-card panel panel-primary" data-details-url="{% url 'event_details' event.id %}">
+        <article class="event-card panel panel-info" data-details-url="{% url 'event_details' event.id %}">
             <header class="panel-heading">
                 <h1 class="panel-title text-center">{{ event.name }}</h1>
                 <br/>
