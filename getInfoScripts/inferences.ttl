@@ -11,14 +11,11 @@
 @prefix rdf:<http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix :<http://amsterdamvibe.nl#> .
 
-:derivatedBy owl:inverseOf dbo:derivative .
 :musicFusionGenreOf owl:inverseOf dbo:musicFusionGenre .
 :musicSupergenreOf owl:inverseOf dbo:musicSubgenre .
 
-:derivatedBy rdfs:subPropertyOf :genreRelated .
 :musicFusionGenreOf rdfs:subPropertyOf :genreRelated .
 :musicSupergenreOf rdfs:subPropertyOf :genreRelated .
-dbo:derivative rdfs:subPropertyOf :genreRelated .
 dbo:musicFusionGenre rdfs:subPropertyOf :genreRelated .
 dbo:musicSubgenre rdfs:subPropertyOf :genreRelated .
 
