@@ -67,3 +67,11 @@ body {
     position: relative;
     top: -1.4rem;
 }
+
+.artists {
+    list-style-type: none;
+}
+
+.artist-sample iframe {
+    margin-top: 2rem;
+}

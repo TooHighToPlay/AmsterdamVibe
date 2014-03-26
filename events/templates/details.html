@@ -20,6 +20,10 @@
             </h1>
         </header>
 
+        <p><strong>{{ event.date }} at {{ event.time }}</strong></p>
+
+        <p>{{ event.attending_total }} people going</p>
+
         <div class="col-lg-8">
             <p class="description">
                 {{ event.description }}
@@ -38,16 +42,19 @@
 
             {% if event.artists %}
                 <p>Artists:</p>
-                <ul>
+                <ul class="artists">
                     {% for artist in event.artists %}
-                        <li>{{ artist.name }} {{ artist.sample_html|safe }}</li>
+                        <li>
+                            <h3>{{ artist.name }}</h3>
+                            <div>
+                                <img class="col-lg-4" src="{{ artist.thumbnail }}" alt="photo"/>
+                                <p class="col-lg-8">{{ artist.comment }}</p>
+                            </div>
+                            <p class="artist-sample">{{ artist.sample_html|safe }}</p>
+                        </li>
                     {% endfor %}
                 </ul>
             {% endif %}
-
-            <p>{{ event.date }} at {{ event.time }}</p>
-
-            <p>{{ event.attending_total }} people going</p>
 
         </div>
 
