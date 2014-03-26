@@ -55,7 +55,7 @@
             to get suggestions.
             </p>
         {% else %}
-            <p>No suggestions yet.</p>
+            <p>No suggestions yet. Did you <a href="{% url 'import_fb_data' %}">import your data</a>?</p>
         {% endif %}
     {% endif %}
 
