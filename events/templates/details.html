@@ -20,6 +20,10 @@
             </h1>
         </header>
 
+        <p><strong>{{ event.date }} at {{ event.time }}</strong></p>
+
+        <p>{{ event.attending_total }} people going</p>
+
         <div class="col-lg-8">
             <p class="description">
                 {{ event.description }}
@@ -51,10 +55,6 @@
                     {% endfor %}
                 </ul>
             {% endif %}
-
-            <p>{{ event.date }} at {{ event.time }}</p>
-
-            <p>{{ event.attending_total }} people going</p>
 
         </div>
 
