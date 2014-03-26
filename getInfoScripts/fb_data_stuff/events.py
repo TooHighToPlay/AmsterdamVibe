@@ -63,7 +63,6 @@ for club in clubList:
 		for person in attending['data']:
 			personCount += 1
 		eventList['data'][counter]['attending_total'] = personCount
-		# Scrap nationalities from fb
 		counter+=1
 
 	writeJsontoFile(eventList, eventFile)
